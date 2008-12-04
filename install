@@ -3,6 +3,20 @@ set -e
 if [ -f ~/.ispell_default ]; then
 	cat <<'EOF' >&2
 You already have a `~/.ispell_default`.  Move it out of the way.
+
+You may want to merge it into this list.  To do so, I'm pretty sure you can do
+this:
+
+    mv ~/.ispell_default new-words
+    ./install
+    sort -u dotispell_default new-words -o dotispell_default
+    git diff
+    git commit -am 'adding my private words'
+
+Let me know if that doesn't work out.
+
+Kragen Javier Sitaker <kragen@canonical.org>
+
 EOF
 	exit 1
 fi
