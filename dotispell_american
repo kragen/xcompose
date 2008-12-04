@@ -25,8 +25,10 @@ Buenos
 BUGTRAQ
 bytecode
 bytecodes
+CFGs
 clathrates
 com
+composable
 Cowan
 Craigslist
 CRTs
@@ -137,10 +139,12 @@ OpenID
 OpenSSL
 OpenWRT
 org
+packrat
 pageviews
 Parnas
 paulv
 paywall
+PEGs
 perl
 permittivity
 PgDn
