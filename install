@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+if [ -f ~/.ispell_default ]; then
+	cat <<'EOF' >&2
+You already have a `~/.ispell_default`.  Move it out of the way.
+EOF
+	exit 1
+fi
+ln -s "$(pwd)/dotispell_default" ~/.ispell_default
