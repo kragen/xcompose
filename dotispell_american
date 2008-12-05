@@ -6,6 +6,7 @@ antialiased
 antialiasing
 AP
 API
+APL
 app
 Arby's
 attosecond
@@ -22,6 +23,7 @@ Belgrano
 BibTeX
 bignum
 bignums
+Bjarne
 blog
 blogger
 blogpost
@@ -51,6 +53,7 @@ cvs
 dataflow
 Dechlorinating
 delusional
+destructors
 destructuring
 DHCP
 Diffie
@@ -61,6 +64,7 @@ downsamples
 DVCS
 EasyPG
 Eee
+Eliezer
 elisp
 emacsen
 EmacsWiki
@@ -84,6 +88,7 @@ geosciences
 geoscientists
 GHz
 gimbals
+Girard
 GitHub
 Gitorious
 Gitosis
@@ -97,6 +102,7 @@ GPL
 grep
 GSM
 Gtk
+Guido
 handheld
 heritability
 hostname
@@ -109,6 +115,8 @@ hyperspectral
 Hypoid
 IDE
 IMAP
+Ingalls
+inline
 internet
 IP
 IRC
@@ -119,6 +127,7 @@ JDBC
 jQuery
 kaizen
 KDE
+Kernighan
 kragen
 LaserJet
 LCD
@@ -167,6 +176,7 @@ OpenSSL
 OpenType
 OpenWRT
 org
+overridable
 packrat
 pageviews
 Parnas
@@ -186,8 +196,10 @@ plugins
 podcast
 poopers
 pooperscooper
+POPL
 Postgres
 PostScript
+PowerPC
 prescientific
 presciently
 Press's
@@ -195,12 +207,14 @@ proles
 pseudoscience
 PyGame
 Qt
+quasiquotation
 Quicksort
 rasterize
 rasterized
 README
 recentering
 recompress
+refactor
 reflectometer
 reified
 reimplementations
@@ -221,6 +235,7 @@ scientism
 scientology
 screencast
 seawater
+sequitur
 Sinhala
 Sitaker
 Sittler
@@ -238,11 +253,15 @@ SQL
 SQLite
 SSH
 Stallman
+Stepanov
+STL
+Stroustrup
 sublinearly
 submenu
 submillimeter
 subpixel
 subtend
+Sussman
 SVG
 svn
 terabyte
@@ -281,3 +300,4 @@ Xilinx
 XML
 XO
 yerba
+Yudkowsky
