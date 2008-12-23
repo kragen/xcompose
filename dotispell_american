@@ -68,6 +68,7 @@ downsamples
 DVCS
 EasyPG
 Eee
+electromechanical
 Eliezer
 elisp
 emacsen
@@ -91,6 +92,7 @@ geoscience
 geosciences
 geoscientists
 GHz
+gibibyte
 gimbals
 Girard
 GitHub
@@ -135,6 +137,9 @@ jQuery
 kaizen
 KDE
 Kernighan
+kiB
+kibibyte
+kibibytes
 kragen
 LaserJet
 LCD
@@ -147,9 +152,11 @@ loupe
 loupes
 Lucene
 Mbps
+mebibytes
 memcached
 memristor
 memristors
+mergeable
 metadata
 microcontroller
 microcontrollers
@@ -232,8 +239,11 @@ recentering
 recompress
 refactor
 reflectometer
+regexp
+regexps
 reified
 reimplementations
+reindexing
 remap
 remapped
 remapping
@@ -245,6 +255,7 @@ Rohit
 RubyForge
 SameGame
 SATA
+Schiffman
 scientificity
 scientism
 Scientology
