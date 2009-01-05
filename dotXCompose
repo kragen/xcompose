@@ -46,8 +46,9 @@ include "%L"
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <less> <equal>		: "≤"	U2264		# LESS-THAN OR EQUAL TO
 <Multi_key> <greater> <equal>		: "≥"	U2265		# GREATER-THAN OR EQUAL TO
-<Multi_key> <i> <n>			: "∈"	U220A		# ELEMENT OF
+<Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
 <Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
+<Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
 <Multi_key> <a> <p>			: "≅"	U2245		# APPROXIMATELY EQUAL TO
 <Multi_key> <colon> <equal>		: "≔"	U2254		# COLON EQUALS
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
@@ -74,10 +75,10 @@ include "%L"
 <Multi_key> <bar> <Q>                   : "ℚ"   U211A           # DOUBLE-STRUCK CAPITAL Q (set of rational numbers)
 <Multi_key> <bar> <R>                   : "ℝ"   U211D           # DOUBLE-STRUCK CAPITAL R (set of real numbers)
 <Multi_key> <bar> <Z>                   : "ℤ"   U2124           # DOUBLE-STRUCK CAPITAL Z (set of integers)
-<Multi_key> <bar> <R>		: "ℍ" U210d	# DOUBLE-STRUCK CAPITAL H
-<Multi_key> <bar> <R>		: "ⅇ" U2147	# DOUBLE-STRUCK ITALIC SMALL E
-<Multi_key> <bar> <R>		: "ⅈ" U2148	# DOUBLE-STRUCK ITALIC SMALL I
-<Multi_key> <bar> <R>		: "ⅉ" U2149	# DOUBLE-STRUCK ITALIC SMALL J
+<Multi_key> <bar> <H>		: "ℍ" U210d	# DOUBLE-STRUCK CAPITAL H
+<Multi_key> <bar> <e>		: "ⅇ" U2147	# DOUBLE-STRUCK ITALIC SMALL E
+<Multi_key> <bar> <i>		: "ⅈ" U2148	# DOUBLE-STRUCK ITALIC SMALL I
+<Multi_key> <bar> <j>		: "ⅉ" U2149	# DOUBLE-STRUCK ITALIC SMALL J
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
@@ -162,9 +163,6 @@ include "%L"
 <Multi_key> <5> <8>                     : "⅝" U215D           # VULGAR FRACTION FIVE EIGHTHS
 <Multi_key> <7> <8>                     : "⅞" U215E           # VULGAR FRACTION SEVEN EIGHTHS
 
-# Where should ⌘ (U+2318 PLACE OF INTEREST SIGN) go?  There ought to
-# be a Macintosh keybinding for it but apparently there isn’t.
-
 # Custom additions: for chat (kragen)
 <Multi_key> <colon> <parenright>        : "☺"   U263A           # WHITE SMILING FACE
 <Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
@@ -182,6 +180,7 @@ include "%L"
 <Multi_key> <asterisk> <x>	:"★" U2605 # BLACK STAR
 <Multi_key> <asterisk> <0>	:"☆" U2606 # WHITE STAR
 <Multi_key> <asterisk> <numbersign>	:"✯" U272F # PINWHEEL STAR
+<Multi_key> <at> <numbersign>	: "⌘" U2318	# PLACE OF INTEREST SIGN
 <Multi_key> <space> <apostrophe>  : " " U2009  # THIN SPACE
 <Multi_key> <parenleft> <parenright>: "◌" U25CC # DOTTED CIRCLE
 <Multi_key> <parenleft> <less> <parenright>: "⃝" # COMBINING ENCLOSING CIRCLE
