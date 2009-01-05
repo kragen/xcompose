@@ -191,8 +191,6 @@ include "%L"
 <Multi_key> <s> <t>                     : "ﬆ"  UFB06           # LATIN SMALL LIGATURE ST
 # There are all kinds of awesome combining characters in the U+0300 page.
 # However, I don’t know how I would use a lot of them.  x͜͡y?
-<Multi_key> <asciicircum> <f> <m>       : "͒" U0352             # COMBINING FERMATA
-<Multi_key> <asciicircum> <underscore> <underscore> : "̅" U0305 # COMBINING OVERLINE
 # There are a bunch of other awesome combining characters like U+20E0
 # and U+20DD that I would totally use if my system suppported them.
 <Multi_key> <asterisk> <period> <period> <period> : "๛" U0E5B   # THAI CHARACTER KHOMUT (end of chapter)
@@ -216,7 +214,7 @@ include "%L"
 <Multi_key> <backslash> <asciitilde>       : "̃"   U0303	# COMBINING TILDE
 <Multi_key> <backslash> <equal>		: "̄"	U0304	# COMBINING MACRON
 <Multi_key> <backslash> <backslash> <equal>		: "̅"	U0305	# COMBINING OVERLINE -- ???
-<Multi_key> <backslash> <b>		: "̆"	U0306	# COMBINING BREVE
+<Multi_key> <backslash> <U>		: "̆"	U0306	# COMBINING BREVE
 <Multi_key> <backslash> <period>	: "̇"	U0307	# COMBINING DOT ABOVE
 <Multi_key> <backslash> <quotedbl>	: "̈"	U0308	# COMBINING DIAERESIS
 <Multi_key> <backslash> <question>	: "̉"	U0309	# COMBINING HOOK ABOVE
@@ -226,6 +224,7 @@ include "%L"
 <Multi_key> <backslash> <bar>		: "̍"	U030d	# COMBINING VERTICAL LINE ABOVE
 <Multi_key> <backslash> <bar> <bar>	: "̎"	U030e	# COMBINING DOUBLE VERTICAL LINE ABOVE
 <Multi_key> <backslash> <backslash> <grave>	: "̏"	U030f	# COMBINING DOUBLE GRAVE ACCENT
+<Multi_key> <backslash> <f> <m>                 : "͒"   U0352   # COMBINING FERMATA
 <Multi_key> <backslash> <parenleft> <period>:	: "̐"	U0310	# COMBINING CHANDRABINDU
 <Multi_key> <backslash> <i> <b>		: "̑"	U0311	# COMBINING INVERTED BREVE -- ??
 
