@@ -1,23 +1,15 @@
 #!/bin/bash
 set -e
-if [ -f ~/.ispell_american ]; then
+if [ -f ~/.XCompose ]; then
 	cat <<'EOF' >&2
-You already have a `~/.ispell_american`.  Move it out of the way.
+You already have a `~/.XCompose`.  Move it out of the way.
 
-You may want to merge it into this list.  To do so, I'm pretty sure you can do
-this:
-
-    mv ~/.ispell_american new-words
-    ./install
-    sort -u dotispell_american new-words -o dotispell_american
-    git diff
-    git commit -am 'adding my private words'
-
-Let me know if that doesn't work out.
+You may want to merge it into this file, taking care to avoid
+duplicates.
 
 Kragen Javier Sitaker <kragen@canonical.org>
 
 EOF
 	exit 1
 fi
-ln -s "$(pwd)/dotispell_american" ~/.ispell_american
+ln -s "$(pwd)/dotXCompose" ~/.XCompose

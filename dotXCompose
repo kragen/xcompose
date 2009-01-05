@@ -1,0 +1,173 @@
+# for Emacs: -*- coding: utf-8 -*-
+include "%L"
+
+# def emit(keys, codepoint, word):
+#     print ('<Multi_key> %s <period>\t: "%s"\tU%04X\t\t# CIRCLED DIGIT %s' % 
+#            (keys, unichr(codepoint), codepoint, word)).encode('utf8')
+# numbers = 'one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty'
+# words = numbers.upper().split()
+# emit('<0>', 0x24EA, "ZERO")
+# for num, word in zip(range(1, 21), words):
+#     emit(' '.join("<%s>" % char for char in str(num)), 0x245f + num, word)
+
+# michi's:
+# Custom additions: Typography
+<Multi_key> <period> <period> <period>	: "…"	U2026		# HORIZONTAL ELLIPSIS
+# These two are already present for me:
+# <Multi_key> <minus> <minus> <minus>	: "—"	U2014		# EM DASH
+# <Multi_key> <minus> <minus> <period>	: "–"	U2013		# EN DASH
+<Multi_key> <minus> <minus> <space>	: "– "			# EN DASH (followed by space)
+<Multi_key> <backslash> <minus>		: "­"	U00AD		# SOFT HYPHEN
+<Multi_key> <comma> <space>		: "‚"	U201A		# SINGLE LOW-9 QUOTATION MARK
+<Multi_key> <comma> <comma>		: "„"	U201E		# DOUBLE LOW-9 QUOTATION MARK
+<Multi_key> <apostrophe> <space>	: "’"	U2019		# RIGHT SINGLE QUOTATION MARK
+<Multi_key> <apostrophe> <apostrophe>	: "”"	U201D		# RIGHT DOUBLE QUOTATION MARK
+<Multi_key> <grave> <space>		: "‘"	U2018		# LEFT SINGLE QUOTATION MARK
+<Multi_key> <grave> <grave>		: "“"	U201C		# LEFT DOUBLE QUOTATION MARK
+<Multi_key> <less> <bar>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
+<Multi_key> <o> <period>		: "•"	U2022		# BULLET
+# By default <Multi_key> <period> <period> does this, but we broke that with the ... binding.
+<Multi_key> <o> <comma>			: "·"	periodcentered	# MIDDLE DOT
+# Already present for me:
+# <Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
+<Multi_key> <backslash> <comma>		: " "	U2009		# THIN SPACE
+<Multi_key> <minus> <less>		: "←"	leftarrow	# LEFTWARDS ARROW
+<Multi_key> <minus> <asciicircum>	: "↑"	uparrow		# UPWARDS ARROW
+<Multi_key> <minus> <greater>		: "→"	rightarrow	# RIGHTWARDS ARROW
+<Multi_key> <minus> <v>			: "↓"	downarrow	# DOWNWARDS ARROW
+<Multi_key> <less> <minus> <greater>	: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+
+
+# Custom additions: Mathematical symbols
+<Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
+<Multi_key> <less> <equal>		: "≤"	U2264		# LESS-THAN OR EQUAL TO
+<Multi_key> <greater> <equal>		: "≥"	U2265		# GREATER-THAN OR EQUAL TO
+<Multi_key> <i> <n>			: "∈"	U220A		# ELEMENT OF
+<Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
+<Multi_key> <a> <p>			: "≅"	U2245		# APPROXIMATELY EQUAL TO
+<Multi_key> <colon> <equal>		: "≔"	U2254		# COLON EQUALS
+<Multi_key> <s> <q>			: "√"	U221A		# SQUARE ROOT
+<Multi_key> <slash> <backslash>         : "∧"  U2227           # LOGICAL AND
+<Multi_key> <backslash> <slash>         : "∨"  U2228           # LOGICAL OR
+<Multi_key> <backslash> <underscore> <slash>    : "⊻" U22BB     # XOR
+<Multi_key> <o> <asterisk>              : "∘"   U2218           # RING OPERATOR (function composition)
+<Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
+<Multi_key> <exclam> <E> <E>            : "∄"   U2204           # THERE DOES NOT EXIST
+<Multi_key> <A> <A>                     : "∀"  U2200           # FOR ALL
+<Multi_key> <Q> <E> <D>                 : "∎"   U220E           # END OF PROOF
+<Multi_key> <8> <8>                     : "∞"  U221E           # INFINITY
+<Multi_key> <parenleft> <plus> <parenright>     : "⊕"  U2295    # CIRCLED PLUS
+<Multi_key> <parenleft> <minus> <parenright>    : "⊖"  U2296    # CIRCLED MINUS
+<Multi_key> <parenleft> <x> <x> <parenright>    : "⊗"  U2297    # CIRCLED TIMES
+<Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
+<Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
+<Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
+# There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
+<Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
+<Multi_key> <bar> <N>                   : "ℕ"   U2115           # DOUBLE-STRUCK CAPITAL N (natural number)
+<Multi_key> <bar> <P>                   : "ℙ"   U2119           # DOUBLE-STRUCK CAPITAL P 
+<Multi_key> <bar> <Q>                   : "ℚ"   U211A           # DOUBLE-STRUCK CAPITAL Q (set of rational numbers)
+<Multi_key> <bar> <R>                   : "ℝ"   U211D           # DOUBLE-STRUCK CAPITAL R (set of real numbers)
+<Multi_key> <bar> <Z>                   : "ℤ"   U2124           # DOUBLE-STRUCK CAPITAL Z (set of integers)
+<Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
+<Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
+<Multi_key> <bracketleft> <underscore>  : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
+<Multi_key> <bracketright> <bracketright>: "⊐"  U2290           # SQUARE ORIGINAL OF
+<Multi_key> <bracketright> <equal>      : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
+<Multi_key> <bracketright> <underscore> : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
+
+# Custom additions: Greek letters.  Mapping corresponds to Emacs Greek input method.
+<Multi_key> <asterisk> <a>		: "α"	U03B1		# GREEK SMALL LETTER ALPHA
+<Multi_key> <asterisk> <b>		: "β"	U03B2		# GREEK SMALL LETTER BETA
+<Multi_key> <asterisk> <c>		: "ψ"	U03C8		# GREEK SMALL LETTER PSI
+<Multi_key> <asterisk> <d>		: "δ"	U03B4		# GREEK SMALL LETTER DELTA
+<Multi_key> <asterisk> <e>		: "ε"	U03B5		# GREEK SMALL LETTER EPSILON
+<Multi_key> <asterisk> <f>		: "φ"	U03C6		# GREEK SMALL LETTER PHI
+<Multi_key> <asterisk> <g>		: "γ"	U03B3		# GREEK SMALL LETTER GAMMA
+<Multi_key> <asterisk> <h>		: "η"	U03B7		# GREEK SMALL LETTER ΕΤΑ
+<Multi_key> <asterisk> <i>		: "ι"	U03B9		# GREEK SMALL LETTER ΙΟΤΑ
+<Multi_key> <asterisk> <j>		: "ξ"	U03BE		# GREEK SMALL LETTER XI
+<Multi_key> <asterisk> <k>		: "κ"	U03BA		# GREEK SMALL LETTER KAPPA
+<Multi_key> <asterisk> <l>		: "λ"	U03BB		# GREEK SMALL LETTER LAMBDA
+<Multi_key> <asterisk> <m>		: "μ"	U03BC		# GREEK SMALL LETTER MU
+<Multi_key> <asterisk> <n>		: "ν"	U03BD		# GREEK SMALL LETTER NU
+<Multi_key> <asterisk> <o>		: "ο"	U03BF		# GREEK SMALL LETTER OMICRON
+<Multi_key> <asterisk> <p>		: "π"	U03C0		# GREEK SMALL LETTER PI
+# no mapping for q; in Emacs that's ";"
+<Multi_key> <asterisk> <r>		: "ρ"	U03C1		# GREEK SMALL LETTER RHO
+<Multi_key> <asterisk> <s>		: "σ"	U03C3		# GREEK SMALL LETTER SIGMA
+<Multi_key> <asterisk> <t>		: "τ"	U03C4		# GREEK SMALL LETTER TAU
+<Multi_key> <asterisk> <u>		: "θ"	U03B8		# GREEK SMALL LETTER THETA
+<Multi_key> <asterisk> <v>		: "ω"	U03C9		# GREEK SMALL LETTER OMEGA
+<Multi_key> <asterisk> <w>		: "ς"	U03C2		# GREEK SMALL LETTER FINAL SIGMA
+<Multi_key> <asterisk> <x>		: "χ"	U03C7		# GREEK SMALL LETTER CHI
+<Multi_key> <asterisk> <y>		: "υ"	U03C5		# GREEK SMALL LETTER UPSILON
+<Multi_key> <asterisk> <z>		: "ζ"	U03B6		# GREEK SMALL LETTER ZETA
+
+# Capital greek letters.
+<Multi_key> <asterisk> <A>		: "Α"	U0391		# GREEK CAPITAL LETTER ALPHA
+<Multi_key> <asterisk> <B>		: "Β"	U0392		# GREEK CAPITAL LETTER BETA
+<Multi_key> <asterisk> <C>		: "Ψ"	U03A8		# GREEK CAPITAL LETTER PSI
+<Multi_key> <asterisk> <D>		: "Δ"	U0394		# GREEK CAPITAL LETTER DELTA
+<Multi_key> <asterisk> <E>		: "Ε"	U0395		# GREEK CAPITAL LETTER EPSILON
+<Multi_key> <asterisk> <F>		: "Φ"	U03A6		# GREEK CAPITAL LETTER PHI
+<Multi_key> <asterisk> <G>		: "Γ"	U0393		# GREEK CAPITAL LETTER GAMMA
+<Multi_key> <asterisk> <H>		: "Η"	U0397		# GREEK CAPITAL LETTER ΕΤΑ
+<Multi_key> <asterisk> <I>		: "Ι"	U0399		# GREEK CAPITAL LETTER ΙΟΤΑ
+<Multi_key> <asterisk> <J>		: "Ξ"	U039E		# GREEK CAPITAL LETTER XI
+<Multi_key> <asterisk> <K>		: "Κ"	U039A		# GREEK CAPITAL LETTER KAPPA
+<Multi_key> <asterisk> <L>		: "Λ"	U039B		# GREEK CAPITAL LETTER LAMBDA
+<Multi_key> <asterisk> <M>		: "Μ"	U039C		# GREEK CAPITAL LETTER MU
+<Multi_key> <asterisk> <N>		: "Ν"	U039D		# GREEK CAPITAL LETTER NU
+<Multi_key> <asterisk> <O>		: "Ο"	U039F		# GREEK CAPITAL LETTER OMICRON
+<Multi_key> <asterisk> <P>		: "Π"	U03A0		# GREEK CAPITAL LETTER PI
+# no mapping for Q; in Emacs that's ":"
+<Multi_key> <asterisk> <R>		: "Ρ"	U03A1		# GREEK CAPITAL LETTER RHO
+<Multi_key> <asterisk> <S>		: "Σ"	U03A3		# GREEK CAPITAL LETTER SIGMA
+<Multi_key> <asterisk> <T>		: "Τ"	U03A4		# GREEK CAPITAL LETTER TAU
+<Multi_key> <asterisk> <U>		: "Θ"	U0398		# GREEK CAPITAL LETTER THETA
+<Multi_key> <asterisk> <V>		: "Ω"	U03A9		# GREEK CAPITAL LETTER OMEGA
+# Emacs maps W to "Σ", but I think that’s stupid
+<Multi_key> <asterisk> <X>		: "Χ"	U03A7		# GREEK CAPITAL LETTER CHI
+<Multi_key> <asterisk> <Y>		: "Υ"	U03A5		# GREEK CAPITAL LETTER UPSILON
+<Multi_key> <asterisk> <Z>		: "Ζ"	U0396		# GREEK CAPITAL LETTER ZETA
+
+# If you wanted to actually type in Greek, you would also need άίέ
+# etc.  But you would probably just switch to a Greek keyboard layout.
+
+# Custom additions: fractions
+<Multi_key> <1> <3>                     : "⅓"  U2153           # VULGAR FRACTION ONE THIRD
+<Multi_key> <2> <3>                     : "⅔"  U2154           # VULGAR FRACTION TWO THIRDS
+# There are also fifths and eighths, but I don’t care enough about them.
+
+# Where should ⌘ (U+2318 PLACE OF INTEREST SIGN) go?  There ought to
+# be a Macintosh keybinding for it but apparently there isn’t.
+
+# Custom additions: for chat (kragen)
+<Multi_key> <colon> <parenright>        : "☺"   U263A           # WHITE SMILING FACE
+<Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
+<Multi_key> <exclam> <question>         : "‽"   U203D           # INTERROBANG
+<Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
+<Multi_key> <o> <slash> <asciitilde>    : "♫"   U266B           # BEAMED EIGHTH NOTES
+<Multi_key> <p> <c>                     : "☮"   U262E           # PEACE SYMBOL
+<Multi_key> <asterisk> <parenleft>      : "﴾"   UFD3E           # ORNATE LEFT PARENTHESIS
+<Multi_key> <asterisk> <parenright>     : "﴿"   UFD3F           # ORNATE RIGHT PARENTHESIS
+<Multi_key> <k> <s>                     : "ʘ"   U0298           # LATIN LETTER BILABIAL CLICK (kiss sound)
+<Multi_key> <bar> <greater>             : "‣"   U2023           # TRIANGULAR BULLET
+<Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
+<Multi_key> <asciicircum> <n>           : "ⁿ"  U207F           # SUPERSCRIPT LATIN LETTER SMALL N
+# XXX this conflicts with a normal binding!  Also there's already a
+# binding for it, as well as the one above.
+<Multi_key> <asciicircum> <i>           : "ⁱ"  U2071           # SUPERSCRIPT LATIN LETTER SMALL I
+<Multi_key> <asciitilde> <equal>        : "≈"  U2248           # ALMOST EQUAL TO
+<Multi_key> <s> <t>                     : "ﬆ"  UFB06           # LATIN SMALL LIGATURE ST
+# There are all kinds of awesome combining characters in the U+0300 page.
+# However, I don’t know how I would use a lot of them.  x͜͡y?
+<Multi_key> <asciicircum> <f> <m>       : "͒" U0352             # COMBINING FERMATA
+<Multi_key> <asciicircum> <underscore> <underscore> : "̅" U0305 # COMBINING OVERLINE
+# There are a bunch of other awesome combining characters like U+20E0
+# and U+20DD that I would totally use if my system suppported them.
+<Multi_key> <asterisk> <period> <period> <period> : "๛" U0E5B   # THAI CHARACTER KHOMUT (end of chapter)
+
+# See also http://bleah.co.uk/~simon/stuff/XCompose
+# and http://dotfiles.org/~inky/.XCompose
