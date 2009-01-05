@@ -74,6 +74,11 @@ include "%L"
 <Multi_key> <bar> <Q>                   : "ℚ"   U211A           # DOUBLE-STRUCK CAPITAL Q (set of rational numbers)
 <Multi_key> <bar> <R>                   : "ℝ"   U211D           # DOUBLE-STRUCK CAPITAL R (set of real numbers)
 <Multi_key> <bar> <Z>                   : "ℤ"   U2124           # DOUBLE-STRUCK CAPITAL Z (set of integers)
+<Multi_key> <bar> <R>		: "ℍ" U210d	# DOUBLE-STRUCK CAPITAL H
+<Multi_key> <bar> <R>		: "ⅇ" U2147	# DOUBLE-STRUCK ITALIC SMALL E
+<Multi_key> <bar> <R>		: "ⅈ" U2148	# DOUBLE-STRUCK ITALIC SMALL I
+<Multi_key> <bar> <R>		: "ⅉ" U2149	# DOUBLE-STRUCK ITALIC SMALL J
+<Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
 <Multi_key> <bracketleft> <underscore>  : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
