@@ -185,7 +185,6 @@ include "%L"
 <Multi_key> <at> <numbersign>	: "⌘" U2318	# PLACE OF INTEREST SIGN
 <Multi_key> <space> <apostrophe>  : " " U2009  # THIN SPACE
 <Multi_key> <parenleft> <parenright>: "◌" U25CC # DOTTED CIRCLE
-<Multi_key> <parenleft> <less> <parenright>: "⃝" # COMBINING ENCLOSING CIRCLE
 <Multi_key> <asterisk> <parenleft>      : "﴾"   UFD3E           # ORNATE LEFT PARENTHESIS
 <Multi_key> <asterisk> <parenright>     : "﴿"   UFD3F           # ORNATE RIGHT PARENTHESIS
 <Multi_key> <k> <s>                     : "ʘ"   U0298           # LATIN LETTER BILABIAL CLICK (kiss sound)
@@ -236,6 +235,7 @@ include "%L"
 <Multi_key> <backslash> <f> <m>                 : "͒"   U0352   # COMBINING FERMATA
 <Multi_key> <backslash> <parenleft> <period>:	: "̐"	U0310	# COMBINING CHANDRABINDU
 <Multi_key> <backslash> <i> <b>		: "̑"	U0311	# COMBINING INVERTED BREVE -- ??
+<Multi_key> <backslash> <parenleft> <parenright>: "⃝" # COMBINING ENCLOSING CIRCLE
 
 <Multi_key> <backslash> <exclam>	: "̣"   U0323   # COMBINING DOT BELOW
 
