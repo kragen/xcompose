@@ -17,6 +17,7 @@ include "%L"
 # <Multi_key> <minus> <minus> <minus>	: "—"	U2014		# EM DASH
 # <Multi_key> <minus> <minus> <period>	: "–"	U2013		# EN DASH
 <Multi_key> <minus> <minus> <space>	: "– "			# EN DASH (followed by space)
+<Multi_key> <minus> <asciitilde> <minus> : "―" U2015 # HORIZONTAL BAR
 <Multi_key> <backslash> <minus>		: "­"	U00AD		# SOFT HYPHEN
 <Multi_key> <comma> <space>		: "‚"	U201A		# SINGLE LOW-9 QUOTATION MARK
 <Multi_key> <comma> <comma>		: "„"	U201E		# DOUBLE LOW-9 QUOTATION MARK
@@ -38,6 +39,9 @@ include "%L"
 <Multi_key> <less> <minus> <greater>	: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
 
 
+<Multi_key> <o> <parenright>	:"ɔ" U0254 # LATIN SMALL LETTER OPEN O
+<Multi_key> <O> <parenright>	:"Ɔ" U0186 # LATIN CAPITAL LETTER OPEN O
+
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <less> <equal>		: "≤"	U2264		# LESS-THAN OR EQUAL TO
@@ -46,6 +50,7 @@ include "%L"
 <Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
 <Multi_key> <a> <p>			: "≅"	U2245		# APPROXIMATELY EQUAL TO
 <Multi_key> <colon> <equal>		: "≔"	U2254		# COLON EQUALS
+<Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
 <Multi_key> <s> <q>			: "√"	U221A		# SQUARE ROOT
 <Multi_key> <slash> <backslash>         : "∧"  U2227           # LOGICAL AND
 <Multi_key> <backslash> <slash>         : "∨"  U2228           # LOGICAL OR
@@ -148,8 +153,12 @@ include "%L"
 <Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
 <Multi_key> <exclam> <question>         : "‽"   U203D           # INTERROBANG
 <Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
-<Multi_key> <o> <slash> <asciitilde>    : "♫"   U266B           # BEAMED EIGHTH NOTES
+<Multi_key> <3> <3>			: "♣" U2663		# BLACK CLUB SUIT
+<Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
+<Multi_key> <3> <minus>		: "♠" U2660		# BLACK SPADE SUIT
+<Multi_key> <E> <greater>		: "♡" U2661		# WHITE HEART SUIT
 <Multi_key> <p> <c>                     : "☮"   U262E           # PEACE SYMBOL
+<Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
 <Multi_key> <asterisk> <parenleft>      : "﴾"   UFD3E           # ORNATE LEFT PARENTHESIS
 <Multi_key> <asterisk> <parenright>     : "﴿"   UFD3F           # ORNATE RIGHT PARENTHESIS
 <Multi_key> <k> <s>                     : "ʘ"   U0298           # LATIN LETTER BILABIAL CLICK (kiss sound)
@@ -159,6 +168,7 @@ include "%L"
 # XXX this conflicts with a normal binding!  Also there's already a
 # binding for it, as well as the one above.
 <Multi_key> <asciicircum> <i>           : "ⁱ"  U2071           # SUPERSCRIPT LATIN LETTER SMALL I
+# Or <asciitilde> <asciitilde> ?
 <Multi_key> <asciitilde> <equal>        : "≈"  U2248           # ALMOST EQUAL TO
 <Multi_key> <s> <t>                     : "ﬆ"  UFB06           # LATIN SMALL LIGATURE ST
 # There are all kinds of awesome combining characters in the U+0300 page.
@@ -168,6 +178,55 @@ include "%L"
 # There are a bunch of other awesome combining characters like U+20E0
 # and U+20DD that I would totally use if my system suppported them.
 <Multi_key> <asterisk> <period> <period> <period> : "๛" U0E5B   # THAI CHARACTER KHOMUT (end of chapter)
+#
+# Music stuff.  # is the music mnemonic.
+<Multi_key> <numbersign> <b>		: "♭" U266d # MUSIC FLAT SIGN
+<Multi_key> <numbersign> <f>		: "♮" U266e # MUSIC NATURAL SIGN
+<Multi_key> <numbersign> <equal>	: "♮" U266e # MUSIC NATURAL SIGN
+<Multi_key> <numbersign> <numbersign>	: "♯" U266f # MUSIC SHARP SIGN
+<Multi_key> <numbersign> <G>             : "𝄞"  U0001d11e # MUSICAL SYMBOL G CLEF
+<Multi_key> <numbersign> <F>              : "𝄢"  U0001d122 # MUSICAL SYMBOL F CLEF
+<Multi_key> <numbersign> <C>              : "𝄡 U0001d121 # MUSICAL SYMBOL C CLEF
+<Multi_key> <numbersign> <o> <slash>	: "♪" U266a	# EIGHT NOTE
+<Multi_key> <numbersign> <o> <o>	: "♫" U266b	# BEAMED EIGHTH NOTES
+
+
+# Combining accents, for making things you don't have precomposed chars or keystrokes for:
+<Multi_key> <backslash> <grave>	: "̀"  U0300   # COMBINING GRAVE ACCENT
+<Multi_key> <backslash> <apostrophe>    : "́"   U0301   # COMBINING ACUTE ACCENT
+<Multi_key> <backslash> <asciicircum>    : "̂"   U0302   # COMBINING CIRCUMFLEX ACCENT
+<Multi_key> <backslash> <asciitilde>       : "̃"   U0303	# COMBINING TILDE
+<Multi_key> <backslash> <equal>		: "̄"	U0304	# COMBINING MACRON
+<Multi_key> <backslash> <backslash> <equal>		: "̅"	U0305	# COMBINING OVERLINE -- ???
+<Multi_key> <backslash> <b>		: "̆"	U0306	# COMBINING BREVE
+<Multi_key> <backslash> <period>	: "̇"	U0307	# COMBINING DOT ABOVE
+<Multi_key> <backslash> <quotedbl>	: "̈"	U0308	# COMBINING DIAERESIS
+<Multi_key> <backslash> <question>	: "̉"	U0309	# COMBINING HOOK ABOVE
+<Multi_key> <backslash> <o>		: "̊"	U030a	# COMBINING RING ABOVE
+<Multi_key> <backslash> <backslash> <apostrophe>	: "̋"	U030b	# COMBINING DOUBLE ACUTE ACCENT -- ??
+<Multi_key> <backslash> <c>		: "̌"	U030c	# COMBINING CARON
+<Multi_key> <backslash> <bar>		: "̍"	U030d	# COMBINING VERTICAL LINE ABOVE
+<Multi_key> <backslash> <bar> <bar>	: "̎"	U030e	# COMBINING DOUBLE VERTICAL LINE ABOVE
+<Multi_key> <backslash> <backslash> <grave>	: "̏"	U030f	# COMBINING DOUBLE GRAVE ACCENT
+<Multi_key> <backslash> <parenleft> <period>:	: "̐"	U0310	# COMBINING CHANDRABINDU
+<Multi_key> <backslash> <i> <b>		: "̑"	U0311	# COMBINING INVERTED BREVE -- ??
+
+<Multi_key> <backslash> <exclam>	: "̣"   U0323   # COMBINING DOT BELOW
+
+<Multi_key> <backslash> <underscore>	: "̱"	U0331	# COMBINING MACRON BELOW
+<Multi_key> <backslash> <backslash> <underscore>	: "̲"	U0332	# COMBINING LOW LINE
+<Multi_key> <backslash> <backslash> <backslash> <underscore>	: "̳"	U0333	# COMBINING DOUBLE LOW LINE
+
+# The @ sign will signify reversal to the bottom of the glyph, 'kay?
+
+<Multi_key> <backslash> <at> <o>	: "̥"	U0325	# COMBINING RING BELOW
+
+<Multi_key> <backslash> <at> <c>	: "̬"	U032c	# COMBINING CARON BELOW
+<Multi_key> <backslash> <at> <asciicircum>	: "̭"	U032d	# COMBINING CIRCUMFLEX ACCENT BELOW
+<Multi_key> <backslash> <at> <b>	: "̮"	U032e	# COMBINING BREVE BELOW
+<Multi_key> <backslash> <at> <i> <b>	: "̯"	U032f	# COMBINING INVERTED BREVE BELOW -- ??
+
+<Multi_key> <period> <parenright>	: "͒"	U0352   # COMBINING FERMATA
 
 # See also http://bleah.co.uk/~simon/stuff/XCompose
 # and http://dotfiles.org/~inky/.XCompose
