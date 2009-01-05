@@ -81,7 +81,9 @@ include "%L"
 <Multi_key> <bracketright> <equal>      : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
 <Multi_key> <bracketright> <underscore> : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
 
-# Custom additions: Greek letters.  Mapping corresponds to Emacs Greek input method.
+# Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
+# input method.  Aristotle Pagaltzis informs me that this is the
+# standard Greek keyboard layout, which is good.
 <Multi_key> <asterisk> <a>		: "α"	U03B1		# GREEK SMALL LETTER ALPHA
 <Multi_key> <asterisk> <b>		: "β"	U03B2		# GREEK SMALL LETTER BETA
 <Multi_key> <asterisk> <c>		: "ψ"	U03C8		# GREEK SMALL LETTER PSI
@@ -143,7 +145,17 @@ include "%L"
 # Custom additions: fractions
 <Multi_key> <1> <3>                     : "⅓"  U2153           # VULGAR FRACTION ONE THIRD
 <Multi_key> <2> <3>                     : "⅔"  U2154           # VULGAR FRACTION TWO THIRDS
-# There are also fifths and eighths, but I don’t care enough about them.
+# more extensive fractions from jsled
+<Multi_key> <1> <5>                     : "⅕"  U2155           # VULGAR FRACTION ONE FIFTH
+<Multi_key> <2> <5>                     : "⅖" U2156            # VULGAR FRACTION TWO FIFTHS
+<Multi_key> <3> <5>                     : "⅗" U2157            # VULGAR FRACTION THREE FIFTHS
+<Multi_key> <4> <5>                     : "⅘" U2158            # VULGAR FRACTION FOUR FIFTHS
+<Multi_key> <1> <6>                     : "⅙" U2159            # VULGAR FRACTION ONE SIXTH
+<Multi_key> <5> <6>                     : "⅚" U215A            # VULGAR FRACTION FIVE SIXTHS
+<Multi_key> <1> <8>                     : "⅛" U215B           # VULGAR FRACTION ONE EIGHTH
+<Multi_key> <3> <8>                     : "⅜" U215C           # VULGAR FRACTION THREE EIGHTHS
+<Multi_key> <5> <8>                     : "⅝" U215D           # VULGAR FRACTION FIVE EIGHTHS
+<Multi_key> <7> <8>                     : "⅞" U215E           # VULGAR FRACTION SEVEN EIGHTHS
 
 # Where should ⌘ (U+2318 PLACE OF INTEREST SIGN) go?  There ought to
 # be a Macintosh keybinding for it but apparently there isn’t.
@@ -152,6 +164,7 @@ include "%L"
 <Multi_key> <colon> <parenright>        : "☺"   U263A           # WHITE SMILING FACE
 <Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
 <Multi_key> <exclam> <question>         : "‽"   U203D           # INTERROBANG
+<Multi_key> <question> <exclam>         : "‽"   U203D           # INTERROBANG (in case you can’t remember the order)
 <Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
 <Multi_key> <3> <3>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
@@ -230,3 +243,4 @@ include "%L"
 
 # See also http://bleah.co.uk/~simon/stuff/XCompose
 # and http://dotfiles.org/~inky/.XCompose
+# and http://paste.lisp.org/display/73094
