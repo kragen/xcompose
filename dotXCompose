@@ -235,7 +235,7 @@ include "%L"
 <Multi_key> <backslash> <f> <m>                 : "͒"   U0352   # COMBINING FERMATA
 <Multi_key> <backslash> <parenleft> <period>:	: "̐"	U0310	# COMBINING CHANDRABINDU
 <Multi_key> <backslash> <i> <b>		: "̑"	U0311	# COMBINING INVERTED BREVE -- ??
-<Multi_key> <backslash> <parenleft> <parenright>: "⃝" # COMBINING ENCLOSING CIRCLE
+<Multi_key> <backslash> <parenleft> <parenright>: "⃝"  U20DD # COMBINING ENCLOSING CIRCLE
 
 <Multi_key> <backslash> <exclam>	: "̣"   U0323   # COMBINING DOT BELOW
 
