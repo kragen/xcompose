@@ -77,7 +77,7 @@ include "%L"
 <Multi_key> <parenleft> <x> <x> <parenright>    : "⊗"  U2297    # CIRCLED TIMES
 <Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
 <Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
-<Multi_key> <percent> <percent>		: "‰"	U2030	# PER MILLE SIGN (basis points)
+<Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
 # There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
 <Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
