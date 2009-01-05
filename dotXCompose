@@ -214,6 +214,8 @@ include "%L"
 # Or <asciitilde> <asciitilde> ?
 <Multi_key> <asciitilde> <equal>        : "≈"  U2248           # ALMOST EQUAL TO
 <Multi_key> <s> <t>                     : "ﬆ"  UFB06           # LATIN SMALL LIGATURE ST
+<Multi_key> <s> <h>			: "ʃ"	U0283		# LATIN SMALL LETTER ESH
+<Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
 # There are all kinds of awesome combining characters in the U+0300 page.
 # However, I don’t know how I would use a lot of them.  x͜͡y?
 # There are a bunch of other awesome combining characters like U+20E0
