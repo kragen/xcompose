@@ -56,6 +56,8 @@ include "%L"
 <Multi_key> <backslash> <slash>         : "∨"  U2228           # LOGICAL OR
 <Multi_key> <backslash> <underscore> <slash>    : "⊻" U22BB     # XOR
 <Multi_key> <o> <asterisk>              : "∘"   U2218           # RING OPERATOR (function composition)
+<Multi_key> <0> <slash>                 : "∅"   U2205           # EMPTY SET (thanks jsled!)
+<Multi_key> <slash> <0>                 : "∅"   U2205           # EMPTY SET
 <Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
 <Multi_key> <exclam> <E> <E>            : "∄"   U2204           # THERE DOES NOT EXIST
 <Multi_key> <A> <A>                     : "∀"  U2200           # FOR ALL
