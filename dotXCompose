@@ -76,7 +76,9 @@ include "%L"
 <Multi_key> <bracketright> <equal>      : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
 <Multi_key> <bracketright> <underscore> : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
 
-# Custom additions: Greek letters.  Mapping corresponds to Emacs Greek input method.
+# Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
+# input method.  Aristotle Pagaltzis informs me that this is the
+# standard Greek keyboard layout, which is good.
 <Multi_key> <asterisk> <a>		: "α"	U03B1		# GREEK SMALL LETTER ALPHA
 <Multi_key> <asterisk> <b>		: "β"	U03B2		# GREEK SMALL LETTER BETA
 <Multi_key> <asterisk> <c>		: "ψ"	U03C8		# GREEK SMALL LETTER PSI
@@ -171,3 +173,4 @@ include "%L"
 
 # See also http://bleah.co.uk/~simon/stuff/XCompose
 # and http://dotfiles.org/~inky/.XCompose
+# and http://paste.lisp.org/display/73094
