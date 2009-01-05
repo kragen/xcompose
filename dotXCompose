@@ -190,10 +190,6 @@ include "%L"
 <Multi_key> <k> <s>                     : "ʘ"   U0298           # LATIN LETTER BILABIAL CLICK (kiss sound)
 <Multi_key> <bar> <greater>             : "‣"   U2023           # TRIANGULAR BULLET
 <Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
-<Multi_key> <asciicircum> <n>           : "ⁿ"  U207F           # SUPERSCRIPT LATIN LETTER SMALL N
-# XXX this conflicts with a normal binding!  Also there's already a
-# binding for it, as well as the one above.
-<Multi_key> <asciicircum> <i>           : "ⁱ"  U2071           # SUPERSCRIPT LATIN LETTER SMALL I
 # Or <asciitilde> <asciitilde> ?
 <Multi_key> <asciitilde> <equal>        : "≈"  U2248           # ALMOST EQUAL TO
 <Multi_key> <s> <t>                     : "ﬆ"  UFB06           # LATIN SMALL LIGATURE ST
