@@ -177,6 +177,14 @@ include "%L"
 <Multi_key> <E> <greater>		: "♡" U2661		# WHITE HEART SUIT
 <Multi_key> <p> <c>                     : "☮"   U262E           # PEACE SYMBOL
 <Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
+<Multi_key> <equal> <minus>	: "☞" U261E # WHITE RIGHT POINTING INDEX
+<Multi_key> <minus> <equal>	: "☜" U261C # WHITE LEFT POINTING INDEX
+<Multi_key> <asterisk> <x>	:"★" U2605 # BLACK STAR
+<Multi_key> <asterisk> <0>	:"☆" U2606 # WHITE STAR
+<Multi_key> <asterisk> <numbersign>	:"✯" U272F # PINWHEEL STAR
+<Multi_key> <space> <apostrophe>  : " " U2009  # THIN SPACE
+<Multi_key> <parenleft> <parenright>: "◌" U25CC # DOTTED CIRCLE
+<Multi_key> <parenleft> <less> <parenright>: "⃝" # COMBINING ENCLOSING CIRCLE
 <Multi_key> <asterisk> <parenleft>      : "﴾"   UFD3E           # ORNATE LEFT PARENTHESIS
 <Multi_key> <asterisk> <parenright>     : "﴿"   UFD3F           # ORNATE RIGHT PARENTHESIS
 <Multi_key> <k> <s>                     : "ʘ"   U0298           # LATIN LETTER BILABIAL CLICK (kiss sound)
