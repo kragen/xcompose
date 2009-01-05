@@ -49,6 +49,10 @@ include "%L"
 <Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
 <Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
 <Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
+<Multi_key> <n> <i>			: "∋"	U220B		# CONTAINS AS MEMBER  (I hope this doesn't conflict)
+<Multi_key> <slash> <n> <i>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
+# <exclam><n><i> would conflict, with <exclam> <n> for N WITH UNDERDOT, etc.
+<Multi_key> <U220B> <slash>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 <Multi_key> <a> <p>			: "≅"	U2245		# APPROXIMATELY EQUAL TO
 <Multi_key> <colon> <equal>		: "≔"	U2254		# COLON EQUALS
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
@@ -73,6 +77,7 @@ include "%L"
 <Multi_key> <parenleft> <x> <x> <parenright>    : "⊗"  U2297    # CIRCLED TIMES
 <Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
 <Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
+<Multi_key> <percent> <percent>		: "‰"	U2030	# PER MILLE SIGN (basis points)
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
 # There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
 <Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
@@ -180,6 +185,18 @@ include "%L"
 <Multi_key> <3> <minus>		: "♠" U2660		# BLACK SPADE SUIT
 <Multi_key> <E> <greater>		: "♡" U2661		# WHITE HEART SUIT
 <Multi_key> <p> <c>                     : "☮"   U262E           # PEACE SYMBOL
+<Multi_key> <y> <y>			: "☯" U262F		# YIN YANG
+# For some reason, I don't really like these word-based mnemonics.  But until we have something better... -clsn
+<Multi_key> <t> <e> <l>			: "☎" 	U260E		# BLACK TELEPHONE
+<Multi_key> <t> <e> <a>		: "☕"	U2615		# HOT BEVERAGE
+# These last two bother me less, though they can still be improved.
+# Other possibly useful symbols:
+# 2668 HOT SPRINGS (for chat, for running off to shower?)
+# 2624 CADEUCEUS
+# 2611 BALLOT BOX WITH CHECK, or some other checkmark
+# 267B BLACK UNIVERSAL RECYCLING SYMBOL
+<Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
+<Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
 <Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
 <Multi_key> <equal> <minus>	: "☞" U261E # WHITE RIGHT POINTING INDEX
 <Multi_key> <minus> <equal>	: "☜" U261C # WHITE LEFT POINTING INDEX
