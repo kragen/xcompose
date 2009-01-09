@@ -41,6 +41,9 @@ include "%L"
 
 <Multi_key> <o> <parenright>	:"ɔ" U0254 # LATIN SMALL LETTER OPEN O
 <Multi_key> <O> <parenright>	:"Ɔ" U0186 # LATIN CAPITAL LETTER OPEN O
+<Multi_key> <f> <f>		: "ﬀ"	   UFB00   # LATIN LIGATURE FF
+<Multi_key> <f> <i>		: "ﬁ"	   UFB01   # LATIN LIGATURE FI
+<Multi_key> <f> <l>		: "ﬂ"	   UFB02   # LATIN LIGATURE FL
 
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
