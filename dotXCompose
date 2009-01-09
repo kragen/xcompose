@@ -271,7 +271,7 @@ include "%L"
 
 <Multi_key> <backslash> <at> <c>	: "̬"	U032c	# COMBINING CARON BELOW
 <Multi_key> <backslash> <at> <asciicircum>	: "̭"	U032d	# COMBINING CIRCUMFLEX ACCENT BELOW
-<Multi_key> <backslash> <at> <b>	: "̮"	U032e	# COMBINING BREVE BELOW
+<Multi_key> <backslash> <at> <U>	: "̮"	U032e	# COMBINING BREVE BELOW
 <Multi_key> <backslash> <at> <i> <b>	: "̯"	U032f	# COMBINING INVERTED BREVE BELOW -- ??
 
 <Multi_key> <period> <parenright>	: "͒"	U0352   # COMBINING FERMATA
