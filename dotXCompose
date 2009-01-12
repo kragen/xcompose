@@ -49,6 +49,7 @@ include "%L"
 
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
+<Multi_key> <slash> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <less> <equal>		: "≤"	U2264		# LESS-THAN OR EQUAL TO
 <Multi_key> <greater> <equal>		: "≥"	U2265		# GREATER-THAN OR EQUAL TO
 <Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
@@ -74,7 +75,7 @@ include "%L"
 <Multi_key> <slash> <0>                 : "∅"   U2205           # EMPTY SET
 <Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
 # We can't use ! E E, because ! E maps to E-WITH-UNDERDOT.
-<Multi_key> <exclam> <E> <E>            : "∄"   U2204           # THERE DOES NOT EXIST
+<Multi_key> <slash> <E> <E>             : "∄"   U2204           # THERE DOES NOT EXIST
 <Multi_key> <A> <A>                     : "∀"  U2200           # FOR ALL
 <Multi_key> <Q> <E> <D>                 : "∎"   U220E           # END OF PROOF
 <Multi_key> <8> <8>                     : "∞"  U221E           # INFINITY
