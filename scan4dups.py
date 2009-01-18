@@ -54,7 +54,12 @@ try:
             startpos+=m.end()
         if startpos!=0:                 # Skip if the line had nothing.
             if ptr.keys():              # Dup if the end is NOT a leaf.
-                dupsfound.append(name2leaf(ptr))
+                # By rights I should follow each other key all the way
+                # down to all its possible ends.  Too much work.  But
+                # I will go one more down, OK?
+                for other in ptr.keys():
+                    dupsfound.append(name2leaf(ptr[other])+"(+?)")
+                    # The (+?) is because there might be more after that.
             mystring=name2leaf(ptr)
             # print "processed: (%s)"%mystring
             for i in dupsfound:

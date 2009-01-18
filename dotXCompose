@@ -37,6 +37,9 @@ include "%L"
 <Multi_key> <minus> <greater>		: "→"	rightarrow	# RIGHTWARDS ARROW
 <Multi_key> <minus> <v>			: "↓"	downarrow	# DOWNWARDS ARROW
 <Multi_key> <less> <minus> <greater>	: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+# These are just too cool-looking not to have (if your font supports them)
+<Multi_key> <equal> <period> <equal>	: "⸎"	U2E0E		# EDITORIAL CORONIS
+<Multi_key> <equal> <underscore> <bar>	: "⸙"	U2E19		# PALM BRANCH
 
 
 <Multi_key> <o> <parenright>	:"ɔ" U0254 # LATIN SMALL LETTER OPEN O
@@ -62,6 +65,9 @@ include "%L"
 <Multi_key> <a> <p>			: "≅"	U2245		# APPROXIMATELY EQUAL TO
 <Multi_key> <colon> <equal>		: "≔"	U2254		# COLON EQUALS
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
+<Multi_key> <equal> <equal>		: "≡"	U2261		# IDENTICAL TO
+# Using <slash> conflicts.
+<Multi_key> <equal> <bar> <equal>	: "≢"	U2262		# NOT IDENTICAL TO
 <Multi_key> <s> <q>			: "√"	U221A		# SQUARE ROOT
     # “(Note: I had put the backslash in position 5/15. It enabled the
     # ALGOL “and” to be “/\” and the “or” to be “\/”.)” --- Bob Bemer,
@@ -220,6 +226,7 @@ include "%L"
 <Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
 <Multi_key> <exclam> <question>         : "‽"   U203D           # INTERROBANG
 <Multi_key> <question> <exclam>         : "‽"   U203D           # INTERROBANG (in case you can’t remember the order)
+<Multi_key> <question> <exclamdown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otheriwise...? "?i" maybe?
 <Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
 <Multi_key> <3> <3>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
