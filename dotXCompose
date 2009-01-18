@@ -178,10 +178,10 @@ include "%L"
 # Reserving .f in case we want PHI SYMBOL.  Digamma was "w" sound anyway.
 <Multi_key> <asterisk> <period> <w>	: "ϝ"	U03DD		# GREEK SMALL LETTER DIGAMMA
 <Multi_key> <asterisk> <period> <W>	: "Ϝ"	U03DC		# GREEK CAPITAL LETTER DIGAMMA
-<Multi_key> <asterisk> <q>	: "Ϟ"	U03DE	# GREEK LETTER QOPPA
-<Multi_key> <asterisk> <Q>	: "ϟ"	U03DF	# GREEK SMALL LETTER QOPPA
-<Multi_key> <asterisk> <period> <q>	: "Ϙ"	U03D8	# GREEK LETTER ARCHAIC QOPPA
-<Multi_key> <asterisk> <period> <Q>	: "ϙ"	U03D9	# GREEK SMALL LETTER ARCHAIC QOPPA
+<Multi_key> <asterisk> <Q>	: "Ϟ"	U03DE	# GREEK LETTER QOPPA
+<Multi_key> <asterisk> <q>	: "ϟ"	U03DF	# GREEK SMALL LETTER QOPPA
+<Multi_key> <asterisk> <period> <Q>	: "Ϙ"	U03D8	# GREEK LETTER ARCHAIC QOPPA
+<Multi_key> <asterisk> <period> <q>	: "ϙ"	U03D9	# GREEK SMALL LETTER ARCHAIC QOPPA
 <Multi_key> <asterisk> <ampersand>	: "ϗ"	U03D7	# GREEK KAI SYMBOL
 <Multi_key> <asterisk> <period> <Z>	: "Ϡ"	U03E0	# GREEK LETTER SAMPI
 <Multi_key> <asterisk> <period> <z>	: "ϡ"	U03E1	# GREEK SMALL LETTER SAMPI
