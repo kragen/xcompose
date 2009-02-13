@@ -31,6 +31,10 @@ include "%L"
 <Multi_key> <o> <comma>			: "·"	periodcentered	# MIDDLE DOT
 # Already present for me:
 # <Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
+# Do we want/need these?
+<Multi_key> <d> <a> <g>			: "†"	U2020		# DAGGER
+<Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
+# We already have THIN SPACE below, as <space> <apostrophe>!  Keep both?
 <Multi_key> <backslash> <comma>		: " "	U2009		# THIN SPACE
 <Multi_key> <minus> <less>		: "←"	leftarrow	# LEFTWARDS ARROW
 <Multi_key> <minus> <asciicircum>	: "↑"	uparrow		# UPWARDS ARROW
@@ -54,6 +58,8 @@ include "%L"
 <Multi_key> <U017F> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
 # ß is already available as <s><s> I think.  But now it comes in industrial size!
 <Multi_key> <S> <S> 		: "ẞ"  U1E9E	   # LATIN CAPITAL LETTER SHARP S
+# Eventually we'll have to look over the really crazy-cakes Latin letters 
+# they're adding as "mediævalist extensions"
 
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
@@ -70,6 +76,7 @@ include "%L"
 <Multi_key> <asciitilde> <equals>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
 <Multi_key> <colon> <equal>		: "≔"	U2254		# COLON EQUALS
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
+<Multi_key> <equal> <d> <e> <f>		: "≝"	U225D		# EQUAL TO BY DEFINITION
 <Multi_key> <equal> <equal>		: "≡"	U2261		# IDENTICAL TO
 # Using <slash> conflicts.
 <Multi_key> <equal> <bar> <equal>	: "≢"	U2262		# NOT IDENTICAL TO
@@ -95,6 +102,8 @@ include "%L"
 <Multi_key> <parenleft> <x> <x> <parenright>    : "⊗"  U2297    # CIRCLED TIMES
 <Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
 <Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
+<Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
+<Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
 # There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
@@ -248,9 +257,17 @@ include "%L"
 # 2624 CADEUCEUS
 # 2611 BALLOT BOX WITH CHECK, or some other checkmark
 # 267B BLACK UNIVERSAL RECYCLING SYMBOL
+# 269B ATOM SYMBOL (for coolness)
+# 269C FLEUR-DE-LIS  (maybe <f><d><l> would be okay)
+# 26A1 HIGH VOLTAGE SIGN (!)
+# 26B0 COFFIN ?
+# One of the SNOWFLAKEs?
+# I already have STAR OF DAVID on another map.
+# 2B1A DOTTED SQUARE  -- and/or some other hollow square/rectangle?
 <Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
 <Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
 <Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
+# Can we get better keycodes for these?
 <Multi_key> <equal> <minus>	: "☞" U261E # WHITE RIGHT POINTING INDEX
 <Multi_key> <minus> <equal>	: "☜" U261C # WHITE LEFT POINTING INDEX
 <Multi_key> <asterisk> <asterisk>	:"★" U2605 # BLACK STAR
@@ -322,6 +339,19 @@ include "%L"
 <Multi_key> <backslash> <at> <i> <b>	: "̯"	U032f	# COMBINING INVERTED BREVE BELOW -- ??
 
 <Multi_key> <period> <parenright>	: "͒"	U0352   # COMBINING FERMATA
+
+# How about for a little extra control:
+<Multi_key> <Z> <W> <S> <P>		: "​"	U200B	# ZERO WIDTH SPACE
+<Multi_key> <Z> <W> <N> <J>		: "‌"	U200C	# ZERO WIDTH NON-JOINER
+<Multi_key> <Z> <W> <J>			: "‍"	U200D	# ZERO WIDTH JOINER
+<Multi_key> <L> <R> <M>			: "‎"	U200E	# LEFT-TO-RIGHT MARK
+<Multi_key> <R> <L> <M>			: "‏"	U200F	# RIGHT-TO-LEFT MARK
+# I never understood the whole embedding/pop thing, so I'm leaving those out
+# for now.
+<Multi_key> <L> <R> <O>			: "‭"	U202D	# LEFT-TO-RIGHT OVERRIDE
+<Multi_key> <R> <L> <O>			: "‮"	U202E	# RIGHT-TO-LEFT OVERRIDE
+<Multi_key> <B> <O> <M>			: "﻿"	UFEFF	# ZERO WIDTH NO-BREAK SPACE (Byte Order Mark)
+
 
 # See also http://bleah.co.uk/~simon/stuff/XCompose
 # and http://dotfiles.org/~inky/.XCompose
