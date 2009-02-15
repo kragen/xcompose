@@ -258,12 +258,17 @@ include "%L"
 # 2611 BALLOT BOX WITH CHECK, or some other checkmark
 # 267B BLACK UNIVERSAL RECYCLING SYMBOL
 # 269B ATOM SYMBOL (for coolness)
+<Multi_key> <a> <t> <o> <m>	: "⚛"	U269B		# ATOM SYMBOL
 # 269C FLEUR-DE-LIS  (maybe <f><d><l> would be okay)
-# 26A1 HIGH VOLTAGE SIGN (!)
+# 26A1 HIGH VOLTAGE SIGN (!) or maybe 2301 ELECTRIC ARROW
+<Multi_key> <z> <a> <p>	     	: "⚡"	U26A1		# HIGH VOLTAGE SIGN 
 # 26B0 COFFIN ?
 # One of the SNOWFLAKEs?
 # I already have STAR OF DAVID on another map.
 # 2B1A DOTTED SQUARE  -- and/or some other hollow square/rectangle?
+# 231A, 231B -- WATCH and HOURGLASS
+# 2328 KEYBOARD?
+# 23D4 METRICAL LONG OVER TWO SHORTS a.k.a. METRICAL BOOBS
 <Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
 <Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
 <Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
@@ -325,7 +330,8 @@ include "%L"
 <Multi_key> <backslash> <parenleft> <parenright>: "⃝"  U20DD # COMBINING ENCLOSING CIRCLE
 <Multi_key> <backslash> <parenleft> <slash> <parenright>:    "⃠"	 U20E0	   # COMBINING ENCLOSING CIRCLE BACKSLASH
 <Multi_key> <backslash> <exclam>	: "̣"   U0323   # COMBINING DOT BELOW
-<Multi_key> <backslash> <underscore>	: "̱"	U0331	# COMBINING MACRON BELOW
+# With only one underscore it conflicts with stuff.
+<Multi_key> <backslash> <underscore> <underscore>	: "̱"	U0331	# COMBINING MACRON BELOW
 <Multi_key> <backslash> <backslash> <underscore>	: "̲"	U0332	# COMBINING LOW LINE
 <Multi_key> <backslash> <backslash> <backslash> <underscore>	: "̳"	U0333	# COMBINING DOUBLE LOW LINE
 
