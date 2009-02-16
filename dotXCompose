@@ -42,8 +42,10 @@ include "%L"
 <Multi_key> <minus> <v>			: "↓"	downarrow	# DOWNWARDS ARROW
 <Multi_key> <less> <minus> <greater>	: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
 # For some logical statements:
-<Multi_key> <minus> <equals> <greater>	: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
-<Multi_key> <less> <minus> <equals> <greater>:	"⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
+# The keystrokes are a little contrived, to avoid conflicts.
+<Multi_key> <equal> <greater>	: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
+<Multi_key> <equal> <less>	: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
+<Multi_key> <less> <minus> <equal> <greater>:	"⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
 # These are just too cool-looking not to have (if your font supports them)
 <Multi_key> <equal> <period> <equal>	: "⸎"	U2E0E		# EDITORIAL CORONIS
 <Multi_key> <equal> <underscore> <bar>	: "⸙"	U2E19		# PALM BRANCH
