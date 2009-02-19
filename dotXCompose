@@ -262,21 +262,21 @@ include "%L"
 <Multi_key> <percent> <d>		: "ⅾ"	U217D		# SMALL ROMAN NUMERAL FIVE HUNDRED
 <Multi_key> <percent> <m>		: "ⅿ"	U217D		# SMALL ROMAN NUMERAL ONE THOUSAND
 ###
-<Multi_key> <percent> <percent> <1>		: "Ⅰ"	U2170		# ROMAN NUMERAL ONE
-<Multi_key> <percent> <percent> <2>		: "Ⅱ"	U2171		# ROMAN NUMERAL TWO
-<Multi_key> <percent> <percent> <3>		: "Ⅲ"	U2172		# ROMAN NUMERAL THREE
-<Multi_key> <percent> <percent> <4>		: "Ⅳ"	U2172		# ROMAN NUMERAL FOUR
-<Multi_key> <percent> <percent> <5>		: "Ⅴ"	U2172		# ROMAN NUMERAL FIVE
-<Multi_key> <percent> <percent> <6>		: "Ⅵ"	U2172		# ROMAN NUMERAL SIX
-<Multi_key> <percent> <percent> <7>		: "Ⅶ"	U2172		# ROMAN NUMERAL SEVEN
-<Multi_key> <percent> <percent> <8>		: "Ⅷ"	U2172		# ROMAN NUMERAL EIGHT
-<Multi_key> <percent> <percent> <9>		: "Ⅸ"	U2172		# ROMAN NUMERAL NINE
-<Multi_key> <percent> <percent> <x>		: "Ⅹ"	U2172		# ROMAN NUMERAL TEN
+<Multi_key> <percent> <0> <1>		: "Ⅰ"	U2170		# ROMAN NUMERAL ONE
+<Multi_key> <percent> <0> <2>		: "Ⅱ"	U2171		# ROMAN NUMERAL TWO
+<Multi_key> <percent> <0> <3>		: "Ⅲ"	U2172		# ROMAN NUMERAL THREE
+<Multi_key> <percent> <0> <4>		: "Ⅳ"	U2172		# ROMAN NUMERAL FOUR
+<Multi_key> <percent> <0> <5>		: "Ⅴ"	U2172		# ROMAN NUMERAL FIVE
+<Multi_key> <percent> <0> <6>		: "Ⅵ"	U2172		# ROMAN NUMERAL SIX
+<Multi_key> <percent> <0> <7>		: "Ⅶ"	U2172		# ROMAN NUMERAL SEVEN
+<Multi_key> <percent> <0> <8>		: "Ⅷ"	U2172		# ROMAN NUMERAL EIGHT
+<Multi_key> <percent> <0> <9>		: "Ⅸ"	U2172		# ROMAN NUMERAL NINE
+<Multi_key> <percent> <0> <x>		: "Ⅹ"	U2172		# ROMAN NUMERAL TEN
 # How do we handle eleven and twelve?
-<Multi_key> <percent> <percent> <l>		: "Ⅼ"	U217C		# ROMAN NUMERAL FIFTY
-<Multi_key> <percent> <percent> <c>		: "Ⅽ"	U217D		# ROMAN NUMERAL ONE HUNDRED
-<Multi_key> <percent> <percent> <d>		: "Ⅾ"	U217D		# ROMAN NUMERAL FIVE HUNDRED
-<Multi_key> <percent> <percent> <m>		: "Ⅿ"	U217D		# ROMAN NUMERAL ONE THOUSAND
+<Multi_key> <percent> <0> <l>		: "Ⅼ"	U217C		# ROMAN NUMERAL FIFTY
+<Multi_key> <percent> <0> <c>		: "Ⅽ"	U217D		# ROMAN NUMERAL ONE HUNDRED
+<Multi_key> <percent> <0> <d>		: "Ⅾ"	U217D		# ROMAN NUMERAL FIVE HUNDRED
+<Multi_key> <percent> <0> <m>		: "Ⅿ"	U217D		# ROMAN NUMERAL ONE THOUSAND
 <Multi_key> <percent> <X>		: "Ⅹ"	U2172		# ROMAN NUMERAL TEN
 <Multi_key> <percent> <L>		: "Ⅼ"	U217C		# ROMAN NUMERAL FIFTY
 <Multi_key> <percent> <C>		: "Ⅽ"	U217D		# ROMAN NUMERAL ONE HUNDRED
