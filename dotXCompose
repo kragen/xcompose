@@ -119,6 +119,12 @@ include "%L"
 <Multi_key> <bar> <e>		: "ⅇ" U2147	# DOUBLE-STRUCK ITALIC SMALL E
 <Multi_key> <bar> <i>		: "ⅈ" U2148	# DOUBLE-STRUCK ITALIC SMALL I
 <Multi_key> <bar> <j>		: "ⅉ" U2149	# DOUBLE-STRUCK ITALIC SMALL J
+<Multi_key> <bar> <asterisk> <p> : "ℼ" U213C	# DOUBLE-STRUCK SMALL PI
+<Multi_key> <bar> <Greek_pi> 	 : "ℼ" U213C	# DOUBLE-STRUCK SMALL PI
+<Multi_key> <bar> <asterisk> <P> : "ℿ" U213C	# DOUBLE-STRUCK CAPITAL PI
+<Multi_key> <bar> <Greek_PI> 	 : "ℿ" U213C	# DOUBLE-STRUCK CAPITAL PI
+<Multi_key> <bar> <asterisk> <S> : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
+<Multi_key> <bar> <Greek_SIGMA>  : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
@@ -237,12 +243,55 @@ include "%L"
 <Multi_key> <5> <8>                     : "⅝" U215D           # VULGAR FRACTION FIVE EIGHTHS
 <Multi_key> <7> <8>                     : "⅞" U215E           # VULGAR FRACTION SEVEN EIGHTHS
 
+# How about roman numerals?  Percent for numerical mnemonic?
+# Does this go against the spirit of this file?  These symbols are accessible 
+# as regular numbers and would look okay.  Maybe only for I-X?
+<Multi_key> <percent> <1>		: "ⅰ"	U2170		# SMALL ROMAN NUMERAL ONE
+<Multi_key> <percent> <2>		: "ⅱ"	U2171		# SMALL ROMAN NUMERAL TWO
+<Multi_key> <percent> <3>		: "ⅲ"	U2172		# SMALL ROMAN NUMERAL THREE
+<Multi_key> <percent> <4>		: "ⅳ"	U2172		# SMALL ROMAN NUMERAL FOUR
+<Multi_key> <percent> <5>		: "ⅴ"	U2172		# SMALL ROMAN NUMERAL FIVE
+<Multi_key> <percent> <6>		: "ⅵ"	U2172		# SMALL ROMAN NUMERAL SIX
+<Multi_key> <percent> <7>		: "ⅶ"	U2172		# SMALL ROMAN NUMERAL SEVEN
+<Multi_key> <percent> <8>		: "ⅷ"	U2172		# SMALL ROMAN NUMERAL EIGHT
+<Multi_key> <percent> <9>		: "ⅸ"	U2172		# SMALL ROMAN NUMERAL NINE
+<Multi_key> <percent> <x>		: "ⅹ"	U2172		# SMALL ROMAN NUMERAL TEN
+# How do we handle eleven and twelve?
+<Multi_key> <percent> <l>		: "ⅼ"	U217C		# SMALL ROMAN NUMERAL FIFTY
+<Multi_key> <percent> <c>		: "ⅽ"	U217D		# SMALL ROMAN NUMERAL ONE HUNDRED
+<Multi_key> <percent> <d>		: "ⅾ"	U217D		# SMALL ROMAN NUMERAL FIVE HUNDRED
+<Multi_key> <percent> <m>		: "ⅿ"	U217D		# SMALL ROMAN NUMERAL ONE THOUSAND
+###
+<Multi_key> <percent> <percent> <1>		: "Ⅰ"	U2170		# ROMAN NUMERAL ONE
+<Multi_key> <percent> <percent> <2>		: "Ⅱ"	U2171		# ROMAN NUMERAL TWO
+<Multi_key> <percent> <percent> <3>		: "Ⅲ"	U2172		# ROMAN NUMERAL THREE
+<Multi_key> <percent> <percent> <4>		: "Ⅳ"	U2172		# ROMAN NUMERAL FOUR
+<Multi_key> <percent> <percent> <5>		: "Ⅴ"	U2172		# ROMAN NUMERAL FIVE
+<Multi_key> <percent> <percent> <6>		: "Ⅵ"	U2172		# ROMAN NUMERAL SIX
+<Multi_key> <percent> <percent> <7>		: "Ⅶ"	U2172		# ROMAN NUMERAL SEVEN
+<Multi_key> <percent> <percent> <8>		: "Ⅷ"	U2172		# ROMAN NUMERAL EIGHT
+<Multi_key> <percent> <percent> <9>		: "Ⅸ"	U2172		# ROMAN NUMERAL NINE
+<Multi_key> <percent> <percent> <x>		: "Ⅹ"	U2172		# ROMAN NUMERAL TEN
+# How do we handle eleven and twelve?
+<Multi_key> <percent> <percent> <l>		: "Ⅼ"	U217C		# ROMAN NUMERAL FIFTY
+<Multi_key> <percent> <percent> <c>		: "Ⅽ"	U217D		# ROMAN NUMERAL ONE HUNDRED
+<Multi_key> <percent> <percent> <d>		: "Ⅾ"	U217D		# ROMAN NUMERAL FIVE HUNDRED
+<Multi_key> <percent> <percent> <m>		: "Ⅿ"	U217D		# ROMAN NUMERAL ONE THOUSAND
+<Multi_key> <percent> <X>		: "Ⅹ"	U2172		# ROMAN NUMERAL TEN
+<Multi_key> <percent> <L>		: "Ⅼ"	U217C		# ROMAN NUMERAL FIFTY
+<Multi_key> <percent> <C>		: "Ⅽ"	U217D		# ROMAN NUMERAL ONE HUNDRED
+<Multi_key> <percent> <D>		: "Ⅾ"	U217D		# ROMAN NUMERAL FIVE HUNDRED
+<Multi_key> <percent> <M>		: "Ⅿ"	U217D		# ROMAN NUMERAL ONE THOUSAND
+
 # Custom additions: for chat (kragen)
 <Multi_key> <colon> <parenright>        : "☺"   U263A           # WHITE SMILING FACE
 <Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
 <Multi_key> <exclam> <question>         : "‽"   U203D           # INTERROBANG
 <Multi_key> <question> <exclam>         : "‽"   U203D           # INTERROBANG (in case you can’t remember the order)
 <Multi_key> <question> <exclamdown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otheriwise...? "?i" maybe?
+# Totally going to need 2E2E REVERSED QUESTION MARK as soon as it starts being
+# supported.  Also big hunks of Latin Extended-D, A720- et seq.
+<Multi_key> <question> <less>	      : "⸮"	  U2E2E		# REVERSED QUESTION MARK
 <Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
 <Multi_key> <3> <3>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
@@ -258,6 +307,8 @@ include "%L"
 # 2668 HOT SPRINGS (for chat, for running off to shower?)
 # 2624 CADEUCEUS
 # 2611 BALLOT BOX WITH CHECK, or some other checkmark
+# Better keystrokes anyone?
+<Multi_key> <ampersand> <c> <h> <k>	      :	 "☑"  U2611		# BALLOT BOX WITH CHECK
 # 267B BLACK UNIVERSAL RECYCLING SYMBOL
 # 269B ATOM SYMBOL (for coolness)
 <Multi_key> <a> <t> <o> <m>	: "⚛"	U269B		# ATOM SYMBOL
@@ -266,11 +317,24 @@ include "%L"
 <Multi_key> <z> <a> <p>	     	: "⚡"	U26A1		# HIGH VOLTAGE SIGN 
 # 26B0 COFFIN ?
 # One of the SNOWFLAKEs?
+# SNOWMAN? COMET? ANCHOR? WHEELCHAIR SYMBOL?
+# Maybe if we go with having a "word" symbol and spelling out lots and 
+# lots of whole words, we can have all the planets.
+#    "Word Symbol" Notion:
+#    Have a semi-reserved symbol reserved for this.  Probably ampersand.
+#    Something that isn't already used for much.  Then you can happily make
+#    all the &-j-u-p-i-t-e-r and &-a-r-i-e-s combos you want without worrying
+#    that you'll run into a combination already used, like "ca"=ǎ or something.
+#    (unless you have whole words that are prefixes).  Worth doing?
+#
 # I already have STAR OF DAVID on another map.
 # 2B1A DOTTED SQUARE  -- and/or some other hollow square/rectangle?
 # 231A, 231B -- WATCH and HOURGLASS
 # 2328 KEYBOARD?
 # 23D4 METRICAL LONG OVER TWO SHORTS a.k.a. METRICAL BOOBS
+# 0950 DEVANAGARI OM?
+# 214C PER SIGN?
+# 212E ESTIMATED SYMBOL?
 <Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
 <Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
 <Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
@@ -291,6 +355,10 @@ include "%L"
 <Multi_key> <asciitilde> <asciitilde>        : "≈"  U2248           # ALMOST EQUAL TO
 <Multi_key> <s> <h>			: "ʃ"	U0283		# LATIN SMALL LETTER ESH
 <Multi_key> <z> <h>			: "ʒ"	U0292		# LATIN SMALL LETTER EZH
+<Multi_key> <y> <g>			: "ȝ"	U021D		# LATIN SMALL LETTER YOGH
+<Multi_key> <Y> <G>			: "Ȝ"	U021C		# LATIN CAPITAL LETTER YOGH
+<Multi_key> <question> <period>		: "ʔ"	U0294		# LATIN LETTER GLOTTAL STOP
+# ɪ? ɚ? ɣ? ɬ? ɮ? ɯ? ʊ? ᴥ?  Important enough to add?
 <Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
 # There are all kinds of awesome combining characters in the U+0300 page.
 # However, I don’t know how I would use a lot of them.  x͜͡y?
