@@ -75,7 +75,7 @@ include "%L"
 <Multi_key> <slash> <n> <i>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 # <exclam><n><i> would conflict, with <exclam> <n> for N WITH UNDERDOT, etc.
 <Multi_key> <U220B> <slash>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
-<Multi_key> <asciitilde> <equals>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
+<Multi_key> <asciitilde> <equal>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
 <Multi_key> <colon> <equal>		: "≔"	U2254		# COLON EQUALS
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
 <Multi_key> <equal> <d> <e> <f>		: "≝"	U225D		# EQUAL TO BY DEFINITION
@@ -93,6 +93,11 @@ include "%L"
 <Multi_key> <o> <asterisk>              : "∘"   U2218           # RING OPERATOR (function composition)
 <Multi_key> <0> <slash>                 : "∅"   U2205           # EMPTY SET (thanks jsled!)
 <Multi_key> <slash> <0>                 : "∅"   U2205           # EMPTY SET
+# I'm hoping { can work as a set mnemonic
+<Multi_key> <braceleft> <U>		: "∪"	U222A		# UNION
+<Multi_key> <braceleft> <asciicircum>	: "∩"	U2229		# INTERSECTION
+<Multi_key> <braceleft> <parenleft>	: "⊂"	U2282		# SUBSET OF
+<Multi_key> <braceleft>	<parenright>	: "⊃"	U2283		# SUPERSET OF
 <Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
 # We can't use ! E E, because ! E maps to E-WITH-UNDERDOT.
 <Multi_key> <slash> <E> <E>             : "∄"   U2204           # THERE DOES NOT EXIST
@@ -132,6 +137,16 @@ include "%L"
 <Multi_key> <bracketright> <bracketright>: "⊐"  U2290           # SQUARE ORIGINAL OF
 <Multi_key> <bracketright> <equal>      : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
 <Multi_key> <bracketright> <underscore> : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
+# If I did more Haskell, I'd want this more:
+<Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom)
+
+# The system file gives us subscript numbers, plus/minus, and parens.  But
+# there are letters missing.  It would be nice to have at least a few of them.
+<Multi_key> <underscore> <i>  	       :  "ᵢ"  U1D62   	  # LATIN SUBSCRIPT SMALL LETTER I
+<Multi_key> <underscore> <o>	       :  "ₒ"  U2092	  # LATIN SUBSCRIPT SMALL LETTER O
+<Multi_key> <underscore> <x>	       :  "ₓ"  U2093	  # LATIN SUBSCRIPT SMALL LETTER X
+<Multi_key> <underscore> <j>	       :  "ⱼ"  U2C7C	  # LATIN SUBSCRIPT SMALL LETTER J
+# I can't believe there's no subscript N!
 
 # Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
 # input method.  Aristotle Pagaltzis informs me that this is the
@@ -211,6 +226,9 @@ include "%L"
 <Multi_key> <asterisk> <question>      : "Ϛ"	U03DA	# GREEK LETTER STIGMA
 <Multi_key> <asterisk> <slash>	       : "ϛ"	U03DB	# GREEK SMALL LETTER STIGMA
 <Multi_key> <asterisk> <apostrophe>    : "ʹ"	U02B9	# MODIFIER LETTER PRIME, canonically equivalent to U0374 GREEK NUMERAL SIGN
+# While we're at it...
+<Multi_key> <asterisk> <period> <apostrophe>	: "′"	U2032	# PRIME
+<Multi_key> <asterisk> <period> <quotedbl>      : "″"	U2033	# DOUBLE PRIME
 <Multi_key> <asterisk> <comma>	       : "͵"	U0375	# GREEK LOWER NUMERAL SIGN (for thousands)
 # Do we want BETA SYMBOL, RHO SYMBOL, KAPPA SYMBOL, PHI SYMBOL, THETA SYMBOL?
 # The format makes them obvious enough I guess.  PI SYMBOL is different enough
@@ -373,7 +391,7 @@ include "%L"
 <Multi_key> <numbersign> <G>             : "𝄞"  U0001d11e # MUSICAL SYMBOL G CLEF
 <Multi_key> <numbersign> <F>              : "𝄢"  U0001d122 # MUSICAL SYMBOL F CLEF
 <Multi_key> <numbersign> <C>              : "𝄡 U0001d121 # MUSICAL SYMBOL C CLEF
-<Multi_key> <numbersign> <o> <slash>	: "♪" U266a	# EIGHT NOTE
+<Multi_key> <numbersign> <o> <slash>	: "♪" U266a	# EIGHTH NOTE
 <Multi_key> <numbersign> <o> <o>	: "♫" U266b	# BEAMED EIGHTH NOTES
 
 
