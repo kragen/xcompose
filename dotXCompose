@@ -36,11 +36,27 @@ include "%L"
 <Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
 # We already have THIN SPACE below, as <space> <apostrophe>!  Keep both?
 <Multi_key> <backslash> <comma>		: " "	U2009		# THIN SPACE
+
 <Multi_key> <minus> <less>		: "←"	leftarrow	# LEFTWARDS ARROW
 <Multi_key> <minus> <asciicircum>	: "↑"	uparrow		# UPWARDS ARROW
 <Multi_key> <minus> <greater>		: "→"	rightarrow	# RIGHTWARDS ARROW
 <Multi_key> <minus> <v>			: "↓"	downarrow	# DOWNWARDS ARROW
 <Multi_key> <less> <minus> <greater>	: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+
+<Multi_key> <Left> <Left>		: "←"	leftarrow	# LEFTWARDS ARROW
+<Multi_key> <Up> <Up>			: "↑"	uparrow		# UPWARDS ARROW
+<Multi_key> <Right> <Right>		: "→"	rightarrow	# RIGHTWARDS ARROW
+<Multi_key> <Down> <Down>		: "↓"	downarrow	# DOWNWARDS ARROW
+<Multi_key> <less> <Right>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+<Multi_key> <greater> <Left>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+
+<Multi_key> <F> <Left>		: "☚"	U261A		# BLACK LEFT POINTING INDEX
+<Multi_key> <F> <Right>		: "☛"	U261B		# BLACK RIGHT POINTING INDEX
+<Multi_key> <f> <Left>		: "☜"	U261C		# WHITE LEFT POINTING INDEX
+<Multi_key> <f> <Up>		: "☝"	U261D		# WHITE UP POINTING INDEX
+<Multi_key> <f> <Right>		: "☞"	U261E		# WHITE RIGHT POINTING INDEX
+<Multi_key> <f> <Down>		: "☟"	U261F		# WHITE DOWN POINTING INDEX
+
 # For some logical statements:
 # The keystrokes are a little contrived, to avoid conflicts.
 <Multi_key> <equal> <greater>	: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
@@ -57,7 +73,7 @@ include "%L"
 <Multi_key> <f> <i>		: "ﬁ"	   UFB01   # LATIN LIGATURE FI
 <Multi_key> <f> <l>		: "ﬂ"	   UFB02   # LATIN LIGATURE FL
 <Multi_key> <s> <t>		: "ﬆ"  UFB06	   # LATIN SMALL LIGATURE ST
-<Multi_key> <U017F> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
+<Multi_key> <f> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
 # ß is already available as <s><s> I think.  But now it comes in industrial size!
 <Multi_key> <S> <S> 		: "ẞ"  U1E9E	   # LATIN CAPITAL LETTER SHARP S
 # Eventually we'll have to look over the really crazy-cakes Latin letters 
@@ -68,6 +84,9 @@ include "%L"
 <Multi_key> <slash> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <less> <equal>		: "≤"	U2264		# LESS-THAN OR EQUAL TO
 <Multi_key> <greater> <equal>		: "≥"	U2265		# GREATER-THAN OR EQUAL TO
+<Multi_key> <exclam> <less> <greater>   : "≸"	U2278		# NEITHER LESS-THAN NOR GREATER-THAN
+<Multi_key> <plus> <less> <less>        : "⋘"	U22D8		# VERY MUCH LESS-THAN
+<Multi_key> <plus> <greater> <greater>  : "⋙"	U22D9		# VERY MUCH GREATER-THAN
 <Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
 <Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
 <Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
@@ -102,7 +121,7 @@ include "%L"
 # We can't use ! E E, because ! E maps to E-WITH-UNDERDOT.
 <Multi_key> <slash> <E> <E>             : "∄"   U2204           # THERE DOES NOT EXIST
 <Multi_key> <A> <A>                     : "∀"  U2200           # FOR ALL
-<Multi_key> <Q> <E> <D>                 : "∎"   U220E           # END OF PROOF
+<Multi_key> <ampersand> <Q> <E> <D>     : "∎"   U220E           # END OF PROOF
 <Multi_key> <8> <8>                     : "∞"  U221E           # INFINITY
 <Multi_key> <parenleft> <plus> <parenright>     : "⊕"  U2295    # CIRCLED PLUS
 <Multi_key> <parenleft> <minus> <parenright>    : "⊖"  U2296    # CIRCLED MINUS
@@ -311,11 +330,15 @@ include "%L"
 <Multi_key> <percent> <M>		: "Ⅿ"	U216F		# ROMAN NUMERAL ONE THOUSAND
 
 # Custom additions: for chat (kragen)
+<Multi_key> <parenleft> <colon>         : "☻"   U263B           # BLACK SMILING FACE
 <Multi_key> <colon> <parenright>        : "☺"   U263A           # WHITE SMILING FACE
 <Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
+<Multi_key> <colon> <asciitilde>	: "⍨"   U2368		# APL FUNCTIONAL SYMBOL TILDE DIAERESIS
+<Multi_key> <colon> <bar>		: "⸚"   U2E1A		# HYPHEN WITH DIAERESIS
 <Multi_key> <exclam> <question>         : "‽"   U203D           # INTERROBANG
 <Multi_key> <question> <exclam>         : "‽"   U203D           # INTERROBANG (in case you can’t remember the order)
-<Multi_key> <question> <exclamdown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otheriwise...? "?i" maybe?
+<Multi_key> <questiondown> <exclamdown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otheriwise...? "?i" maybe?
+<Multi_key> <exclamdown> <questiondown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otheriwise...? "?i" maybe?
 # Totally going to need 2E2E REVERSED QUESTION MARK as soon as it starts being
 # supported.  Also big hunks of Latin Extended-D, A720- et seq.
 <Multi_key> <question> <less>	      : "⸮"	  U2E2E		# REVERSED QUESTION MARK
@@ -324,11 +347,12 @@ include "%L"
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
 <Multi_key> <3> <minus>		: "♠" U2660		# BLACK SPADE SUIT
 <Multi_key> <E> <greater>		: "♡" U2661		# WHITE HEART SUIT
-<Multi_key> <p> <c>                     : "☮"   U262E           # PEACE SYMBOL
-<Multi_key> <y> <y>			: "☯" U262F		# YIN YANG
+<Multi_key> <ampersand> <p> <c>         : "☮"   U262E           # PEACE SYMBOL
+<Multi_key> <ampersand> <y> <y>		: "☯" U262F		# YIN YANG
 # For some reason, I don't really like these word-based mnemonics.  But until we have something better... -clsn
-<Multi_key> <t> <e> <l>			: "☎" 	U260E		# BLACK TELEPHONE
-<Multi_key> <t> <e> <a>		: "☕"	U2615		# HOT BEVERAGE
+# are the ampersand versions better? -kragen
+<Multi_key> <ampersand> <t> <e> <l>			: "☎" 	U260E		# BLACK TELEPHONE
+<Multi_key> <ampersand> <t> <e> <a>		: "☕"	U2615		# HOT BEVERAGE
 # These last two bother me less, though they can still be improved.
 # Other possibly useful symbols:
 # 2668 HOT SPRINGS (for chat, for running off to shower?)
@@ -338,12 +362,14 @@ include "%L"
 <Multi_key> <ampersand> <c> <h> <k>	      :	 "☑"  U2611		# BALLOT BOX WITH CHECK
 # 267B BLACK UNIVERSAL RECYCLING SYMBOL
 
-<Multi_key> <slash> <exclam> <backslash> : "⚠"  U26A0           # WARNING SIGN
-# 269B ATOM SYMBOL (for coolness)
-<Multi_key> <a> <t> <o> <m>	: "⚛"	U269B		# ATOM SYMBOL
 # 269C FLEUR-DE-LIS  (maybe <f><d><l> would be okay)
-# 26A1 HIGH VOLTAGE SIGN (!) or maybe 2301 ELECTRIC ARROW
-<Multi_key> <z> <a> <p>	     	: "⚡"	U26A1		# HIGH VOLTAGE SIGN 
+<Multi_key> <ampersand> <a> <t> <o> <m>	        : "⚛"	U269B		# ATOM SYMBOL
+<Multi_key> <ampersand> <c> <c> <c> <p>		: "☭" 	U262D		# HAMMER AND SICKLE
+<Multi_key> <slash> <exclam> <backslash> : "⚠"  U26A0           # WARNING SIGN
+<Multi_key> <exclam> <asciicircum>	: "⚠"	U26A0		# WARNING SIGN 
+<Multi_key> <ampersand> <z> <a> <p>	  		: "⚡"	U26A1		# HIGH VOLTAGE SIGN 
+<Multi_key> <ampersand> <r> <a>		: "☢"	U2622		# RADIOACTIVE SIGN
+<Multi_key> <ampersand> <b> <h>		: "☣"	U2623		# BIOHAZARD SIGN
 # 26B0 COFFIN ?
 # One of the SNOWFLAKEs?
 # SNOWMAN? COMET? ANCHOR? WHEELCHAIR SYMBOL?
@@ -355,6 +381,7 @@ include "%L"
 #    all the &-j-u-p-i-t-e-r and &-a-r-i-e-s combos you want without worrying
 #    that you'll run into a combination already used, like "ca"=ǎ or something.
 #    (unless you have whole words that are prefixes).  Worth doing?
+#    I think so. -Kragen
 #
 # I already have STAR OF DAVID on another map.
 # 2B1A DOTTED SQUARE  -- and/or some other hollow square/rectangle?
@@ -373,6 +400,7 @@ include "%L"
 <Multi_key> <minus> <equal>	: "☜" U261C # WHITE LEFT POINTING INDEX
 <Multi_key> <asterisk> <asterisk>	:"★" U2605 # BLACK STAR
 <Multi_key> <asterisk> <0>	:"☆" U2606 # WHITE STAR
+<Multi_key> <asterisk> <3>	:"⁂" U2042 # ASTERISM
 <Multi_key> <asterisk> <numbersign>	:"✯" U272F # PINWHEEL STAR
 <Multi_key> <at> <numbersign>	: "⌘" U2318	# PLACE OF INTEREST SIGN
 <Multi_key> <space> <apostrophe>  : " " U2009  # THIN SPACE
