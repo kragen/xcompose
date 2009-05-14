@@ -60,13 +60,13 @@ include "%L"
 # For some logical statements.  I prefer doubled arrows for implication.
 <Multi_key> <equal> <greater>		: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
 <Multi_key> <equal> <less>		: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
-<Multi_key> <equal> <less> <minus> <equal> <greater> : "⇔" U21D4 # LEFT RIGHT DOUBLE ARROW 
+<Multi_key> <less> <minus> <equal> <greater> : "⇔" U21D4 # LEFT RIGHT DOUBLE ARROW 
 <Multi_key> <equal> <Right> <Right>	: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
 <Multi_key> <equal> <Left> <Left>	: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
 <Multi_key> <equal> <Left> <Right>	: "⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
 <Multi_key> <equal> <Up> <Up>		: "⇑"	U21D1	# UPWARDS DOUBLE ARROW
 <Multi_key> <equal> <Down> <Down>	: "⇓"	U21D3	# DOWNWARDS DOUBLE ARROW
-<Multi_key> <equal> <Up> <Up>		: "⇕"	U21D5	# UP DOWN DOUBLE ARROW
+<Multi_key> <equal> <Up> <Down>		: "⇕"	U21D5	# UP DOWN DOUBLE ARROW
 # These are just too cool-looking not to have (if your font supports them)
 <Multi_key> <equal> <period> <equal>	: "⸎"	U2E0E		# EDITORIAL CORONIS
 <Multi_key> <ampersand> <p> <a> <l> <m>	: "⸙"	U2E19		# PALM BRANCH
@@ -95,6 +95,7 @@ include "%L"
 # MUCH is usually enough for me.  No need for VERY.
 <Multi_key> <plus> <less>        	: "≪"	U226A		# MUCH LESS-THAN
 <Multi_key> <plus> <greater> 		: "≫"	U226B		# MUCH GREATER-THAN
+# Damn.  That makes this conflict with the standard plus plus -> #
 <Multi_key> <plus> <plus> <less>        : "⋘"	U22D8		# VERY MUCH LESS-THAN
 <Multi_key> <plus> <plus> <greater>  	: "⋙"	U22D9		# VERY MUCH GREATER-THAN
 <Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
@@ -111,6 +112,8 @@ include "%L"
 <Multi_key> <equal> <equal>		: "≡"	U2261		# IDENTICAL TO
 # Using <slash> conflicts.
 <Multi_key> <equal> <bar> <equal>	: "≢"	U2262		# NOT IDENTICAL TO
+# We already have ±
+<Multi_key> <minus> <plus>		: "∓"	U2213		# MINUS OR PLUS SIGN
 <Multi_key> <s> <q>			: "√"	U221A		# SQUARE ROOT
     # “(Note: I had put the backslash in position 5/15. It enabled the
     # ALGOL “and” to be “/\” and the “or” to be “\/”.)” --- Bob Bemer,
@@ -446,7 +449,7 @@ include "%L"
 <Multi_key> <numbersign> <numbersign>	: "♯" U266f # MUSIC SHARP SIGN
 <Multi_key> <numbersign> <G>             : "𝄞"  U0001d11e # MUSICAL SYMBOL G CLEF
 <Multi_key> <numbersign> <F>              : "𝄢"  U0001d122 # MUSICAL SYMBOL F CLEF
-<Multi_key> <numbersign> <C>              : "𝄡 U0001d121 # MUSICAL SYMBOL C CLEF
+<Multi_key> <numbersign> <C>              : "𝄡" U0001d121 # MUSICAL SYMBOL C CLEF
 <Multi_key> <numbersign> <o> <slash>	: "♪" U266a	# EIGHTH NOTE
 <Multi_key> <numbersign> <o> <o>	: "♫" U266b	# BEAMED EIGHTH NOTES
 
