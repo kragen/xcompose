@@ -243,6 +243,7 @@ include "%L"
 # 2624 CADEUCEUS
 # 2611 BALLOT BOX WITH CHECK, or some other checkmark
 # 267B BLACK UNIVERSAL RECYCLING SYMBOL
+<Multi_key> <slash> <exclam> <backslash> : "⚠"  U26A0           # WARNING SIGN
 <Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
 <Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
 <Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
