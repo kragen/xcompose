@@ -47,8 +47,8 @@ include "%L"
 <Multi_key> <Up> <Up>			: "↑"	uparrow		# UPWARDS ARROW
 <Multi_key> <Right> <Right>		: "→"	rightarrow	# RIGHTWARDS ARROW
 <Multi_key> <Down> <Down>		: "↓"	downarrow	# DOWNWARDS ARROW
-<Multi_key> <less> <Right>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
-<Multi_key> <greater> <Left>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+<Multi_key> <Left> <Right>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+<Multi_key> <Up> <Down>			: "↕"	U2195           # UP DOWN ARROW (kragen's)
 
 <Multi_key> <F> <Left>		: "☚"	U261A		# BLACK LEFT POINTING INDEX
 <Multi_key> <F> <Right>		: "☛"	U261B		# BLACK RIGHT POINTING INDEX
@@ -57,14 +57,19 @@ include "%L"
 <Multi_key> <f> <Right>		: "☞"	U261E		# WHITE RIGHT POINTING INDEX
 <Multi_key> <f> <Down>		: "☟"	U261F		# WHITE DOWN POINTING INDEX
 
-# For some logical statements:
-# The keystrokes are a little contrived, to avoid conflicts.
-<Multi_key> <equal> <greater>	: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
-<Multi_key> <equal> <less>	: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
-<Multi_key> <less> <minus> <equal> <greater>:	"⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
+# For some logical statements.  I prefer doubled arrows for implication.
+<Multi_key> <equal> <greater>		: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
+<Multi_key> <equal> <less>		: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
+<Multi_key> <equal> <less> <minus> <equal> <greater> : "⇔" U21D4 # LEFT RIGHT DOUBLE ARROW 
+<Multi_key> <equal> <Right> <Right>	: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
+<Multi_key> <equal> <Left> <Left>	: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
+<Multi_key> <equal> <Left> <Right>	: "⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
+<Multi_key> <equal> <Up> <Up>		: "⇑"	U21D1	# UPWARDS DOUBLE ARROW
+<Multi_key> <equal> <Down> <Down>	: "⇓"	U21D3	# DOWNWARDS DOUBLE ARROW
+<Multi_key> <equal> <Up> <Up>		: "⇕"	U21D5	# UP DOWN DOUBLE ARROW
 # These are just too cool-looking not to have (if your font supports them)
 <Multi_key> <equal> <period> <equal>	: "⸎"	U2E0E		# EDITORIAL CORONIS
-<Multi_key> <equal> <underscore> <bar>	: "⸙"	U2E19		# PALM BRANCH
+<Multi_key> <ampersand> <p> <a> <l> <m>	: "⸙"	U2E19		# PALM BRANCH
 
 
 <Multi_key> <o> <parenright>	:"ɔ" U0254 # LATIN SMALL LETTER OPEN O
@@ -74,6 +79,8 @@ include "%L"
 <Multi_key> <f> <l>		: "ﬂ"	   UFB02   # LATIN LIGATURE FL
 <Multi_key> <s> <t>		: "ﬆ"  UFB06	   # LATIN SMALL LIGATURE ST
 <Multi_key> <f> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
+# allow me still to use my ſ key, okay?
+<Multi_key> <U017F> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
 # ß is already available as <s><s> I think.  But now it comes in industrial size!
 <Multi_key> <S> <S> 		: "ẞ"  U1E9E	   # LATIN CAPITAL LETTER SHARP S
 # Eventually we'll have to look over the really crazy-cakes Latin letters 
@@ -85,8 +92,11 @@ include "%L"
 <Multi_key> <less> <equal>		: "≤"	U2264		# LESS-THAN OR EQUAL TO
 <Multi_key> <greater> <equal>		: "≥"	U2265		# GREATER-THAN OR EQUAL TO
 <Multi_key> <exclam> <less> <greater>   : "≸"	U2278		# NEITHER LESS-THAN NOR GREATER-THAN
-<Multi_key> <plus> <less> <less>        : "⋘"	U22D8		# VERY MUCH LESS-THAN
-<Multi_key> <plus> <greater> <greater>  : "⋙"	U22D9		# VERY MUCH GREATER-THAN
+# MUCH is usually enough for me.  No need for VERY.
+<Multi_key> <plus> <less>        	: "≪"	U226A		# MUCH LESS-THAN
+<Multi_key> <plus> <greater> 		: "≫"	U226B		# MUCH GREATER-THAN
+<Multi_key> <plus> <plus> <less>        : "⋘"	U22D8		# VERY MUCH LESS-THAN
+<Multi_key> <plus> <plus> <greater>  	: "⋙"	U22D9		# VERY MUCH GREATER-THAN
 <Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
 <Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
 <Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
@@ -123,6 +133,10 @@ include "%L"
 <Multi_key> <A> <A>                     : "∀"  U2200           # FOR ALL
 <Multi_key> <ampersand> <Q> <E> <D>     : "∎"   U220E           # END OF PROOF
 <Multi_key> <8> <8>                     : "∞"  U221E           # INFINITY
+<Multi_key> <ampersand> <a> <l> <e> <p> <h> : "ℵ" U2135	       # ALEF SYMBOL
+<Multi_key> <ampersand> <a> <l> <e> <p> <0> : "ℵ₀"        # ALEF Null
+<Multi_key> <ampersand> <a> <l> <e> <p> <1> : "ℵ₁"        # ALEF One
+<Multi_key> <ampersand> <a> <l> <e> <f> : "ℵ" U2135	       # ALEF SYMBOL
 <Multi_key> <parenleft> <plus> <parenright>     : "⊕"  U2295    # CIRCLED PLUS
 <Multi_key> <parenleft> <minus> <parenright>    : "⊖"  U2296    # CIRCLED MINUS
 <Multi_key> <parenleft> <x> <x> <parenright>    : "⊗"  U2297    # CIRCLED TIMES
@@ -286,7 +300,7 @@ include "%L"
 
 # How about roman numerals?  Percent for numerical mnemonic?
 # Does this go against the spirit of this file?  These symbols are accessible 
-# as regular numbers and would look okay.  Maybe only for I-X?
+# as regular letters and would look okay.  Maybe only for I-X?
 <Multi_key> <percent> <1>		: "ⅰ"	U2170		# SMALL ROMAN NUMERAL ONE
 <Multi_key> <percent> <2>		: "ⅱ"	U2171		# SMALL ROMAN NUMERAL TWO
 <Multi_key> <percent> <3>		: "ⅲ"	U2172		# SMALL ROMAN NUMERAL THREE
