@@ -383,6 +383,7 @@ include "%L"
 <Multi_key> <s> <h>			: "ʃ"	U0283		# LATIN SMALL LETTER ESH
 <Multi_key> <z> <h>			: "ʒ"	U0292		# LATIN SMALL LETTER EZH
 <Multi_key> <l> <h>    			: "ɬ"	U026C		# LATIN SMALL LETTER L WITH BELT
+<Multi_key> <l> <3>			: "ɮ"	U026E		# LATIN SMALL LETTER LEZH
 <Multi_key> <y> <g>			: "ȝ"	U021D		# LATIN SMALL LETTER YOGH
 <Multi_key> <Y> <G>			: "Ȝ"	U021C		# LATIN CAPITAL LETTER YOGH
 <Multi_key> <question> <period>		: "ʔ"	U0294		# LATIN LETTER GLOTTAL STOP
