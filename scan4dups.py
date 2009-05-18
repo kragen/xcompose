@@ -31,6 +31,12 @@ try:
             print "couldn't make sense of line: "+line
         else:
             listing[name]=m.group(1)
+        # THIS IS STILL FAULTY.
+        # What if a long one comes through first, and then a short one?
+        #
+        # Probably have to do two passes: record them all in the hash
+        # (and check for exact duplicates), then go though all the
+        # keys and check all their prefixes.
         for i in dupsfound:
             if listing[name]==listing[i]:
                 msg="Redundant definition: "

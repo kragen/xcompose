@@ -48,7 +48,9 @@ include "%L"
 <Multi_key> <Right> <Right>		: "→"	rightarrow	# RIGHTWARDS ARROW
 <Multi_key> <Down> <Down>		: "↓"	downarrow	# DOWNWARDS ARROW
 <Multi_key> <Left> <Right>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+<Multi_key> <Right> <Left>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
 <Multi_key> <Up> <Down>			: "↕"	U2195           # UP DOWN ARROW (kragen's)
+<Multi_key> <Down> <Left>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
 
 <Multi_key> <F> <Left>		: "☚"	U261A		# BLACK LEFT POINTING INDEX
 <Multi_key> <F> <Right>		: "☛"	U261B		# BLACK RIGHT POINTING INDEX
@@ -64,6 +66,7 @@ include "%L"
 <Multi_key> <equal> <Right> <Right>	: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
 <Multi_key> <equal> <Left> <Left>	: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
 <Multi_key> <equal> <Left> <Right>	: "⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
+<Multi_key> <equal> <Right> <Left>	: "⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
 <Multi_key> <equal> <Up> <Up>		: "⇑"	U21D1	# UPWARDS DOUBLE ARROW
 <Multi_key> <equal> <Down> <Down>	: "⇓"	U21D3	# DOWNWARDS DOUBLE ARROW
 <Multi_key> <equal> <Up> <Down>		: "⇕"	U21D5	# UP DOWN DOUBLE ARROW
@@ -106,7 +109,6 @@ include "%L"
 # <exclam><n><i> would conflict, with <exclam> <n> for N WITH UNDERDOT, etc.
 <Multi_key> <U220B> <slash>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 <Multi_key> <asciitilde> <equal>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
-<Multi_key> <colon> <equal>		: "≔"	U2254		# COLON EQUALS
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
 <Multi_key> <equal> <d> <e> <f>		: "≝"	U225D		# EQUAL TO BY DEFINITION
 <Multi_key> <equal> <equal>		: "≡"	U2261		# IDENTICAL TO
@@ -166,6 +168,11 @@ include "%L"
 <Multi_key> <bar> <Greek_PI> 	 : "ℿ" U213C	# DOUBLE-STRUCK CAPITAL PI
 <Multi_key> <bar> <asterisk> <S> : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
 <Multi_key> <bar> <Greek_SIGMA>  : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
+# The *look* double-struck.
+<Multi_key> <bar> <braceleft>	 : "⦃" U2983	# LEFT WHITE CURLY BRACKET
+<Multi_key> <bar> <braceright>	 : "⦄" U2984	# RIGHT WHITE CURLY BRACKET 
+# ⦅⦆⦇⦈⦉⦊ too?
+# The rest of that block?  Some there may be worth it.
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
