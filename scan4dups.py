@@ -19,33 +19,41 @@ try:
                 break
             word=m.group(1)
             name+=' '+word
-            if listing.has_key(name):
-                dupsfound.append(name)
             startpos+=m.end()
         if startpos<=0:
             continue
         m=re.match(r'[^"]*"(.+)"',line)
         if not m:
             # shouldn't happen, but just in case
-            listing[name]='???'
+            val='???'
             print "couldn't make sense of line: "+line
         else:
-            listing[name]=m.group(1)
-        # THIS IS STILL FAULTY.
-        # What if a long one comes through first, and then a short one?
-        #
-        # Probably have to do two passes: record them all in the hash
-        # (and check for exact duplicates), then go though all the
-        # keys and check all their prefixes.
-        for i in dupsfound:
-            if listing[name]==listing[i]:
-                msg="Redundant definition: "
+            val=m.group(1)
+        if listing.has_key(name):
+            if val != listing[name]:
+                print "Exact conflict found: (%s )[%s][%s]"%(name, 
+                                                             listing[name], val)
             else:
-                msg="Prefix conflict found: "
-            print msg+"(%s )[%s] vs (%s )[%s]"% \
-                (name, listing[name], i, listing[i])
+                print "Redundant definition: (%s )[%s]"%(name, val)
+        else:
+            listing[name]=val
 except StopIteration:
     print "hit end"
-    pass
-print "Done."
+# NOW check for prefix conflicts:
+print "Checking prefixes."
+for key in listing.keys():
+    # print "Key: (%s)"%key
+    pref=''
+    # Careful when splitting.  They key always starts with a space.
+    for word in key.split(" ")[:-1]: # chop the last one; that'll always match.
+        # Skip the empty first entry
+        if not word:
+            continue
+        pref+=" "+word
+        # print "checking (%s)"%pref
+        if listing.has_key(pref):
+            print "Prefix conflict found: " \
+                "(%s )[%s] vs (%s )[%s]"%(pref, listing[pref],
+                                          key, listing[key])
+
     

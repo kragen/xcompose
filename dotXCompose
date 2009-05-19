@@ -52,6 +52,10 @@ include "%L"
 <Multi_key> <Up> <Down>			: "↕"	U2195           # UP DOWN ARROW (kragen's)
 <Multi_key> <Down> <Left>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
 
+# Arrow keys don't always work: some apps trap them for cursor control and
+# other boring things.  The arrow symbols have alternate keystrokes.  Do
+# we need others for these printer's fists?  If so, what?  The -= and =-
+# we had before are not necessarily the best choices.
 <Multi_key> <F> <Left>		: "☚"	U261A		# BLACK LEFT POINTING INDEX
 <Multi_key> <F> <Right>		: "☛"	U261B		# BLACK RIGHT POINTING INDEX
 <Multi_key> <f> <Left>		: "☜"	U261C		# WHITE LEFT POINTING INDEX
@@ -150,6 +154,9 @@ include "%L"
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
+# OK, absolutely cannot believe we made it this long without NABLA or INTEGRAL
+<Multi_key> <ampersand> <d> <e> <l>	: "∇"	U2207	        # NABLA
+<Multi_key> <ampersand> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
 # There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
 <Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
