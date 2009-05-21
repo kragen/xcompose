@@ -155,8 +155,12 @@ include "%L"
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
 # OK, absolutely cannot believe we made it this long without NABLA or INTEGRAL
+# or PARTIAL DIFFERENTIAL
 <Multi_key> <ampersand> <d> <e> <l>	: "∇"	U2207	        # NABLA
 <Multi_key> <ampersand> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
+<Multi_key> <ampersand> <p> <a> <r> <t>   : "∂" U2202		# PARTIAL DIFFERENTIAL
+<Multi_key> <asterisk> <period> <period> <d>   : "∂" U2202	# PARTIAL DIFFERENTIAL
+# Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
 # There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
 <Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
