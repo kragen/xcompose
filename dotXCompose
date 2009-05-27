@@ -79,8 +79,6 @@ include "%L"
 <Multi_key> <ampersand> <p> <a> <l> <m>	: "⸙"	U2E19		# PALM BRANCH
 
 
-<Multi_key> <o> <parenright>	:"ɔ" U0254 # LATIN SMALL LETTER OPEN O
-<Multi_key> <O> <parenright>	:"Ɔ" U0186 # LATIN CAPITAL LETTER OPEN O
 <Multi_key> <f> <f>		: "ﬀ"	   UFB00   # LATIN LIGATURE FF
 <Multi_key> <f> <i>		: "ﬁ"	   UFB01   # LATIN LIGATURE FI
 <Multi_key> <f> <l>		: "ﬂ"	   UFB02   # LATIN LIGATURE FL
@@ -453,7 +451,14 @@ include "%L"
 <Multi_key> <y> <g>			: "ȝ"	U021D		# LATIN SMALL LETTER YOGH
 <Multi_key> <Y> <G>			: "Ȝ"	U021C		# LATIN CAPITAL LETTER YOGH
 <Multi_key> <question> <period>		: "ʔ"	U0294		# LATIN LETTER GLOTTAL STOP
-# ɪ? ɚ? ɣ? ɬ? ɮ? ɯ? ʊ? ᴥ?  Important enough to add?
+<Multi_key> <i> <h>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
+<Multi_key> <I> <H>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
+<Multi_key> <u> <h>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
+<Multi_key> <U> <H>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
+<Multi_key> <e> <r>			: "ɚ"	U025A		# LATIN SMALL LETTER SCHWA WITH HOOK
+<Multi_key> <o> <parenright>		:"ɔ" 	U0254 		# LATIN SMALL LETTER OPEN O
+<Multi_key> <O> <parenright>		:"Ɔ" 	U0186 		# LATIN CAPITAL LETTER OPEN O
+# ɣ? ɯ? ᴥ?  Important enough to add?  Is Greek epsilon OK for ɛ?
 <Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
 # There are all kinds of awesome combining characters in the U+0300 page.
 # However, I don’t know how I would use a lot of them.  x͜͡y?
