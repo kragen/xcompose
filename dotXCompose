@@ -433,6 +433,12 @@ include "%L"
 <Multi_key> <Y> <G>			: "Ȝ"	U021C		# LATIN CAPITAL LETTER YOGH
 <Multi_key> <question> <period>		: "ʔ"	U0294		# LATIN LETTER GLOTTAL STOP
 # ɪ? ɚ? ɣ? ɬ? ɮ? ɯ? ʊ? ᴥ?  Important enough to add?
+# ɚ is U025A LATIN SMALL LETTER SCHWA WITH HOOK: rhotacized schwa
+# ɪ is U026A LATIN LETTER SMALL CAPITAL I: semi-high front unrounded vowel
+# ɹ is U0279 LATIN SMALL LETTER TURNED R: voiced alveolar approximant (American English (at least) R)
+# ɾ is U027E LATIN SMALL LETTER R WITH FISHHOOK: voiced alveolar flap or tap (American English intervocalic allophone of d, or Spanish r)
+# then for the English vowels I'd just be missing ʊ (U028A LATIN SMALL LETTER UPSILON)? and ʌ (U028C LATIN SMALL LETTER TURNED V).
+# How about ɸ? φ isn’t the IPA glyph.
 <Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
 # There are all kinds of awesome combining characters in the U+0300 page.
 # However, I don’t know how I would use a lot of them.  x͜͡y?
