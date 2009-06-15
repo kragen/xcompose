@@ -48,8 +48,14 @@ include "%L"
 <Multi_key> <Right> <Right>		: "→"	rightarrow	# RIGHTWARDS ARROW
 <Multi_key> <Down> <Down>		: "↓"	downarrow	# DOWNWARDS ARROW
 <Multi_key> <Left> <Right>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+<Multi_key> <Right> <Left>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
 <Multi_key> <Up> <Down>			: "↕"	U2195           # UP DOWN ARROW (kragen's)
+<Multi_key> <Down> <Left>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
 
+# Arrow keys don't always work: some apps trap them for cursor control and
+# other boring things.  The arrow symbols have alternate keystrokes.  Do
+# we need others for these printer's fists?  If so, what?  The -= and =-
+# we had before are not necessarily the best choices.
 <Multi_key> <F> <Left>		: "☚"	U261A		# BLACK LEFT POINTING INDEX
 <Multi_key> <F> <Right>		: "☛"	U261B		# BLACK RIGHT POINTING INDEX
 <Multi_key> <f> <Left>		: "☜"	U261C		# WHITE LEFT POINTING INDEX
@@ -60,20 +66,19 @@ include "%L"
 # For some logical statements.  I prefer doubled arrows for implication.
 <Multi_key> <equal> <greater>		: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
 <Multi_key> <equal> <less>		: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
-<Multi_key> <equal> <less> <minus> <equal> <greater> : "⇔" U21D4 # LEFT RIGHT DOUBLE ARROW 
+<Multi_key> <less> <minus> <equal> <greater> : "⇔" U21D4 # LEFT RIGHT DOUBLE ARROW 
 <Multi_key> <equal> <Right> <Right>	: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
 <Multi_key> <equal> <Left> <Left>	: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
 <Multi_key> <equal> <Left> <Right>	: "⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
+<Multi_key> <equal> <Right> <Left>	: "⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
 <Multi_key> <equal> <Up> <Up>		: "⇑"	U21D1	# UPWARDS DOUBLE ARROW
 <Multi_key> <equal> <Down> <Down>	: "⇓"	U21D3	# DOWNWARDS DOUBLE ARROW
-<Multi_key> <equal> <Up> <Up>		: "⇕"	U21D5	# UP DOWN DOUBLE ARROW
+<Multi_key> <equal> <Up> <Down>		: "⇕"	U21D5	# UP DOWN DOUBLE ARROW
 # These are just too cool-looking not to have (if your font supports them)
 <Multi_key> <equal> <period> <equal>	: "⸎"	U2E0E		# EDITORIAL CORONIS
 <Multi_key> <ampersand> <p> <a> <l> <m>	: "⸙"	U2E19		# PALM BRANCH
 
 
-<Multi_key> <o> <parenright>	:"ɔ" U0254 # LATIN SMALL LETTER OPEN O
-<Multi_key> <O> <parenright>	:"Ɔ" U0186 # LATIN CAPITAL LETTER OPEN O
 <Multi_key> <f> <f>		: "ﬀ"	   UFB00   # LATIN LIGATURE FF
 <Multi_key> <f> <i>		: "ﬁ"	   UFB01   # LATIN LIGATURE FI
 <Multi_key> <f> <l>		: "ﬂ"	   UFB02   # LATIN LIGATURE FL
@@ -95,6 +100,7 @@ include "%L"
 # MUCH is usually enough for me.  No need for VERY.
 <Multi_key> <plus> <less>        	: "≪"	U226A		# MUCH LESS-THAN
 <Multi_key> <plus> <greater> 		: "≫"	U226B		# MUCH GREATER-THAN
+# Damn.  That makes this conflict with the standard plus plus -> #
 <Multi_key> <plus> <plus> <less>        : "⋘"	U22D8		# VERY MUCH LESS-THAN
 <Multi_key> <plus> <plus> <greater>  	: "⋙"	U22D9		# VERY MUCH GREATER-THAN
 <Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
@@ -105,12 +111,13 @@ include "%L"
 # <exclam><n><i> would conflict, with <exclam> <n> for N WITH UNDERDOT, etc.
 <Multi_key> <U220B> <slash>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 <Multi_key> <asciitilde> <equal>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
-<Multi_key> <colon> <equal>		: "≔"	U2254		# COLON EQUALS
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
 <Multi_key> <equal> <d> <e> <f>		: "≝"	U225D		# EQUAL TO BY DEFINITION
 <Multi_key> <equal> <equal>		: "≡"	U2261		# IDENTICAL TO
 # Using <slash> conflicts.
 <Multi_key> <equal> <bar> <equal>	: "≢"	U2262		# NOT IDENTICAL TO
+# We already have ±
+<Multi_key> <minus> <plus>		: "∓"	U2213		# MINUS OR PLUS SIGN
 <Multi_key> <s> <q>			: "√"	U221A		# SQUARE ROOT
     # “(Note: I had put the backslash in position 5/15. It enabled the
     # ALGOL “and” to be “/\” and the “or” to be “\/”.)” --- Bob Bemer,
@@ -145,6 +152,13 @@ include "%L"
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
+# OK, absolutely cannot believe we made it this long without NABLA or INTEGRAL
+# or PARTIAL DIFFERENTIAL
+<Multi_key> <ampersand> <d> <e> <l>	: "∇"	U2207	        # NABLA
+<Multi_key> <ampersand> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
+<Multi_key> <ampersand> <p> <a> <r> <t>   : "∂" U2202		# PARTIAL DIFFERENTIAL
+<Multi_key> <asterisk> <period> <period> <d>   : "∂" U2202	# PARTIAL DIFFERENTIAL
+# Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
 # There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
 <Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
@@ -163,6 +177,11 @@ include "%L"
 <Multi_key> <bar> <Greek_PI> 	 : "ℿ" U213C	# DOUBLE-STRUCK CAPITAL PI
 <Multi_key> <bar> <asterisk> <S> : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
 <Multi_key> <bar> <Greek_SIGMA>  : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
+# The *look* double-struck.
+<Multi_key> <bar> <braceleft>	 : "⦃" U2983	# LEFT WHITE CURLY BRACKET
+<Multi_key> <bar> <braceright>	 : "⦄" U2984	# RIGHT WHITE CURLY BRACKET 
+# ⦅⦆⦇⦈⦉⦊ too?
+# The rest of that block?  Some there may be worth it.
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
@@ -432,13 +451,19 @@ include "%L"
 <Multi_key> <y> <g>			: "ȝ"	U021D		# LATIN SMALL LETTER YOGH
 <Multi_key> <Y> <G>			: "Ȝ"	U021C		# LATIN CAPITAL LETTER YOGH
 <Multi_key> <question> <period>		: "ʔ"	U0294		# LATIN LETTER GLOTTAL STOP
-# ɪ? ɚ? ɣ? ɬ? ɮ? ɯ? ʊ? ᴥ?  Important enough to add?
-# ɚ is U025A LATIN SMALL LETTER SCHWA WITH HOOK: rhotacized schwa
-# ɪ is U026A LATIN LETTER SMALL CAPITAL I: semi-high front unrounded vowel
 # ɹ is U0279 LATIN SMALL LETTER TURNED R: voiced alveolar approximant (American English (at least) R)
 # ɾ is U027E LATIN SMALL LETTER R WITH FISHHOOK: voiced alveolar flap or tap (American English intervocalic allophone of d, or Spanish r)
-# then for the English vowels I'd just be missing ʊ (U028A LATIN SMALL LETTER UPSILON)? and ʌ (U028C LATIN SMALL LETTER TURNED V).
+# now for the English vowels I'm just missing ʌ (U028C LATIN SMALL LETTER TURNED V).
 # How about ɸ? φ isn’t the IPA glyph.
+<Multi_key> <i> <h>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
+<Multi_key> <I> <H>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
+<Multi_key> <u> <h>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
+<Multi_key> <U> <H>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
+<Multi_key> <e> <r>			: "ɚ"	U025A		# LATIN SMALL LETTER SCHWA WITH HOOK
+<Multi_key> <o> <parenright>		:"ɔ" 	U0254 		# LATIN SMALL LETTER OPEN O
+<Multi_key> <O> <parenright>		:"Ɔ" 	U0186 		# LATIN CAPITAL LETTER OPEN O
+# ɣ? ɯ? ᴥ?  Important enough to add?  Is Greek epsilon OK for ɛ?
+
 <Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
 # There are all kinds of awesome combining characters in the U+0300 page.
 # However, I don’t know how I would use a lot of them.  x͜͡y?
@@ -452,7 +477,7 @@ include "%L"
 <Multi_key> <numbersign> <numbersign>	: "♯" U266f # MUSIC SHARP SIGN
 <Multi_key> <numbersign> <G>             : "𝄞"  U0001d11e # MUSICAL SYMBOL G CLEF
 <Multi_key> <numbersign> <F>              : "𝄢"  U0001d122 # MUSICAL SYMBOL F CLEF
-<Multi_key> <numbersign> <C>              : "𝄡 U0001d121 # MUSICAL SYMBOL C CLEF
+<Multi_key> <numbersign> <C>              : "𝄡" U0001d121 # MUSICAL SYMBOL C CLEF
 <Multi_key> <numbersign> <o> <slash>	: "♪" U266a	# EIGHTH NOTE
 <Multi_key> <numbersign> <o> <o>	: "♫" U266b	# BEAMED EIGHTH NOTES
 

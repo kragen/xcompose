@@ -1,71 +1,59 @@
-#!/bin/py
+#!/usr/bin/env python
 
 import sys
 import re
 
-class node(dict):
-    name=""
-    parent=None
 
-# Top of tree:
-top=node()
-
-def name2leaf(ending):
-    rv=""
-    p=ending
-    while p is not None:
-        rv=p.name+" "+rv
-        p=p.parent
-    return rv
+listing={}
 
 try:
     while True:
         line=sys.stdin.next()
         # print "((%s))"%line
         startpos=0
-        ptr=top
+        name=''
         dupsfound=[]
-        lastAdded=None
         while True:
             m=re.match("\s*<(\w+)>",line[startpos:])
             if not m:
                 break
             word=m.group(1)
-            # print "found word: %s"%word
-            # Now, there is a prefix conflict if: (a) I am about to add an
-            # element to an otherwise empty (i.e. terminal) directory (a
-            # leaf), or (b) At the end of this element, the dictionary I
-            # end on is *not* empty (i.e. NOT a leaf).  We check (a) here,
-            # and (b) after the loop.
-            #
-            # Waitasec, it's okay if I'm adding to a leaf *if I just added
-            # that leaf*!
-            if not ptr.keys() and ptr!=lastAdded and ptr!=top:
-                dupsfound.append(name2leaf(ptr))
-            try:
-                next=ptr[word]
-            except KeyError:
-                next=node()
-                next.parent=ptr
-                next.name=word
-                lastAdded=next
-                ptr[word]=next
-            ptr=next
+            name+=' '+word
             startpos+=m.end()
-        if startpos!=0:                 # Skip if the line had nothing.
-            if ptr.keys():              # Dup if the end is NOT a leaf.
-                # By rights I should follow each other key all the way
-                # down to all its possible ends.  Too much work.  But
-                # I will go one more down, OK?
-                for other in ptr.keys():
-                    dupsfound.append(name2leaf(ptr[other])+"(+?)")
-                    # The (+?) is because there might be more after that.
-            mystring=name2leaf(ptr)
-            # print "processed: (%s)"%mystring
-            for i in dupsfound:
-                print "Prefix conflict found: (%s) vs (%s)"%(mystring, i)
+        if startpos<=0:
+            continue
+        m=re.match(r'[^"]*"(.+)"',line)
+        if not m:
+            # shouldn't happen, but just in case
+            val='???'
+            print "couldn't make sense of line: "+line
+        else:
+            val=m.group(1)
+        if listing.has_key(name):
+            if val != listing[name]:
+                print "Exact conflict found: (%s )[%s][%s]"%(name, 
+                                                             listing[name], val)
+            else:
+                print "Redundant definition: (%s )[%s]"%(name, val)
+        else:
+            listing[name]=val
 except StopIteration:
     print "hit end"
-    pass
-print "Done."
+# NOW check for prefix conflicts:
+print "Checking prefixes."
+for key in listing.keys():
+    # print "Key: (%s)"%key
+    pref=''
+    # Careful when splitting.  They key always starts with a space.
+    for word in key.split(" ")[:-1]: # chop the last one; that'll always match.
+        # Skip the empty first entry
+        if not word:
+            continue
+        pref+=" "+word
+        # print "checking (%s)"%pref
+        if listing.has_key(pref):
+            print "Prefix conflict found: " \
+                "(%s )[%s] vs (%s )[%s]"%(pref, listing[pref],
+                                          key, listing[key])
+
     
