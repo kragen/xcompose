@@ -456,9 +456,16 @@ include "%L"
 <Multi_key> <u> <h>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
 <Multi_key> <U> <H>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
 <Multi_key> <e> <r>			: "ɚ"	U025A		# LATIN SMALL LETTER SCHWA WITH HOOK
-<Multi_key> <o> <parenright>		:"ɔ" 	U0254 		# LATIN SMALL LETTER OPEN O
-<Multi_key> <O> <parenright>		:"Ɔ" 	U0186 		# LATIN CAPITAL LETTER OPEN O
-# ɣ? ɯ? ᴥ?  Important enough to add?  Is Greek epsilon OK for ɛ?
+<Multi_key> <o> <parenright>		: "ɔ" 	U0254 		# LATIN SMALL LETTER OPEN O
+<Multi_key> <O> <parenright>		: "Ɔ" 	U0186 		# LATIN CAPITAL LETTER OPEN O
+# ɣ? ɯ? ᴥ?  Important enough to add?  Is Greek epsilon OK for ɛ?  Nah.
+# What about ɜɝɑ ?  I should probably bite the bullet and just go to an IPA
+# input method at that point.  We're never going to get the whole IPA in here.
+<Multi_key> <e> <h>   	    	    	: "ɛ"   U025B		# LATIN SMALL LETTER OPEN E
+# How are these keystrokes?
+<Multi_key> <bar> <apostrophe>		: "ˈ"	U02C8		# MODIFIER LETTER VERTICAL LINE
+<Multi_key> <bar> <comma>		: "ˌ"	U02CC		# MODIFIER LETTER LOW VERTICAL LINE
+<Multi_key> <bar> <underscore>		: "̩"	U0329		# COMBINING VERTICAL LINE BELOW
 <Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
 # There are all kinds of awesome combining characters in the U+0300 page.
 # However, I don’t know how I would use a lot of them.  x͜͡y?
