@@ -150,7 +150,9 @@ include "%L"
 <Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
 <Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
+<Multi_key> <ampersand> <t> <h> <e> <r> <e> <f> <o> <r> <e>	   	: "∴"	U2234  		# THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
+<Multi_key> <ampersand> <b> <e> <c> <a> <u> <s> <e>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
 # OK, absolutely cannot believe we made it this long without NABLA or INTEGRAL
 # or PARTIAL DIFFERENTIAL
