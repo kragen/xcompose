@@ -453,6 +453,11 @@ include "%L"
 <Multi_key> <y> <g>			: "ȝ"	U021D		# LATIN SMALL LETTER YOGH
 <Multi_key> <Y> <G>			: "Ȝ"	U021C		# LATIN CAPITAL LETTER YOGH
 <Multi_key> <question> <period>		: "ʔ"	U0294		# LATIN LETTER GLOTTAL STOP
+<Multi_key> <question> <parenleft>	: "ʕ"	U0295		# LATIN LETTER PHARYNGEAL VOICED FRICATIVE
+# Not great keystrokes...
+<Multi_key> <question> <v>		: "ʖ"	U0296		# LATIN LETTER INVERTED GLOTTAL STOP
+<Multi_key> <question> <minus>		: "ʡ"	U02A1		# LATIN LETTER GLOTTAL STOP WITH STROKE
+<Multi_key> <question> <braceleft>	: "ʢ"	U02A2		# LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE
 # How about ɸ? φ isn’t the IPA glyph.
 <Multi_key> <i> <h>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
 <Multi_key> <I> <H>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
