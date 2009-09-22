@@ -443,6 +443,10 @@ include "%L"
 <Multi_key> <asterisk> <numbersign>	:"✯" U272F # PINWHEEL STAR
 <Multi_key> <at> <numbersign>	: "⌘" U2318	# PLACE OF INTEREST SIGN
 <Multi_key> <space> <apostrophe>  : " " U2009  # THIN SPACE
+<Multi_key> <space> <N>		  : " "	U2002  # EN SPACE
+<Multi_key> <space> <M>		  : " " U2003  # EM SPACE
+<Multi_key> <space> <3> <M>	  : " "	U2004  # THREE-PER-EM SPACE
+<Multi_key> <space> <4> <M>	  : " "	U2005  # FOUR-PER-EM SPACE
 <Multi_key> <parenleft> <parenright>: "◌" U25CC # DOTTED CIRCLE
 <Multi_key> <asterisk> <parenleft>      : "﴾"   UFD3E           # ORNATE LEFT PARENTHESIS
 <Multi_key> <asterisk> <parenright>     : "﴿"   UFD3F           # ORNATE RIGHT PARENTHESIS
