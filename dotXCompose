@@ -28,6 +28,7 @@ include "%L"
 <Multi_key> <less> <bar>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
 <Multi_key> <o> <period>		: "•"	U2022		# BULLET
 # By default <Multi_key> <period> <period> does this, but we broke that with the ... binding.
+<Multi_key> <o> <minus>			: "⁃"   U2043		# HYPHEN BULLET
 <Multi_key> <o> <comma>			: "·"	periodcentered	# MIDDLE DOT
 # Already present for me:
 # <Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
