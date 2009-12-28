@@ -44,7 +44,7 @@ print "Checking prefixes."
 for key in listing.keys():
     # print "Key: (%s)"%key
     pref=''
-    # Careful when splitting.  They key always starts with a space.
+    # Careful when splitting.  The key always starts with a space.
     for word in key.split(" ")[:-1]: # chop the last one; that'll always match.
         # Skip the empty first entry
         if not word:
