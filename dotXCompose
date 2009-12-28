@@ -154,6 +154,10 @@ include "%L"
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
+# Ordinal indicators, for femenine and masculine, used in Romance languages
+<Multi_key> <minus> <a>	      	  	: "ª"   U00AA		# FEMININE ORDINAL INDICATOR
+<Multi_key> <minus> <o>			: "º"	U00BA		# MASCULINE ORDINAL INDICATOR
+
 # OK, absolutely cannot believe we made it this long without NABLA or INTEGRAL
 # or PARTIAL DIFFERENTIAL
 <Multi_key> <ampersand> <d> <e> <l>	: "∇"	U2207	        # NABLA
