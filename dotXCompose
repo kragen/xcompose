@@ -192,7 +192,7 @@ include "%L"
 <Multi_key> <bracketright> <equal>      : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
 <Multi_key> <bracketright> <underscore> : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
 # If I did more Haskell, I'd want this more:
-<Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom)
+<Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom) or should we use U27C2 PERPENDICULAR?
 # Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
 <Multi_key> <slash> <slash>		: "⁄"	U2044	# FRACTION SLASH
 
@@ -382,6 +382,7 @@ include "%L"
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
 <Multi_key> <3> <minus>		: "♠" U2660		# BLACK SPADE SUIT
 <Multi_key> <E> <greater>		: "♡" U2661		# WHITE HEART SUIT
+<Multi_key> <ampersand> <s> <h> <a> <m> <r> <o> <c> <k>		: "☘" U2618   # SHAMROCK
 <Multi_key> <ampersand> <p> <c>         : "☮"   U262E           # PEACE SYMBOL
 <Multi_key> <ampersand> <y> <y>		: "☯" U262F		# YIN YANG
 # For some reason, I don't really like these word-based mnemonics.  But until we have something better... -clsn
@@ -405,6 +406,7 @@ include "%L"
 <Multi_key> <ampersand> <z> <a> <p>	  		: "⚡"	U26A1		# HIGH VOLTAGE SIGN 
 <Multi_key> <ampersand> <r> <a>		: "☢"	U2622		# RADIOACTIVE SIGN
 <Multi_key> <ampersand> <b> <h>		: "☣"	U2623		# BIOHAZARD SIGN
+<Multi_key> <ampersand> <A> <A> <A> <A> <A>	:	"⚝" U269D # OUTLINED WHITE STAR (pentalpha, get it?)
 # 26B0 COFFIN ?
 # One of the SNOWFLAKEs?
 # SNOWMAN? COMET? ANCHOR? WHEELCHAIR SYMBOL?
