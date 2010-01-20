@@ -152,6 +152,7 @@ include "%L"
 <Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
 <Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
+# This one doesn't seem to work.  Too long?
 <Multi_key> <ampersand> <t> <h> <e> <r> <e> <f> <o> <r> <e>	   	: "∴"	U2234  		# THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <ampersand> <b> <e> <c> <a> <u> <s> <e>	   	: "∵"	U2235  		# BECAUSE
@@ -190,6 +191,9 @@ include "%L"
 <Multi_key> <bar> <braceright>	 : "⦄" U2984	# RIGHT WHITE CURLY BRACKET 
 # ⦅⦆⦇⦈⦉⦊ too?
 # The rest of that block?  Some there may be worth it.
+# Ooh.  There are lots of nice brackets to consider: 
+# ⟅⟆⟨⟩⟪⟫⟬⟭⟮⟯⦑⦒⦓⦔⦕⦖⦗⦘⧼⧽⧘⧙⧚⧛⸢⸣⸤⸥⸨⸩「」『』
+# Others too, of course, but these to start with.  Some are likely worthy.
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
@@ -555,12 +559,16 @@ include "%L"
 <Multi_key> <Z> <W> <J>			: "‍"	U200D	# ZERO WIDTH JOINER
 <Multi_key> <L> <R> <M>			: "‎"	U200E	# LEFT-TO-RIGHT MARK
 <Multi_key> <R> <L> <M>			: "‏"	U200F	# RIGHT-TO-LEFT MARK
-# I never understood the whole embedding/pop thing, so I'm leaving those out
-# for now.
+# I never understood the whole embedding/pop thing, but we might as well add 'em
+<Multi_key> <L> <R> <E>			: "‪"	U202A	# LEFT-TO-RIGHT EMBEDDING
+<Multi_key> <R> <L> <E>			: "‫"	U202B	# RIGHT-TO-LEFT EMBEDDING
+<Multi_key> <P> <D> <F>			: "‬"	U202C	# POP DIRECTIONAL FORMATTING
 <Multi_key> <L> <R> <O>			: "‭"	U202D	# LEFT-TO-RIGHT OVERRIDE
 <Multi_key> <R> <L> <O>			: "‮"	U202E	# RIGHT-TO-LEFT OVERRIDE
 <Multi_key> <B> <O> <M>			: "﻿"	UFEFF	# ZERO WIDTH NO-BREAK SPACE (Byte Order Mark)
-
+<Multi_key> <C> <G> <J>			: "͏"	U034F	# COMBINING GRAPHEME JOINER
+# These are sufficiently special and well-known that they don't need the
+# ampersand prefix I think.  The all-caps helps too.
 
 # See also http://bleah.co.uk/~simon/stuff/XCompose
 # and http://dotfiles.org/~inky/.XCompose
