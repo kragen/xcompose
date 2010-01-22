@@ -133,9 +133,11 @@ include "%L"
 <Multi_key> <braceleft> <U>		: "∪"	U222A		# UNION
 <Multi_key> <braceleft> <asciicircum>	: "∩"	U2229		# INTERSECTION
 <Multi_key> <braceleft> <parenleft>	: "⊂"	U2282		# SUBSET OF
+<Multi_key> <braceleft> <equal> <parenleft> : "⊆" U2286		# SUBSET OF OR EQUAL TO
 <Multi_key> <exclam> <braceleft> <parenleft> : "⊄" U2284        # NOT A SUBSET OF
 <Multi_key> <slash> <braceleft> <parenleft>  : "⊄" U2284        # NOT A SUBSET OF
 <Multi_key> <braceleft>	<parenright>	: "⊃"	U2283		# SUPERSET OF
+<Multi_key> <braceleft> <equal> <parenright> : "⊇" U2287	# SUPERSET OF OR EQUAL TO
 <Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
 # We can't use ! E E, because ! E maps to E-WITH-UNDERDOT.
 <Multi_key> <slash> <E> <E>             : "∄"   U2204           # THERE DOES NOT EXIST
@@ -404,8 +406,11 @@ include "%L"
 # 2668 HOT SPRINGS (for chat, for running off to shower?)
 # 2624 CADEUCEUS
 # 2611 BALLOT BOX WITH CHECK, or some other checkmark
+# Or would 2713/2717 be better?
+<Multi_key> <bracketleft> <space> <bracketright> :	"☐"	U2610	# BALLOT BOX
 # Better keystrokes anyone?
 <Multi_key> <ampersand> <c> <h> <k>	      :	 "☑"  U2611		# BALLOT BOX WITH CHECK
+<Multi_key> <bracketleft> <x> <bracketright>  :	 "☒"  U2612		# BALLOT BOX WITH X
 # 267B BLACK UNIVERSAL RECYCLING SYMBOL
 
 # 269C FLEUR-DE-LIS  (maybe <f><d><l> would be okay)
