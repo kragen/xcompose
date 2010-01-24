@@ -154,8 +154,6 @@ include "%L"
 <Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
 <Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
-# This one doesn't seem to work.  Too long?
-<Multi_key> <ampersand> <t> <h> <e> <r> <e> <f> <o> <r> <e>	   	: "∴"	U2234  		# THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <ampersand> <b> <e> <c> <a> <u> <s> <e>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
@@ -394,7 +392,8 @@ include "%L"
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
 <Multi_key> <3> <minus>		: "♠" U2660		# BLACK SPADE SUIT
 <Multi_key> <E> <greater>		: "♡" U2661		# WHITE HEART SUIT
-<Multi_key> <ampersand> <s> <h> <a> <m> <r> <o> <c> <k>		: "☘" U2618   # SHAMROCK
+# "shamrock" is too long; there IS a limit to these!
+<Multi_key> <ampersand> <s> <h> <m> <r> <c> <k>		: "☘" U2618   # SHAMROCK
 <Multi_key> <ampersand> <p> <c>         : "☮"   U262E           # PEACE SYMBOL
 <Multi_key> <ampersand> <y> <y>		: "☯" U262F		# YIN YANG
 # For some reason, I don't really like these word-based mnemonics.  But until we have something better... -clsn
@@ -411,9 +410,17 @@ include "%L"
 # Better keystrokes anyone?
 <Multi_key> <ampersand> <c> <h> <k>	      :	 "☑"  U2611		# BALLOT BOX WITH CHECK
 <Multi_key> <bracketleft> <x> <bracketright>  :	 "☒"  U2612		# BALLOT BOX WITH X
+# How about dice?
+<Multi_key> <bracketleft> <1> <bracketright>  :  "⚀"  U2680	# DIE FACE-1
+<Multi_key> <bracketleft> <2> <bracketright>  :  "⚁"  U2681	# DIE FACE-2
+<Multi_key> <bracketleft> <3> <bracketright>  :  "⚂"  U2682	# DIE FACE-3
+<Multi_key> <bracketleft> <4> <bracketright>  :  "⚃"  U2683	# DIE FACE-4
+<Multi_key> <bracketleft> <5> <bracketright>  :  "⚄"  U2684	# DIE FACE-5
+<Multi_key> <bracketleft> <6> <bracketright>  :  "⚅"  U2685	# DIE FACE-6
 # 267B BLACK UNIVERSAL RECYCLING SYMBOL
 
-# 269C FLEUR-DE-LIS  (maybe <f><d><l> would be okay)
+# Keystrokes okay?
+<Multi_key> <ampersand> <f> <d> <l>   	        : "⚜"	U269C	  # FLEUR-DE-LIS
 <Multi_key> <ampersand> <a> <t> <o> <m>	        : "⚛"	U269B		# ATOM SYMBOL
 <Multi_key> <ampersand> <c> <c> <c> <p>		: "☭" 	U262D		# HAMMER AND SICKLE
 <Multi_key> <slash> <exclam> <backslash> : "⚠"  U26A0           # WARNING SIGN
@@ -422,6 +429,8 @@ include "%L"
 <Multi_key> <ampersand> <r> <a>		: "☢"	U2622		# RADIOACTIVE SIGN
 <Multi_key> <ampersand> <b> <h>		: "☣"	U2623		# BIOHAZARD SIGN
 <Multi_key> <ampersand> <A> <A> <A> <A> <A>	:	"⚝" U269D # OUTLINED WHITE STAR (pentalpha, get it?)
+<Multi_key> <ampersand> <p> <l> <a> <n> <e>	: "✈"   U2708	  # AIRPLANE
+<Multi_key> <ampersand> <m> <a> <i> <l>		: "✉"	U2709	  # ENVELOPE
 # 26B0 COFFIN ?
 # One of the SNOWFLAKEs?
 # SNOWMAN? COMET? ANCHOR? WHEELCHAIR SYMBOL?
@@ -437,7 +446,7 @@ include "%L"
 #
 # I already have STAR OF DAVID on another map.
 # 2B1A DOTTED SQUARE  -- and/or some other hollow square/rectangle?
-# 231A, 231B -- WATCH and HOURGLASS
+# 231A, 231B -- WATCH and HOURGLASS -- one should be &-w-a-i-t
 # 2328 KEYBOARD?
 # 23D4 METRICAL LONG OVER TWO SHORTS a.k.a. METRICAL BOOBS
 # 0950 DEVANAGARI OM?
