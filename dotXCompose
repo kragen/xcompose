@@ -10,9 +10,11 @@ include "%L"
 # for num, word in zip(range(1, 21), words):
 #     emit(' '.join("<%s>" % char for char in str(num)), 0x245f + num, word)
 
-# michi's:
 # Custom additions: Typography
 <Multi_key> <period> <period> <period>	: "…"	U2026		# HORIZONTAL ELLIPSIS
+<Multi_key> <v> <period> <period>	: "⋮"	U22EE		# VERTICAL ELLIPSIS
+<Multi_key> <c> <period> <period>	: "⋯"	U22EF		# MIDLINE HORIZONTAL ELLIPSIS
+<Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
 # These two are already present for me:
 # <Multi_key> <minus> <minus> <minus>	: "—"	U2014		# EM DASH
 # <Multi_key> <minus> <minus> <period>	: "–"	U2013		# EN DASH
@@ -90,6 +92,13 @@ include "%L"
 <Multi_key> <S> <S> 		: "ẞ"  U1E9E	   # LATIN CAPITAL LETTER SHARP S
 # Eventually we'll have to look over the really crazy-cakes Latin letters 
 # they're adding as "mediævalist extensions"
+# ꜢꜣꜤꜥ for the Egyptologists, Ꝏꝏ because they're cꝏl...  Maybe some others.
+# Epigraphics should not be missed:
+<Multi_key> <F> <less>		: "ꟻ"	UA7FB	# LATIN EPIGRAPHIC LETTER REVERSED F
+<Multi_key> <P> <less>		: "ꟼ"	UA7FC	# LATIN EPIGRAPHIC LETTER REVERSED P
+<Multi_key> <M> <W>		: "ꟽ"	UA7FD	# LATIN EPIGRAPHIC LETTER INVERTED M
+<Multi_key> <I> <bar>		: "ꟾ"	UA7FE	# LATIN EPIGRAPHIC LETTER I LONGA
+<Multi_key> <M> <slash>		: "ꟿ"	UA7FF	# LATIN EPIGRAPHIC LETTER ARCHAIC M
 
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
@@ -194,6 +203,8 @@ include "%L"
 # Ooh.  There are lots of nice brackets to consider: 
 # ⟅⟆⟨⟩⟪⟫⟬⟭⟮⟯⦑⦒⦓⦔⦕⦖⦗⦘⧼⧽⧘⧙⧚⧛⸢⸣⸤⸥⸨⸩「」『』
 # Others too, of course, but these to start with.  Some are likely worthy.
+<Multi_key> <S> <parenleft>  	: "⟅" U27C5 	# LEFT S-SHAPED BAG DELIMITER
+<Multi_key> <S> <parenright>	: "⟆" U27C6 	# RIGHT S-SHAPED BAG DELIMITER
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
