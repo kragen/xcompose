@@ -10,9 +10,11 @@ include "%L"
 # for num, word in zip(range(1, 21), words):
 #     emit(' '.join("<%s>" % char for char in str(num)), 0x245f + num, word)
 
-# michi's:
 # Custom additions: Typography
 <Multi_key> <period> <period> <period>	: "…"	U2026		# HORIZONTAL ELLIPSIS
+<Multi_key> <v> <period> <period>	: "⋮"	U22EE		# VERTICAL ELLIPSIS
+<Multi_key> <c> <period> <period>	: "⋯"	U22EF		# MIDLINE HORIZONTAL ELLIPSIS
+<Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
 # These two are already present for me:
 # <Multi_key> <minus> <minus> <minus>	: "—"	U2014		# EM DASH
 # <Multi_key> <minus> <minus> <period>	: "–"	U2013		# EN DASH
@@ -91,6 +93,13 @@ include "%L"
 <Multi_key> <S> <S> 		: "ẞ"  U1E9E	   # LATIN CAPITAL LETTER SHARP S
 # Eventually we'll have to look over the really crazy-cakes Latin letters 
 # they're adding as "mediævalist extensions"
+# ꜢꜣꜤꜥ for the Egyptologists, Ꝏꝏ because they're cꝏl...  Maybe some others.
+# Epigraphics should not be missed:
+<Multi_key> <F> <less>		: "ꟻ"	UA7FB	# LATIN EPIGRAPHIC LETTER REVERSED F
+<Multi_key> <P> <less>		: "ꟼ"	UA7FC	# LATIN EPIGRAPHIC LETTER REVERSED P
+<Multi_key> <M> <W>		: "ꟽ"	UA7FD	# LATIN EPIGRAPHIC LETTER INVERTED M
+<Multi_key> <I> <bar>		: "ꟾ"	UA7FE	# LATIN EPIGRAPHIC LETTER I LONGA
+<Multi_key> <M> <slash>		: "ꟿ"	UA7FF	# LATIN EPIGRAPHIC LETTER ARCHAIC M
 
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
@@ -134,7 +143,11 @@ include "%L"
 <Multi_key> <braceleft> <U>		: "∪"	U222A		# UNION
 <Multi_key> <braceleft> <asciicircum>	: "∩"	U2229		# INTERSECTION
 <Multi_key> <braceleft> <parenleft>	: "⊂"	U2282		# SUBSET OF
+<Multi_key> <braceleft> <equal> <parenleft> : "⊆" U2286		# SUBSET OF OR EQUAL TO
+<Multi_key> <exclam> <braceleft> <parenleft> : "⊄" U2284        # NOT A SUBSET OF
+<Multi_key> <slash> <braceleft> <parenleft>  : "⊄" U2284        # NOT A SUBSET OF
 <Multi_key> <braceleft>	<parenright>	: "⊃"	U2283		# SUPERSET OF
+<Multi_key> <braceleft> <equal> <parenright> : "⊇" U2287	# SUPERSET OF OR EQUAL TO
 <Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
 # We can't use ! E E, because ! E maps to E-WITH-UNDERDOT.
 <Multi_key> <slash> <E> <E>             : "∄"   U2204           # THERE DOES NOT EXIST
@@ -151,7 +164,6 @@ include "%L"
 <Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
 <Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
-<Multi_key> <ampersand> <t> <h> <e> <r> <e> <f> <o> <r> <e>	   	: "∴"	U2234  		# THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <ampersand> <b> <e> <c> <a> <u> <s> <e>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
@@ -189,6 +201,11 @@ include "%L"
 <Multi_key> <bar> <braceright>	 : "⦄" U2984	# RIGHT WHITE CURLY BRACKET 
 # ⦅⦆⦇⦈⦉⦊ too?
 # The rest of that block?  Some there may be worth it.
+# Ooh.  There are lots of nice brackets to consider: 
+# ⟅⟆⟨⟩⟪⟫⟬⟭⟮⟯⦑⦒⦓⦔⦕⦖⦗⦘⧼⧽⧘⧙⧚⧛⸢⸣⸤⸥⸨⸩「」『』
+# Others too, of course, but these to start with.  Some are likely worthy.
+<Multi_key> <S> <parenleft>  	: "⟅" U27C5 	# LEFT S-SHAPED BAG DELIMITER
+<Multi_key> <S> <parenright>	: "⟆" U27C6 	# RIGHT S-SHAPED BAG DELIMITER
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
@@ -197,7 +214,7 @@ include "%L"
 <Multi_key> <bracketright> <equal>      : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
 <Multi_key> <bracketright> <underscore> : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
 # If I did more Haskell, I'd want this more:
-<Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom)
+<Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom) or should we use U27C2 PERPENDICULAR?
 # Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
 <Multi_key> <slash> <slash>		: "⁄"	U2044	# FRACTION SLASH
 
@@ -387,6 +404,8 @@ include "%L"
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
 <Multi_key> <3> <minus>		: "♠" U2660		# BLACK SPADE SUIT
 <Multi_key> <E> <greater>		: "♡" U2661		# WHITE HEART SUIT
+# "shamrock" is too long; there IS a limit to these!
+<Multi_key> <ampersand> <s> <h> <m> <r> <c> <k>		: "☘" U2618   # SHAMROCK
 <Multi_key> <ampersand> <p> <c>         : "☮"   U262E           # PEACE SYMBOL
 <Multi_key> <ampersand> <y> <y>		: "☯" U262F		# YIN YANG
 # For some reason, I don't really like these word-based mnemonics.  But until we have something better... -clsn
@@ -398,11 +417,22 @@ include "%L"
 # 2668 HOT SPRINGS (for chat, for running off to shower?)
 # 2624 CADEUCEUS
 # 2611 BALLOT BOX WITH CHECK, or some other checkmark
+# Or would 2713/2717 be better?
+<Multi_key> <bracketleft> <space> <bracketright> :	"☐"	U2610	# BALLOT BOX
 # Better keystrokes anyone?
 <Multi_key> <ampersand> <c> <h> <k>	      :	 "☑"  U2611		# BALLOT BOX WITH CHECK
+<Multi_key> <bracketleft> <x> <bracketright>  :	 "☒"  U2612		# BALLOT BOX WITH X
+# How about dice?
+<Multi_key> <bracketleft> <1> <bracketright>  :  "⚀"  U2680	# DIE FACE-1
+<Multi_key> <bracketleft> <2> <bracketright>  :  "⚁"  U2681	# DIE FACE-2
+<Multi_key> <bracketleft> <3> <bracketright>  :  "⚂"  U2682	# DIE FACE-3
+<Multi_key> <bracketleft> <4> <bracketright>  :  "⚃"  U2683	# DIE FACE-4
+<Multi_key> <bracketleft> <5> <bracketright>  :  "⚄"  U2684	# DIE FACE-5
+<Multi_key> <bracketleft> <6> <bracketright>  :  "⚅"  U2685	# DIE FACE-6
 # 267B BLACK UNIVERSAL RECYCLING SYMBOL
 
-# 269C FLEUR-DE-LIS  (maybe <f><d><l> would be okay)
+# Keystrokes okay?
+<Multi_key> <ampersand> <f> <d> <l>   	        : "⚜"	U269C	  # FLEUR-DE-LIS
 <Multi_key> <ampersand> <a> <t> <o> <m>	        : "⚛"	U269B		# ATOM SYMBOL
 <Multi_key> <ampersand> <c> <c> <c> <p>		: "☭" 	U262D		# HAMMER AND SICKLE
 <Multi_key> <slash> <exclam> <backslash> : "⚠"  U26A0           # WARNING SIGN
@@ -410,6 +440,9 @@ include "%L"
 <Multi_key> <ampersand> <z> <a> <p>	  		: "⚡"	U26A1		# HIGH VOLTAGE SIGN 
 <Multi_key> <ampersand> <r> <a>		: "☢"	U2622		# RADIOACTIVE SIGN
 <Multi_key> <ampersand> <b> <h>		: "☣"	U2623		# BIOHAZARD SIGN
+<Multi_key> <ampersand> <A> <A> <A> <A> <A>	:	"⚝" U269D # OUTLINED WHITE STAR (pentalpha, get it?)
+<Multi_key> <ampersand> <p> <l> <a> <n> <e>	: "✈"   U2708	  # AIRPLANE
+<Multi_key> <ampersand> <m> <a> <i> <l>		: "✉"	U2709	  # ENVELOPE
 # 26B0 COFFIN ?
 # One of the SNOWFLAKEs?
 # SNOWMAN? COMET? ANCHOR? WHEELCHAIR SYMBOL?
@@ -425,7 +458,7 @@ include "%L"
 #
 # I already have STAR OF DAVID on another map.
 # 2B1A DOTTED SQUARE  -- and/or some other hollow square/rectangle?
-# 231A, 231B -- WATCH and HOURGLASS
+# 231A, 231B -- WATCH and HOURGLASS -- one should be &-w-a-i-t
 # 2328 KEYBOARD?
 # 23D4 METRICAL LONG OVER TWO SHORTS a.k.a. METRICAL BOOBS
 # 0950 DEVANAGARI OM?
@@ -449,6 +482,7 @@ include "%L"
 <Multi_key> <space> <3> <M>	  : " "	U2004  # THREE-PER-EM SPACE
 <Multi_key> <space> <4> <M>	  : " "	U2005  # FOUR-PER-EM SPACE
 <Multi_key> <parenleft> <parenright>: "◌" U25CC # DOTTED CIRCLE
+<Multi_key> <bracketleft> <bracketright>: "⬚" U2B1A # DOTTED SQUARE
 <Multi_key> <asterisk> <parenleft>      : "﴾"   UFD3E           # ORNATE LEFT PARENTHESIS
 <Multi_key> <asterisk> <parenright>     : "﴿"   UFD3F           # ORNATE RIGHT PARENTHESIS
 <Multi_key> <k> <s>                     : "ʘ"   U0298           # LATIN LETTER BILABIAL CLICK (kiss sound)
@@ -483,6 +517,7 @@ include "%L"
 <Multi_key> <r> <r>                     : "ɹ"   U0279           # LATIN SMALL LETTER TURNED R: voiced alveolar approximant (American English (at least) R)
 <Multi_key> <r> <d>                     : "ɾ"   U027E           # LATIN SMALL LETTER R WITH FISHHOOK: voiced alveolar flap or tap (American English intervocalic allophone of d, or Spanish r)
 <Multi_key> <v> <v>                     : "ʌ"   U028C           # LATIN SMALL LETTER TURNED V
+<Multi_key> <u> <i>			: "ɯ"	U026F		# LATIN SMALL LETTER TURNED M
 # ɣ? ɯ? ᴥ?  Important enough to add?  Is Greek epsilon OK for ɛ? (I think so.)
 # What about ɜɝɑ ?  I should probably bite the bullet and just go to an IPA
 # input method at that point.  We're never going to get the whole IPA in here.
@@ -550,12 +585,16 @@ include "%L"
 <Multi_key> <Z> <W> <J>			: "‍"	U200D	# ZERO WIDTH JOINER
 <Multi_key> <L> <R> <M>			: "‎"	U200E	# LEFT-TO-RIGHT MARK
 <Multi_key> <R> <L> <M>			: "‏"	U200F	# RIGHT-TO-LEFT MARK
-# I never understood the whole embedding/pop thing, so I'm leaving those out
-# for now.
+# I never understood the whole embedding/pop thing, but we might as well add 'em
+<Multi_key> <L> <R> <E>			: "‪"	U202A	# LEFT-TO-RIGHT EMBEDDING
+<Multi_key> <R> <L> <E>			: "‫"	U202B	# RIGHT-TO-LEFT EMBEDDING
+<Multi_key> <P> <D> <F>			: "‬"	U202C	# POP DIRECTIONAL FORMATTING
 <Multi_key> <L> <R> <O>			: "‭"	U202D	# LEFT-TO-RIGHT OVERRIDE
 <Multi_key> <R> <L> <O>			: "‮"	U202E	# RIGHT-TO-LEFT OVERRIDE
 <Multi_key> <B> <O> <M>			: "﻿"	UFEFF	# ZERO WIDTH NO-BREAK SPACE (Byte Order Mark)
-
+<Multi_key> <C> <G> <J>			: "͏"	U034F	# COMBINING GRAPHEME JOINER
+# These are sufficiently special and well-known that they don't need the
+# ampersand prefix I think.  The all-caps helps too.
 
 # See also http://bleah.co.uk/~simon/stuff/XCompose
 # and http://dotfiles.org/~inky/.XCompose
