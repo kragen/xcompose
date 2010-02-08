@@ -100,6 +100,9 @@ include "%L"
 <Multi_key> <M> <W>		: "ꟽ"	UA7FD	# LATIN EPIGRAPHIC LETTER INVERTED M
 <Multi_key> <I> <bar>		: "ꟾ"	UA7FE	# LATIN EPIGRAPHIC LETTER I LONGA
 <Multi_key> <M> <slash>		: "ꟿ"	UA7FF	# LATIN EPIGRAPHIC LETTER ARCHAIC M
+# These seem too long as keystrokes; any suggestions?
+<Multi_key> <o> <ampersand> <o>	: "ꝏ"	UA74F	# LATIN SMALL LETTER OO
+<Multi_key> <O> <ampersand> <O> : "Ꝏ"	UA74E	# LATIN CAPITAL LETTER OO
 
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
