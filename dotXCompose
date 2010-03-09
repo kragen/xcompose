@@ -421,14 +421,19 @@ include "%L"
 # These last two bother me less, though they can still be improved.
 # Other possibly useful symbols:
 # 2668 HOT SPRINGS (for chat, for running off to shower?)
-# 2624 CADEUCEUS
-# 2611 BALLOT BOX WITH CHECK, or some other checkmark
-# Or would 2713/2717 be better?
+# I want 2713-2714 and 2717-2718
 # We need a Dingbats prefix, for ❛❜❝❞❢
 <Multi_key> <bracketleft> <space> <bracketright> :	"☐"	U2610	# BALLOT BOX
-# Better keystrokes anyone?
+# Better keystrokes anyone?  This one breaks the pattern. [c]? [v]? [y]? [/]?
 <Multi_key> <ampersand> <c> <h> <k>	      :	 "☑"  U2611		# BALLOT BOX WITH CHECK
+<Multi_key> <bracketleft> <slash> <bracketright>     :	 "☑"  U2611		# BALLOT BOX WITH CHECK
 <Multi_key> <bracketleft> <x> <bracketright>  :	 "☒"  U2612		# BALLOT BOX WITH X
+# @ for dingbats?
+<Multi_key> <at> <slash>	:	"✓"	U2713	# CHECK MARK
+<Multi_key> <at> <at> <slash>	:	"✔"	U2714	# HEAVY CHECK MARK
+<Multi_key> <at> <Xּ>  		:	"✗"	U2717	# BALLOT X
+<Multi_key> <at> <at> <X>	:	"✘"	U2718	# HEAVY BALLOT X
+# Will I want <at> <at> for something else?
 # How about dice?
 <Multi_key> <bracketleft> <1> <bracketright>  :  "⚀"  U2680	# DIE FACE-1
 <Multi_key> <bracketleft> <2> <bracketright>  :  "⚁"  U2681	# DIE FACE-2
@@ -452,9 +457,14 @@ include "%L"
 <Multi_key> <ampersand> <A> <A> <A> <A> <A>	:	"⚝" U269D # OUTLINED WHITE STAR (pentalpha, get it?)
 <Multi_key> <ampersand> <p> <l> <a> <n> <e>	: "✈"   U2708	  # AIRPLANE
 <Multi_key> <ampersand> <m> <a> <i> <l>		: "✉"	U2709	  # ENVELOPE
+<Multi_key> <ampersand> <w> <h> <l> <c> <h>	: "♿"	U267F	  # WHEELCHAIR SYMBOL
+<Multi_key> <ampersand> <m> <e> <d> 		: "☤"	U2624	  # CADEUCEUS
+# Something different for STAFF OF AESCULAPIUS?
+<Multi_key> <ampersand> <1> <m> <e> <d>		: "⚕"	U2695	# STAFF OF AESCULAPIUS
+# Maybe something different that isn't lousy.
 # 26B0 COFFIN ?
 # One of the SNOWFLAKEs?
-# SNOWMAN? COMET? ANCHOR? WHEELCHAIR SYMBOL?
+# SNOWMAN? COMET? ANCHOR?
 # Maybe if we go with having a "word" symbol and spelling out lots and 
 # lots of whole words, we can have all the planets.
 #    "Word Symbol" Notion:
@@ -466,9 +476,7 @@ include "%L"
 #    I think so. -Kragen
 #
 # I already have STAR OF DAVID on another map.
-# 2B1A DOTTED SQUARE  -- and/or some other hollow square/rectangle?
 # 231A, 231B -- WATCH and HOURGLASS -- one should be &-w-a-i-t
-# 2328 KEYBOARD?
 # 23D4 METRICAL LONG OVER TWO SHORTS a.k.a. METRICAL BOOBS
 # 0950 DEVANAGARI OM?
 # 214C PER SIGN?
@@ -477,9 +485,13 @@ include "%L"
 <Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
 <Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
 <Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
+<Multi_key> <ampersand> <s> <k> <u> <l> <l>:	  "☠" U2620 # SKULL AND CROSSBONES
+<Multi_key> <ampersand> <k> <b> <d> :	"⌨"	  U2328	    # KEYBOARD
 # Can we get better keycodes for these?
 <Multi_key> <equal> <minus>	: "☞" U261E # WHITE RIGHT POINTING INDEX
+<Multi_key> <ampersand> <r> <h> <a> <n> <d>	: "☞" U261E # WHITE RIGHT POINTING INDEX
 <Multi_key> <minus> <equal>	: "☜" U261C # WHITE LEFT POINTING INDEX
+<Multi_key> <ampersand> <l> <h> <a> <n> <d>	: "☜" U261C # WHITE LEFT POINTING INDEX
 <Multi_key> <asterisk> <asterisk>	:"★" U2605 # BLACK STAR
 <Multi_key> <asterisk> <0>	:"☆" U2606 # WHITE STAR
 <Multi_key> <asterisk> <3>	:"⁂" U2042 # ASTERISM
