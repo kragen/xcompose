@@ -431,7 +431,7 @@ include "%L"
 # @ for dingbats?
 <Multi_key> <at> <slash>	:	"✓"	U2713	# CHECK MARK
 <Multi_key> <at> <at> <slash>	:	"✔"	U2714	# HEAVY CHECK MARK
-<Multi_key> <at> <Xּ>  		:	"✗"	U2717	# BALLOT X
+<Multi_key> <at> <X>  		:	"✗"	U2717	# BALLOT X
 <Multi_key> <at> <at> <X>	:	"✘"	U2718	# HEAVY BALLOT X
 # Will I want <at> <at> for something else?
 # How about dice?
