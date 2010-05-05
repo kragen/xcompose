@@ -501,6 +501,8 @@ include "%L"
 # 0950 DEVANAGARI OM?
 # 214C PER SIGN?
 # 212E ESTIMATED SYMBOL?
+# 2324 UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS a.k.a. NOT AMUSED
+# 237E BELL SYMBOL a.k.a. ALIENS LANDING
 
 <Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
 <Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
@@ -521,6 +523,12 @@ include "%L"
 <Multi_key> <asterisk> <numbersign>	:"✯" U272F # PINWHEEL STAR
 <Multi_key> <asterisk> <exclam>	:"✱" U2731 # HEAVY ASTERISK
 <Multi_key> <at> <numbersign>	: "⌘" U2318	# PLACE OF INTEREST SIGN
+<Multi_key> <ampersand> <b> <e> <l> <l>		: "⍾" U237E  # BELL SYMBOL (or ALIENS LANDING) -- &-a-l-i-e-n ?
+# Can't use -^- for this; conflicts with -^ for ↑, and getting those arrows
+# workable was complicated enough.  How about this?
+<Multi_key> <underscore> <asciicircum> <underscore>	: "⌤" U2324  # UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS; aka ENTER KEY, aka NOT AMUSED.
+<Multi_key> <ampersand> <w> <a> <i> <t>		: "⌛" U231B   # HOURGLASS
+<Multi_key> <ampersand> <t> <i> <m> <e>		: "⌚" U231A   # WATCH
 <Multi_key> <space> <apostrophe>  : " " U2009  # THIN SPACE
 <Multi_key> <space> <N>		  : " "	U2002  # EN SPACE
 <Multi_key> <space> <M>		  : " " U2003  # EM SPACE
