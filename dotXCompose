@@ -30,7 +30,7 @@ include "%L"
 <Multi_key> <less> <bar>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
 <Multi_key> <o> <period>		: "•"	U2022		# BULLET
 # By default <Multi_key> <period> <period> does this, but we broke that with the ... binding.
-<Multi_key> <o> <minus>			: "⁃"   U2043		# HYPHEN BULLET
+<Multi_key> <o> <underscore>		: "⁃"   U2043		# HYPHEN BULLET
 <Multi_key> <o> <comma>			: "·"	periodcentered	# MIDDLE DOT
 # Already present for me:
 # <Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
@@ -516,7 +516,7 @@ include "%L"
 <Multi_key> <ampersand> <l> <h> <a> <n> <d>	: "☜" U261C # WHITE LEFT POINTING INDEX
 <Multi_key> <asterisk> <asterisk>	:"★" U2605 # BLACK STAR
 <Multi_key> <asterisk> <0>	:"☆" U2606 # WHITE STAR
-<Multi_key> <asterisk> <O>	:"✪" U272A # CIRCLED WHITE STAR
+<Multi_key> <asterisk> <minus>	:"✪" U272A # CIRCLED WHITE STAR
 <Multi_key> <asterisk> <3>	:"⁂" U2042 # ASTERISM
 <Multi_key> <asterisk> <4>      :"✢"  U2722  # FOUR TEARDROP-SPOKED ASTERISK
 <Multi_key> <asterisk> <6>	:"✡" U2721 # STAR OF DAVID
@@ -607,7 +607,7 @@ include "%L"
 <Multi_key> <backslash> <backslash> <apostrophe>	: "̋"	U030b	# COMBINING DOUBLE ACUTE ACCENT -- ??
 <Multi_key> <backslash> <c>		: "̌"	U030c	# COMBINING CARON
 # These two conflict!!
-<Multi_key> <backslash> <bar>		: "̍"	U030d	# COMBINING VERTICAL LINE ABOVE
+<Multi_key> <backslash> <bar> <period>	: "̍"	U030d	# COMBINING VERTICAL LINE ABOVE
 <Multi_key> <backslash> <bar> <bar>	: "̎"	U030e	# COMBINING DOUBLE VERTICAL LINE ABOVE
 <Multi_key> <backslash> <backslash> <grave>	: "̏"	U030f	# COMBINING DOUBLE GRAVE ACCENT
 <Multi_key> <backslash> <f> <m>                 : "͒"   U0352   # COMBINING FERMATA
