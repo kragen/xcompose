@@ -551,6 +551,9 @@ include "%L"
 # What about ɜɝɑ ?  I should probably bite the bullet and just go to an IPA
 # input method at that point.  We're never going to get the whole IPA in here.
 <Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
+<Multi_key> <R> <x>			: "℞"	U211E		# PRESCRIPTION TAKE
+<Multi_key> <o> <z> <period>		: "℥"	U2125		# OUNCE SIGN
+<Multi_key> <s> <c> <r> <period>	: "℈"	U2108		# SCRUPLE
 # There are all kinds of awesome combining characters in the U+0300 page.
 # However, I don’t know how I would use a lot of them.  x͜͡y?
 # There are a bunch of other awesome combining characters like U+20E0
