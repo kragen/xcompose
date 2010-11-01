@@ -227,7 +227,11 @@ include "%L"
 <Multi_key> <underscore> <o>	       :  "ₒ"  U2092	  # LATIN SUBSCRIPT SMALL LETTER O
 <Multi_key> <underscore> <x>	       :  "ₓ"  U2093	  # LATIN SUBSCRIPT SMALL LETTER X
 <Multi_key> <underscore> <j>	       :  "ⱼ"  U2C7C	  # LATIN SUBSCRIPT SMALL LETTER J
-# I can't believe there's no subscript N!
+# Awaiting common font support for these...
+<Multi_key> <underscore> <k>           :  "ₖ"  U2096	  # LATIN SUBSCRIPT SMALL LETTER K
+<Multi_key> <underscore> <m>	       :  "ₘ"  U2098	  # LATIN SUBSCRIPT SMALL LETTER M
+<Multi_key> <underscore> <n>	       :  "ₙ"  U2099	  # LATIN SUBSCRIPT SMALL LETTER N
+
 
 # Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
 # input method.  Aristotle Pagaltzis informs me that this is the
@@ -633,3 +637,92 @@ include "%L"
 # See also http://bleah.co.uk/~simon/stuff/XCompose
 # and http://dotfiles.org/~inky/.XCompose
 # and http://paste.lisp.org/display/73094
+
+<Multi_key> <ampersand> <s> <u> <n>	: "☉"	U2609	# SUN (Sunday)
+<Multi_key> <ampersand> <m> <o> <o> <n>	: "☽"	U263D	# FIRST QUARTER MOON (Monday)
+<Multi_key> <ampersand> <m> <e> <r> <c> <u> <r> <y> : "☿" U263F	# MERCURY (Wednesday)
+# We already have Venus (Friday) and Mars (Tuesday) as Male/Female signs; do we need them here too?
+#<Multi_key> <ampersand> <v> <e> <n> <u> <s>  : "♀" U2640    # FEMALE SIGN
+#<Multi_key> <ampersand> <m> <a> <r> <s>  : "♂"	U2642   # MALE SIGN
+<Multi_key> <ampersand> <j> <u> <p> <i> <t> <e> <r> : "♃" U2643	# JUPITER (Thursday)
+<Multi_key> <ampersand> <s> <a> <t> <u> <r> <n>     : "♄" U2644	# SATURN (Saturday)
+<Multi_key> <ampersand> <u> <r> <a> <n> <u> <s>	    : "♅" U2645	# URANUS (or ⛢ U26E2?)
+<Multi_key> <ampersand> <n> <e> <p> <t> <u> <n> <e> : "♆" U2646	# NEPTUNE
+<Multi_key> <ampersand> <p> <l> <u> <t> <o> 	    : "♇" U2647	# PLUTO (ok, it isn't a planet anymore, but we still love it.)
+
+# Unicode 6.0 gave us all kinds of things, perhaps more than we can use...
+
+# Playing Cards?  It's a lot, but so what?  I don't think the [] convention
+# will conflict with anything.
+# The convention is more or less established, except for the Knight.  I'm
+# using N for that, like in Chess, since K would conflict with King of course.
+
+<Multi_key> <bracketleft> <A> <S> <bracketright>  : "🂡"	U1F0A1	# PLAYING CARD ACE OF SPADES
+<Multi_key> <bracketleft> <2> <S> <bracketright>  : "🂢"	U1F0A2	# PLAYING CARD TWO OF SPADES
+<Multi_key> <bracketleft> <3> <S> <bracketright>  : "🂣"	U1F0A3	# PLAYING CARD THREE OF SPADES
+<Multi_key> <bracketleft> <4> <S> <bracketright>  : "🂤"	U1F0A4	# PLAYING CARD FOUR OF SPADES
+<Multi_key> <bracketleft> <5> <S> <bracketright>  : "🂥"	U1F0A5	# PLAYING CARD FIVE OF SPADES
+<Multi_key> <bracketleft> <6> <S> <bracketright>  : "🂦"	U1F0A6	# PLAYING CARD SIX OF SPADES
+<Multi_key> <bracketleft> <7> <S> <bracketright>  : "🂧"	U1F0A7	# PLAYING CARD SEVEN OF SPADES
+<Multi_key> <bracketleft> <8> <S> <bracketright>  : "🂨"	U1F0A8	# PLAYING CARD EIGHT OF SPADES
+<Multi_key> <bracketleft> <9> <S> <bracketright>  : "🂩"	U1F0A9	# PLAYING CARD NINE OF SPADES
+<Multi_key> <bracketleft> <T> <S> <bracketright>  : "🂪"	U1F0AA	# PLAYING CARD TEN OF SPADES
+<Multi_key> <bracketleft> <J> <S> <bracketright>  : "🂫"	U1F0AB	# PLAYING CARD JACK OF SPADES
+<Multi_key> <bracketleft> <N> <S> <bracketright>  : "🂬"	U1F0AC	# PLAYING CARD KNIGHT OF SPADES
+<Multi_key> <bracketleft> <Q> <S> <bracketright>  : "🂭"	U1F0AD	# PLAYING CARD QUEEN OF SPADES
+<Multi_key> <bracketleft> <K> <S> <bracketright>  : "🂮"	U1F0AE	# PLAYING CARD KING OF SPADES
+
+<Multi_key> <bracketleft> <A> <H> <bracketright>  : "🂱"	U1F0B1	# PLAYING CARD ACE OF HEARTS
+<Multi_key> <bracketleft> <2> <H> <bracketright>  : "🂲"	U1F0B2	# PLAYING CARD TWO OF HEARTS
+<Multi_key> <bracketleft> <3> <H> <bracketright>  : "🂲"	U1F0B3	# PLAYING CARD THREE OF HEARTS
+<Multi_key> <bracketleft> <4> <H> <bracketright>  : "🂴"	U1F0B4	# PLAYING CARD FOUR OF HEARTS
+<Multi_key> <bracketleft> <5> <H> <bracketright>  : "🂵"	U1F0B5	# PLAYING CARD FIVE OF HEARTS
+<Multi_key> <bracketleft> <6> <H> <bracketright>  : "🂶"	U1F0B6	# PLAYING CARD SIX OF HEARTS
+<Multi_key> <bracketleft> <7> <H> <bracketright>  : "🂷"	U1F0B7	# PLAYING CARD SEVEN OF HEARTS
+<Multi_key> <bracketleft> <8> <H> <bracketright>  : "🂸"	U1F0B8	# PLAYING CARD EIGHT OF HEARTS
+<Multi_key> <bracketleft> <9> <H> <bracketright>  : "🂹"	U1F0B9	# PLAYING CARD NINE OF HEARTS
+<Multi_key> <bracketleft> <T> <H> <bracketright>  : "🂺"	U1F0BA	# PLAYING CARD TEN OF HEARTS
+<Multi_key> <bracketleft> <J> <H> <bracketright>  : "🂻"	U1F0BB	# PLAYING CARD JACK OF HEARTS
+<Multi_key> <bracketleft> <N> <H> <bracketright>  : "🂼"	U1F0BC	# PLAYING CARD KNIGHT OF HEARTS
+<Multi_key> <bracketleft> <Q> <H> <bracketright>  : "🂽"	U1F0BD	# PLAYING CARD QUEEN OF HEARTS
+<Multi_key> <bracketleft> <K> <H> <bracketright>  : "🂽"	U1F0BE	# PLAYING CARD KING OF HEARTS
+
+<Multi_key> <bracketleft> <A> <D> <bracketright>  : "🃁"	U1F0C1	# PLAYING CARD ACE OF DIAMONDS
+<Multi_key> <bracketleft> <2> <D> <bracketright>  : "🃂"	U1F0C2	# PLAYING CARD TWO OF DIAMONDS
+<Multi_key> <bracketleft> <3> <D> <bracketright>  : "🃃"	U1F0C3	# PLAYING CARD THREE OF DIAMONDS
+<Multi_key> <bracketleft> <4> <D> <bracketright>  : "🃄"	U1F0C4	# PLAYING CARD FOUR OF DIAMONDS
+<Multi_key> <bracketleft> <5> <D> <bracketright>  : "🃅"	U1F0C5	# PLAYING CARD FIVE OF DIAMONDS
+<Multi_key> <bracketleft> <6> <D> <bracketright>  : "🃆"	U1F0C6	# PLAYING CARD SIX OF DIAMONDS
+<Multi_key> <bracketleft> <7> <D> <bracketright>  : "🃇"	U1F0C7	# PLAYING CARD SEVEN OF DIAMONDS
+<Multi_key> <bracketleft> <8> <D> <bracketright>  : "🃈"	U1F0C8	# PLAYING CARD EIGHT OF DIAMONDS
+<Multi_key> <bracketleft> <9> <D> <bracketright>  : "🃉"	U1F0C9	# PLAYING CARD NINE OF DIAMONDS
+<Multi_key> <bracketleft> <T> <D> <bracketright>  : "🃊"	U1F0CA	# PLAYING CARD TEN OF DIAMONDS
+<Multi_key> <bracketleft> <J> <D> <bracketright>  : "🃋"	U1F0CB	# PLAYING CARD JACK OF DIAMONDS
+<Multi_key> <bracketleft> <N> <D> <bracketright>  : "🃌"	U1F0CC	# PLAYING CARD KNIGHT OF DIAMONDS
+<Multi_key> <bracketleft> <Q> <D> <bracketright>  : "🃍"	U1F0CD	# PLAYING CARD QUEEN OF DIAMONDS
+<Multi_key> <bracketleft> <K> <D> <bracketright>  : "🃎"	U1F0CE	# PLAYING CARD KING OF DIAMONDS
+
+<Multi_key> <bracketleft> <A> <C> <bracketright>  : "🃑"	U1F0D1	# PLAYING CARD ACE OF CLUBS
+<Multi_key> <bracketleft> <2> <C> <bracketright>  : "🃒"	U1F0D2	# PLAYING CARD TWO OF CLUBS
+<Multi_key> <bracketleft> <3> <C> <bracketright>  : "🃓"	U1F0D3	# PLAYING CARD THREE OF CLUBS
+<Multi_key> <bracketleft> <4> <C> <bracketright>  : "🃔"	U1F0D4	# PLAYING CARD FOUR OF CLUBS
+<Multi_key> <bracketleft> <5> <C> <bracketright>  : "🃕"	U1F0D5	# PLAYING CARD FIVE OF CLUBS
+<Multi_key> <bracketleft> <6> <C> <bracketright>  : "🃖"	U1F0D6	# PLAYING CARD SIX OF CLUBS
+<Multi_key> <bracketleft> <7> <C> <bracketright>  : "🃗"	U1F0D7	# PLAYING CARD SEVEN OF CLUBS
+<Multi_key> <bracketleft> <8> <C> <bracketright>  : "🃘"	U1F0D8	# PLAYING CARD EIGHT OF CLUBS
+<Multi_key> <bracketleft> <9> <C> <bracketright>  : "🃙"	U1F0D9	# PLAYING CARD NINE OF CLUBS
+<Multi_key> <bracketleft> <T> <C> <bracketright>  : "🃚"	U1F0DA	# PLAYING CARD TEN OF CLUBS
+<Multi_key> <bracketleft> <J> <C> <bracketright>  : "🃛"	U1F0DB	# PLAYING CARD JACK OF CLUBS
+<Multi_key> <bracketleft> <N> <C> <bracketright>  : "🃜"	U1F0DC	# PLAYING CARD KNIGHT OF CLUBS
+<Multi_key> <bracketleft> <Q> <C> <bracketright>  : "🃝"	U1F0DD	# PLAYING CARD QUEEN OF CLUBS
+<Multi_key> <bracketleft> <K> <C> <bracketright>  : "🃝"	U1F0DE	# PLAYING CARD KING OF CLUBS
+
+<Multi_key> <bracketleft> <C> <B> <bracketright>  : "🂠"	U1F0A0	# PLAYING CARD BACK
+<Multi_key> <bracketleft> <B> <J> <bracketright>  : "🂠" U1F0CF	# PLAYING CARD BLACK JOKER
+<Multi_key> <bracketleft> <W> <J> <bracketright>  : "🃟"	U1F0DF	# PLAYING CARD WHITE JOKER
+
+# Do we want domino bones also?  I'm thinking [ 1 1 ], etc, maybe use
+# ] 1 1 [ for vertical (or vice-versa)
+
+# As for the emoji... We can't possibly get all of them, even just all of the
+# cool/useful ones.  Maybe we can pick and choose some high-fliers.
