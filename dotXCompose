@@ -726,3 +726,10 @@ include "%L"
 
 # As for the emoji... We can't possibly get all of them, even just all of the
 # cool/useful ones.  Maybe we can pick and choose some high-fliers.
+
+#<Multi_key> <d> <e> <g>			: "͏°"	U00B0	# DEGREE SIGN
+<Multi_key> <d> <e> <g> <C> 		: "℃"   U2103 	# DEGREE CELSIUS
+<Multi_key> <d> <e> <g> <c> 		: "℃"   U2103 	# DEGREE CELSIUS
+<Multi_key> <d> <e> <g> <F> 		: "℉"   U2109   # DEGREE FAHRENHEIT
+<Multi_key> <d> <e> <g> <f> 		: "℉"   U2109   # DEGREE FAHRENHEIT
+
