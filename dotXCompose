@@ -526,6 +526,17 @@ include "%L"
 <Multi_key> <asterisk> <parenright>     : "﴿"   UFD3F           # ORNATE RIGHT PARENTHESIS
 <Multi_key> <k> <s>                     : "ʘ"   U0298           # LATIN LETTER BILABIAL CLICK (kiss sound)
 <Multi_key> <bar> <greater>             : "‣"   U2023           # TRIANGULAR BULLET
+#SUPERSCRIPTS:
+<Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
+#To avoid namespace clashes, <ampersand> is added
+<Multi_key> <asciicircum> <ampersand> <h>       : "ʰ"   U2230           # SUPERSCRIPT H
+<Multi_key> <asciicircum> <ampersand> <i>       : "ⁱ"   U2071           # SUPERSCRIPT I
+<Multi_key> <asciicircum> <ampersand> <j>       : "ʲ"   U02B2           # SUPERSCRIPT J
+<Multi_key> <asciicircum> <ampersand> <n>       : "ⁿ"   U207F           # SUPERSCRIPT N
+<Multi_key> <asciicircum> <ampersand> <r>       : "ʳ"   U02B3           # SUPERSCRIPT N
+<Multi_key> <asciicircum> <ampersand> <w>       : "ʷ"   U02B7           # SUPERSCRIPT W
+<Multi_key> <asciicircum> <ampersand> <y>       : "ʸ"   U02B8           # SUPERSCRIPT Y
+#Maybe add: ˀˁ˃˂
 <Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
 <Multi_key> <asciitilde> <asciitilde>        : "≈"  U2248           # ALMOST EQUAL TO
 <Multi_key> <s> <h>			: "ʃ"	U0283		# LATIN SMALL LETTER ESH
