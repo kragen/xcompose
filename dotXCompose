@@ -209,6 +209,12 @@ include "%L"
 # Others too, of course, but these to start with.  Some are likely worthy.
 <Multi_key> <S> <parenleft>  	: "⟅" U27C5 	# LEFT S-SHAPED BAG DELIMITER
 <Multi_key> <S> <parenright>	: "⟆" U27C6 	# RIGHT S-SHAPED BAG DELIMITER
+# Keystrokes for these?  And are the Mathematical versions ⟨⟩ preferable?
+# Geez, and there are more at 3008 and 3009
+<Multi_key> <less> <parenleft>	: "〈" U2329	# LEFT-POINTING ANGLE BRACKET
+<Multi_key> <greater> <parenright>: "〉" U232A	# RIGHT-POINTING ANGLE BRACKET
+<Multi_key> <parenleft> <ampersand> <parenleft>:  "⸨"  U2E28 # LEFT DOUBLE PARENTHESIS
+<Multi_key> <parenright> <ampersand> <parenright>:  "⸩"  U2E29 # RIGHT DOUBLE PARENTHESIS
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
@@ -539,6 +545,7 @@ include "%L"
 <Multi_key> <I> <H>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
 <Multi_key> <u> <h>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
 <Multi_key> <U> <H>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
+<Multi_key> <a> <h>			: "ɑ"	U0251		# LATIN SMALL LETTER ALPHA
 <Multi_key> <e> <r>			: "ɚ"	U025A		# LATIN SMALL LETTER SCHWA WITH HOOK
 <Multi_key> <o> <parenright>		:"ɔ" 	U0254 		# LATIN SMALL LETTER OPEN O
 <Multi_key> <O> <parenright>		:"Ɔ" 	U0186 		# LATIN CAPITAL LETTER OPEN O
