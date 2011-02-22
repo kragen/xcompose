@@ -140,6 +140,8 @@ include "%L"
 <Multi_key> <backslash> <slash>         : "∨"  U2228           # LOGICAL OR
 <Multi_key> <backslash> <underscore> <slash>    : "⊻" U22BB     # XOR
 <Multi_key> <o> <asterisk>              : "∘"   U2218           # RING OPERATOR (function composition)
+<Multi_key> <ampersand> <asterisk> <x>             : "⨯"   U2A2F           # CROSS PRODUCT
+<Multi_key> <ampersand> <asterisk>  <period>        : "⋅"   U22C5           # DOT OPERATOR (dot product)
 <Multi_key> <0> <slash>                 : "∅"   U2205           # EMPTY SET (thanks jsled!)
 <Multi_key> <slash> <0>                 : "∅"   U2205           # EMPTY SET
 # I'm hoping { can work as a set mnemonic
@@ -176,8 +178,28 @@ include "%L"
 
 # OK, absolutely cannot believe we made it this long without NABLA or INTEGRAL
 # or PARTIAL DIFFERENTIAL
-<Multi_key> <ampersand> <d> <e> <l>	: "∇"	U2207	        # NABLA
 <Multi_key> <ampersand> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
+<Multi_key> <ampersand> <u> <i> <n> <t>	: "⨛"	U2A1B		# UPPER INTEGRAL
+<Multi_key> <ampersand> <l> <i> <n> <t>	: "⨜"	U2A1C		# LOWER INTEGRAL
+<Multi_key> <ampersand> <i> <i> <n> <t>	: "∬"	U222C		# DOUBLE INTEGRAL
+<Multi_key> <ampersand> <i> <i> <i> <n> <t>	: "∭"	U222D		# TRIPLE INTEGRAL
+<Multi_key> <ampersand> <i> <i> <i> <i> <n> <t>	: "⨌"	U2A0C		# QUADRUPLE INTEGRAL
+<Multi_key> <ampersand> <o> <i> <n> <t>	: "∮"	U222E		# CONTOUR INTEGRAL
+<Multi_key> <ampersand> <p> <i> <n> <t>	: "⨕"	U2A15		# SEMICIRCULAR POLE INTEGRAL
+<Multi_key> <ampersand> <c> <P> <i> <n> <t>	: "⨓"	U2A15		# INTEGRAL AROUND POINT
+<Multi_key> <ampersand> <o> <i> <i> <n> <t>	: "∯"	U222F		# SURFACE INTEGRAL
+<Multi_key> <ampersand> <o> <i> <i> <i> <n> <t>	: "∰"	U2230		# VOLUME INTEGRAL
+<Multi_key> <ampersand> <g> <i> <n> <t>	: "⨘"	U2A18		# GEOMETRIC INTEGRAL
+<Multi_key> <ampersand> <s> <u> <m> <i> <n> <t>	: "⨋"	U2A0B		# SUM/INTEGRAL
+<Multi_key> <ampersand> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
+<Multi_key> <ampersand> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
+#Now for some WTF integrals: ⨙ ⨚ 	
+
+
+
+
+
+<Multi_key> <ampersand> <d> <e> <l>	: "∇"	U2207	        # NABLA
 <Multi_key> <ampersand> <p> <a> <r> <t>   : "∂" U2202		# PARTIAL DIFFERENTIAL
 <Multi_key> <asterisk> <period> <period> <d>   : "∂" U2202	# PARTIAL DIFFERENTIAL
 # Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
@@ -526,6 +548,17 @@ include "%L"
 <Multi_key> <asterisk> <parenright>     : "﴿"   UFD3F           # ORNATE RIGHT PARENTHESIS
 <Multi_key> <k> <s>                     : "ʘ"   U0298           # LATIN LETTER BILABIAL CLICK (kiss sound)
 <Multi_key> <bar> <greater>             : "‣"   U2023           # TRIANGULAR BULLET
+#SUPERSCRIPTS:
+<Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
+#To avoid namespace clashes, <ampersand> is added
+<Multi_key> <asciicircum> <ampersand> <h>       : "ʰ"   U2230           # SUPERSCRIPT H
+<Multi_key> <asciicircum> <ampersand> <i>       : "ⁱ"   U2071           # SUPERSCRIPT I
+<Multi_key> <asciicircum> <ampersand> <j>       : "ʲ"   U02B2           # SUPERSCRIPT J
+<Multi_key> <asciicircum> <ampersand> <n>       : "ⁿ"   U207F           # SUPERSCRIPT N
+<Multi_key> <asciicircum> <ampersand> <r>       : "ʳ"   U02B3           # SUPERSCRIPT R
+<Multi_key> <asciicircum> <ampersand> <w>       : "ʷ"   U02B7           # SUPERSCRIPT W
+<Multi_key> <asciicircum> <ampersand> <y>       : "ʸ"   U02B8           # SUPERSCRIPT Y
+#Maybe add: ˀˁ˃˂
 <Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
 <Multi_key> <asciitilde> <asciitilde>        : "≈"  U2248           # ALMOST EQUAL TO
 <Multi_key> <s> <h>			: "ʃ"	U0283		# LATIN SMALL LETTER ESH
