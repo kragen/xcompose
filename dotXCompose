@@ -237,6 +237,11 @@ include "%L"
 <Multi_key> <greater> <parenright>: "〉" U232A	# RIGHT-POINTING ANGLE BRACKET
 <Multi_key> <parenleft> <ampersand> <parenleft>:  "⸨"  U2E28 # LEFT DOUBLE PARENTHESIS
 <Multi_key> <parenright> <ampersand> <parenright>:  "⸩"  U2E29 # RIGHT DOUBLE PARENTHESIS
+# I'm thinking shape-mnemonics for these, somehow:
+<Multi_key> <L> <bracketleft>       : "⌊"     U230A   # LEFT FLOOR
+<Multi_key> <L> <bracketright>	    : "⌋"     U230B   # RIGHT FLOOR
+<Multi_key> <7> <bracketleft>	    : "⌈"     U2308   # LEFT CEILING
+<Multi_key> <7> <bracketright>	    : "⌉"     U2309   # RIGHT CEILING
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
