@@ -471,6 +471,12 @@ include "%L"
 <Multi_key> <ampersand> <s> <h> <m> <r> <c> <k>		: "☘" U2618   # SHAMROCK
 <Multi_key> <ampersand> <p> <c>         : "☮"   U262E           # PEACE SYMBOL
 <Multi_key> <ampersand> <y> <y>		: "☯" U262F		# YIN YANG
+# And now that we are into hearts...
+<Multi_key> <Left> <less> <3>           : "❥"  U2765            # ROTATED HEAVY BLACK HEART BULLET
+<Multi_key> <exclam> <less> <3>         : "❣"  U2763            # HEAVY HEART EXCLAMATION MARK ORNAMENT
+<Multi_key> <f> <less> <3>              : "❦"  U2766            # FLORAL HEART
+<Multi_key> <Left> <f> <less> <3>       : "❧"  U2767            # ROTATED FLORAL HEART BULLET
+<Multi_key> <Right> <f> <less> <3>      : "☙"  U2619            # REVERSED ROTATED FLORAL HEART BULLET
 # For some reason, I don't really like these word-based mnemonics.  But until we have something better... -clsn
 # are the ampersand versions better? -kragen
 <Multi_key> <ampersand> <t> <e> <l>			: "☎" 	U260E		# BLACK TELEPHONE
