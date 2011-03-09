@@ -191,8 +191,6 @@ include "%L"
 <Multi_key> <ampersand> <o> <i> <i> <i> <n> <t>	: "∰"	U2230		# VOLUME INTEGRAL
 <Multi_key> <ampersand> <g> <i> <n> <t>	: "⨘"	U2A18		# GEOMETRIC INTEGRAL
 <Multi_key> <ampersand> <s> <u> <m> <i> <n> <t>	: "⨋"	U2A0B		# SUM/INTEGRAL
-<Multi_key> <ampersand> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
-<Multi_key> <ampersand> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
 #Now for some WTF integrals: ⨙ ⨚ 	
 
 
