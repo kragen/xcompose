@@ -235,6 +235,8 @@ include "%L"
 <Multi_key> <greater> <parenright>: "〉" U232A	# RIGHT-POINTING ANGLE BRACKET
 <Multi_key> <parenleft> <ampersand> <parenleft>:  "⸨"  U2E28 # LEFT DOUBLE PARENTHESIS
 <Multi_key> <parenright> <ampersand> <parenright>:  "⸩"  U2E29 # RIGHT DOUBLE PARENTHESIS
+<Multi_key> <Z> <parenleft>	    : "༼"     U0F3C   # TIBETAN MARK ANG KHANG GYON
+<Multi_key> <Z> <parenright>	    : "༽"     U0F3D   # TIBETAN MARK ANG KHANG GYAS
 # I'm thinking shape-mnemonics for these, somehow:
 <Multi_key> <L> <bracketleft>       : "⌊"     U230A   # LEFT FLOOR
 <Multi_key> <L> <bracketright>	    : "⌋"     U230B   # RIGHT FLOOR
