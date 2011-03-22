@@ -14,6 +14,10 @@ include "%L"
 <Multi_key> <period> <period> <period>	: "…"	U2026		# HORIZONTAL ELLIPSIS
 <Multi_key> <v> <period> <period>	: "⋮"	U22EE		# VERTICAL ELLIPSIS
 <Multi_key> <c> <period> <period>	: "⋯"	U22EF		# MIDLINE HORIZONTAL ELLIPSIS
+<Multi_key> <slash> <period> <period>	: "⋰"	U22FO		# UP RIGHT DIAGONAL ELLIPSIS
+# To avoid conflict with \. for combining dot above.
+#<Multi_key> <backslash> <period> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
+<Multi_key> <period> <backslash> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
 <Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
 # These two are already present for me:
 # <Multi_key> <minus> <minus> <minus>	: "—"	U2014		# EM DASH
@@ -27,6 +31,14 @@ include "%L"
 <Multi_key> <apostrophe> <apostrophe>	: "”"	U201D		# RIGHT DOUBLE QUOTATION MARK
 <Multi_key> <grave> <space>		: "‘"	U2018		# LEFT SINGLE QUOTATION MARK
 <Multi_key> <grave> <grave>		: "“"	U201C		# LEFT DOUBLE QUOTATION MARK
+<Multi_key> <6> <apostrophe>		: "‘"	U2018		# LEFT SINGLE QUOTATION MARK (high 6)
+<Multi_key> <6> <quotedbl>		: "“"	U201C		# LEFT DOUBLE QUOTATION MARK (66)
+<Multi_key> <9> <apostrophe>		: "’"	U2019		# RIGHT SINGLE QUOTATION MARK (high 9)
+<Multi_key> <9> <quotedbl>		: "”"	U201D		# RIGHT DOUBLE QUOTATION MARK (99)
+<Multi_key> <less> <9> <apostrophe>	: "‛"	U201B		# SINGLE HIGH-REVERSED-9 QUOTATION MARK
+<Multi_key> <less> <9> <quotedbl>	: "‟"	U201F		# DOUBLE HIGH-REVERSED-9 QUOTATION MARK
+<Multi_key> <comma> <apostrophe>	: "‚"	U201A		# SINGLE LOW-9 QUOTATION MARK (quote resembling a comma)
+<Multi_key> <comma> <quotedbl>		: "„"	U201E		# DOUBLE LOW-9 QUOTATION MARK
 <Multi_key> <less> <bar>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
 <Multi_key> <o> <period>		: "•"	U2022		# BULLET
 # By default <Multi_key> <period> <period> does this, but we broke that with the ... binding.
@@ -57,6 +69,8 @@ include "%L"
 <Multi_key> <Down> <Left>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
 <Multi_key> <Left> <o>			: "⟲"	U27F2		# ANTICLOCKWISE GAPPED CIRCLE ARROW
 <Multi_key> <Right> <o>			: "⟳"	U27F3		# CLOCKWISE GAPPED CIRCLE ARROW
+<Multi_key> <Left> <c>			: "↺"	U21BA		# ANTICLOCKWISE OPEN CIRCLE ARROW
+<Multi_key> <Right> <c>			: "↻"	U21BB		# CLOCKWISE OPEN CIRCLE ARROW
 <Multi_key> <Left> <asciitilde>		: "⇜"	U21DC		# LEFTWARDS SQUIGGLE ARROW
 <Multi_key> <Right> <asciitilde>	: "⇝"	U21DD		# RIGHTWARDS SQUIGGLE ARROW
 <Multi_key> <Left> <bar>       		: "⇤"	U21E4		# LEFTWARDS ARROW TO BAR
@@ -99,9 +113,11 @@ include "%L"
 <Multi_key> <ampersand> <p> <a> <l> <m>	: "⸙"	U2E19		# PALM BRANCH
 
 
-<Multi_key> <f> <f>		: "ﬀ"	   UFB00   # LATIN LIGATURE FF
-<Multi_key> <f> <i>		: "ﬁ"	   UFB01   # LATIN LIGATURE FI
-<Multi_key> <f> <l>		: "ﬂ"	   UFB02   # LATIN LIGATURE FL
+<Multi_key> <f> <f>		: "ﬀ"	   UFB00   # LATIN SMALL LIGATURE FF
+<Multi_key> <f> <i>		: "ﬁ"	   UFB01   # LATIN SMALL LIGATURE FI
+<Multi_key> <F> <i>		: "ﬃ"	   UFB03   # LATIN SMALL LIGATURE FFI
+<Multi_key> <f> <l>		: "ﬂ"	   UFB02   # LATIN SMALL LIGATURE FL
+<Multi_key> <F> <l>		: "ﬄ"	   UFB04   # LATIN SMALL LIGATURE FFL
 <Multi_key> <s> <t>		: "ﬆ"  UFB06	   # LATIN SMALL LIGATURE ST
 <Multi_key> <f> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
 # allow me still to use my ſ key, okay?
@@ -134,6 +150,8 @@ include "%L"
 # Damn.  That makes this conflict with the standard plus plus -> #
 <Multi_key> <plus> <plus> <less>        : "⋘"	U22D8		# VERY MUCH LESS-THAN
 <Multi_key> <plus> <plus> <greater>  	: "⋙"	U22D9		# VERY MUCH GREATER-THAN
+<Multi_key> <3> <greater> 		: "⋙"	U22D9		# VERY MUCH GREATER-THAN
+<Multi_key> <3> <less>			: "⋘"	U22D8		# VERY MUCH LESS-THAN
 <Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
 <Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
 <Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
@@ -152,6 +170,9 @@ include "%L"
 # We already have ±
 <Multi_key> <minus> <plus>		: "∓"	U2213		# MINUS OR PLUS SIGN
 <Multi_key> <s> <q>			: "√"	U221A		# SQUARE ROOT
+# keystrokes might not make the most sense, but you know what they mean...
+<Multi_key> <3> <s> <q>			: "∛"	U221B	        # CUBE ROOT
+<Multi_key> <4> <s> <q>			: "∜"	U221C		# FOURTH ROOT
     # “(Note: I had put the backslash in position 5/15. It enabled the
     # ALGOL “and” to be “/\” and the “or” to be “\/”.)” --- Bob Bemer,
     # http://home.ccil.org/~remlaps/www.bobbemer.com/BRACES.HTM, quoting
@@ -183,6 +204,7 @@ include "%L"
 <Multi_key> <ampersand> <a> <l> <e> <p> <0> : "ℵ₀"        # ALEF Null
 <Multi_key> <ampersand> <a> <l> <e> <p> <1> : "ℵ₁"        # ALEF One
 <Multi_key> <ampersand> <a> <l> <e> <f> : "ℵ" U2135	       # ALEF SYMBOL
+<Multi_key> <KP_Multiply> <KP_Multiply>    : "∗"   U2217 # ASTERISK OPERATOR
 <Multi_key> <parenleft> <plus> <parenright>     : "⊕"  U2295    # CIRCLED PLUS
 <Multi_key> <parenleft> <minus> <parenright>    : "⊖"  U2296    # CIRCLED MINUS
 <Multi_key> <parenleft> <x> <x> <parenright>    : "⊗"  U2297    # CIRCLED TIMES
@@ -212,14 +234,11 @@ include "%L"
 <Multi_key> <ampersand> <g> <i> <n> <t>	: "⨘"	U2A18		# GEOMETRIC INTEGRAL
 <Multi_key> <ampersand> <s> <u> <m> <i> <n> <t>	: "⨋"	U2A0B		# SUM/INTEGRAL
 #Now for some WTF integrals: ⨙ ⨚ 	
-
-
-
-
-
 <Multi_key> <ampersand> <d> <e> <l>	: "∇"	U2207	        # NABLA
 <Multi_key> <ampersand> <p> <a> <r> <t>   : "∂" U2202		# PARTIAL DIFFERENTIAL
 <Multi_key> <asterisk> <period> <period> <d>   : "∂" U2202	# PARTIAL DIFFERENTIAL
+<Multi_key> <R> <e>    		: "ℜ"	 U211C 	     	# BLACK-LETTER CAPITAL R (Real Part)
+<Multi_key> <I> <m>		: "ℑ"	 U2111		# BLACK-LETTER CAPTIAL I (Imaginary Part)
 # Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
 # There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
