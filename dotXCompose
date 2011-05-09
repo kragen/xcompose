@@ -645,6 +645,11 @@ include "%L"
 <Multi_key> <r> <d>                     : "ɾ"   U027E           # LATIN SMALL LETTER R WITH FISHHOOK: voiced alveolar flap or tap (American English intervocalic allophone of d, or Spanish r)
 <Multi_key> <v> <v>                     : "ʌ"   U028C           # LATIN SMALL LETTER TURNED V
 <Multi_key> <u> <i>			: "ɯ"	U026F		# LATIN SMALL LETTER TURNED M
+# doubling a letter seems to be mostly used for turning
+<Multi_key> <w> <w>			: "ʍ"	U028D		# LATIN SMALL LETTER TURNED W
+# I'll use capitals for a different double
+<Multi_key> <W> <W>			: "ʬ"	U02AC		# LATIN LETTER BILABIAL PERCUSSIVE
+# Also handy for writing urls: http://ʬw.omniglot.com/
 # ɣ? ɯ? ᴥ?  Important enough to add?  Is Greek epsilon OK for ɛ? (I think so.)
 # What about ɜɝɑ ?  I should probably bite the bullet and just go to an IPA
 # input method at that point.  We're never going to get the whole IPA in here.
