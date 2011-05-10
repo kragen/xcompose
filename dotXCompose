@@ -842,3 +842,22 @@ include "%L"
 <Multi_key> <Multi_key> <d> <e> <g> <F> 		: "℉"   U2109   # DEGREE FAHRENHEIT
 <Multi_key> <Multi_key> <d> <e> <g> <f> 		: "℉"   U2109   # DEGREE FAHRENHEIT
 
+# Zodiacal symbols?
+<Multi_key> <Multi_key> <a> <r> <i> <e> <s>	: "♈"	U2648	# ARIES
+<Multi_key> <Multi_key> <t> <a> <u> <r> <u> <s>	: "♉"	U2649	# TAURUS
+<Multi_key> <Multi_key> <g> <e> <m> <i> <n> <i>	: "♊"	U264A	# GEMINI
+<Multi_key> <Multi_key> <c> <a> <n> <c> <e> <r>	: "♋"	U264B	# CANCER
+<Multi_key> <Multi_key> <l> <e> <o> 		: "♌"	U264C	# LEO
+<Multi_key> <Multi_key> <v> <i> <r> <g> <o>	: "♍"	U264D	# VIRGO
+<Multi_key> <Multi_key> <l> <i> <b> <r> <a>	: "♎"	U264E	# LIBRA
+# Abbreviating some of the longer ones.
+<Multi_key> <Multi_key> <s> <c> <o> <r> <p>	: "♏"	U264F	# SCORPIUS
+<Multi_key> <Multi_key> <s> <a> <g> <i> <t>	: "♐"	U2650	# SAGITTARIUS
+<Multi_key> <Multi_key> <c> <a> <p> <r> <i> <c>	: "♑"	U2651	# CAPRICORN
+<Multi_key> <Multi_key> <a> <q> <u> <a> <r>	: "♒"	U2652	# AQUARIUS
+<Multi_key> <Multi_key> <p> <i> <s> <c> <e> <s>	: "♓"	U2653	# PISCES
+# Really, this should be SERPENTARIUS.  All the other signs are in Latin.
+<Multi_key> <Multi_key> <o> <p> <h> <i> <u> <c> : "⛎"	U26CE	# OPHIUCHUS
+
+# Sigh.  So many emoji...  I think the first ones I'd go for would be
+# 💡💢💣💤💥💦💧💨💫 (1F4A1-1F4A8 and 1F4AB).  Maybe 1F550-1F567 are useful.  
