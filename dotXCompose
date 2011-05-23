@@ -791,6 +791,13 @@ include "%L"
 <Multi_key> <Multi_key> <u> <r> <a> <n> <u> <s>	    : "♅" U2645	# URANUS (or ⛢ U26E2?)
 <Multi_key> <Multi_key> <n> <e> <p> <t> <u> <n> <e> : "♆" U2646	# NEPTUNE
 <Multi_key> <Multi_key> <p> <l> <u> <t> <o> 	    : "♇" U2647	# PLUTO (ok, it isn't a planet anymore, but we still love it.)
+# Minor planets, whilst we're at it?
+<Multi_key> <Multi_key> <c> <e> <r> <e> <s>	: "⚳"	U26B3	# CERES
+<Multi_key> <Multi_key> <p> <a> <l> <l> <a> <s>	: "⚴"	U26B4	# PALLAS
+<Multi_key> <Multi_key> <j> <u> <n> <o>     	: "⚵"	U26B5	# JUNO
+<Multi_key> <Multi_key> <v> <e> <s> <t> <a>    	: "⚶"	U26B6	# VESTA
+<Multi_key> <Multi_key> <c> <h> <i> <r> <o> <n>	: "⚷"	U26B7	# CHIRON
+<Multi_key> <Multi_key> <l> <i> <l> <i> <t> <h>	: "⚸"	U26B8	# BLACK MOON LILITH
 
 # Unicode 6.0 gave us all kinds of things, perhaps more than we can use...
 
