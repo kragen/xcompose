@@ -303,6 +303,8 @@ include "%L"
 <Multi_key> <underscore> <k>           :  "ₖ"  U2096	  # LATIN SUBSCRIPT SMALL LETTER K
 <Multi_key> <underscore> <m>	       :  "ₘ"  U2098	  # LATIN SUBSCRIPT SMALL LETTER M
 <Multi_key> <underscore> <n>	       :  "ₙ"  U2099	  # LATIN SUBSCRIPT SMALL LETTER N
+<Multi_key> <underscore> <minus>       : "₋"   U208B	  # SUBSCRIPT MINUS
+<Multi_key> <underscore> <plus>	       : "₊"   U208A	  # SUBSCRIPT PLUS
 
 
 # Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
@@ -614,6 +616,8 @@ include "%L"
 <Multi_key> <asciicircum> <ampersand> <y>       : "ʸ"   U02B8           # SUPERSCRIPT Y
 #Maybe add: ˀˁ˃˂
 <Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
+<Multi_key> <asciicircum> <plus>	: "⁺"	U207A		# SUPERSCRIPT PLUS
+
 <Multi_key> <asciitilde> <asciitilde>        : "≈"  U2248           # ALMOST EQUAL TO
 <Multi_key> <s> <h>			: "ʃ"	U0283		# LATIN SMALL LETTER ESH
 <Multi_key> <z> <h>			: "ʒ"	U0292		# LATIN SMALL LETTER EZH
@@ -672,6 +676,7 @@ include "%L"
 <Multi_key> <numbersign> <C>              : "𝄡" U0001d121 # MUSICAL SYMBOL C CLEF
 <Multi_key> <numbersign> <o> <slash>	: "♪" U266a	# EIGHTH NOTE
 <Multi_key> <numbersign> <o> <o>	: "♫" U266b	# BEAMED EIGHTH NOTES
+<Multi_key> <numbersign> <percent>	: "♫" U266b	# BEAMED EIGHTH NOTES
 
 
 # Combining accents, for making things you don't have precomposed chars or keystrokes for:
