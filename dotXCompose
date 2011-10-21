@@ -51,6 +51,7 @@ include "%L"
 <Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
 # We already have THIN SPACE below, as <space> <apostrophe>!  Keep both?
 <Multi_key> <backslash> <comma>		: " "	U2009		# THIN SPACE
+<Multi_key> <s> <e> <c> : "§"   U00A7   # SECTION SIGN
 
 <Multi_key> <minus> <less>		: "←"	leftarrow	# LEFTWARDS ARROW
 <Multi_key> <minus> <asciicircum>	: "↑"	uparrow		# UPWARDS ARROW
