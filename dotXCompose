@@ -40,7 +40,8 @@ include "%L"
 <Multi_key> <comma> <apostrophe>	: "‚"	U201A		# SINGLE LOW-9 QUOTATION MARK (quote resembling a comma)
 <Multi_key> <comma> <quotedbl>		: "„"	U201E		# DOUBLE LOW-9 QUOTATION MARK
 <Multi_key> <less> <bar>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
-<Multi_key> <o> <period>		: "•"	U2022		# BULLET
+# The bullet was <o> <period>, but it clashes with ꙭ
+<Multi_key> <asterisk> <1>		: "•"	U2022		# BULLET
 # By default <Multi_key> <period> <period> does this, but we broke that with the ... binding.
 <Multi_key> <o> <underscore>		: "⁃"   U2043		# HYPHEN BULLET
 <Multi_key> <o> <comma>			: "·"	periodcentered	# MIDDLE DOT
@@ -52,6 +53,7 @@ include "%L"
 <Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
 # We already have THIN SPACE below, as <space> <apostrophe>!  Keep both?
 <Multi_key> <backslash> <comma>		: " "	U2009		# THIN SPACE
+<Multi_key> <s> <e> <c> : "§"   U00A7   # SECTION SIGN
 
 <Multi_key> <minus> <less>		: "←"	leftarrow	# LEFTWARDS ARROW
 <Multi_key> <minus> <asciicircum>	: "↑"	uparrow		# UPWARDS ARROW
@@ -219,6 +221,8 @@ include "%L"
 <Multi_key> <minus> <a>	      	  	: "ª"   U00AA		# FEMININE ORDINAL INDICATOR
 <Multi_key> <minus> <o>			: "º"	U00BA		# MASCULINE ORDINAL INDICATOR
 
+# See also U03A3 (Greek capital sigma)
+<Multi_key> <Multi_key> <s> <u> <m>	: "∑"	U2211		# N-ARY SUMMATION
 # OK, absolutely cannot believe we made it this long without NABLA or INTEGRAL
 # or PARTIAL DIFFERENTIAL
 <Multi_key> <Multi_key> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
@@ -233,7 +237,7 @@ include "%L"
 <Multi_key> <Multi_key> <o> <i> <i> <n> <t>	: "∯"	U222F		# SURFACE INTEGRAL
 <Multi_key> <Multi_key> <o> <i> <i> <i> <n> <t>	: "∰"	U2230		# VOLUME INTEGRAL
 <Multi_key> <Multi_key> <g> <i> <n> <t>	: "⨘"	U2A18		# GEOMETRIC INTEGRAL
-<Multi_key> <Multi_key> <s> <u> <m> <i> <n> <t>	: "⨋"	U2A0B		# SUM/INTEGRAL
+<Multi_key> <Multi_key> <s> <i> <n> <t>	: "⨋"	U2A0B		# SUM/INTEGRAL
 #Now for some WTF integrals: ⨙ ⨚ 	
 <Multi_key> <Multi_key> <d> <e> <l>	: "∇"	U2207	        # NABLA
 <Multi_key> <Multi_key> <p> <a> <r> <t>   : "∂" U2202		# PARTIAL DIFFERENTIAL
@@ -474,6 +478,15 @@ include "%L"
 <Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
 <Multi_key> <colon> <asciitilde>	: "⍨"   U2368		# APL FUNCTIONAL SYMBOL TILDE DIAERESIS
 <Multi_key> <colon> <bar>		: "⸚"   U2E1A		# HYPHEN WITH DIAERESIS
+# Those are archaic cyrilic letters... but look so _perfect_ for use
+# in chat. And about the last, the "multiocular O"... Well, I don't
+# know what it can be used for, but given the description, how could I
+# leave it out‽
+<Multi_key> <O> <period> <O>		: "Ꙭ"	UA66C		# CYRILLIC CAPITAL LETTER DOUBLE MONOCULAR O * used in the dual of words based on the root for 'eye' 
+<Multi_key> <o> <period> <o>		: "ꙭ"  UA66D		# CYRILLIC SMALL LETTER DOUBLE MONOCULAR O
+<Multi_key> <O> <colon>	 		: "Ꙫ"  UA66A		# CYRILLIC CAPITAL LETTER BINOCULAR O * used in the dual of words based on the root for 'eye'
+<Multi_key> <o> <colon> 		: "ꙫ"  UA66B 		# CYRILLIC SMALL LETTER BINOCULAR O
+<Multi_key> <o> <plus>			: "ꙮ"  UA66E		# CYRIILLIC LETTER MULTIOCULAR O * used in the epithet 'many-eyed'
 <Multi_key> <exclam> <question>         : "‽"   U203D           # INTERROBANG
 <Multi_key> <question> <exclam>         : "‽"   U203D           # INTERROBANG (in case you can’t remember the order)
 <Multi_key> <questiondown> <exclamdown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otherwise...? "?i" maybe?
@@ -571,6 +584,18 @@ include "%L"
 
 <Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
 <Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
+
+<Multi_key> <Multi_key> <g> <a> <y>                 :   "⚣"     U26A3   # DOUBLED MALE SIGN
+<Multi_key> <Multi_key> <l> <e> <s> <b> <i> <a> <n> :   "⚢"     U26A2   # DOUBLED FEMALE SIGN
+<Multi_key> <Multi_key> <h> <e> <t> <e> <r> <o>     :   "⚤"     U26A4   # INTERLOCKED FEMALE AND MALE SIGN
+
+# 'trans': short for transgender/transexual
+# 'genderq': short for genderqueer.
+# Wasn't sure which to call which symbol, and wanted to include both
+<Multi_key> <Multi_key> <t> <r> <a> <n> <s>         :   "⚥"     U26A5   # MALE AND FEMALE SIGN
+<Multi_key> <Multi_key> <g> <e> <n> <d> <e> <r> <q> :   "⚧"     U26A7   # MALE WITH STROKE AND MALE AND FEMALE SIGN
+
+
 <Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
 <Multi_key> <Multi_key> <s> <k> <u> <l> <l>:	  "☠" U2620 # SKULL AND CROSSBONES
 <Multi_key> <Multi_key> <k> <b> <d> :	"⌨"	  U2328	    # KEYBOARD
