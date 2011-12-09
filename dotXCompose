@@ -183,6 +183,7 @@ include "%L"
 <Multi_key> <slash> <backslash>         : "∧"  U2227           # LOGICAL AND
 <Multi_key> <backslash> <slash>         : "∨"  U2228           # LOGICAL OR
 <Multi_key> <backslash> <underscore> <slash>    : "⊻" U22BB     # XOR
+<Multi_key> <minus> <comma>	     :	"¬"	U00AC 		# NOT SIGN
 <Multi_key> <o> <asterisk>              : "∘"   U2218           # RING OPERATOR (function composition)
 <Multi_key> <ampersand> <asterisk> <x>             : "⨯"   U2A2F           # CROSS PRODUCT
 <Multi_key> <ampersand> <asterisk>  <period>        : "⋅"   U22C5           # DOT OPERATOR (dot product)
@@ -631,7 +632,6 @@ include "%L"
 <Multi_key> <k> <s>                     : "ʘ"   U0298           # LATIN LETTER BILABIAL CLICK (kiss sound)
 <Multi_key> <bar> <greater>             : "‣"   U2023           # TRIANGULAR BULLET
 #SUPERSCRIPTS:
-<Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
 #To avoid namespace clashes, <ampersand> is added
 <Multi_key> <asciicircum> <ampersand> <h>       : "ʰ"   U2230           # SUPERSCRIPT H
 <Multi_key> <asciicircum> <ampersand> <i>       : "ⁱ"   U2071           # SUPERSCRIPT I

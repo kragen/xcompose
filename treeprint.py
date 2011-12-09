@@ -21,14 +21,19 @@ etc: this is a case of GIGO.  Deal with it.
 """
 
 def showdict(data, indent):
+    first=True
     for (key, value) in data.iteritems():
+        if first:
+            first=False
+        else:
+            print
         print " "*indent + "("+key,
         if type(value)==dict:
             print ""
-            showdict(value, indent+4)
+            showdict(value, indent+4),
         else:
-            print "    "+value+")"
-        
+            print "    "+value,
+        print ")",
 
 listing={}
 
