@@ -22,15 +22,29 @@ etc: this is a case of GIGO.  Deal with it.
 
 def showdict(data, indent):
     first=True
-    for (key, value) in data.iteritems():
+    for key in sorted(data.keys()):
+        value=data[key]
         if first:
             first=False
         else:
             print
-        print " "*indent + "("+key,
+        print " "*max(indent,0) + "("+key,
+        # Sneaky trick: we don't want to go newline-indent over and
+        # over for long sequences, i.e. cases where there is only
+        # one possible follower.  So we skip the newlines in those
+        # cases, and tell the next-lower iteration not to do the whole
+        # indent thing by passing a negative indent.  We don't just
+        # pass 0 or 1 because if another iteration *further down*
+        # turns out not to be an only case, it will need to know
+        # the right indent to pass along.  So a case like 
+        # R-O-{CK|LL}, the O is unique after the R, so no linefeed,
+        # but then the {C|L} are not unique after the O.
         if type(value)==dict:
-            print ""
-            showdict(value, indent+4),
+            if len(value)>1:
+                print ""
+                showdict(value, abs(indent)+4),
+            else:
+                showdict(value, -abs(indent+4)),
         else:
             print "    "+value,
         print ")",
