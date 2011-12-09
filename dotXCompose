@@ -44,6 +44,7 @@ include "%L"
 # By default <Multi_key> <period> <period> does this, but we broke that with the ... binding.
 <Multi_key> <o> <underscore>		: "⁃"   U2043		# HYPHEN BULLET
 <Multi_key> <o> <comma>			: "·"	periodcentered	# MIDDLE DOT
+<Multi_key> <space> <minus>		: "‑"	U2011		# NON-BREAKING HYPHEN
 # Already present for me:
 # <Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
 # Do we want/need these?
@@ -653,6 +654,8 @@ include "%L"
 <Multi_key> <w> <w>			: "ʍ"	U028D		# LATIN SMALL LETTER TURNED W
 # I'll use capitals for a different double
 <Multi_key> <W> <W>			: "ʬ"	U02AC		# LATIN LETTER BILABIAL PERCUSSIVE
+# Sorry, I miss having this and hate having to use colon instead:
+<Multi_key> <colon> <plus>  	      	: "ː"	U02D0		# MODIFIER LETTER TRIANGULAR COLON
 # Also handy for writing urls: http://ʬw.omniglot.com/
 # ɣ? ɯ? ᴥ?  Important enough to add?  Is Greek epsilon OK for ɛ? (I think so.)
 # What about ɜɝɑ ?  I should probably bite the bullet and just go to an IPA
