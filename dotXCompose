@@ -220,6 +220,8 @@ include "%L"
 <Multi_key> <minus> <a>	      	  	: "ª"   U00AA		# FEMININE ORDINAL INDICATOR
 <Multi_key> <minus> <o>			: "º"	U00BA		# MASCULINE ORDINAL INDICATOR
 
+# See also U03A3 (Greek capital sigma)
+<Multi_key> <Multi_key> <s> <u> <m>	: "∑"	U2211		# N-ARY SUMMATION
 # OK, absolutely cannot believe we made it this long without NABLA or INTEGRAL
 # or PARTIAL DIFFERENTIAL
 <Multi_key> <Multi_key> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
@@ -234,7 +236,7 @@ include "%L"
 <Multi_key> <Multi_key> <o> <i> <i> <n> <t>	: "∯"	U222F		# SURFACE INTEGRAL
 <Multi_key> <Multi_key> <o> <i> <i> <i> <n> <t>	: "∰"	U2230		# VOLUME INTEGRAL
 <Multi_key> <Multi_key> <g> <i> <n> <t>	: "⨘"	U2A18		# GEOMETRIC INTEGRAL
-<Multi_key> <Multi_key> <s> <u> <m> <i> <n> <t>	: "⨋"	U2A0B		# SUM/INTEGRAL
+<Multi_key> <Multi_key> <s> <i> <n> <t>	: "⨋"	U2A0B		# SUM/INTEGRAL
 #Now for some WTF integrals: ⨙ ⨚ 	
 <Multi_key> <Multi_key> <d> <e> <l>	: "∇"	U2207	        # NABLA
 <Multi_key> <Multi_key> <p> <a> <r> <t>   : "∂" U2202		# PARTIAL DIFFERENTIAL
