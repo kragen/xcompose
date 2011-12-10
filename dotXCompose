@@ -867,7 +867,7 @@ include "%L"
 <Multi_key> <bracketleft> <J> <H> <bracketright>  : "🂻"	U1F0BB	# PLAYING CARD JACK OF HEARTS
 <Multi_key> <bracketleft> <N> <H> <bracketright>  : "🂼"	U1F0BC	# PLAYING CARD KNIGHT OF HEARTS
 <Multi_key> <bracketleft> <Q> <H> <bracketright>  : "🂽"	U1F0BD	# PLAYING CARD QUEEN OF HEARTS
-<Multi_key> <bracketleft> <K> <H> <bracketright>  : "🂽"	U1F0BE	# PLAYING CARD KING OF HEARTS
+<Multi_key> <bracketleft> <K> <H> <bracketright>  : "🂾"	U1F0BE	# PLAYING CARD KING OF HEARTS
 
 <Multi_key> <bracketleft> <A> <D> <bracketright>  : "🃁"	U1F0C1	# PLAYING CARD ACE OF DIAMONDS
 <Multi_key> <bracketleft> <2> <D> <bracketright>  : "🃂"	U1F0C2	# PLAYING CARD TWO OF DIAMONDS
@@ -897,7 +897,7 @@ include "%L"
 <Multi_key> <bracketleft> <J> <C> <bracketright>  : "🃛"	U1F0DB	# PLAYING CARD JACK OF CLUBS
 <Multi_key> <bracketleft> <N> <C> <bracketright>  : "🃜"	U1F0DC	# PLAYING CARD KNIGHT OF CLUBS
 <Multi_key> <bracketleft> <Q> <C> <bracketright>  : "🃝"	U1F0DD	# PLAYING CARD QUEEN OF CLUBS
-<Multi_key> <bracketleft> <K> <C> <bracketright>  : "🃝"	U1F0DE	# PLAYING CARD KING OF CLUBS
+<Multi_key> <bracketleft> <K> <C> <bracketright>  : "🃞"	U1F0DE	# PLAYING CARD KING OF CLUBS
 
 <Multi_key> <bracketleft> <C> <B> <bracketright>  : "🂠"	U1F0A0	# PLAYING CARD BACK
 <Multi_key> <bracketleft> <B> <J> <bracketright>  : "🂠" U1F0CF	# PLAYING CARD BLACK JOKER
