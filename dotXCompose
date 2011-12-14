@@ -14,7 +14,7 @@ include "%L"
 <Multi_key> <period> <period> <period>	: "…"	U2026		# HORIZONTAL ELLIPSIS
 <Multi_key> <v> <period> <period>	: "⋮"	U22EE		# VERTICAL ELLIPSIS
 <Multi_key> <c> <period> <period>	: "⋯"	U22EF		# MIDLINE HORIZONTAL ELLIPSIS
-<Multi_key> <slash> <period> <period>	: "⋰"	U22FO		# UP RIGHT DIAGONAL ELLIPSIS
+<Multi_key> <slash> <period> <period>	: "⋰"	U22F0		# UP RIGHT DIAGONAL ELLIPSIS
 # To avoid conflict with \. for combining dot above.
 #<Multi_key> <backslash> <period> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
 <Multi_key> <period> <backslash> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
@@ -553,7 +553,8 @@ include "%L"
 # a useful word.
 <Multi_key> <Multi_key> <r> <a> <d>	: "☢"	U2622		# RADIOACTIVE SIGN
 <Multi_key> <Multi_key> <b> <h>		: "☣"	U2623		# BIOHAZARD SIGN
-<Multi_key> <Multi_key> <A> <A> <A> <A> <A>	:	"⚝" U269D # OUTLINED WHITE STAR (pentalpha, get it?)
+# Changing this from ⚝
+<Multi_key> <Multi_key> <A> <A> <A> <A> <A>	:	"⛤" U26E4 # PENTAGRAM (pentalpha, get it?)
 <Multi_key> <Multi_key> <p> <l> <a> <n> <e>	: "✈"   U2708	  # AIRPLANE
 <Multi_key> <Multi_key> <m> <a> <i> <l>		: "✉"	U2709	  # ENVELOPE
 <Multi_key> <Multi_key> <w> <h> <l> <c> <h>	: "♿"	U267F	  # WHEELCHAIR SYMBOL
@@ -934,3 +935,51 @@ include "%L"
 
 # Sigh.  So many emoji...  I think the first ones I'd go for would be
 # 💡💢💣💤💥💦💧💨💫 (1F4A1-1F4A8 and 1F4AB).  Maybe 1F550-1F567 are useful.  
+<Multi_key> <Multi_key> <i> <d> <e> <a>	    : "💡"    U1F4A1 # ELECTRIC LIGHT BULB
+<Multi_key> <Multi_key> <a> <n> <g> <e> <r> : "💢"    U1F4A2 # ANGER SYMBOL
+<Multi_key> <Multi_key> <b> <o> <m> <b>	    : "💣"    U1F4A3 # BOMB
+<Multi_key> <Multi_key> <z> <z> <z> 	    : "💤"    U1F4A4 # SLEEPING SYMBOL
+<Multi_key> <Multi_key> <p> <o> <w>	    : "💥"    U1F4A5 # COLLISION SYMBOL
+<Multi_key> <Multi_key> <s> <w> <e> <a> <t> : "💦"    U1F4A6 # SPLASHING SWEAT SYMBOL
+<Multi_key> <Multi_key> <d> <r> <o> <p>	    : "💧"    U1F4A7 # DROPLET
+<Multi_key> <Multi_key> <z> <i> <p> 	    : "💨"    U1F4A8 # DASH SYMBOL
+<Multi_key> <Multi_key> <p> <o> <o>	    : "💩"    U1F4A9 # PILE OF POO
+# Skipping U+1F4AA just now.
+<Multi_key> <Multi_key> <d> <i> <z> <z> <y> : "💫"    U1F4AB # DIZZY SYMBOL
+<Multi_key> <Multi_key> <dollar> <b> <a> <g>  : "💰"  U1F4B0 # MONEY BAG
+<Multi_key> <Multi_key> <c> <a> <k> <e>	    : "🍰"    U1F370 # SHORTCAKE
+# The cake is a lie... OK, too cutesy?
+<Multi_key> <Multi_key> <l> <i> <e> 	    : "🎂"    U1F382 # BIRTHDAY CAKE
+<Multi_key> <Multi_key> <b> <d> <a> <y>	    : "🎂"    U1F382 # BIRTHDAY CAKE
+<Multi_key> <Multi_key> <A> <O> <K>	    : "👌"    U1F44C # OK HAND SIGN
+<Multi_key> <Multi_key> <t> <h> <m> <u> <p> : "👍"    U1F44D # THUMBS UP SIGN
+<Multi_key> <Multi_key> <t> <h> <m> <d> <n> : "👎"    U1F44E # THUMBS DOWN SIGN
+# ⛔ U+26D4 NO ENTRY for "Don't go there"?
+# Maybe 💋 U+1F8B KISS MARK..
+
+<Multi_key> <parenleft> <1> <colon> <0> <0> <parenright> : "🕐" U1F550 # CLOCK FACE ONE OCLOCK
+<Multi_key> <parenleft> <2> <colon> <0> <0> <parenright> : "🕑" U1F551 # CLOCK FACE TWO OCLOCK
+<Multi_key> <parenleft> <3> <colon> <0> <0> <parenright> : "🕒" U1F552 # CLOCK FACE THREE OCLOCK
+<Multi_key> <parenleft> <4> <colon> <0> <0> <parenright> : "🕓" U1F553 # CLOCK FACE FOUR OCLOCK
+<Multi_key> <parenleft> <5> <colon> <0> <0> <parenright> : "🕔" U1F554 # CLOCK FACE FIVE OCLOCK
+<Multi_key> <parenleft> <6> <colon> <0> <0> <parenright> : "🕕" U1F555 # CLOCK FACE SIX OCLOCK
+<Multi_key> <parenleft> <7> <colon> <0> <0> <parenright> : "🕖" U1F556 # CLOCK FACE SEVEN OCLOCK
+<Multi_key> <parenleft> <8> <colon> <0> <0> <parenright> : "🕗" U1F557 # CLOCK FACE EIGHT OCLOCK
+<Multi_key> <parenleft> <9> <colon> <0> <0> <parenright> : "🕘" U1F558 # CLOCK FACE NINE OCLOCK
+<Multi_key> <parenleft> <1> <0> <colon> <0> <0> <parenright> : "🕙" U1F559 # CLOCK FACE TEN OCLOCK
+<Multi_key> <parenleft> <1> <1> <colon> <0> <0> <parenright> : "🕚" U1F55A # CLOCK FACE ELEVEN OCLOCK
+<Multi_key> <parenleft> <1> <2> <colon> <0> <0> <parenright> : "🕚" U1F55B # CLOCK FACE TWELVE OCLOCK
+
+<Multi_key> <parenleft> <1> <colon> <3> <0> <parenright>     : "🕜" U1F55C # CLOCK FACE ONE-THIRTY
+<Multi_key> <parenleft> <2> <colon> <3> <0> <parenright>     : "🕝" U1F55D # CLOCK FACE TWO-THIRTY
+<Multi_key> <parenleft> <3> <colon> <3> <0> <parenright>     : "🕝" U1F55E # CLOCK FACE THREE-THIRTY
+<Multi_key> <parenleft> <4> <colon> <3> <0> <parenright>     : "🕟" U1F55F # CLOCK FACE FOUR-THIRTY
+<Multi_key> <parenleft> <5> <colon> <3> <0> <parenright>     : "🕠" U1F560 # CLOCK FACE FIVE-THIRTY
+<Multi_key> <parenleft> <6> <colon> <3> <0> <parenright>     : "🕡" U1F561 # CLOCK FACE SIX-THIRTY
+<Multi_key> <parenleft> <7> <colon> <3> <0> <parenright>     : "🕢" U1F562 # CLOCK FACE SEVEN-THIRTY
+<Multi_key> <parenleft> <8> <colon> <3> <0> <parenright>     : "🕣" U1F563 # CLOCK FACE EIGHT-THIRTY
+<Multi_key> <parenleft> <9> <colon> <3> <0> <parenright>     : "🕤" U1F564 # CLOCK FACE NINE-THIRTY
+<Multi_key> <parenleft> <1> <0> <colon> <3> <0> <parenright>     : "🕥" U1F565 # CLOCK FACE TEN-THIRTY
+<Multi_key> <parenleft> <1> <1> <colon> <3> <0> <parenright>     : "🕦" U1F566 # CLOCK FACE ELEVEN-THIRTY
+<Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
+

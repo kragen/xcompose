@@ -2,6 +2,10 @@
 
 import sys
 import re
+try:
+    import unicodedata
+except:
+    pass
 
 """
 This program slurps in a .XCompose file on standard input (or several
@@ -47,6 +51,11 @@ def showdict(data, indent):
                 showdict(value, -abs(indent+4)),
         else:
             print "    "+value,
+            if "-n" in sys.argv:
+                try:
+                    print unicodedata.name(value.decode('utf-8')),
+                except:
+                    pass
         print ")",
 
 listing={}
