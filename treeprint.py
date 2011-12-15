@@ -50,10 +50,10 @@ def showdict(data, indent):
             else:
                 showdict(value, -abs(indent+4)),
         else:
-            print "    "+value,
+            print "    "+value.encode('utf-8'),
             if "-n" in sys.argv:
                 try:
-                    print unicodedata.name(value.decode('utf-8')),
+                    print unicodedata.name(value),
                 except:
                     pass
         print ")",
@@ -62,7 +62,7 @@ listing={}
 
 try:
     while True:
-        line=sys.stdin.next()
+        line=sys.stdin.next().decode('utf-8')
         # print "((%s))"%line
         startpos=0
         name=[]
@@ -72,7 +72,7 @@ try:
             if not m:
                 break
             word=m.group(1)
-            name.append(word)
+            name.append(str(word)) # The keys are ordinary strings, not unicode
             startpos+=m.end()
         if startpos<=0:
             continue
@@ -98,8 +98,15 @@ try:
             # fail.  Prefix conflict.  Let's ignore it.
             pass
 except StopIteration:
-    print "hit end"
+    # print "hit end"
+    pass
 
+# Actually, you could get almost as nice a listing just by using yaml,
+# but now that we have special no-newlines-for-singletons handling,
+# showdict looks nicer.
 showdict(listing,0)
 
-    
+# #print "\n\n-=- YAML -=-"
+# import yaml
+# print yaml.dump(listing, default_style=r'"', allow_unicode=True)
+# # Huh.  Yaml "allow_unicode=True" still escapes non-BMP chars.
