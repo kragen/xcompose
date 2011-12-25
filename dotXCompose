@@ -483,11 +483,14 @@ include "%L"
 # in chat. And about the last, the "multiocular O"... Well, I don't
 # know what it can be used for, but given the description, how could I
 # leave it out‽
-<Multi_key> <O> <period> <O>		: "Ꙭ"	UA66C		# CYRILLIC CAPITAL LETTER DOUBLE MONOCULAR O * used in the dual of words based on the root for 'eye' 
+# (I guess using U+1F440 EYES would be more straightforward, but not as funny?)
+<Multi_key> <O> <period> <O>		: "Ꙭ"	UA66C		# CYRILLIC CAPITAL LETTER DOUBLE MONOCULAR O * used in the dual of words based on the root for 'eye'
 <Multi_key> <o> <period> <o>		: "ꙭ"  UA66D		# CYRILLIC SMALL LETTER DOUBLE MONOCULAR O
 <Multi_key> <O> <colon>	 		: "Ꙫ"  UA66A		# CYRILLIC CAPITAL LETTER BINOCULAR O * used in the dual of words based on the root for 'eye'
 <Multi_key> <o> <colon> 		: "ꙫ"  UA66B 		# CYRILLIC SMALL LETTER BINOCULAR O
-<Multi_key> <o> <plus>			: "ꙮ"  UA66E		# CYRIILLIC LETTER MULTIOCULAR O * used in the epithet 'many-eyed'
+<Multi_key> <o> <plus>			: "ꙮ"  UA66E		# CYRILLIC LETTER MULTIOCULAR O * used in the epithet 'many-eyed'
+# While we're doing stacks of circles with dots.
+<Multi_key> <o> <3>			: "߷"	U07F7		# NKO SYMBOL GBAKURUNEN
 <Multi_key> <exclam> <question>         : "‽"   U203D           # INTERROBANG
 <Multi_key> <question> <exclam>         : "‽"   U203D           # INTERROBANG (in case you can’t remember the order)
 <Multi_key> <questiondown> <exclamdown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otherwise...? "?i" maybe?
@@ -775,7 +778,7 @@ include "%L"
 <Multi_key> <B> <O> <M>			: "﻿"	UFEFF	# ZERO WIDTH NO-BREAK SPACE (Byte Order Mark)
 <Multi_key> <C> <G> <J>			: "͏"	U034F	# COMBINING GRAPHEME JOINER
 # These are sufficiently special and well-known that they don't need the
-# ampersand prefix I think.  The all-caps helps too.
+# double <Multi_key> prefix I think.  The all-caps helps too.
 
 # How about some small-caps?  We normally use a special character as a prefix,
 # but why not a suffix?  It won't interfere with things that way.
@@ -954,8 +957,10 @@ include "%L"
 <Multi_key> <Multi_key> <A> <O> <K>	    : "👌"    U1F44C # OK HAND SIGN
 <Multi_key> <Multi_key> <t> <h> <m> <u> <p> : "👍"    U1F44D # THUMBS UP SIGN
 <Multi_key> <Multi_key> <t> <h> <m> <d> <n> : "👎"    U1F44E # THUMBS DOWN SIGN
+# More useful in chat than U+1F48F KISS
+<Multi_key> <Multi_key> <k> <i> <s> <s>	    : "💋"    U1F48B # KISS MARK
 # ⛔ U+26D4 NO ENTRY for "Don't go there"?
-# Maybe 💋 U+1F8B KISS MARK..
+# So many hearts... I'm not touching them for now.
 
 <Multi_key> <parenleft> <1> <colon> <0> <0> <parenright> : "🕐" U1F550 # CLOCK FACE ONE OCLOCK
 <Multi_key> <parenleft> <2> <colon> <0> <0> <parenright> : "🕑" U1F551 # CLOCK FACE TWO OCLOCK
