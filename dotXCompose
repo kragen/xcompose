@@ -234,7 +234,7 @@ include "%L"
 <Multi_key> <Multi_key> <i> <i> <i> <i> <n> <t>	: "⨌"	U2A0C		# QUADRUPLE INTEGRAL
 <Multi_key> <Multi_key> <o> <i> <n> <t>	: "∮"	U222E		# CONTOUR INTEGRAL
 <Multi_key> <Multi_key> <p> <i> <n> <t>	: "⨕"	U2A15		# SEMICIRCULAR POLE INTEGRAL
-<Multi_key> <Multi_key> <c> <P> <i> <n> <t>	: "⨓"	U2A15		# INTEGRAL AROUND POINT
+<Multi_key> <Multi_key> <c> <P> <i> <n> <t>	: "⨓"	U2A13		# INTEGRAL AROUND POINT
 <Multi_key> <Multi_key> <o> <i> <i> <n> <t>	: "∯"	U222F		# SURFACE INTEGRAL
 <Multi_key> <Multi_key> <o> <i> <i> <i> <n> <t>	: "∰"	U2230		# VOLUME INTEGRAL
 <Multi_key> <Multi_key> <g> <i> <n> <t>	: "⨘"	U2A18		# GEOMETRIC INTEGRAL
@@ -260,8 +260,8 @@ include "%L"
 <Multi_key> <bar> <j>		: "ⅉ" U2149	# DOUBLE-STRUCK ITALIC SMALL J
 <Multi_key> <bar> <asterisk> <p> : "ℼ" U213C	# DOUBLE-STRUCK SMALL PI
 <Multi_key> <bar> <Greek_pi> 	 : "ℼ" U213C	# DOUBLE-STRUCK SMALL PI
-<Multi_key> <bar> <asterisk> <P> : "ℿ" U213C	# DOUBLE-STRUCK CAPITAL PI
-<Multi_key> <bar> <Greek_PI> 	 : "ℿ" U213C	# DOUBLE-STRUCK CAPITAL PI
+<Multi_key> <bar> <asterisk> <P> : "ℿ" U213F	# DOUBLE-STRUCK CAPITAL PI
+<Multi_key> <bar> <Greek_PI> 	 : "ℿ" U213F	# DOUBLE-STRUCK CAPITAL PI
 <Multi_key> <bar> <asterisk> <S> : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
 <Multi_key> <bar> <Greek_SIGMA>  : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
 # The *look* double-struck.
@@ -292,8 +292,8 @@ include "%L"
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
 <Multi_key> <bracketleft> <underscore>  : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
 <Multi_key> <bracketright> <bracketright>: "⊐"  U2290           # SQUARE ORIGINAL OF
-<Multi_key> <bracketright> <equal>      : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
-<Multi_key> <bracketright> <underscore> : "⊒"   U2291           # SQUARE ORIGINAL OF OR EQUAL TO
+<Multi_key> <bracketright> <equal>      : "⊒"   U2292           # SQUARE ORIGINAL OF OR EQUAL TO
+<Multi_key> <bracketright> <underscore> : "⊒"   U2292           # SQUARE ORIGINAL OF OR EQUAL TO
 # If I did more Haskell, I'd want this more:
 <Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom) or should we use U27C2 PERPENDICULAR?
 # Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
@@ -637,7 +637,7 @@ include "%L"
 <Multi_key> <bar> <greater>             : "‣"   U2023           # TRIANGULAR BULLET
 #SUPERSCRIPTS:
 #To avoid namespace clashes, <ampersand> is added
-<Multi_key> <asciicircum> <ampersand> <h>       : "ʰ"   U2230           # SUPERSCRIPT H
+<Multi_key> <asciicircum> <ampersand> <h>       : "ʰ"   U02B0           # SUPERSCRIPT H
 <Multi_key> <asciicircum> <ampersand> <i>       : "ⁱ"   U2071           # SUPERSCRIPT I
 <Multi_key> <asciicircum> <ampersand> <j>       : "ʲ"   U02B2           # SUPERSCRIPT J
 <Multi_key> <asciicircum> <ampersand> <n>       : "ⁿ"   U207F           # SUPERSCRIPT N
@@ -786,31 +786,31 @@ include "%L"
 # entries.  Whatever.
 
 <Multi_key> <a> <grave>	    	  : "ᴀ"	    U1D00 # LATIN LETTER SMALL CAPITAL A
-<Multi_key> <b> <grave>	    	  : "ʙ"	    U1D00 # LATIN LETTER SMALL CAPITAL B
-<Multi_key> <c> <grave>	    	  : "ᴄ"	    U1D00 # LATIN LETTER SMALL CAPITAL C
-<Multi_key> <d> <grave>	    	  : "ᴅ"	    U1D00 # LATIN LETTER SMALL CAPITAL D
-<Multi_key> <e> <grave>	    	  : "ᴇ"	    U1D00 # LATIN LETTER SMALL CAPITAL E
-<Multi_key> <f> <grave>	    	  : "ꜰ"	    U1D00 # LATIN LETTER SMALL CAPITAL F
-<Multi_key> <g> <grave>	    	  : "ɢ"	    U1D00 # LATIN LETTER SMALL CAPITAL G
-<Multi_key> <h> <grave>	    	  : "ʜ"	    U1D00 # LATIN LETTER SMALL CAPITAL H
-<Multi_key> <i> <grave>	    	  : "ɪ"	    U1D00 # LATIN LETTER SMALL CAPITAL I
-<Multi_key> <j> <grave>	    	  : "ᴊ"	    U1D00 # LATIN LETTER SMALL CAPITAL J
-<Multi_key> <k> <grave>	    	  : "ᴋ"	    U1D00 # LATIN LETTER SMALL CAPITAL K
-<Multi_key> <l> <grave>	    	  : "ʟ"	    U1D00 # LATIN LETTER SMALL CAPITAL L
-<Multi_key> <m> <grave>	    	  : "ᴍ"	    U1D00 # LATIN LETTER SMALL CAPITAL M
-<Multi_key> <n> <grave>	    	  : "ɴ"	    U1D00 # LATIN LETTER SMALL CAPITAL N
-<Multi_key> <o> <grave>	    	  : "ᴏ"	    U1D00 # LATIN LETTER SMALL CAPITAL O
-<Multi_key> <p> <grave>	    	  : "ᴘ"	    U1D00 # LATIN LETTER SMALL CAPITAL P
+<Multi_key> <b> <grave>	    	  : "ʙ"	    U0299 # LATIN LETTER SMALL CAPITAL B
+<Multi_key> <c> <grave>	    	  : "ᴄ"	    U1D04 # LATIN LETTER SMALL CAPITAL C
+<Multi_key> <d> <grave>	    	  : "ᴅ"	    U1D05 # LATIN LETTER SMALL CAPITAL D
+<Multi_key> <e> <grave>	    	  : "ᴇ"	    U1D07 # LATIN LETTER SMALL CAPITAL E
+<Multi_key> <f> <grave>	    	  : "ꜰ"	    UA730 # LATIN LETTER SMALL CAPITAL F
+<Multi_key> <g> <grave>	    	  : "ɢ"	    U0262 # LATIN LETTER SMALL CAPITAL G
+<Multi_key> <h> <grave>	    	  : "ʜ"	    U029C # LATIN LETTER SMALL CAPITAL H
+<Multi_key> <i> <grave>	    	  : "ɪ"	    U026A # LATIN LETTER SMALL CAPITAL I
+<Multi_key> <j> <grave>	    	  : "ᴊ"	    U1D0A # LATIN LETTER SMALL CAPITAL J
+<Multi_key> <k> <grave>	    	  : "ᴋ"	    U1D0B # LATIN LETTER SMALL CAPITAL K
+<Multi_key> <l> <grave>	    	  : "ʟ"	    U029F # LATIN LETTER SMALL CAPITAL L
+<Multi_key> <m> <grave>	    	  : "ᴍ"	    U1D0D # LATIN LETTER SMALL CAPITAL M
+<Multi_key> <n> <grave>	    	  : "ɴ"	    U0274 # LATIN LETTER SMALL CAPITAL N
+<Multi_key> <o> <grave>	    	  : "ᴏ"	    U1D0F # LATIN LETTER SMALL CAPITAL O
+<Multi_key> <p> <grave>	    	  : "ᴘ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
 # There is no SMALL CAPITAL Q (yet)!
-<Multi_key> <r> <grave>	    	  : "ʀ"	    U1D00 # LATIN LETTER SMALL CAPITAL R
-<Multi_key> <s> <grave>	    	  : "ꜱ"	    U1D00 # LATIN LETTER SMALL CAPITAL S
-<Multi_key> <t> <grave>	    	  : "ᴛ"	    U1D00 # LATIN LETTER SMALL CAPITAL T
-<Multi_key> <u> <grave>	    	  : "ᴜ"	    U1D00 # LATIN LETTER SMALL CAPITAL U
-<Multi_key> <v> <grave>	    	  : "ᴠ"	    U1D00 # LATIN LETTER SMALL CAPITAL V
-<Multi_key> <w> <grave>	    	  : "ᴡ"	    U1D00 # LATIN LETTER SMALL CAPITAL W
+<Multi_key> <r> <grave>	    	  : "ʀ"	    U0280 # LATIN LETTER SMALL CAPITAL R
+<Multi_key> <s> <grave>	    	  : "ꜱ"	    UA731 # LATIN LETTER SMALL CAPITAL S
+<Multi_key> <t> <grave>	    	  : "ᴛ"	    U1D1B # LATIN LETTER SMALL CAPITAL T
+<Multi_key> <u> <grave>	    	  : "ᴜ"	    U1D1C # LATIN LETTER SMALL CAPITAL U
+<Multi_key> <v> <grave>	    	  : "ᴠ"	    U1D20 # LATIN LETTER SMALL CAPITAL V
+<Multi_key> <w> <grave>	    	  : "ᴡ"	    U1D21 # LATIN LETTER SMALL CAPITAL W
 # There is no SMALL CAPITAL X (yet)
-<Multi_key> <y> <grave>	    	  : "ʏ"	    U1D00 # LATIN LETTER SMALL CAPITAL Y
-<Multi_key> <z> <grave>	    	  : "ᴢ"	    U1D00 # LATIN LETTER SMALL CAPITAL Z
+<Multi_key> <y> <grave>	    	  : "ʏ"	    U028F # LATIN LETTER SMALL CAPITAL Y
+<Multi_key> <z> <grave>	    	  : "ᴢ"	    U1D22 # LATIN LETTER SMALL CAPITAL Z
 
 
 # See also http://bleah.co.uk/~simon/stuff/XCompose
@@ -860,7 +860,7 @@ include "%L"
 
 <Multi_key> <bracketleft> <A> <H> <bracketright>  : "🂱"	U1F0B1	# PLAYING CARD ACE OF HEARTS
 <Multi_key> <bracketleft> <2> <H> <bracketright>  : "🂲"	U1F0B2	# PLAYING CARD TWO OF HEARTS
-<Multi_key> <bracketleft> <3> <H> <bracketright>  : "🂲"	U1F0B3	# PLAYING CARD THREE OF HEARTS
+<Multi_key> <bracketleft> <3> <H> <bracketright>  : "🂳"	U1F0B3	# PLAYING CARD THREE OF HEARTS
 <Multi_key> <bracketleft> <4> <H> <bracketright>  : "🂴"	U1F0B4	# PLAYING CARD FOUR OF HEARTS
 <Multi_key> <bracketleft> <5> <H> <bracketright>  : "🂵"	U1F0B5	# PLAYING CARD FIVE OF HEARTS
 <Multi_key> <bracketleft> <6> <H> <bracketright>  : "🂶"	U1F0B6	# PLAYING CARD SIX OF HEARTS
@@ -904,7 +904,7 @@ include "%L"
 <Multi_key> <bracketleft> <K> <C> <bracketright>  : "🃞"	U1F0DE	# PLAYING CARD KING OF CLUBS
 
 <Multi_key> <bracketleft> <C> <B> <bracketright>  : "🂠"	U1F0A0	# PLAYING CARD BACK
-<Multi_key> <bracketleft> <B> <J> <bracketright>  : "🂠" U1F0CF	# PLAYING CARD BLACK JOKER
+<Multi_key> <bracketleft> <B> <J> <bracketright>  : "🃏" U1F0CF	# PLAYING CARD BLACK JOKER
 <Multi_key> <bracketleft> <W> <J> <bracketright>  : "🃟"	U1F0DF	# PLAYING CARD WHITE JOKER
 
 # Do we want domino bones also?  I'm thinking [ 1 1 ], etc, maybe use
@@ -973,11 +973,11 @@ include "%L"
 <Multi_key> <parenleft> <9> <colon> <0> <0> <parenright> : "🕘" U1F558 # CLOCK FACE NINE OCLOCK
 <Multi_key> <parenleft> <1> <0> <colon> <0> <0> <parenright> : "🕙" U1F559 # CLOCK FACE TEN OCLOCK
 <Multi_key> <parenleft> <1> <1> <colon> <0> <0> <parenright> : "🕚" U1F55A # CLOCK FACE ELEVEN OCLOCK
-<Multi_key> <parenleft> <1> <2> <colon> <0> <0> <parenright> : "🕚" U1F55B # CLOCK FACE TWELVE OCLOCK
+<Multi_key> <parenleft> <1> <2> <colon> <0> <0> <parenright> : "🕛" U1F55B # CLOCK FACE TWELVE OCLOCK
 
 <Multi_key> <parenleft> <1> <colon> <3> <0> <parenright>     : "🕜" U1F55C # CLOCK FACE ONE-THIRTY
 <Multi_key> <parenleft> <2> <colon> <3> <0> <parenright>     : "🕝" U1F55D # CLOCK FACE TWO-THIRTY
-<Multi_key> <parenleft> <3> <colon> <3> <0> <parenright>     : "🕝" U1F55E # CLOCK FACE THREE-THIRTY
+<Multi_key> <parenleft> <3> <colon> <3> <0> <parenright>     : "🕞" U1F55E # CLOCK FACE THREE-THIRTY
 <Multi_key> <parenleft> <4> <colon> <3> <0> <parenright>     : "🕟" U1F55F # CLOCK FACE FOUR-THIRTY
 <Multi_key> <parenleft> <5> <colon> <3> <0> <parenright>     : "🕠" U1F560 # CLOCK FACE FIVE-THIRTY
 <Multi_key> <parenleft> <6> <colon> <3> <0> <parenright>     : "🕡" U1F561 # CLOCK FACE SIX-THIRTY
