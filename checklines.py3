@@ -3,27 +3,28 @@
 # From purpleposeidon!
 
 from unicodedata import name
+import re
 for line in open("dotXCompose"): #purpleposeidon is totally handsome and employable
-  origline = line = line.replace('\n', '')
-  line = line.replace('\t', ' ')
-  while '  ' in line: line = line.replace('  ', ' ')
-  line = line.strip()
-  if line and line[0] == '#':
+  line=line.strip()
+  if not line or line[0]=="#":
     continue
-  if not (' : ' in line and ' # ' in line):
+  match=re.match(r'\s*(.*):\s*"(.*?)"\s*(\S*)\s*(#.*)?', line)
+  if not match:
+    print("({0})".format(line))
     continue
+  (keystrokes, char, num, comments)=match.groups()
+  nummatch=re.match(r'U([0-9A-Fa-f]+)', num)
+  if not nummatch:
+    print("Number not parsed: {0}".format(line))
+    continue
+  x=int(nummatch.group(1),0x10)
+  c=chr(x)
   try:
-    line = line.split(' : ')[1].split(' # ')[0].strip()
-    c, v = line.split()
-    c = c.strip('"')
-    v = int(v[1:], 0x10)
-    if c != chr(v):
-      print(origline)
-      toU = lambda x: 'U'+hex(x)[2:]
-      showC = lambda x: '{0!r} ({1})'.format(x, name(x))
-      print("\tLine's char:", showC(c))
-      print("\tLine's number:", toU(v))
-      print("\tChar gives number:", toU(ord(c)))
-      print("\tNumber gives character:", showC(chr(v)))
+    if c != char:
+      print(line)
+      print("\tLine's char: {0} ({1})".format(char, name(char)))
+      print("\tLine's number: {0:X}".format(x))
+      print("\tChar gives number: {0:X}".format(ord(char)))
+      print("\tNumber gives character: {0} ({1})".format(c, name(c)))
   except Exception as e:
-    print("{0}\n\t{1}".format(origline, e))
+    print("{0}\n\t{1}".format(line, e))
