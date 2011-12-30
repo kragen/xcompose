@@ -4,7 +4,9 @@
 
 from unicodedata import name
 import re
-for line in open("dotXCompose"): #purpleposeidon is totally handsome and employable
+import sys
+
+for line in sys.stdin:
   line=line.strip()
   if not line or line[0]=="#":
     continue
