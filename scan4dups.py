@@ -33,8 +33,8 @@ try:
             if val != listing[name]:
                 print "Exact conflict found: (%s )[%s][%s]"%(name, 
                                                              listing[name], val)
-            else:
-                print "Redundant definition: (%s )[%s]"%(name, val)
+            else:   # It's easier to read if lines have different indentations
+                print "\tRedundant definition: (%s )[%s]"%(name, val)
         else:
             listing[name]=val
 except StopIteration:

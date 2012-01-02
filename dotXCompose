@@ -618,7 +618,12 @@ include "%L"
 <Multi_key> <asterisk> <numbersign>	:"✯" U272F # PINWHEEL STAR
 <Multi_key> <asterisk> <exclam>	:"✱" U2731 # HEAVY ASTERISK
 <Multi_key> <at> <numbersign>	: "⌘" U2318	# PLACE OF INTEREST SIGN
+# Using backslash-minus-slash etc. conflicts with combining accents.
+<Multi_key> <grave> <minus> <apostrophe>	 : "⚞"	U269E  # THREE LINES CONVERGING RIGHT
+<Multi_key> <apostrophe> <minus> <grave>	 : "⚟"	U269F  # THREE LINES CONVERGING LEFT
 <Multi_key> <Multi_key> <b> <e> <l> <l>		: "⍾" U237E  # BELL SYMBOL (or ALIENS LANDING) -- &-a-l-i-e-n ?
+# Other monstery characters... ѪꙚ (alien abductions?) 
+# ඏൠഋ & others from Kannada et al...? 
 # Can't use -^- for this; conflicts with -^ for ↑, and getting those arrows
 # workable was complicated enough.  How about this?
 <Multi_key> <underscore> <asciicircum> <underscore>	: "⌤" U2324  # UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS; aka ENTER KEY, aka NOT AMUSED.
@@ -644,7 +649,9 @@ include "%L"
 <Multi_key> <asciicircum> <ampersand> <r>       : "ʳ"   U02B3           # SUPERSCRIPT R
 <Multi_key> <asciicircum> <ampersand> <w>       : "ʷ"   U02B7           # SUPERSCRIPT W
 <Multi_key> <asciicircum> <ampersand> <y>       : "ʸ"   U02B8           # SUPERSCRIPT Y
-#Maybe add: ˀˁ˃˂
+#Maybe add: ˀˁ˃˂  Need to be able to talk about ʔˁ...
+<Multi_key> <asciicircum> <question> <period>	: "ˀ"	U02C0	# MODIFIER LETTER GLOTTAL STOP
+<Multi_key> <asciicircum> <question> <parenleft> : "ˁ"	U02C1	# MODIFIER LETTER REVERSED GLOTTAL STOP
 <Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
 <Multi_key> <asciicircum> <plus>	: "⁺"	U207A		# SUPERSCRIPT PLUS
 
@@ -662,6 +669,7 @@ include "%L"
 <Multi_key> <question> <minus>		: "ʡ"	U02A1		# LATIN LETTER GLOTTAL STOP WITH STROKE
 <Multi_key> <question> <braceleft>	: "ʢ"	U02A2		# LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE
 # How about ɸ? φ isn’t the IPA glyph.
+<Multi_key> <p> <h>			: "ɸ"	U0278		# LATIN SMALL LETTER PHI
 <Multi_key> <i> <h>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
 <Multi_key> <I> <H>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
 <Multi_key> <u> <h>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
@@ -669,7 +677,9 @@ include "%L"
 <Multi_key> <a> <h>			: "ɑ"	U0251		# LATIN SMALL LETTER ALPHA
 <Multi_key> <e> <r>			: "ɚ"	U025A		# LATIN SMALL LETTER SCHWA WITH HOOK
 <Multi_key> <o> <parenright>		:"ɔ" 	U0254 		# LATIN SMALL LETTER OPEN O
+<Multi_key> <a> <w>			: "ɔ"	U0254		# LATIN SMALL LETTER OPRN O
 <Multi_key> <O> <parenright>		:"Ɔ" 	U0186 		# LATIN CAPITAL LETTER OPEN O
+<Multi_key> <A> <W>			: "Ɔ"	U0186		# LATIN CAPITAL LETTER OPEN O
 <Multi_key> <e> <h>   	    	    	: "ɛ"   U025B		# LATIN SMALL LETTER OPEN E
 # How are these keystrokes?
 <Multi_key> <bar> <apostrophe>		: "ˈ"	U02C8		# MODIFIER LETTER VERTICAL LINE
@@ -723,6 +733,8 @@ include "%L"
 <Multi_key> <backslash> <quotedbl>	: "̈"	U0308	# COMBINING DIAERESIS
 <Multi_key> <backslash> <question>	: "̉"	U0309	# COMBINING HOOK ABOVE
 <Multi_key> <backslash> <o>		: "̊"	U030a	# COMBINING RING ABOVE
+# That now conflicts with the new 🙌 in the system xcompose.  Alternative:
+<Multi_key> <backslash> <0>   	       	: "̊"	U030a	# COMBINING RING ABOVE
 <Multi_key> <backslash> <backslash> <apostrophe>	: "̋"	U030b	# COMBINING DOUBLE ACUTE ACCENT -- ??
 <Multi_key> <backslash> <c>		: "̌"	U030c	# COMBINING CARON
 # These two conflict!!
@@ -961,6 +973,7 @@ include "%L"
 <Multi_key> <Multi_key> <k> <i> <s> <s>	    : "💋"    U1F48B # KISS MARK
 # ⛔ U+26D4 NO ENTRY for "Don't go there"?
 # So many hearts... I'm not touching them for now.
+# And emoticons? (U+1F600 et seq)
 
 <Multi_key> <parenleft> <1> <colon> <0> <0> <parenright> : "🕐" U1F550 # CLOCK FACE ONE OCLOCK
 <Multi_key> <parenleft> <2> <colon> <0> <0> <parenright> : "🕑" U1F551 # CLOCK FACE TWO OCLOCK
