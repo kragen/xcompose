@@ -134,12 +134,23 @@ include "%L"
 # Epigraphics should not be missed:
 <Multi_key> <F> <less>		: "ꟻ"	UA7FB	# LATIN EPIGRAPHIC LETTER REVERSED F
 <Multi_key> <P> <less>		: "ꟼ"	UA7FC	# LATIN EPIGRAPHIC LETTER REVERSED P
+<Multi_key> <F> <BackSpace>		: "ꟻ"	UA7FB	# LATIN EPIGRAPHIC LETTER REVERSED F
+<Multi_key> <P> <BackSpace>		: "ꟼ"	UA7FC	# LATIN EPIGRAPHIC LETTER REVERSED P
 <Multi_key> <M> <W>		: "ꟽ"	UA7FD	# LATIN EPIGRAPHIC LETTER INVERTED M
 <Multi_key> <I> <bar>		: "ꟾ"	UA7FE	# LATIN EPIGRAPHIC LETTER I LONGA
 <Multi_key> <M> <slash>		: "ꟿ"	UA7FF	# LATIN EPIGRAPHIC LETTER ARCHAIC M
 # These seem too long as keystrokes; any suggestions?
 <Multi_key> <o> <ampersand> <o>	: "ꝏ"	UA74F	# LATIN SMALL LETTER OO
 <Multi_key> <O> <ampersand> <O> : "Ꝏ"	UA74E	# LATIN CAPITAL LETTER OO
+# Latin-D chars I'm particularly thinking about:
+# (side note: "I" has many referents in this file.)
+# ꜲꜳꜴꜵꜶꜷꜸꜹꜼꜽꝒꝓꝔꝕꝚꝛꝜꝝꝠꝡꝪꝫꝸ
+# The ligature pairs are so easy, might as well include them (probably
+# using ampersand though).  P with flourish?  Squirrel tail?  How
+# pretty!  I like the r and rum rotunda, and et actually has something
+# close to usefulness (it was very common for abbreviations, and is the 
+# source of the "z" in abbreviations like oz. and viz.)  Some others 
+# are a little appealing too.
 
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
@@ -496,6 +507,7 @@ include "%L"
 <Multi_key> <questiondown> <exclamdown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otherwise...? "?i" maybe?
 <Multi_key> <exclamdown> <questiondown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otherwise...? "?i" maybe?
 <Multi_key> <question> <less>	      : "⸮"	  U2E2E		# REVERSED QUESTION MARK
+<Multi_key> <question> <BackSpace>      : "⸮"	  U2E2E		# REVERSED QUESTION MARK
 <Multi_key> <question> <ampersand> <question>	  : "⁇"	 U2047	# DOUBLE QUESTION MARK
 <Multi_key> <question> <ampersand> <exclam>	  : "⁈"	 U2048	# QUESTION EXCLAMATION MARK
 <Multi_key> <exclam> <ampersand> <question>	  : "⁉"	 U2049	# EXCLAMATION QUESTION MARK
