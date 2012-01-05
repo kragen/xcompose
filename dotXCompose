@@ -139,6 +139,11 @@ include "%L"
 <Multi_key> <M> <W>		: "ꟽ"	UA7FD	# LATIN EPIGRAPHIC LETTER INVERTED M
 <Multi_key> <I> <bar>		: "ꟾ"	UA7FE	# LATIN EPIGRAPHIC LETTER I LONGA
 <Multi_key> <M> <slash>		: "ꟿ"	UA7FF	# LATIN EPIGRAPHIC LETTER ARCHAIC M
+# I'd been avoiding this because we already have ∃...
+<Multi_key> <E> <less>	 	 : "Ǝ"	    U018E	# LATIN CAPITAL LETTER REVERSED E
+<Multi_key> <E> <BackSpace>	 : "Ǝ"	    U018E	# LATIN CAPITAL LETTER REVERSED E
+<Multi_key> <e> <less>		 : "ɘ"	    U0258	# LATIN SMALL LETTER REVERSED E
+<Multi_key> <e> <BackSpace>	 : "ɘ"	    U0258	# LATIN SMALL LETTER REVERSED E
 # These seem too long as keystrokes; any suggestions?
 <Multi_key> <o> <ampersand> <o>	: "ꝏ"	UA74F	# LATIN SMALL LETTER OO
 <Multi_key> <O> <ampersand> <O> : "Ꝏ"	UA74E	# LATIN CAPITAL LETTER OO
@@ -708,7 +713,24 @@ include "%L"
 # Sorry, I miss having this and hate having to use colon instead:
 <Multi_key> <colon> <plus>  	      	: "ː"	U02D0		# MODIFIER LETTER TRIANGULAR COLON
 # Also handy for writing urls: http://ʬw.omniglot.com/
-# ɣ? ɯ? ᴥ?  Important enough to add?  Is Greek epsilon OK for ɛ? (I think so.)
+# ɣ? ᴥ?  Important enough to add? ᴥ is cool just as a "latin" letter.
+<Multi_key> <g> <h>	     	    : "ɣ"   U0263     # LATIN SMALL LETTER GAMMA
+<Multi_key> <a> <i> <n>		    : "ᴥ"   U1D25     # LATIN LETTER AIN
+# Sometimes it's a "tail", sometimes a "hook", and sometimes a "retroflex hook"
+<Multi_key> <d> <comma>		    : "ɖ"   U0256     # LATIN SMALL LETTER D WITH TAIL
+<Multi_key> <l> <comma>		    : "ɭ"   U026D     # LATIN SMALL LETTER L WITH RETROFLEX HOOK
+<Multi_key> <n> <comma>		    : "ɳ"   U0273     # LATIN SMALL LETTER N WITH RETROFLEX HOOK
+<Multi_key> <s> <comma>		    : "ʂ"   U0282     # LATIN SMALL LETTER S WITH HOOK
+<Multi_key> <t> <comma>		    : "ʈ"   U0288     # LATIN SMALL LETTER T WITH RETROFLEX HOOK
+<Multi_key> <z> <comma>		    : "ʐ"   U0290     # LATIN SMALL LETTER Z WITH RETROFLEX HOOK
+# Sigh, might as well do implosives.  Which is also sometimes a hook.
+<Multi_key> <b> <apostrophe>	    : "ɓ"   U0253     # LATIN SMALL LETTER B WITH HOOK
+<Multi_key> <d> <apostrophe>	    : "ɗ"   U0257     # LATIN SMALL LETTER D WITH HOOK
+<Multi_key> <g> <apostrophe>	    : "ɠ"   U0260     # LATIN SMALL LETTER G WITH HOOK
+<Multi_key> <g> <g>		    : "ɡ"   U0261     # LATIN SMALL LETTER SCRIPT G
+# The h looks the same...
+<Multi_key> <h> <apostrophe>	    : "ɦ"   U0266     # LATIN SMALL LETTER H WITH HOOK
+<Multi_key> <G> <apostrophe>	    : "ʛ"   U029B     # LATIN LETTER SMALL CAPITAL G WITH HOOK
 # What about ɜɝɑ ?  I should probably bite the bullet and just go to an IPA
 # input method at that point.  We're never going to get the whole IPA in here.
 <Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
