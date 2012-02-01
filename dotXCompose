@@ -19,6 +19,9 @@ include "%L"
 #<Multi_key> <backslash> <period> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
 <Multi_key> <period> <backslash> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
 <Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
+# Printable sign for space.  But is \<space> too useful a key combo to use
+# for this?
+<Multi_key> <backslash> <space>		: "␣"	U2423		# OPEN BOX
 # These two are already present for me:
 # <Multi_key> <minus> <minus> <minus>	: "—"	U2014		# EM DASH
 # <Multi_key> <minus> <minus> <period>	: "–"	U2013		# EN DASH
@@ -955,6 +958,32 @@ include "%L"
 
 # Do we want domino bones also?  I'm thinking [ 1 1 ], etc, maybe use
 # ] 1 1 [ for vertical (or vice-versa)
+
+# And chess/checkers pieces! We need a convention for those.  # looks like a
+# checkerboard but we're already using that for music.  Half of it?
+<Multi_key> <bar> <W> <K>	 : "♔" U2654	# WHITE CHESS KING
+<Multi_key> <bar> <W> <Q>	 : "♕" U2655	# WHITE CHESS QUEEN
+<Multi_key> <bar> <W> <R>	 : "♖" U2656	# WHITE CHESS ROOK
+<Multi_key> <bar> <W> <B>	 : "♗" U2657	# WHITE CHESS BISHOP
+<Multi_key> <bar> <W> <N>	 : "♘" U2658	# WHITE CHESS KNIGHT
+<Multi_key> <bar> <W> <P>	 : "♙" U2659	# WHITE CHESS PAWN
+<Multi_key> <bar> <B> <K>	 : "♚" U265A	# BLACK CHESS KING
+<Multi_key> <bar> <B> <Q>	 : "♛" U265B	# BLACK CHESS QUEEN
+<Multi_key> <bar> <B> <R>	 : "♜" U265C	# BLACK CHESS ROOK
+<Multi_key> <bar> <B> <B>	 : "♝" U265D	# BLACK CHESS BISHOP
+<Multi_key> <bar> <B> <N>	 : "♞" U265E	# BLACK CHESS KNIGHT
+<Multi_key> <bar> <B> <P>	 : "♟" U265F	# BLACK CHESS PAWN
+<Multi_key> <bar> <W> <D> <M>	 : "⛀" U26C0	# WHITE DRAUGHTS MAN
+<Multi_key> <bar> <W> <D> <K>	 : "⛁" U26C1	# WHITE DRAUGHTS KING
+<Multi_key> <bar> <B> <D> <M>	 : "⛂" U26C2	# BLACK DRAUGHTS MAN
+<Multi_key> <bar> <B> <D> <K>	 : "⛃" U26C3	# BLACK DRAUGHTS KING
+# Since we're doing game pieces, might as well.
+<Multi_key> <bar> <W> <S>	 : "☖" U2616	# WHITE SHOGI PIECE
+<Multi_key> <bar> <B> <S>	 : "☗" U2617	# BLACK SHOGI PIECE
+# It's turned vertically and not horizontally reflected, but we use the <
+# symbol for turning...
+<Multi_key> <bar> <less> <W> <S> : "⛉" U26C9	# TURNED WHITE SHOGI PIECE
+<Multi_key> <bar> <less> <B> <S> : "⛊" U26CA	# TURNED BLACK SHOGI PIECE
 
 # As for the emoji... We can't possibly get all of them, even just all of the
 # cool/useful ones.  Maybe we can pick and choose some high-fliers.
