@@ -204,8 +204,8 @@ include "%L"
 <Multi_key> <backslash> <underscore> <slash>    : "⊻" U22BB     # XOR
 <Multi_key> <minus> <comma>	     :	"¬"	U00AC 		# NOT SIGN
 <Multi_key> <o> <asterisk>              : "∘"   U2218           # RING OPERATOR (function composition)
-<Multi_key> <ampersand> <asterisk> <x>             : "⨯"   U2A2F           # CROSS PRODUCT
-<Multi_key> <ampersand> <asterisk>  <period>        : "⋅"   U22C5           # DOT OPERATOR (dot product)
+<Multi_key> <Multi_key> <asterisk> <x>             : "⨯"   U2A2F           # CROSS PRODUCT
+<Multi_key> <Multi_key> <asterisk>  <period>        : "⋅"   U22C5           # DOT OPERATOR (dot product)
 <Multi_key> <0> <slash>                 : "∅"   U2205           # EMPTY SET (thanks jsled!)
 <Multi_key> <slash> <0>                 : "∅"   U2205           # EMPTY SET
 # I'm hoping { can work as a set mnemonic
