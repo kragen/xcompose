@@ -1064,3 +1064,15 @@ include "%L"
 <Multi_key> <parenleft> <1> <1> <colon> <3> <0> <parenright>     : "🕦" U1F566 # CLOCK FACE ELEVEN-THIRTY
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
 
+# Some old fashioned letters 
+<Multi_key> <t> <h>         : "þ" U00FE # LATIN SMALL LETTER THORN
+<Multi_key> <T> <H>         : "Þ" U00DE # LATIN CAPITAL LETTER THORN
+<Multi_key> <e> <t> <h>     : "ð" U00F0 # LATIN SMALL LETTER ETH
+<Multi_key> <E> <T> <H>     : "Ð" U00D0 # LATIN CAPITAL LETTER ETH
+<Multi_key> <w> <y> <n> <n> : "ƿ" U01BF # LATIN LETTER WYNN
+<Multi_key> <W> <Y> <N> <N> : "Ƿ" U01F7 # LATIN CAPITAL LETTER WYNN
+
+
+
+
+
