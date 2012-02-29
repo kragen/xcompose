@@ -498,6 +498,7 @@ include "%L"
 <Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
 <Multi_key> <colon> <asciitilde>	: "⍨"   U2368		# APL FUNCTIONAL SYMBOL TILDE DIAERESIS
 <Multi_key> <colon> <bar>		: "⸚"   U2E1A		# HYPHEN WITH DIAERESIS
+<Multi_key> <colon> <o> <o> <parenright>  :  "°͜°"    # Funny smiley-face.
 # Those are archaic cyrilic letters... but look so _perfect_ for use
 # in chat. And about the last, the "multiocular O"... Well, I don't
 # know what it can be used for, but given the description, how could I
@@ -520,6 +521,8 @@ include "%L"
 <Multi_key> <question> <ampersand> <exclam>	  : "⁈"	 U2048	# QUESTION EXCLAMATION MARK
 <Multi_key> <exclam> <ampersand> <question>	  : "⁉"	 U2049	# EXCLAMATION QUESTION MARK
 <Multi_key> <exclam> <ampersand> <exclam>	  : "‼"	 U203C	# DOUBLE EXCLAMATION MARK
+<Multi_key> <semicolon> <less>	 		  : "⁏"	 U204F	# REVERSED SEMICOLON
+<Multi_key> <semicolon> <BackSpace>	 		  : "⁏"	 U204F	# REVERSED SEMICOLON
 # Keep looking into big hunks of Latin Extended-D, A720- et seq.
 <Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
 <Multi_key> <3> <3>			: "♣" U2663		# BLACK CLUB SUIT
@@ -711,6 +714,7 @@ include "%L"
 <Multi_key> <u> <i>			: "ɯ"	U026F		# LATIN SMALL LETTER TURNED M
 # doubling a letter seems to be mostly used for turning
 <Multi_key> <w> <w>			: "ʍ"	U028D		# LATIN SMALL LETTER TURNED W
+<Multi_key> <a> <a>			: "ɐ"	U0250		# LATIN SMALL LETTER TURNED A
 # I'll use capitals for a different double
 <Multi_key> <W> <W>			: "ʬ"	U02AC		# LATIN LETTER BILABIAL PERCUSSIVE
 # Sorry, I miss having this and hate having to use colon instead:
@@ -805,6 +809,7 @@ include "%L"
 <Multi_key> <backslash> <ampersand> <at> <minus> : "͟" U035F # COMBINING DOUBLE MACRON BELOW
 <Multi_key> <backslash> <ampersand> <asciitilde> : "͠" U0360 # COMBINING DOUBLE TILDE
 <Multi_key> <backslash> <ampersand> <i> <b>  : "͡"  U0361 # COMBINING DOUBLE INVERTED BREVE
+<Multi_key> <backslash> <ampersand> <at> <i> <b>  : "᷼"  U0361 # COMBINING DOUBLE INVERTED BREVE BELOW
 # Might as well finish up the set.
 <Multi_key> <backslash> <ampersand> <greater> : "͢" U0362 # COMBINING DOUBLE RIGHTWARDS ARROW BELOW
 
