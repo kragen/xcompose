@@ -61,3 +61,62 @@
 <Multi_key> <x> <asterisk>	:	"𝖝"	U1D59D	# MATHEMATICAL BOLD FRAKTUR SMALL X
 <Multi_key> <y> <asterisk>	:	"𝖞"	U1D59E	# MATHEMATICAL BOLD FRAKTUR SMALL Y
 <Multi_key> <z> <asterisk>	:	"𝖟"	U1D59F	# MATHEMATICAL BOLD FRAKTUR SMALL Z
+
+########
+# Non-bold ones?  Which is correct for, say, the Masoretic text/Majority
+# Text?  𝕸 or 𝔐?  Unicode seems to say the latter, actually.
+# Should these be the primary, unmarked ones?
+
+<Multi_key> <A> <semicolon> <asterisk>	:	"𝔄"	U1D504	# MATHEMATICAL FRAKTUR CAPITAL A
+<Multi_key> <B> <semicolon> <asterisk>	:	"𝔅"	U1D505	# MATHEMATICAL FRAKTUR CAPITAL B
+<Multi_key> <C> <semicolon> <asterisk>	:	"ℭ"	U212D	# BLACK-LETTER CAPITAL C
+<Multi_key> <D> <semicolon> <asterisk>	:	"𝔇"	U1D507	# MATHEMATICAL FRAKTUR CAPITAL D
+<Multi_key> <E> <semicolon> <asterisk>	:	"𝔈"	U1D508	# MATHEMATICAL FRAKTUR CAPITAL E
+<Multi_key> <F> <semicolon> <asterisk>	:	"𝔉"	U1D509	# MATHEMATICAL FRAKTUR CAPITAL F
+<Multi_key> <G> <semicolon> <asterisk>	:	"𝔊"	U1D50A	# MATHEMATICAL FRAKTUR CAPITAL G
+<Multi_key> <H> <semicolon> <asterisk>	:	"ℌ"	U210C	# BLACK-LETTER CAPITAL H
+<Multi_key> <I> <semicolon> <asterisk>	:	"ℑ"	U2111	# BLACK-LETTER CAPITAL I
+<Multi_key> <J> <semicolon> <asterisk>	:	"𝔍"	U1D50D	# MATHEMATICAL FRAKTUR CAPITAL J
+<Multi_key> <K> <semicolon> <asterisk>	:	"𝔎"	U1D50E	# MATHEMATICAL FRAKTUR CAPITAL K
+<Multi_key> <L> <semicolon> <asterisk>	:	"𝔏"	U1D50F	# MATHEMATICAL FRAKTUR CAPITAL L
+<Multi_key> <M> <semicolon> <asterisk>	:	"𝔐"	U1D510	# MATHEMATICAL FRAKTUR CAPITAL M
+<Multi_key> <N> <semicolon> <asterisk>	:	"𝔑"	U1D511	# MATHEMATICAL FRAKTUR CAPITAL N
+<Multi_key> <O> <semicolon> <asterisk>	:	"𝔒"	U1D512	# MATHEMATICAL FRAKTUR CAPITAL O
+<Multi_key> <P> <semicolon> <asterisk>	:	"𝔓"	U1D513	# MATHEMATICAL FRAKTUR CAPITAL P
+<Multi_key> <Q> <semicolon> <asterisk>	:	"𝔔"	U1D514	# MATHEMATICAL FRAKTUR CAPITAL Q
+<Multi_key> <R> <semicolon> <asterisk>	:	"ℜ"	U211C	# BLACK-LETTER CAPITAL R
+<Multi_key> <S> <semicolon> <asterisk>	:	"𝔖"	U1D516	# MATHEMATICAL FRAKTUR CAPITAL S
+<Multi_key> <T> <semicolon> <asterisk>	:	"𝔗"	U1D517	# MATHEMATICAL FRAKTUR CAPITAL T
+<Multi_key> <U> <semicolon> <asterisk>	:	"𝔘"	U1D518	# MATHEMATICAL FRAKTUR CAPITAL U
+<Multi_key> <V> <semicolon> <asterisk>	:	"𝔙"	U1D519	# MATHEMATICAL FRAKTUR CAPITAL V
+<Multi_key> <W> <semicolon> <asterisk>	:	"𝔚"	U1D51A	# MATHEMATICAL FRAKTUR CAPITAL W
+<Multi_key> <X> <semicolon> <asterisk>	:	"𝔛"	U1D51B	# MATHEMATICAL FRAKTUR CAPITAL X
+<Multi_key> <Y> <semicolon> <asterisk>	:	"𝔜"	U1D51C	# MATHEMATICAL FRAKTUR CAPITAL Y
+<Multi_key> <Z> <semicolon> <asterisk>	:	"ℨ"	U2128	# BLACK-LETTER CAPITAL Z
+
+<Multi_key> <a> <semicolon> <asterisk>	:	"𝔞"	U1D51E	# MATHEMATICAL FRAKTUR SMALL A
+<Multi_key> <b> <semicolon> <asterisk>	:	"𝔟"	U1D51F	# MATHEMATICAL FRAKTUR SMALL B
+<Multi_key> <c> <semicolon> <asterisk>	:	"𝔠"	U1D520	# MATHEMATICAL FRAKTUR SMALL C
+<Multi_key> <d> <semicolon> <asterisk>	:	"𝔡"	U1D521	# MATHEMATICAL FRAKTUR SMALL D
+<Multi_key> <e> <semicolon> <asterisk>	:	"𝔢"	U1D522	# MATHEMATICAL FRAKTUR SMALL E
+<Multi_key> <f> <semicolon> <asterisk>	:	"𝔣"	U1D523	# MATHEMATICAL FRAKTUR SMALL F
+<Multi_key> <g> <semicolon> <asterisk>	:	"𝔤"	U1D524	# MATHEMATICAL FRAKTUR SMALL G
+<Multi_key> <h> <semicolon> <asterisk>	:	"𝔥"	U1D525	# MATHEMATICAL FRAKTUR SMALL H
+<Multi_key> <i> <semicolon> <asterisk>	:	"𝔦"	U1D526	# MATHEMATICAL FRAKTUR SMALL I
+<Multi_key> <j> <semicolon> <asterisk>	:	"𝔧"	U1D527	# MATHEMATICAL FRAKTUR SMALL J
+<Multi_key> <k> <semicolon> <asterisk>	:	"𝔨"	U1D528	# MATHEMATICAL FRAKTUR SMALL K
+<Multi_key> <l> <semicolon> <asterisk>	:	"𝔩"	U1D529	# MATHEMATICAL FRAKTUR SMALL L
+<Multi_key> <m> <semicolon> <asterisk>	:	"𝔪"	U1D52A	# MATHEMATICAL FRAKTUR SMALL M
+<Multi_key> <n> <semicolon> <asterisk>	:	"𝔫"	U1D52B	# MATHEMATICAL FRAKTUR SMALL N
+<Multi_key> <o> <semicolon> <asterisk>	:	"𝔬"	U1D52C	# MATHEMATICAL FRAKTUR SMALL O
+<Multi_key> <p> <semicolon> <asterisk>	:	"𝔭"	U1D52D	# MATHEMATICAL FRAKTUR SMALL P
+<Multi_key> <q> <semicolon> <asterisk>	:	"𝔮"	U1D52E	# MATHEMATICAL FRAKTUR SMALL Q
+<Multi_key> <r> <semicolon> <asterisk>	:	"𝔯"	U1D52F	# MATHEMATICAL FRAKTUR SMALL R
+<Multi_key> <s> <semicolon> <asterisk>	:	"𝔰"	U1D530	# MATHEMATICAL FRAKTUR SMALL S
+<Multi_key> <t> <semicolon> <asterisk>	:	"𝔱"	U1D531	# MATHEMATICAL FRAKTUR SMALL T
+<Multi_key> <u> <semicolon> <asterisk>	:	"𝔲"	U1D532	# MATHEMATICAL FRAKTUR SMALL U
+<Multi_key> <v> <semicolon> <asterisk>	:	"𝔳"	U1D533	# MATHEMATICAL FRAKTUR SMALL V
+<Multi_key> <w> <semicolon> <asterisk>	:	"𝔴"	U1D534	# MATHEMATICAL FRAKTUR SMALL W
+<Multi_key> <x> <semicolon> <asterisk>	:	"𝔵"	U1D535	# MATHEMATICAL FRAKTUR SMALL X
+<Multi_key> <y> <semicolon> <asterisk>	:	"𝔶"	U1D536	# MATHEMATICAL FRAKTUR SMALL Y
+<Multi_key> <z> <semicolon> <asterisk>	:	"𝔷"	U1D537	# MATHEMATICAL FRAKTUR SMALL Z
