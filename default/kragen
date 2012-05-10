@@ -1,5 +1,5 @@
 # for Emacs: -*- coding: utf-8 -*-
-include "%L"
+# Kragen's excellent starting point mappings.
 
 # def emit(keys, codepoint, word):
 #     print ('<Multi_key> %s <period>\t: "%s"\tU%04X\t\t# CIRCLED DIGIT %s' % 
@@ -1079,4 +1079,3 @@ include "%L"
 <Multi_key> <parenleft> <1> <0> <colon> <3> <0> <parenright>     : "🕥" U1F565 # CLOCK FACE TEN-THIRTY
 <Multi_key> <parenleft> <1> <1> <colon> <3> <0> <parenright>     : "🕦" U1F566 # CLOCK FACE ELEVEN-THIRTY
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
-

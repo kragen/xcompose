@@ -1,0 +1,43 @@
+# for Emacs: -*- coding: utf-8 -*-
+# Roman Numerals as: r m #
+<Multi_key> <r> <m> <1> <period> : "Ⅰ" U2160 # Compose r m 1 .
+<Multi_key> <r> <m> <2> <period> : "Ⅱ" U2161 # Compose r m 2 .
+<Multi_key> <r> <m> <3> <period> : "Ⅲ" U2162 # Compose r m 3 .
+<Multi_key> <r> <m> <4> <period> : "Ⅳ" U2163 # Compose r m 4 .
+<Multi_key> <r> <m> <5> <period> : "Ⅴ" U2164 # Compose r m 5 .
+<Multi_key> <r> <m> <6> <period> : "Ⅵ" U2165 # Compose r m 6 .
+<Multi_key> <r> <m> <7> <period> : "Ⅶ" U2166 # Compose r m 7 .
+<Multi_key> <r> <m> <8> <period> : "Ⅷ" U2167 # Compose r m 8 .
+<Multi_key> <r> <m> <9> <period> : "Ⅸ" U2168 # Compose r m 9 .
+<Multi_key> <r> <m> <1> <0> <period> : "Ⅹ" U2169 # Compose r m 1 0 .
+<Multi_key> <r> <m> <1> <1> <period> : "Ⅺ" U216A # Compose r m 1 1 .
+<Multi_key> <r> <m> <1> <2> <period> : "Ⅻ" U216B # Compose r m 1 2 .
+<Multi_key> <r> <m> <1> <6> <period> : "ⅩⅥ" # Compose r m 1 6 .
+<Multi_key> <r> <m> <2> <0> <period> : "ⅩⅩ" # Compose r m 2 0 .
+<Multi_key> <r> <m> <3> <0> <period> : "ⅩⅩⅩ" # Compose r m 3 0 .
+<Multi_key> <r> <m> <3> <2> <period> : "ⅩⅩⅩⅡ" # Compose r m 3 2 .
+<Multi_key> <r> <m> <4> <0> <period> : "ⅩⅬ" # Compose r m 4 0 .
+<Multi_key> <r> <m> <5> <0> <period> : "Ⅼ" U216C # Compose r m 5 0 .
+<Multi_key> <r> <m> <6> <0> <period> : "ⅬⅩ" # Compose r m 6 0 .
+<Multi_key> <r> <m> <6> <4> <period> : "ⅬⅩⅣ" # Compose r m 6 4 .
+<Multi_key> <r> <m> <7> <0> <period> : "ⅬⅩⅩ" # Compose r m 7 0 .
+<Multi_key> <r> <m> <8> <0> <period> : "ⅬⅩⅩⅩ" # Compose r m 8 0 .
+<Multi_key> <r> <m> <9> <0> <period> : "ⅩⅭ" # Compose r m 9 0 .
+<Multi_key> <r> <m> <1> <0> <0> <period> : "Ⅽ" U216D # Compose r m 1 0 0 .
+<Multi_key> <r> <m> <1> <2> <8> <period> : "ⅭⅩⅩⅧ" # Compose r m 1 2 8 .
+<Multi_key> <r> <m> <2> <0> <0> <period> : "ⅭⅭ" # Compose r m 2 0 0 .
+<Multi_key> <r> <m> <2> <5> <6> <period> : "ⅭⅭⅬⅥ" # Compose r m 2 5 6 .
+<Multi_key> <r> <m> <3> <0> <0> <period> : "ⅭⅭⅭ" # Compose r m 3 0 0 .
+<Multi_key> <r> <m> <4> <0> <0> <period> : "ⅭⅮ" # Compose r m 4 0 0 .
+<Multi_key> <r> <m> <5> <0> <0> <period> : "Ⅾ" U216E # Compose r m 5 0 0 .
+<Multi_key> <r> <m> <5> <1> <2> <period> : "ⅮⅫ" # Compose r m 5 1 2 .
+<Multi_key> <r> <m> <6> <0> <0> <period> : "ⅮⅭ" # Compose r m 6 0 0 .
+<Multi_key> <r> <m> <7> <0> <0> <period> : "ⅮⅭⅭ" # Compose r m 7 0 0 .
+<Multi_key> <r> <m> <8> <0> <0> <period> : "ⅮⅭⅭⅭ" # Compose r m 8 0 0 .
+<Multi_key> <r> <m> <9> <0> <0> <period> : "ⅭⅯ" # Compose r m 9 0 0 .
+<Multi_key> <r> <m> <1> <0> <0> <0> <period> : "Ⅿ" U216F # Compose r m 1 0 0 0 .
+<Multi_key> <r> <m> <1> <0> <2> <4> <period> : "ⅯⅩⅩⅣ" # Compose r m 1 0 2 4 .
+<Multi_key> <r> <m> <2> <0> <0> <0> <period> : "ⅯⅯ" # Compose r m 2 0 0 0 .
+<Multi_key> <r> <m> <2> <0> <4> <8> <period> : "ⅯⅯⅩⅬⅧ" # Compose r m 2 0 4 8 .
+<Multi_key> <r> <m> <3> <0> <0> <0> <period> : "ⅯⅯⅯ" # Compose r m 3 0 0 0 .
+

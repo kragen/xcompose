@@ -1,0 +1,70 @@
+# for Emacs: -*- coding: utf-8 -*-
+# Greek keys prefixed with e l _
+
+<Multi_key> <e> <l> <a> : "α" U03B1 # Compose e l a
+<Multi_key> <e> <l> <b> : "β" U03B2 # Compose e l b
+<Multi_key> <e> <l> <g> : "γ" U03B3 # Compose e l g
+<Multi_key> <e> <l> <d> : "δ" U03B4 # Compose e l d
+<Multi_key> <e> <l> <e> : "ε" U03B5 # Compose e l e
+<Multi_key> <e> <l> <z> : "ζ" U03B6 # Compose e l z
+<Multi_key> <e> <l> <h> : "η" U03B7 # Compose e l h
+<Multi_key> <e> <l> <u> : "θ" U03B8 # Compose e l u
+<Multi_key> <e> <l> <i> : "ι" U03B9 # Compose e l i
+<Multi_key> <e> <l> <k> : "κ" U03BA # Compose e l k
+<Multi_key> <e> <l> <l> : "λ" U03BB # Compose e l l
+<Multi_key> <e> <l> <m> : "μ" U03BC # Compose e l m
+<Multi_key> <e> <l> <n> : "ν" U03BD # Compose e l n
+<Multi_key> <e> <l> <j> : "ξ" U03BE # Compose e l j
+<Multi_key> <e> <l> <o> : "ο" U03BF # Compose e l o
+<Multi_key> <e> <l> <p> : "π" U03C0 # Compose e l p
+<Multi_key> <e> <l> <r> : "ρ" U03C1 # Compose e l r
+<Multi_key> <e> <l> <s> : "σ" U03C3 # Compose e l s
+<Multi_key> <e> <l> <w> : "ς" U03C2 # Compose e l w
+<Multi_key> <e> <l> <t> : "τ" U03C4 # Compose e l t
+<Multi_key> <e> <l> <y> : "υ" U03C5 # Compose e l y
+<Multi_key> <e> <l> <f> : "φ" U03C6 # Compose e l f
+<Multi_key> <e> <l> <x> : "χ" U03C7 # Compose e l x
+<Multi_key> <e> <l> <c> : "ψ" U03C8 # Compose e l c
+<Multi_key> <e> <l> <v> : "ω" U03C9 # Compose e l v
+
+<Multi_key> <e> <l> <A> : "Α" U0391 # Compose e l A
+<Multi_key> <e> <l> <B> : "Β" U0392 # Compose e l B
+<Multi_key> <e> <l> <G> : "Γ" U0393 # Compose e l G
+<Multi_key> <e> <l> <D> : "Δ" U0394 # Compose e l D
+<Multi_key> <e> <l> <E> : "Ε" U0395 # Compose e l E
+<Multi_key> <e> <l> <Z> : "Ζ" U0396 # Compose e l Z
+<Multi_key> <e> <l> <H> : "Η" U0397 # Compose e l H
+<Multi_key> <e> <l> <U> : "Θ" U0398 # Compose e l U
+<Multi_key> <e> <l> <I> : "Ι" U0399 # Compose e l I
+<Multi_key> <e> <l> <K> : "Κ" U039A # Compose e l K
+<Multi_key> <e> <l> <L> : "Λ" U039B # Compose e l L
+<Multi_key> <e> <l> <M> : "Μ" U039C # Compose e l M
+<Multi_key> <e> <l> <N> : "Ν" U039D # Compose e l N
+<Multi_key> <e> <l> <J> : "Ξ" U039E # Compose e l J
+<Multi_key> <e> <l> <O> : "Ο" U039F # Compose e l O
+<Multi_key> <e> <l> <P> : "Π" U03A0 # Compose e l P
+<Multi_key> <e> <l> <R> : "Ρ" U03A1 # Compose e l R
+<Multi_key> <e> <l> <S> : "Σ" U03A3 # Compose e l S
+<Multi_key> <e> <l> <W> : "Σ" U03A3 # Compose e l W
+<Multi_key> <e> <l> <T> : "Τ" U03A4 # Compose e l T
+<Multi_key> <e> <l> <Y> : "Υ" U03A5 # Compose e l Y
+<Multi_key> <e> <l> <F> : "Φ" U03A6 # Compose e l F
+<Multi_key> <e> <l> <X> : "Χ" U03A7 # Compose e l X
+<Multi_key> <e> <l> <C> : "Ψ" U03A8 # Compose e l C
+<Multi_key> <e> <l> <V> : "Ω" U03A9 # Compose e l V
+
+<Multi_key> <e> <l> <apostrophe> <a> : "ά" U03AC # Compose e l ' a
+<Multi_key> <e> <l> <apostrophe> <e> : "έ" U03AD # Compose e l ' e
+<Multi_key> <e> <l> <apostrophe> <h> : "ή" U03AE # Compose e l ' h
+<Multi_key> <e> <l> <apostrophe> <i> : "ί" U03AF # Compose e l ' i
+<Multi_key> <e> <l> <apostrophe> <o> : "ό" U03CC # Compose e l ' o
+<Multi_key> <e> <l> <apostrophe> <y> : "ύ" U03CD # Compose e l ' y
+<Multi_key> <e> <l> <apostrophe> <v> : "ώ" U03CE # Compose e l ' v
+
+<Multi_key> <e> <l> <apostrophe> <A> : "Ά" U0386 # Compose e l ' A
+<Multi_key> <e> <l> <apostrophe> <E> : "Έ" U0388 # Compose e l ' E
+<Multi_key> <e> <l> <apostrophe> <H> : "Ή" U0389 # Compose e l ' H
+<Multi_key> <e> <l> <apostrophe> <I> : "Ί" U038A # Compose e l ' I
+<Multi_key> <e> <l> <apostrophe> <O> : "Ό" U038C # Compose e l ' O
+<Multi_key> <e> <l> <apostrophe> <Y> : "Ύ" U038E # Compose e l ' Y
+<Multi_key> <e> <l> <apostrophe> <V> : "Ώ" U038F # Compose e l ' V

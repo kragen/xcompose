@@ -1,11 +1,9 @@
-# Fraktur looks cool, sometimes, and bold is where it's at.  These probably
-# aren't important enough for the real dotXcompose, but if you want them,
-# you can always include them using the include directive.
+# for Emacs: -*- coding: utf-8 -*-
+# Fraktur looks cool, sometimes, and bold is where it's at.
 #
-# My .XCompose is not a link to this repository's dotXcompose; it starts with
-# include "/path/to/.XCompose_std"
-# ... (which *is* a symlink to dotXcompose), and then also includes the 
-# frakturcompose file, and defines some idiosyncratic ones of my own.
+# Since these probably aren't important enough for everyone, they are defaulted
+# to off. If you want them, you can: ./configure --fraktur
+#
 
 <Multi_key> <A> <asterisk>	:	"𝕬"	U1D56C	# MATHEMATICAL BOLD FRAKTUR CAPITAL A
 <Multi_key> <B> <asterisk>	:	"𝕭"	U1D56D	# MATHEMATICAL BOLD FRAKTUR CAPITAL B

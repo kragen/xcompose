@@ -1,0 +1,15 @@
+# for Emacs: -*- coding: utf-8 -*-
+# Chess guys. x a k for ♔, x a K for ♚
+
+<Multi_key> <x> <a> <k> : "♔" U2654 # Compose x a k
+<Multi_key> <x> <a> <q> : "♕" U2655 # Compose x a q
+<Multi_key> <x> <a> <r> : "♖" U2656 # Compose x a r
+<Multi_key> <x> <a> <b> : "♗" U2657 # Compose x a b
+<Multi_key> <x> <a> <n> : "♘" U2658 # Compose x a n
+<Multi_key> <x> <a> <p> : "♙" U2659 # Compose x a p
+<Multi_key> <x> <a> <K> : "♚" U265A # Compose x a K
+<Multi_key> <x> <a> <Q> : "♛" U265B # Compose x a Q
+<Multi_key> <x> <a> <R> : "♜" U265C # Compose x a R
+<Multi_key> <x> <a> <B> : "♝" U265D # Compose x a B
+<Multi_key> <x> <a> <N> : "♞" U265E # Compose x a N
+<Multi_key> <x> <a> <P> : "♟" U265F # Compose x a P
