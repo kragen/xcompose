@@ -1,0 +1,117 @@
+# for Emacs: -*- coding: utf-8 -*-
+# Scraps from Kragen's original file that I wasn't sure how to classify.
+
+# def emit(keys, codepoint, word):
+#     print ('<Multi_key> %s <period>\t: "%s"\tU%04X\t\t# CIRCLED DIGIT %s' % 
+#            (keys, unichr(codepoint), codepoint, word)).encode('utf8')
+# numbers = 'one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty'
+# words = numbers.upper().split()
+# emit('<0>', 0x24EA, "ZERO")
+# for num, word in zip(range(1, 21), words):
+#     emit(' '.join("<%s>" % char for char in str(num)), 0x245f + num, word)
+
+
+# they're adding as "mediævalist extensions"
+# ꜢꜣꜤꜥ for the Egyptologists, Ꝏꝏ because they're cꝏl...  Maybe some others.
+# Can't do <o> <o> for ꝏ though, since that's already °.
+# Epigraphics should not be missed:
+<Multi_key> <F> <less>		: "ꟻ"	UA7FB	# LATIN EPIGRAPHIC LETTER REVERSED F
+<Multi_key> <P> <less>		: "ꟼ"	UA7FC	# LATIN EPIGRAPHIC LETTER REVERSED P
+<Multi_key> <F> <BackSpace>		: "ꟻ"	UA7FB	# LATIN EPIGRAPHIC LETTER REVERSED F
+<Multi_key> <P> <BackSpace>		: "ꟼ"	UA7FC	# LATIN EPIGRAPHIC LETTER REVERSED P
+<Multi_key> <M> <W>		: "ꟽ"	UA7FD	# LATIN EPIGRAPHIC LETTER INVERTED M
+<Multi_key> <I> <bar>		: "ꟾ"	UA7FE	# LATIN EPIGRAPHIC LETTER I LONGA
+<Multi_key> <M> <slash>		: "ꟿ"	UA7FF	# LATIN EPIGRAPHIC LETTER ARCHAIC M
+# I'd been avoiding this because we already have ∃...
+<Multi_key> <E> <less>	 	 : "Ǝ"	    U018E	# LATIN CAPITAL LETTER REVERSED E
+<Multi_key> <E> <BackSpace>	 : "Ǝ"	    U018E	# LATIN CAPITAL LETTER REVERSED E
+<Multi_key> <e> <less>		 : "ɘ"	    U0258	# LATIN SMALL LETTER REVERSED E
+<Multi_key> <e> <BackSpace>	 : "ɘ"	    U0258	# LATIN SMALL LETTER REVERSED E
+# These seem too long as keystrokes; any suggestions?
+<Multi_key> <o> <ampersand> <o>	: "ꝏ"	UA74F	# LATIN SMALL LETTER OO
+<Multi_key> <O> <ampersand> <O> : "Ꝏ"	UA74E	# LATIN CAPITAL LETTER OO
+# Latin-D chars I'm particularly thinking about:
+# (side note: "I" has many referents in this file.)
+# ꜲꜳꜴꜵꜶꜷꜸꜹꜼꜽꝒꝓꝔꝕꝚꝛꝜꝝꝠꝡꝪꝫꝸ
+# The ligature pairs are so easy, might as well include them (probably
+# using ampersand though).  P with flourish?  Squirrel tail?  How
+# pretty!  I like the r and rum rotunda, and et actually has something
+# close to usefulness (it was very common for abbreviations, and is the 
+# source of the "z" in abbreviations like oz. and viz.)  Some others 
+# are a little appealing too.
+
+
+
+#Maybe add: ˀˁ˃˂  Need to be able to talk about ʔˁ...
+<Multi_key> <asciicircum> <question> <period>	: "ˀ"	U02C0	# MODIFIER LETTER GLOTTAL STOP
+<Multi_key> <asciicircum> <question> <parenleft> : "ˁ"	U02C1	# MODIFIER LETTER REVERSED GLOTTAL STOP
+
+<Multi_key> <s> <h>			: "ʃ"	U0283		# LATIN SMALL LETTER ESH
+<Multi_key> <z> <h>			: "ʒ"	U0292		# LATIN SMALL LETTER EZH
+<Multi_key> <l> <h>    			: "ɬ"	U026C		# LATIN SMALL LETTER L WITH BELT
+<Multi_key> <l> <3>			: "ɮ"	U026E		# LATIN SMALL LETTER LEZH
+<Multi_key> <y> <g>			: "ȝ"	U021D		# LATIN SMALL LETTER YOGH
+<Multi_key> <Y> <G>			: "Ȝ"	U021C		# LATIN CAPITAL LETTER YOGH
+<Multi_key> <question> <period>		: "ʔ"	U0294		# LATIN LETTER GLOTTAL STOP
+<Multi_key> <question> <parenleft>	: "ʕ"	U0295		# LATIN LETTER PHARYNGEAL VOICED FRICATIVE
+# Not great keystrokes...
+<Multi_key> <question> <v>		: "ʖ"	U0296		# LATIN LETTER INVERTED GLOTTAL STOP
+<Multi_key> <question> <minus>		: "ʡ"	U02A1		# LATIN LETTER GLOTTAL STOP WITH STROKE
+<Multi_key> <question> <braceleft>	: "ʢ"	U02A2		# LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE
+# How about ɸ? φ isn’t the IPA glyph.
+<Multi_key> <p> <h>			: "ɸ"	U0278		# LATIN SMALL LETTER PHI
+<Multi_key> <i> <h>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
+<Multi_key> <I> <H>    			: "ɪ"	U026A		# LATIN LETTER SMALL CAPITAL I
+<Multi_key> <u> <h>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
+<Multi_key> <U> <H>			: "ʊ"	U028A		# LATIN SMALL LETTER UPSILON
+<Multi_key> <a> <h>			: "ɑ"	U0251		# LATIN SMALL LETTER ALPHA
+<Multi_key> <e> <r>			: "ɚ"	U025A		# LATIN SMALL LETTER SCHWA WITH HOOK
+<Multi_key> <o> <parenright>		:"ɔ" 	U0254 		# LATIN SMALL LETTER OPEN O
+<Multi_key> <a> <w>			: "ɔ"	U0254		# LATIN SMALL LETTER OPRN O
+<Multi_key> <O> <parenright>		:"Ɔ" 	U0186 		# LATIN CAPITAL LETTER OPEN O
+<Multi_key> <A> <W>			: "Ɔ"	U0186		# LATIN CAPITAL LETTER OPEN O
+<Multi_key> <e> <h>   	    	    	: "ɛ"   U025B		# LATIN SMALL LETTER OPEN E
+# How are these keystrokes?
+<Multi_key> <bar> <apostrophe>		: "ˈ"	U02C8		# MODIFIER LETTER VERTICAL LINE
+<Multi_key> <bar> <comma>		: "ˌ"	U02CC		# MODIFIER LETTER LOW VERTICAL LINE
+<Multi_key> <bar> <underscore>		: "̩"	U0329		# COMBINING VERTICAL LINE BELOW
+<Multi_key> <r> <r>                     : "ɹ"   U0279           # LATIN SMALL LETTER TURNED R: voiced alveolar approximant (American English (at least) R)
+<Multi_key> <r> <d>                     : "ɾ"   U027E           # LATIN SMALL LETTER R WITH FISHHOOK: voiced alveolar flap or tap (American English intervocalic allophone of d, or Spanish r)
+<Multi_key> <v> <v>                     : "ʌ"   U028C           # LATIN SMALL LETTER TURNED V
+<Multi_key> <u> <i>			: "ɯ"	U026F		# LATIN SMALL LETTER TURNED M
+# doubling a letter seems to be mostly used for turning
+<Multi_key> <w> <w>			: "ʍ"	U028D		# LATIN SMALL LETTER TURNED W
+<Multi_key> <a> <a>			: "ɐ"	U0250		# LATIN SMALL LETTER TURNED A
+# I'll use capitals for a different double
+<Multi_key> <W> <W>			: "ʬ"	U02AC		# LATIN LETTER BILABIAL PERCUSSIVE
+# Sorry, I miss having this and hate having to use colon instead:
+<Multi_key> <colon> <plus>  	      	: "ː"	U02D0		# MODIFIER LETTER TRIANGULAR COLON
+# Also handy for writing urls: http://ʬw.omniglot.com/
+# ɣ? ᴥ?  Important enough to add? ᴥ is cool just as a "latin" letter.
+<Multi_key> <g> <h>	     	    : "ɣ"   U0263     # LATIN SMALL LETTER GAMMA
+<Multi_key> <a> <i> <n>		    : "ᴥ"   U1D25     # LATIN LETTER AIN
+# Sometimes it's a "tail", sometimes a "hook", and sometimes a "retroflex hook"
+<Multi_key> <d> <comma>		    : "ɖ"   U0256     # LATIN SMALL LETTER D WITH TAIL
+<Multi_key> <l> <comma>		    : "ɭ"   U026D     # LATIN SMALL LETTER L WITH RETROFLEX HOOK
+<Multi_key> <n> <comma>		    : "ɳ"   U0273     # LATIN SMALL LETTER N WITH RETROFLEX HOOK
+<Multi_key> <s> <comma>		    : "ʂ"   U0282     # LATIN SMALL LETTER S WITH HOOK
+<Multi_key> <t> <comma>		    : "ʈ"   U0288     # LATIN SMALL LETTER T WITH RETROFLEX HOOK
+<Multi_key> <z> <comma>		    : "ʐ"   U0290     # LATIN SMALL LETTER Z WITH RETROFLEX HOOK
+# Sigh, might as well do implosives.  Which is also sometimes a hook.
+<Multi_key> <b> <apostrophe>	    : "ɓ"   U0253     # LATIN SMALL LETTER B WITH HOOK
+<Multi_key> <d> <apostrophe>	    : "ɗ"   U0257     # LATIN SMALL LETTER D WITH HOOK
+<Multi_key> <g> <apostrophe>	    : "ɠ"   U0260     # LATIN SMALL LETTER G WITH HOOK
+<Multi_key> <g> <g>		    : "ɡ"   U0261     # LATIN SMALL LETTER SCRIPT G
+# The h looks the same...
+<Multi_key> <h> <apostrophe>	    : "ɦ"   U0266     # LATIN SMALL LETTER H WITH HOOK
+<Multi_key> <G> <apostrophe>	    : "ʛ"   U029B     # LATIN LETTER SMALL CAPITAL G WITH HOOK
+# What about ɜɝɑ ?  I should probably bite the bullet and just go to an IPA
+# input method at that point.  We're never going to get the whole IPA in here.
+<Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
+<Multi_key> <R> <x>			: "℞"	U211E		# PRESCRIPTION TAKE
+<Multi_key> <o> <z> <period>		: "℥"	U2125		# OUNCE SIGN
+<Multi_key> <s> <c> <r> <period>	: "℈"	U2108		# SCRUPLE
+# There are all kinds of awesome combining characters in the U+0300 page.
+# However, I don’t know how I would use a lot of them.  x͜͡y?
+# There are a bunch of other awesome combining characters like U+20E0
+<Multi_key> <asterisk> <period> <period> <period> : "๛" U0E5B   # THAI CHARACTER KHOMUT (end of chapter)

@@ -5,16 +5,11 @@ use Term::ANSIColor qw(:constants color);
 use Cwd;
 
 chdir $1 if $0 =~ /(.+\/)/;
--e 'default/kragen' or die "something went wrong";
+-e 'in/arrows' or die "something went wrong";
 
 sub glob_basename { map { /.+\/(.+)/ } glob "$_[0]/*" }
 
-my @default = glob_basename 'default';
-my @maybe = glob_basename 'maybe';
-my %opts = (
-    map({ $_ => 1 } @default),
-    map({ $_ => 0 } @maybe),
-);
+my @in = glob_basename 'in';
 
 sub read_desc {
     my $filename = shift;
@@ -25,61 +20,40 @@ sub read_desc {
     $desc
 }
 
-my $want_help = 0;
-my $want_all = 0;
-my %getopt_specs = (
-    help => \$want_help,
-    all => \$want_all,
-    map { ("$_!" => \$opts{$_}) } keys %opts,
-);
-
 sub colored_head { "\n " . CYAN . shift . WHITE ": \n" }
-sub colored_comment { WHITE ' — ' . BLUE shift . WHITE }
 sub usage {
-    print "You can...\n";
-    print colored_head " Exclude defaults";
-    print
-      map { "    --no-" . YELLOW $_ . colored_comment read_desc "default/$_" }
-      @default;
-    print colored_head " Add optionals";
-    print
-      map { "    --" . GREEN $_ . colored_comment read_desc "maybe/$_" }
-      @maybe;
-    print colored_head " ...also: ";
-    print "    --" . GREEN "all" . colored_comment "Enable E'rthang.";
-    print "\n";
+    print colored_head 'Nevermind.';
+    print "This no longer has any options. For now we'll install everything.\n";
+    print "You can delete whatever `include` lines you want, to pare down.\n";
     exit 1
 }
 
-GetOptions(\%opts, %getopt_specs);
-usage if $want_help;
-if ($want_all) {
-    $opts{$_} = 1 for keys %opts;
+usage if @ARGV;
+
+sub expand {
+    my ($file) = @_;
+    my $full_path = cwd() . "/in/$file";
+    "include \"$full_path\""
 }
 
-sub potentially_include {
-    my ($dir, $file) = @_;
-    return '' unless $opts{$file};
-    my $full_path = cwd() . "/$dir/$file";
-    "include \"$full_path\"\n"
-}
-
-my $includes = '';
-$includes .= potentially_include "default", $_ for @default;
-$includes .= potentially_include "maybe", $_ for @maybe;
+my $includes = join "\n", map {
+    expand($_)
+} @in;
 my $result = qq(# See: https://github.com/kragen/xcompose
 
 include "%L" # system mapping, e.g.: /usr/share/X11/locale/en_US.UTF-8/Compose
 
 $includes
+
 # And lastly, your personal config. (At the end, so you get override powers.)
 include "%H/.localXCompose"
 );
+
+open my $outfile, '>.XCompose' or die "Couldn't open .XCompose: $!";
+print $outfile $result or die "Very weird. Couldn't write to .XCompose. ($!)";
+close $outfile or die "Superweird. Couldn't close .XCompose. ($!)";
 
 print MAGENTA "Added the following…\n",
     WHITE $result,
     MAGENTA "…to .XCompose\n";
 print color 'reset';
-open my $outfile, '>.XCompose' or die "Couldn't open .XCompose: $!";
-print $outfile $result or die "Very weird. Couldn't write to .XCompose. ($!)";
-close $outfile or die "Superweird. Couldn't close .XCompose. ($!)";

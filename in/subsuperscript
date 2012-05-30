@@ -1,0 +1,21 @@
+# The system file gives us subscript numbers, plus/minus, and parens.  But
+# there are letters missing.  It would be nice to have at least a few of them.
+<Multi_key> <underscore> <i>  	       :  "ᵢ"  U1D62   	  # LATIN SUBSCRIPT SMALL LETTER I
+<Multi_key> <underscore> <o>	       :  "ₒ"  U2092	  # LATIN SUBSCRIPT SMALL LETTER O
+<Multi_key> <underscore> <x>	       :  "ₓ"  U2093	  # LATIN SUBSCRIPT SMALL LETTER X
+<Multi_key> <underscore> <j>	       :  "ⱼ"  U2C7C	  # LATIN SUBSCRIPT SMALL LETTER J
+# Awaiting common font support for these...
+<Multi_key> <underscore> <k>           :  "ₖ"  U2096	  # LATIN SUBSCRIPT SMALL LETTER K
+<Multi_key> <underscore> <m>	       :  "ₘ"  U2098	  # LATIN SUBSCRIPT SMALL LETTER M
+<Multi_key> <underscore> <n>	       :  "ₙ"  U2099	  # LATIN SUBSCRIPT SMALL LETTER N
+<Multi_key> <underscore> <minus>       : "₋"   U208B	  # SUBSCRIPT MINUS
+<Multi_key> <underscore> <plus>	       : "₊"   U208A	  # SUBSCRIPT PLUS
+#SUPERSCRIPTS:
+#To avoid namespace clashes, <asciicircum> is doubled (will I regret that?)
+<Multi_key> <asciicircum> <asciicircum> <h>       : "ʰ"   U02B0           # SUPERSCRIPT H
+<Multi_key> <asciicircum> <asciicircum> <i>       : "ⁱ"   U2071           # SUPERSCRIPT I
+<Multi_key> <asciicircum> <asciicircum> <j>       : "ʲ"   U02B2           # SUPERSCRIPT J
+<Multi_key> <asciicircum> <asciicircum> <n>       : "ⁿ"   U207F           # SUPERSCRIPT N
+<Multi_key> <asciicircum> <asciicircum> <r>       : "ʳ"   U02B3           # SUPERSCRIPT R
+<Multi_key> <asciicircum> <asciicircum> <w>       : "ʷ"   U02B7           # SUPERSCRIPT W
+<Multi_key> <asciicircum> <asciicircum> <y>       : "ʸ"   U02B8           # SUPERSCRIPT Y

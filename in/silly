@@ -1,0 +1,19 @@
+# Custom additions: for chat (kragen)
+<Multi_key> <parenleft> <colon>         : "☻"   U263B           # BLACK SMILING FACE
+<Multi_key> <colon> <parenright>        : "☺"   U263A           # WHITE SMILING FACE
+<Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
+<Multi_key> <colon> <asciitilde>	: "⍨"   U2368		# APL FUNCTIONAL SYMBOL TILDE DIAERESIS
+<Multi_key> <colon> <bar>		: "⸚"   U2E1A		# HYPHEN WITH DIAERESIS
+<Multi_key> <colon> <o> <o> <parenright>  :  "°͜°"    # Funny smiley-face.
+# Those are archaic cyrilic letters... but look so _perfect_ for use
+# in chat. And about the last, the "multiocular O"... Well, I don't
+# know what it can be used for, but given the description, how could I
+# leave it out‽
+# (I guess using U+1F440 EYES would be more straightforward, but not as funny?)
+<Multi_key> <O> <period> <O>		: "Ꙭ"	UA66C		# CYRILLIC CAPITAL LETTER DOUBLE MONOCULAR O * used in the dual of words based on the root for 'eye'
+<Multi_key> <o> <period> <o>		: "ꙭ"  UA66D		# CYRILLIC SMALL LETTER DOUBLE MONOCULAR O
+<Multi_key> <O> <colon>	 		: "Ꙫ"  UA66A		# CYRILLIC CAPITAL LETTER BINOCULAR O * used in the dual of words based on the root for 'eye'
+<Multi_key> <o> <colon> 		: "ꙫ"  UA66B 		# CYRILLIC SMALL LETTER BINOCULAR O
+<Multi_key> <o> <plus>			: "ꙮ"  UA66E		# CYRILLIC LETTER MULTIOCULAR O * used in the epithet 'many-eyed'
+# While we're doing stacks of circles with dots.
+<Multi_key> <o> <3>			: "߷"	U07F7		# NKO SYMBOL GBAKURUNEN

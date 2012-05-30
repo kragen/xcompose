@@ -1,0 +1,11 @@
+# Music stuff.  # is the music mnemonic.
+<Multi_key> <numbersign> <b>		: "♭" U266d # MUSIC FLAT SIGN
+<Multi_key> <numbersign> <f>		: "♮" U266e # MUSIC NATURAL SIGN
+<Multi_key> <numbersign> <equal>	: "♮" U266e # MUSIC NATURAL SIGN
+<Multi_key> <numbersign> <numbersign>	: "♯" U266f # MUSIC SHARP SIGN
+<Multi_key> <numbersign> <G>             : "𝄞"  U0001d11e # MUSICAL SYMBOL G CLEF
+<Multi_key> <numbersign> <F>              : "𝄢"  U0001d122 # MUSICAL SYMBOL F CLEF
+<Multi_key> <numbersign> <C>              : "𝄡" U0001d121 # MUSICAL SYMBOL C CLEF
+<Multi_key> <numbersign> <o> <slash>	: "♪" U266a	# EIGHTH NOTE
+<Multi_key> <numbersign> <o> <o>	: "♫" U266b	# BEAMED EIGHTH NOTES
+<Multi_key> <numbersign> <percent>	: "♫" U266b	# BEAMED EIGHTH NOTES

@@ -1,0 +1,100 @@
+# Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
+# input method.  Aristotle Pagaltzis informs me that this is the
+# standard Greek keyboard layout, which is good.
+<Multi_key> <asterisk> <a>		: "α"	U03B1		# GREEK SMALL LETTER ALPHA
+<Multi_key> <asterisk> <b>		: "β"	U03B2		# GREEK SMALL LETTER BETA
+<Multi_key> <asterisk> <c>		: "ψ"	U03C8		# GREEK SMALL LETTER PSI
+<Multi_key> <asterisk> <d>		: "δ"	U03B4		# GREEK SMALL LETTER DELTA
+<Multi_key> <asterisk> <e>		: "ε"	U03B5		# GREEK SMALL LETTER EPSILON
+<Multi_key> <asterisk> <f>		: "φ"	U03C6		# GREEK SMALL LETTER PHI
+<Multi_key> <asterisk> <g>		: "γ"	U03B3		# GREEK SMALL LETTER GAMMA
+<Multi_key> <asterisk> <h>		: "η"	U03B7		# GREEK SMALL LETTER ΕΤΑ
+<Multi_key> <asterisk> <i>		: "ι"	U03B9		# GREEK SMALL LETTER ΙΟΤΑ
+<Multi_key> <asterisk> <j>		: "ξ"	U03BE		# GREEK SMALL LETTER XI
+<Multi_key> <asterisk> <k>		: "κ"	U03BA		# GREEK SMALL LETTER KAPPA
+<Multi_key> <asterisk> <l>		: "λ"	U03BB		# GREEK SMALL LETTER LAMBDA
+<Multi_key> <asterisk> <m>		: "μ"	U03BC		# GREEK SMALL LETTER MU
+<Multi_key> <asterisk> <n>		: "ν"	U03BD		# GREEK SMALL LETTER NU
+<Multi_key> <asterisk> <o>		: "ο"	U03BF		# GREEK SMALL LETTER OMICRON
+<Multi_key> <asterisk> <p>		: "π"	U03C0		# GREEK SMALL LETTER PI
+# no mapping for q; in Emacs that's ";"
+# U037E GREEK QUESTION MARK is canonically equivalent to U003B SEMICOLON.
+<Multi_key> <asterisk> <r>		: "ρ"	U03C1		# GREEK SMALL LETTER RHO
+<Multi_key> <asterisk> <s>		: "σ"	U03C3		# GREEK SMALL LETTER SIGMA
+<Multi_key> <asterisk> <t>		: "τ"	U03C4		# GREEK SMALL LETTER TAU
+<Multi_key> <asterisk> <u>		: "θ"	U03B8		# GREEK SMALL LETTER THETA
+<Multi_key> <asterisk> <v>		: "ω"	U03C9		# GREEK SMALL LETTER OMEGA
+<Multi_key> <asterisk> <w>		: "ς"	U03C2		# GREEK SMALL LETTER FINAL SIGMA
+<Multi_key> <asterisk> <x>		: "χ"	U03C7		# GREEK SMALL LETTER CHI
+<Multi_key> <asterisk> <y>		: "υ"	U03C5		# GREEK SMALL LETTER UPSILON
+<Multi_key> <asterisk> <z>		: "ζ"	U03B6		# GREEK SMALL LETTER ZETA
+
+# Capital greek letters.
+<Multi_key> <asterisk> <A>		: "Α"	U0391		# GREEK CAPITAL LETTER ALPHA
+<Multi_key> <asterisk> <B>		: "Β"	U0392		# GREEK CAPITAL LETTER BETA
+<Multi_key> <asterisk> <C>		: "Ψ"	U03A8		# GREEK CAPITAL LETTER PSI
+<Multi_key> <asterisk> <D>		: "Δ"	U0394		# GREEK CAPITAL LETTER DELTA
+<Multi_key> <asterisk> <E>		: "Ε"	U0395		# GREEK CAPITAL LETTER EPSILON
+<Multi_key> <asterisk> <F>		: "Φ"	U03A6		# GREEK CAPITAL LETTER PHI
+<Multi_key> <asterisk> <G>		: "Γ"	U0393		# GREEK CAPITAL LETTER GAMMA
+<Multi_key> <asterisk> <H>		: "Η"	U0397		# GREEK CAPITAL LETTER ΕΤΑ
+<Multi_key> <asterisk> <I>		: "Ι"	U0399		# GREEK CAPITAL LETTER ΙΟΤΑ
+<Multi_key> <asterisk> <J>		: "Ξ"	U039E		# GREEK CAPITAL LETTER XI
+<Multi_key> <asterisk> <K>		: "Κ"	U039A		# GREEK CAPITAL LETTER KAPPA
+<Multi_key> <asterisk> <L>		: "Λ"	U039B		# GREEK CAPITAL LETTER LAMBDA
+<Multi_key> <asterisk> <M>		: "Μ"	U039C		# GREEK CAPITAL LETTER MU
+<Multi_key> <asterisk> <N>		: "Ν"	U039D		# GREEK CAPITAL LETTER NU
+<Multi_key> <asterisk> <O>		: "Ο"	U039F		# GREEK CAPITAL LETTER OMICRON
+<Multi_key> <asterisk> <P>		: "Π"	U03A0		# GREEK CAPITAL LETTER PI
+# no mapping for Q; in Emacs that's ":"
+<Multi_key> <asterisk> <R>		: "Ρ"	U03A1		# GREEK CAPITAL LETTER RHO
+<Multi_key> <asterisk> <S>		: "Σ"	U03A3		# GREEK CAPITAL LETTER SIGMA
+<Multi_key> <asterisk> <T>		: "Τ"	U03A4		# GREEK CAPITAL LETTER TAU
+<Multi_key> <asterisk> <U>		: "Θ"	U0398		# GREEK CAPITAL LETTER THETA
+<Multi_key> <asterisk> <V>		: "Ω"	U03A9		# GREEK CAPITAL LETTER OMEGA
+# Emacs maps W to "Σ", but I think that’s stupid
+# I think that's from the Greek keyboard.
+<Multi_key> <asterisk> <X>		: "Χ"	U03A7		# GREEK CAPITAL LETTER CHI
+<Multi_key> <asterisk> <Y>		: "Υ"	U03A5		# GREEK CAPITAL LETTER UPSILON
+<Multi_key> <asterisk> <Z>		: "Ζ"	U0396		# GREEK CAPITAL LETTER ZETA
+
+# Some archaic Greek.  If we only wanted *normal* characters we wouldn't be
+# doing this at all!
+# "period" will indicate a sort of variant of some kind; asterisk is still the "greek" marker
+<Multi_key> <asterisk> <period> <p>	: "ϖ"	U03D6		# GREEK PI SYMBOL
+# Reserving .f in case we want PHI SYMBOL.  Digamma was "w" sound anyway.
+<Multi_key> <asterisk> <period> <w>	: "ϝ"	U03DD		# GREEK SMALL LETTER DIGAMMA
+<Multi_key> <asterisk> <period> <W>	: "Ϝ"	U03DC		# GREEK CAPITAL LETTER DIGAMMA
+<Multi_key> <asterisk> <Q>	: "Ϟ"	U03DE	# GREEK LETTER QOPPA
+<Multi_key> <asterisk> <q>	: "ϟ"	U03DF	# GREEK SMALL LETTER QOPPA
+<Multi_key> <asterisk> <period> <Q>	: "Ϙ"	U03D8	# GREEK LETTER ARCHAIC QOPPA
+<Multi_key> <asterisk> <period> <q>	: "ϙ"	U03D9	# GREEK SMALL LETTER ARCHAIC QOPPA
+<Multi_key> <asterisk> <ampersand>	: "ϗ"	U03D7	# GREEK KAI SYMBOL
+<Multi_key> <asterisk> <period> <Z>	: "Ϡ"	U03E0	# GREEK LETTER SAMPI
+<Multi_key> <asterisk> <period> <z>	: "ϡ"	U03E1	# GREEK SMALL LETTER SAMPI
+<Multi_key> <asterisk> <period> <period> <Z> : "Ͳ"  U0372  # GREEK CAPITAL LETTER ARCHAIC SAMPI
+<Multi_key> <asterisk> <period> <period> <z> : "ͳ"  U0373  # GREEK SMALL LETTER ARCHAIC SAMPI
+# Sorry, couldn't think of better ones for these.  Might want .s for SAN.
+<Multi_key> <asterisk> <question>      : "Ϛ"	U03DA	# GREEK LETTER STIGMA
+<Multi_key> <asterisk> <slash>	       : "ϛ"	U03DB	# GREEK SMALL LETTER STIGMA
+<Multi_key> <asterisk> <apostrophe>    : "ʹ"	U02B9	# MODIFIER LETTER PRIME, canonically equivalent to U0374 GREEK NUMERAL SIGN
+# While we're at it...
+<Multi_key> <asterisk> <period> <apostrophe>	: "′"	U2032	# PRIME
+<Multi_key> <asterisk> <period> <quotedbl>      : "″"	U2033	# DOUBLE PRIME
+<Multi_key> <asterisk> <comma>	       : "͵"	U0375	# GREEK LOWER NUMERAL SIGN (for thousands)
+# Do we want BETA SYMBOL, RHO SYMBOL, KAPPA SYMBOL, PHI SYMBOL, THETA SYMBOL?
+# The format makes them obvious enough I guess.  PI SYMBOL is different enough
+# that there's no question, and it is separate from these.
+<Multi_key> <asterisk> <period> <b>    : "ϐ"	U03D0	# GREEK BETA SYMBOL
+<Multi_key> <asterisk> <period> <u>    : "ϑ"	U03D1	# GREEK THETA SYMBOL
+<Multi_key> <asterisk> <period> <Y>    : "ϒ"	U03D2	# GREEK UPSILON WITH HOOK SYMBOL
+<Multi_key> <asterisk> <period> <f>    : "ϕ"	U03D5	# GREEK PHI SYMBOL
+<Multi_key> <asterisk> <period> <k>    : "ϰ"	U03F0	# GREEK KAPPA SYMBOL
+<Multi_key> <asterisk> <period> <r>    : "ϱ"	U03F1	# GREEK RHO SYMBOL
+<Multi_key> <asterisk> <period> <U>    : "ϴ"	U03F4	# GREEK CAPITAL THETA SYMBOL
+<Multi_key> <asterisk> <period> <e>    : "ϵ"	U03F5	# GREEK LUNATE EPSILON SYMBOL
+# Not doing the lunate sigmas and dotted versions thereof...  What about SAN, which is at least a letter?
+
+# If you wanted to actually type in Greek, you would also need άίέ
+# etc.  But you would probably just switch to a Greek keyboard layout.
+

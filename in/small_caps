@@ -1,0 +1,31 @@
+# How about some small-caps?  We normally use a special character as a prefix,
+# but why not a suffix?  It won't interfere with things that way.
+# Several of these are also IPA, which is handy.  And so a few have multiple
+# entries.  Whatever.
+
+<Multi_key> <a> <grave>	    	  : "ᴀ"	    U1D00 # LATIN LETTER SMALL CAPITAL A
+<Multi_key> <b> <grave>	    	  : "ʙ"	    U0299 # LATIN LETTER SMALL CAPITAL B
+<Multi_key> <c> <grave>	    	  : "ᴄ"	    U1D04 # LATIN LETTER SMALL CAPITAL C
+<Multi_key> <d> <grave>	    	  : "ᴅ"	    U1D05 # LATIN LETTER SMALL CAPITAL D
+<Multi_key> <e> <grave>	    	  : "ᴇ"	    U1D07 # LATIN LETTER SMALL CAPITAL E
+<Multi_key> <f> <grave>	    	  : "ꜰ"	    UA730 # LATIN LETTER SMALL CAPITAL F
+<Multi_key> <g> <grave>	    	  : "ɢ"	    U0262 # LATIN LETTER SMALL CAPITAL G
+<Multi_key> <h> <grave>	    	  : "ʜ"	    U029C # LATIN LETTER SMALL CAPITAL H
+<Multi_key> <i> <grave>	    	  : "ɪ"	    U026A # LATIN LETTER SMALL CAPITAL I
+<Multi_key> <j> <grave>	    	  : "ᴊ"	    U1D0A # LATIN LETTER SMALL CAPITAL J
+<Multi_key> <k> <grave>	    	  : "ᴋ"	    U1D0B # LATIN LETTER SMALL CAPITAL K
+<Multi_key> <l> <grave>	    	  : "ʟ"	    U029F # LATIN LETTER SMALL CAPITAL L
+<Multi_key> <m> <grave>	    	  : "ᴍ"	    U1D0D # LATIN LETTER SMALL CAPITAL M
+<Multi_key> <n> <grave>	    	  : "ɴ"	    U0274 # LATIN LETTER SMALL CAPITAL N
+<Multi_key> <o> <grave>	    	  : "ᴏ"	    U1D0F # LATIN LETTER SMALL CAPITAL O
+<Multi_key> <p> <grave>	    	  : "ᴘ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
+# There is no SMALL CAPITAL Q (yet)!
+<Multi_key> <r> <grave>	    	  : "ʀ"	    U0280 # LATIN LETTER SMALL CAPITAL R
+<Multi_key> <s> <grave>	    	  : "ꜱ"	    UA731 # LATIN LETTER SMALL CAPITAL S
+<Multi_key> <t> <grave>	    	  : "ᴛ"	    U1D1B # LATIN LETTER SMALL CAPITAL T
+<Multi_key> <u> <grave>	    	  : "ᴜ"	    U1D1C # LATIN LETTER SMALL CAPITAL U
+<Multi_key> <v> <grave>	    	  : "ᴠ"	    U1D20 # LATIN LETTER SMALL CAPITAL V
+<Multi_key> <w> <grave>	    	  : "ᴡ"	    U1D21 # LATIN LETTER SMALL CAPITAL W
+# There is no SMALL CAPITAL X (yet)
+<Multi_key> <y> <grave>	    	  : "ʏ"	    U028F # LATIN LETTER SMALL CAPITAL Y
+<Multi_key> <z> <grave>	    	  : "ᴢ"	    U1D22 # LATIN LETTER SMALL CAPITAL Z

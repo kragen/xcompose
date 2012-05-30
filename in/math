@@ -1,0 +1,160 @@
+# Custom additions: Mathematical symbols
+<Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
+<Multi_key> <slash> <equal>		: "≠"	U2260		# NOT EQUAL TO
+<Multi_key> <less> <equal>		: "≤"	U2264		# LESS-THAN OR EQUAL TO
+<Multi_key> <greater> <equal>		: "≥"	U2265		# GREATER-THAN OR EQUAL TO
+<Multi_key> <exclam> <less> <greater>   : "≸"	U2278		# NEITHER LESS-THAN NOR GREATER-THAN
+# MUCH is usually enough for me.  No need for VERY.
+<Multi_key> <plus> <less>        	: "≪"	U226A		# MUCH LESS-THAN
+<Multi_key> <plus> <greater> 		: "≫"	U226B		# MUCH GREATER-THAN
+# Damn.  That makes this conflict with the standard plus plus -> #
+<Multi_key> <plus> <plus> <less>        : "⋘"	U22D8		# VERY MUCH LESS-THAN
+<Multi_key> <plus> <plus> <greater>  	: "⋙"	U22D9		# VERY MUCH GREATER-THAN
+<Multi_key> <3> <greater> 		: "⋙"	U22D9		# VERY MUCH GREATER-THAN
+<Multi_key> <3> <less>			: "⋘"	U22D8		# VERY MUCH LESS-THAN
+<Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
+<Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
+<Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
+<Multi_key> <n> <i>			: "∋"	U220B		# CONTAINS AS MEMBER  (I hope this doesn't conflict)
+<Multi_key> <slash> <n> <i>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
+# <exclam><n><i> would conflict, with <exclam> <n> for N WITH UNDERDOT, etc.
+<Multi_key> <U220B> <slash>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
+<Multi_key> <asciitilde> <equal>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
+<Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
+<Multi_key> <equal> <d> <e> <f>		: "≝"	U225D		# EQUAL TO BY DEFINITION
+<Multi_key> <equal> <equal>		: "≡"	U2261		# IDENTICAL TO
+<Multi_key> <colon> <equal> 		: "≔"  U2254		# COLON EQUALS
+<Multi_key> <equal> <colon> 		: "≕"  U2255		# EQUALS COLON
+# Using <slash> conflicts.
+<Multi_key> <equal> <bar> <equal>	: "≢"	U2262		# NOT IDENTICAL TO
+# We already have ±
+<Multi_key> <minus> <plus>		: "∓"	U2213		# MINUS OR PLUS SIGN
+<Multi_key> <s> <q>			: "√"	U221A		# SQUARE ROOT
+# keystrokes might not make the most sense, but you know what they mean...
+<Multi_key> <3> <s> <q>			: "∛"	U221B	        # CUBE ROOT
+<Multi_key> <4> <s> <q>			: "∜"	U221C		# FOURTH ROOT
+    # “(Note: I had put the backslash in position 5/15. It enabled the
+    # ALGOL “and” to be “/\” and the “or” to be “\/”.)” --- Bob Bemer,
+    # http://home.ccil.org/~remlaps/www.bobbemer.com/BRACES.HTM, quoting
+    # himself in “A view of the history of the ISO character code”, 1972
+<Multi_key> <slash> <backslash>         : "∧"  U2227           # LOGICAL AND
+<Multi_key> <backslash> <slash>         : "∨"  U2228           # LOGICAL OR
+<Multi_key> <backslash> <underscore> <slash>    : "⊻" U22BB     # XOR
+<Multi_key> <minus> <comma>	     :	"¬"	U00AC 		# NOT SIGN
+<Multi_key> <Multi_key> <asterisk> <o>              : "∘"   U2218           # RING OPERATOR (function composition)
+<Multi_key> <Multi_key> <asterisk> <x>             : "⨯"   U2A2F           # CROSS PRODUCT
+<Multi_key> <Multi_key> <asterisk>  <period>        : "⋅"   U22C5           # DOT OPERATOR (dot product)
+<Multi_key> <0> <slash>                 : "∅"   U2205           # EMPTY SET (thanks jsled!)
+<Multi_key> <slash> <0>                 : "∅"   U2205           # EMPTY SET
+# I'm hoping { can work as a set mnemonic
+<Multi_key> <braceleft> <U>		: "∪"	U222A		# UNION
+<Multi_key> <braceleft> <asciicircum>	: "∩"	U2229		# INTERSECTION
+<Multi_key> <braceleft> <parenleft>	: "⊂"	U2282		# SUBSET OF
+<Multi_key> <braceleft> <equal> <parenleft> : "⊆" U2286		# SUBSET OF OR EQUAL TO
+<Multi_key> <exclam> <braceleft> <parenleft> : "⊄" U2284        # NOT A SUBSET OF
+<Multi_key> <slash> <braceleft> <parenleft>  : "⊄" U2284        # NOT A SUBSET OF
+<Multi_key> <braceleft>	<parenright>	: "⊃"	U2283		# SUPERSET OF
+<Multi_key> <braceleft> <equal> <parenright> : "⊇" U2287	# SUPERSET OF OR EQUAL TO
+<Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
+# We can't use ! E E, because ! E maps to E-WITH-UNDERDOT.
+<Multi_key> <slash> <E> <E>             : "∄"   U2204           # THERE DOES NOT EXIST
+<Multi_key> <A> <A>                     : "∀"  U2200           # FOR ALL
+<Multi_key> <Multi_key> <Q> <E> <D>     : "∎"   U220E           # END OF PROOF
+<Multi_key> <8> <8>                     : "∞"  U221E           # INFINITY
+<Multi_key> <Multi_key> <a> <l> <e> <p> <h> : "ℵ" U2135	       # ALEF SYMBOL
+<Multi_key> <Multi_key> <a> <l> <e> <p> <0> : "ℵ₀"        # ALEF Null
+<Multi_key> <Multi_key> <a> <l> <e> <p> <1> : "ℵ₁"        # ALEF One
+<Multi_key> <Multi_key> <a> <l> <e> <f> : "ℵ" U2135	       # ALEF SYMBOL
+<Multi_key> <KP_Multiply> <KP_Multiply>    : "∗"   U2217 # ASTERISK OPERATOR
+<Multi_key> <parenleft> <plus> <parenright>     : "⊕"  U2295    # CIRCLED PLUS
+<Multi_key> <parenleft> <minus> <parenright>    : "⊖"  U2296    # CIRCLED MINUS
+<Multi_key> <parenleft> <x> <x> <parenright>    : "⊗"  U2297    # CIRCLED TIMES
+<Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
+<Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
+<Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
+<Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
+<Multi_key> <Multi_key> <b> <e> <c> <a> <u> <s> <e>	   	: "∵"	U2235  		# BECAUSE
+<Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
+# Ordinal indicators, for femenine and masculine, used in Romance languages
+<Multi_key> <minus> <a>	      	  	: "ª"   U00AA		# FEMININE ORDINAL INDICATOR
+<Multi_key> <minus> <o>			: "º"	U00BA		# MASCULINE ORDINAL INDICATOR
+# See also U03A3 (Greek capital sigma)
+<Multi_key> <Multi_key> <s> <u> <m>	: "∑"	U2211		# N-ARY SUMMATION
+# OK, absolutely cannot believe we made it this long without NABLA or INTEGRAL
+# or PARTIAL DIFFERENTIAL
+<Multi_key> <Multi_key> <i> <n> <t>	: "∫"	U222B		# INTEGRAL
+<Multi_key> <Multi_key> <u> <i> <n> <t>	: "⨛"	U2A1B		# UPPER INTEGRAL
+<Multi_key> <Multi_key> <l> <i> <n> <t>	: "⨜"	U2A1C		# LOWER INTEGRAL
+<Multi_key> <Multi_key> <i> <i> <n> <t>	: "∬"	U222C		# DOUBLE INTEGRAL
+<Multi_key> <Multi_key> <i> <i> <i> <n> <t>	: "∭"	U222D		# TRIPLE INTEGRAL
+<Multi_key> <Multi_key> <i> <i> <i> <i> <n> <t>	: "⨌"	U2A0C		# QUADRUPLE INTEGRAL
+<Multi_key> <Multi_key> <o> <i> <n> <t>	: "∮"	U222E		# CONTOUR INTEGRAL
+<Multi_key> <Multi_key> <p> <i> <n> <t>	: "⨕"	U2A15		# SEMICIRCULAR POLE INTEGRAL
+<Multi_key> <Multi_key> <c> <P> <i> <n> <t>	: "⨓"	U2A13		# INTEGRAL AROUND POINT
+<Multi_key> <Multi_key> <o> <i> <i> <n> <t>	: "∯"	U222F		# SURFACE INTEGRAL
+<Multi_key> <Multi_key> <o> <i> <i> <i> <n> <t>	: "∰"	U2230		# VOLUME INTEGRAL
+<Multi_key> <Multi_key> <g> <i> <n> <t>	: "⨘"	U2A18		# GEOMETRIC INTEGRAL
+<Multi_key> <Multi_key> <s> <i> <n> <t>	: "⨋"	U2A0B		# SUM/INTEGRAL
+#Now for some WTF integrals: ⨙ ⨚ 	
+<Multi_key> <Multi_key> <d> <e> <l>	: "∇"	U2207	        # NABLA
+<Multi_key> <Multi_key> <p> <a> <r> <t>   : "∂" U2202		# PARTIAL DIFFERENTIAL
+<Multi_key> <asterisk> <period> <period> <d>   : "∂" U2202	# PARTIAL DIFFERENTIAL
+<Multi_key> <R> <e>    		: "ℜ"	 U211C 	     	# BLACK-LETTER CAPITAL R (Real Part)
+<Multi_key> <I> <m>		: "ℑ"	 U2111		# BLACK-LETTER CAPTIAL I (Imaginary Part)
+# Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
+<Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
+# There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
+<Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
+<Multi_key> <bar> <N>                   : "ℕ"   U2115           # DOUBLE-STRUCK CAPITAL N (natural number)
+<Multi_key> <bar> <P>                   : "ℙ"   U2119           # DOUBLE-STRUCK CAPITAL P 
+<Multi_key> <bar> <Q>                   : "ℚ"   U211A           # DOUBLE-STRUCK CAPITAL Q (set of rational numbers)
+<Multi_key> <bar> <R>                   : "ℝ"   U211D           # DOUBLE-STRUCK CAPITAL R (set of real numbers)
+<Multi_key> <bar> <Z>                   : "ℤ"   U2124           # DOUBLE-STRUCK CAPITAL Z (set of integers)
+<Multi_key> <bar> <H>		: "ℍ" U210d	# DOUBLE-STRUCK CAPITAL H
+<Multi_key> <bar> <e>		: "ⅇ" U2147	# DOUBLE-STRUCK ITALIC SMALL E
+<Multi_key> <bar> <i>		: "ⅈ" U2148	# DOUBLE-STRUCK ITALIC SMALL I
+<Multi_key> <bar> <j>		: "ⅉ" U2149	# DOUBLE-STRUCK ITALIC SMALL J
+<Multi_key> <bar> <asterisk> <p> : "ℼ" U213C	# DOUBLE-STRUCK SMALL PI
+<Multi_key> <bar> <Greek_pi> 	 : "ℼ" U213C	# DOUBLE-STRUCK SMALL PI
+<Multi_key> <bar> <asterisk> <P> : "ℿ" U213F	# DOUBLE-STRUCK CAPITAL PI
+<Multi_key> <bar> <Greek_PI> 	 : "ℿ" U213F	# DOUBLE-STRUCK CAPITAL PI
+<Multi_key> <bar> <asterisk> <S> : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
+<Multi_key> <bar> <Greek_SIGMA>  : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
+# The *look* double-struck.
+<Multi_key> <bar> <braceleft>	 : "⦃" U2983	# LEFT WHITE CURLY BRACKET
+<Multi_key> <bar> <braceright>	 : "⦄" U2984	# RIGHT WHITE CURLY BRACKET 
+# ⦅⦆⦇⦈⦉⦊ too?
+# The rest of that block?  Some there may be worth it.
+# Ooh.  There are lots of nice brackets to consider: 
+# ⟅⟆⟨⟩⟪⟫⟬⟭⟮⟯⦑⦒⦓⦔⦕⦖⦗⦘⧼⧽⧘⧙⧚⧛⸢⸣⸤⸥⸨⸩「」『』
+# Others too, of course, but these to start with.  Some are likely worthy.
+<Multi_key> <S> <parenleft>  	: "⟅" U27C5 	# LEFT S-SHAPED BAG DELIMITER
+<Multi_key> <S> <parenright>	: "⟆" U27C6 	# RIGHT S-SHAPED BAG DELIMITER
+# Keystrokes for these?  And are the Mathematical versions ⟨⟩ preferable?
+# Geez, and there are more at 3008 and 3009
+<Multi_key> <less> <parenleft>	: "〈" U2329	# LEFT-POINTING ANGLE BRACKET
+<Multi_key> <greater> <parenright>: "〉" U232A	# RIGHT-POINTING ANGLE BRACKET
+<Multi_key> <parenleft> <ampersand> <parenleft>:  "⸨"  U2E28 # LEFT DOUBLE PARENTHESIS
+<Multi_key> <parenright> <ampersand> <parenright>:  "⸩"  U2E29 # RIGHT DOUBLE PARENTHESIS
+<Multi_key> <Z> <parenleft>	    : "༼"     U0F3C   # TIBETAN MARK ANG KHANG GYON
+<Multi_key> <Z> <parenright>	    : "༽"     U0F3D   # TIBETAN MARK ANG KHANG GYAS
+# I'm thinking shape-mnemonics for these, somehow:
+<Multi_key> <L> <bracketleft>       : "⌊"     U230A   # LEFT FLOOR
+<Multi_key> <L> <bracketright>	    : "⌋"     U230B   # RIGHT FLOOR
+<Multi_key> <7> <bracketleft>	    : "⌈"     U2308   # LEFT CEILING
+<Multi_key> <7> <bracketright>	    : "⌉"     U2309   # RIGHT CEILING
+<Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
+<Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
+<Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
+<Multi_key> <bracketleft> <underscore>  : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
+<Multi_key> <bracketright> <bracketright>: "⊐"  U2290           # SQUARE ORIGINAL OF
+<Multi_key> <bracketright> <equal>      : "⊒"   U2292           # SQUARE ORIGINAL OF OR EQUAL TO
+<Multi_key> <bracketright> <underscore> : "⊒"   U2292           # SQUARE ORIGINAL OF OR EQUAL TO
+# If I did more Haskell, I'd want this more:
+<Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom) or should we use U27C2 PERPENDICULAR?
+# Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
+<Multi_key> <slash> <slash>		: "⁄"	U2044	# FRACTION SLASH
+<Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
+<Multi_key> <asciicircum> <plus>	: "⁺"	U207A		# SUPERSCRIPT PLUS
+
+<Multi_key> <asciitilde> <asciitilde>        : "≈"  U2248           # ALMOST EQUAL TO

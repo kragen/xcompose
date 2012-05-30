@@ -1,0 +1,12 @@
+<Multi_key> <o> <minus> <plus>		: "♀"	U2640		# FEMALE SIGN
+<Multi_key> <o> <minus> <greater>	: "♂"	U2642		# MALE SIGN
+
+<Multi_key> <Multi_key> <g> <a> <y>                 :   "⚣"     U26A3   # DOUBLED MALE SIGN
+<Multi_key> <Multi_key> <l> <e> <s> <b> <i> <a> <n> :   "⚢"     U26A2   # DOUBLED FEMALE SIGN
+<Multi_key> <Multi_key> <h> <e> <t> <e> <r> <o>     :   "⚤"     U26A4   # INTERLOCKED FEMALE AND MALE SIGN
+
+# 'trans': short for transgender/transexual
+# 'genderq': short for genderqueer.
+# Wasn't sure which to call which symbol, and wanted to include both
+<Multi_key> <Multi_key> <t> <r> <a> <n> <s>         :   "⚥"     U26A5   # MALE AND FEMALE SIGN
+<Multi_key> <Multi_key> <g> <e> <n> <d> <e> <r> <q> :   "⚧"     U26A7   # MALE WITH STROKE AND MALE AND FEMALE SIGN

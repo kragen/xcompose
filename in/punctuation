@@ -1,0 +1,26 @@
+<Multi_key> <exclam> <question>         : "‽"   U203D           # INTERROBANG
+<Multi_key> <question> <exclam>         : "‽"   U203D           # INTERROBANG (in case you can’t remember the order)
+<Multi_key> <questiondown> <exclamdown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otherwise...? "?i" maybe?
+<Multi_key> <exclamdown> <questiondown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otherwise...? "?i" maybe?
+<Multi_key> <question> <less>	      : "⸮"	  U2E2E		# REVERSED QUESTION MARK
+<Multi_key> <question> <BackSpace>      : "⸮"	  U2E2E		# REVERSED QUESTION MARK
+<Multi_key> <question> <ampersand> <question>	  : "⁇"	 U2047	# DOUBLE QUESTION MARK
+<Multi_key> <question> <ampersand> <exclam>	  : "⁈"	 U2048	# QUESTION EXCLAMATION MARK
+<Multi_key> <exclam> <ampersand> <question>	  : "⁉"	 U2049	# EXCLAMATION QUESTION MARK
+<Multi_key> <exclam> <ampersand> <exclam>	  : "‼"	 U203C	# DOUBLE EXCLAMATION MARK
+<Multi_key> <semicolon> <less>	 		  : "⁏"	 U204F	# REVERSED SEMICOLON
+<Multi_key> <semicolon> <BackSpace>	 		  : "⁏"	 U204F	# REVERSED SEMICOLON
+# How about for a little extra control:
+<Multi_key> <Z> <W> <S> <P>		: "​"	U200B	# ZERO WIDTH SPACE
+<Multi_key> <Z> <W> <N> <J>		: "‌"	U200C	# ZERO WIDTH NON-JOINER
+<Multi_key> <Z> <W> <J>			: "‍"	U200D	# ZERO WIDTH JOINER
+<Multi_key> <L> <R> <M>			: "‎"	U200E	# LEFT-TO-RIGHT MARK
+<Multi_key> <R> <L> <M>			: "‏"	U200F	# RIGHT-TO-LEFT MARK
+# I never understood the whole embedding/pop thing, but we might as well add 'em
+<Multi_key> <L> <R> <E>			: "‪"	U202A	# LEFT-TO-RIGHT EMBEDDING
+<Multi_key> <R> <L> <E>			: "‫"	U202B	# RIGHT-TO-LEFT EMBEDDING
+<Multi_key> <P> <D> <F>			: "‬"	U202C	# POP DIRECTIONAL FORMATTING
+<Multi_key> <L> <R> <O>			: "‭"	U202D	# LEFT-TO-RIGHT OVERRIDE
+<Multi_key> <R> <L> <O>			: "‮"	U202E	# RIGHT-TO-LEFT OVERRIDE
+<Multi_key> <B> <O> <M>			: "﻿"	UFEFF	# ZERO WIDTH NO-BREAK SPACE (Byte Order Mark)
+<Multi_key> <C> <G> <J>			: "͏"	U034F	# COMBINING GRAPHEME JOINER

@@ -1,0 +1,65 @@
+# Combining accents, for making things you don't have precomposed chars or keystrokes for:
+<Multi_key> <backslash> <grave>	: "̀"  U0300   # COMBINING GRAVE ACCENT
+<Multi_key> <backslash> <apostrophe>    : "́"   U0301   # COMBINING ACUTE ACCENT
+<Multi_key> <backslash> <asciicircum>    : "̂"   U0302   # COMBINING CIRCUMFLEX ACCENT
+<Multi_key> <backslash> <asciitilde>       : "̃"   U0303	# COMBINING TILDE
+<Multi_key> <backslash> <equal>		: "̄"	U0304	# COMBINING MACRON
+<Multi_key> <backslash> <backslash> <equal>		: "̅"	U0305	# COMBINING OVERLINE -- ???
+<Multi_key> <backslash> <U>		: "̆"	U0306	# COMBINING BREVE
+<Multi_key> <backslash> <period>	: "̇"	U0307	# COMBINING DOT ABOVE
+<Multi_key> <backslash> <quotedbl>	: "̈"	U0308	# COMBINING DIAERESIS
+<Multi_key> <backslash> <question>	: "̉"	U0309	# COMBINING HOOK ABOVE
+<Multi_key> <backslash> <o>		: "̊"	U030a	# COMBINING RING ABOVE
+# That now conflicts with the new 🙌 in the system xcompose.  Alternative:
+<Multi_key> <backslash> <0>   	       	: "̊"	U030a	# COMBINING RING ABOVE
+<Multi_key> <backslash> <backslash> <apostrophe>	: "̋"	U030b	# COMBINING DOUBLE ACUTE ACCENT -- ??
+<Multi_key> <backslash> <c>		: "̌"	U030c	# COMBINING CARON
+# These two conflict!!
+<Multi_key> <backslash> <bar> <period>	: "̍"	U030d	# COMBINING VERTICAL LINE ABOVE
+<Multi_key> <backslash> <bar> <bar>	: "̎"	U030e	# COMBINING DOUBLE VERTICAL LINE ABOVE
+<Multi_key> <backslash> <backslash> <grave>	: "̏"	U030f	# COMBINING DOUBLE GRAVE ACCENT
+<Multi_key> <backslash> <f> <m>                 : "͒"   U0352   # COMBINING FERMATA
+<Multi_key> <backslash> <parenleft> <period>:	: "̐"	U0310	# COMBINING CHANDRABINDU
+<Multi_key> <backslash> <i> <b>		: "̑"	U0311	# COMBINING INVERTED BREVE -- ??
+<Multi_key> <backslash> <parenleft> <parenright>: "⃝"  U20DD # COMBINING ENCLOSING CIRCLE
+<Multi_key> <backslash> <parenleft> <slash> <parenright>:    "⃠"	 U20E0	   # COMBINING ENCLOSING CIRCLE BACKSLASH
+<Multi_key> <backslash> <exclam>	: "̣"   U0323   # COMBINING DOT BELOW
+# With only one underscore it conflicts with stuff.
+<Multi_key> <backslash> <underscore> <underscore>	: "̱"	U0331	# COMBINING MACRON BELOW
+<Multi_key> <backslash> <backslash> <underscore>	: "̲"	U0332	# COMBINING LOW LINE
+<Multi_key> <backslash> <backslash> <backslash> <underscore>	: "̳"	U0333	# COMBINING DOUBLE LOW LINE
+
+# The @ sign will signify reversal to the bottom of the glyph, 'kay?
+
+<Multi_key> <backslash> <at> <o>	: "̥"	U0325	# COMBINING RING BELOW
+
+<Multi_key> <backslash> <at> <c>	: "̬"	U032c	# COMBINING CARON BELOW
+<Multi_key> <backslash> <at> <asciicircum>	: "̭"	U032d	# COMBINING CIRCUMFLEX ACCENT BELOW
+<Multi_key> <backslash> <at> <U>	: "̮"	U032e	# COMBINING BREVE BELOW
+<Multi_key> <backslash> <at> <i> <b>	: "̯"	U032f	# COMBINING INVERTED BREVE BELOW -- ??
+
+# How about leading & (or &&?) for double combiners?  There aren't many anyway.
+# Except that I found myself assuming it was "2" for double.
+<Multi_key> <backslash> <ampersand> <at> <U> : "͜" U035C # COMBINING DOUBLE BREVE BELOW
+<Multi_key> <backslash> <2> <at> <U> : "͜" U035C # COMBINING DOUBLE BREVE BELOW
+<Multi_key> <backslash> <ampersand> <U>	  : "͝"	U035D   # COMBINING DOUBLE BREVE
+<Multi_key> <backslash> <2> <U>	  : "͝"	U035D   # COMBINING DOUBLE BREVE
+<Multi_key> <backslash> <ampersand> <minus> : "͞" U035E	# COMBINING DOUBLE MACRON
+<Multi_key> <backslash> <2> <minus> : "͞" U035E	# COMBINING DOUBLE MACRON
+<Multi_key> <backslash> <ampersand> <at> <minus> : "͟" U035F # COMBINING DOUBLE MACRON BELOW
+<Multi_key> <backslash> <2> <at> <minus> : "͟" U035F # COMBINING DOUBLE MACRON BELOW
+<Multi_key> <backslash> <ampersand> <underscore> : "͟" U035F # COMBINING DOUBLE MACRON BELOW
+<Multi_key> <backslash> <2> <underscore> : "͟" U035F # COMBINING DOUBLE MACRON BELOW
+<Multi_key> <backslash> <ampersand> <asciitilde> : "͠" U0360 # COMBINING DOUBLE TILDE
+<Multi_key> <backslash> <2> <asciitilde> : "͠" U0360 # COMBINING DOUBLE TILDE
+<Multi_key> <backslash> <ampersand> <i> <b>  : "͡"  U0361 # COMBINING DOUBLE INVERTED BREVE
+<Multi_key> <backslash> <2> <i> <b>  : "͡"  U0361 # COMBINING DOUBLE INVERTED BREVE
+<Multi_key> <backslash> <ampersand> <at> <i> <b>  : "᷼"  U0361 # COMBINING DOUBLE INVERTED BREVE BELOW
+<Multi_key> <backslash> <2> <at> <i> <b>  : "᷼"  U0361 # COMBINING DOUBLE INVERTED BREVE BELOW
+# Might as well finish up the set.
+<Multi_key> <backslash> <ampersand> <greater> : "͢" U0362 # COMBINING DOUBLE RIGHTWARDS ARROW BELOW
+<Multi_key> <backslash> <2> <greater> : "͢" U0362 # COMBINING DOUBLE RIGHTWARDS ARROW BELOW
+
+<Multi_key> <period> <parenright>	: "͒"	U0352   # COMBINING FERMATA
+
+<Multi_key> <backslash> <asterisk>	: "҉"	U0489	# COMBINING CYRILLIC MILLIONS SIGN  -- aka COMBINING SHINY

@@ -1,0 +1,57 @@
+<Multi_key> <minus> <less>		: "←"	leftarrow	# LEFTWARDS ARROW
+<Multi_key> <minus> <asciicircum>	: "↑"	uparrow		# UPWARDS ARROW
+<Multi_key> <minus> <greater>		: "→"	rightarrow	# RIGHTWARDS ARROW
+<Multi_key> <minus> <v>			: "↓"	downarrow	# DOWNWARDS ARROW
+<Multi_key> <less> <minus> <greater>	: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+
+<Multi_key> <Left> <Left>		: "←"	leftarrow	# LEFTWARDS ARROW
+<Multi_key> <Up> <Up>			: "↑"	uparrow		# UPWARDS ARROW
+<Multi_key> <Right> <Right>		: "→"	rightarrow	# RIGHTWARDS ARROW
+<Multi_key> <Down> <Down>		: "↓"	downarrow	# DOWNWARDS ARROW
+<Multi_key> <Left> <Right>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+<Multi_key> <Right> <Left>		: "↔"	U2194           # LEFT RIGHT ARROW (kragen's)
+<Multi_key> <Up> <Down>			: "↕"	U2195           # UP DOWN ARROW (kragen's)
+<Multi_key> <Up> <ampersand> <Down>     : "⇵"	U21F5		# DOWNWARDS ARROW LEFTWARDS OF UPWARDS ARROW
+<Multi_key> <Down> <Left>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
+<Multi_key> <Left> <o>			: "⟲"	U27F2		# ANTICLOCKWISE GAPPED CIRCLE ARROW
+<Multi_key> <Right> <o>			: "⟳"	U27F3		# CLOCKWISE GAPPED CIRCLE ARROW
+<Multi_key> <Left> <c>			: "↺"	U21BA		# ANTICLOCKWISE OPEN CIRCLE ARROW
+<Multi_key> <Right> <c>			: "↻"	U21BB		# CLOCKWISE OPEN CIRCLE ARROW
+<Multi_key> <Left> <asciitilde>		: "⇜"	U21DC		# LEFTWARDS SQUIGGLE ARROW
+<Multi_key> <Right> <asciitilde>	: "⇝"	U21DD		# RIGHTWARDS SQUIGGLE ARROW
+<Multi_key> <Left> <bar>       		: "⇤"	U21E4		# LEFTWARDS ARROW TO BAR
+<Multi_key> <Right> <bar>       	: "⇥"	U21E5		# RIGHTWARDS ARROW TO BAR
+<Multi_key> <Left> <minus>     		: "⇠"	U21E0		# LEFTWARDS DASHED ARROW
+<Multi_key> <Up> <minus>     		: "⇡"	U21E1		# UPWARDS DASHED ARROW
+<Multi_key> <Right> <minus>     	: "⇢"	U21E2		# RIGHTWARDS DASHED ARROW
+<Multi_key> <Down> <minus>      	: "⇣"	U21E3		# DOWNWARDS DASHED ARROW
+# For some logical statements.  I prefer doubled arrows for implication.
+<Multi_key> <equal> <greater>		: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
+<Multi_key> <equal> <less>		: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
+<Multi_key> <less> <minus> <equal> <greater> : "⇔" U21D4 # LEFT RIGHT DOUBLE ARROW 
+<Multi_key> <equal> <Right> <Right>	: "⇒"	U21D2		# RIGHTWARDS DOUBLE ARROW
+<Multi_key> <equal> <Left> <Left>	: "⇐"	U21D0		# LEFTWARDS DOUBLE ARROW
+<Multi_key> <equal> <Left> <Right>	: "⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
+<Multi_key> <equal> <Right> <Left>	: "⇔"	U21D4	# LEFT RIGHT DOUBLE ARROW
+<Multi_key> <equal> <Up> <Up>		: "⇑"	U21D1	# UPWARDS DOUBLE ARROW
+<Multi_key> <equal> <Down> <Down>	: "⇓"	U21D3	# DOWNWARDS DOUBLE ARROW
+<Multi_key> <equal> <Up> <Down>		: "⇕"	U21D5	# UP DOWN DOUBLE ARROW
+<Multi_key> <equal> <Down> <Left>	: "⏎"	U23CE	# RETURN SYMBOL
+# These are just too cool-looking not to have (if your font supports them)
+<Multi_key> <equal> <period> <equal>	: "⸎"	U2E0E		# EDITORIAL CORONIS
+<Multi_key> <Multi_key> <p> <a> <l> <m>	: "⸙"	U2E19		# PALM BRANCH
+# Arrow keys don't always work: some apps trap them for cursor control and
+# other boring things.  The arrow symbols have alternate keystrokes.  Do
+# we need others for these printer's fists?  If so, what?  The -= and =-
+# we had before are not necessarily the best choices.
+<Multi_key> <F> <Left>		: "☚"	U261A		# BLACK LEFT POINTING INDEX
+<Multi_key> <F> <Right>		: "☛"	U261B		# BLACK RIGHT POINTING INDEX
+<Multi_key> <f> <Left>		: "☜"	U261C		# WHITE LEFT POINTING INDEX
+<Multi_key> <f> <Up>		: "☝"	U261D		# WHITE UP POINTING INDEX
+<Multi_key> <f> <Right>		: "☞"	U261E		# WHITE RIGHT POINTING INDEX
+<Multi_key> <f> <Down>		: "☟"	U261F		# WHITE DOWN POINTING INDEX
+<Multi_key> <f> <v>   		: "✌"   U270C   	# VICTORY HAND
+<Multi_key> <f> <w>   		: "✍"   U270D   	# WRITING HAND
+<Multi_key> <f> <p> <Down>	: "✎"   U270E   	# LOWER RIGHT PENCIL
+<Multi_key> <f> <p> <Right>	: "✏"   U270F   	# PENCIL
+<Multi_key> <f> <p> <Up>	: "✐"   U2710   	# UPPER RIGHT PENCIL

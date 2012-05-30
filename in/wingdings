@@ -1,0 +1,166 @@
+# Arrow keys don't always work: some apps trap them for cursor control and
+# other boring things.  The arrow symbols have alternate keystrokes.  Do
+# we need others for these printer's fists?  If so, what?  The -= and =-
+# we had before are not necessarily the best choices.
+<Multi_key> <F> <Left>		: "☚"	U261A		# BLACK LEFT POINTING INDEX
+<Multi_key> <F> <Right>		: "☛"	U261B		# BLACK RIGHT POINTING INDEX
+<Multi_key> <f> <Left>		: "☜"	U261C		# WHITE LEFT POINTING INDEX
+<Multi_key> <f> <Up>		: "☝"	U261D		# WHITE UP POINTING INDEX
+<Multi_key> <f> <Right>		: "☞"	U261E		# WHITE RIGHT POINTING INDEX
+<Multi_key> <f> <Down>		: "☟"	U261F		# WHITE DOWN POINTING INDEX
+<Multi_key> <f> <v>   		: "✌"   U270C   	# VICTORY HAND
+<Multi_key> <f> <w>   		: "✍"   U270D   	# WRITING HAND
+<Multi_key> <f> <p> <Down>	: "✎"   U270E   	# LOWER RIGHT PENCIL
+<Multi_key> <f> <p> <Right>	: "✏"   U270F   	# PENCIL
+<Multi_key> <f> <p> <Up>	: "✐"   U2710   	# UPPER RIGHT PENCIL
+# Keep looking into big hunks of Latin Extended-D, A720- et seq.
+<Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
+<Multi_key> <3> <3>			: "♣" U2663		# BLACK CLUB SUIT
+<Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
+<Multi_key> <3> <minus>		: "♠" U2660		# BLACK SPADE SUIT
+<Multi_key> <E> <greater>		: "♡" U2661		# WHITE HEART SUIT
+# "shamrock" is too long; there IS a limit to these!
+<Multi_key> <Multi_key> <s> <h> <m> <r> <c> <k>		: "☘" U2618   # SHAMROCK
+<Multi_key> <Multi_key> <p> <c>         : "☮"   U262E           # PEACE SYMBOL
+<Multi_key> <Multi_key> <y> <y>		: "☯" U262F		# YIN YANG
+# And now that we are into hearts...
+<Multi_key> <Left> <less> <3>           : "❥"  U2765            # ROTATED HEAVY BLACK HEART BULLET
+<Multi_key> <exclam> <less> <3>         : "❣"  U2763            # HEAVY HEART EXCLAMATION MARK ORNAMENT
+<Multi_key> <f> <less> <3>              : "❦"  U2766            # FLORAL HEART
+<Multi_key> <Left> <f> <less> <3>       : "❧"  U2767            # ROTATED FLORAL HEART BULLET
+<Multi_key> <Right> <f> <less> <3>      : "☙"  U2619            # REVERSED ROTATED FLORAL HEART BULLET
+# For some reason, I don't really like these word-based mnemonics.  But until we have something better... -clsn
+# are the ampersand versions better? -kragen
+<Multi_key> <Multi_key> <t> <e> <l>			: "☎" 	U260E		# BLACK TELEPHONE
+<Multi_key> <Multi_key> <t> <e> <a>		: "☕"	U2615		# HOT BEVERAGE
+# These last two bother me less, though they can still be improved.
+# Other possibly useful symbols:
+# 2668 HOT SPRINGS (for chat, for running off to shower?)
+# I want 2713-2714 and 2717-2718
+# We need a Dingbats prefix, for ❛❜❝❞❢
+<Multi_key> <bracketleft> <space> <bracketright> :	"☐"	U2610	# BALLOT BOX
+# Better keystrokes anyone?  This one breaks the pattern. [c]? [v]? [y]? [/]?
+<Multi_key> <Multi_key> <c> <h> <k>	      :	 "☑"  U2611		# BALLOT BOX WITH CHECK
+<Multi_key> <bracketleft> <slash> <bracketright>     :	 "☑"  U2611		# BALLOT BOX WITH CHECK
+<Multi_key> <bracketleft> <x> <bracketright>  :	 "☒"  U2612		# BALLOT BOX WITH X
+# @ for dingbats?
+<Multi_key> <at> <slash>	:	"✓"	U2713	# CHECK MARK
+<Multi_key> <at> <at> <slash>	:	"✔"	U2714	# HEAVY CHECK MARK
+<Multi_key> <at> <X>  		:	"✗"	U2717	# BALLOT X
+<Multi_key> <at> <at> <X>	:	"✘"	U2718	# HEAVY BALLOT X
+# Will I want <at> <at> for something else?
+# How about dice?
+<Multi_key> <bracketleft> <1> <bracketright>  :  "⚀"  U2680	# DIE FACE-1
+<Multi_key> <bracketleft> <2> <bracketright>  :  "⚁"  U2681	# DIE FACE-2
+<Multi_key> <bracketleft> <3> <bracketright>  :  "⚂"  U2682	# DIE FACE-3
+<Multi_key> <bracketleft> <4> <bracketright>  :  "⚃"  U2683	# DIE FACE-4
+<Multi_key> <bracketleft> <5> <bracketright>  :  "⚄"  U2684	# DIE FACE-5
+<Multi_key> <bracketleft> <6> <bracketright>  :  "⚅"  U2685	# DIE FACE-6
+# 267B BLACK UNIVERSAL RECYCLING SYMBOL
+
+# Keystrokes okay?
+<Multi_key> <Multi_key> <f> <d> <l>   	        : "⚜"	U269C	  # FLEUR-DE-LIS
+<Multi_key> <Multi_key> <a> <t> <o> <m>	        : "⚛"	U269B		# ATOM SYMBOL
+<Multi_key> <Multi_key> <c> <c> <c> <p>		: "☭" 	U262D		# HAMMER AND SICKLE
+<Multi_key> <slash> <exclam> <backslash> : "⚠"  U26A0           # WARNING SIGN
+<Multi_key> <exclam> <asciicircum>	: "⚠"	U26A0		# WARNING SIGN 
+<Multi_key> <Multi_key> <z> <a> <p>	  		: "⚡"	U26A1		# HIGH VOLTAGE SIGN 
+# Shouldn't use just <r><a> because it's too likely to be a prefix for
+# a useful word.
+<Multi_key> <Multi_key> <r> <a> <d>	: "☢"	U2622		# RADIOACTIVE SIGN
+<Multi_key> <Multi_key> <b> <h>		: "☣"	U2623		# BIOHAZARD SIGN
+# Changing this from ⚝
+<Multi_key> <Multi_key> <A> <A> <A> <A> <A>	:	"⛤" U26E4 # PENTAGRAM (pentalpha, get it?)
+<Multi_key> <Multi_key> <p> <l> <a> <n> <e>	: "✈"   U2708	  # AIRPLANE
+<Multi_key> <Multi_key> <m> <a> <i> <l>		: "✉"	U2709	  # ENVELOPE
+<Multi_key> <Multi_key> <w> <h> <l> <c> <h>	: "♿"	U267F	  # WHEELCHAIR SYMBOL
+<Multi_key> <Multi_key> <m> <e> <d> 		: "☤"	U2624	  # CADEUCEUS
+# Something different for STAFF OF AESCULAPIUS?
+<Multi_key> <Multi_key> <1> <m> <e> <d>		: "⚕"	U2695	# STAFF OF AESCULAPIUS
+# Maybe something different that isn't lousy.
+# 26B0 COFFIN ?
+# One of the SNOWFLAKEs?
+# SNOWMAN? COMET? ANCHOR?
+# Maybe if we go with having a "word" symbol and spelling out lots and 
+# lots of whole words, we can have all the planets.
+#    "Word Symbol" Notion:
+#    Have a semi-reserved symbol reserved for this.  Probably ampersand.
+#    Something that isn't already used for much.  Then you can happily make
+#    all the &-j-u-p-i-t-e-r and &-a-r-i-e-s combos you want without worrying
+#    that you'll run into a combination already used, like "ca"=ǎ or something.
+#    (unless you have whole words that are prefixes).  Worth doing?
+#    I think so. -Kragen
+#
+# I already have STAR OF DAVID on another map.
+# 231A, 231B -- WATCH and HOURGLASS -- one should be &-w-a-i-t
+# 23D4 METRICAL LONG OVER TWO SHORTS a.k.a. METRICAL BOOBS
+# 0950 DEVANAGARI OM?
+# 214C PER SIGN?
+# 212E ESTIMATED SYMBOL?
+# 2324 UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS a.k.a. NOT AMUSED
+# 237E BELL SYMBOL a.k.a. ALIENS LANDING
+<Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
+<Multi_key> <Multi_key> <s> <k> <u> <l> <l>:	  "☠" U2620 # SKULL AND CROSSBONES
+<Multi_key> <Multi_key> <k> <b> <d> :	"⌨"	  U2328	    # KEYBOARD
+# Can we get better keycodes for these?
+<Multi_key> <equal> <minus>	: "☞" U261E # WHITE RIGHT POINTING INDEX
+<Multi_key> <Multi_key> <r> <h> <a> <n> <d>	: "☞" U261E # WHITE RIGHT POINTING INDEX
+<Multi_key> <minus> <equal>	: "☜" U261C # WHITE LEFT POINTING INDEX
+<Multi_key> <Multi_key> <l> <h> <a> <n> <d>	: "☜" U261C # WHITE LEFT POINTING INDEX
+<Multi_key> <asterisk> <asterisk>	:"★" U2605 # BLACK STAR
+<Multi_key> <asterisk> <0>	:"☆" U2606 # WHITE STAR
+<Multi_key> <asterisk> <minus>	:"✪" U272A # CIRCLED WHITE STAR
+<Multi_key> <asterisk> <3>	:"⁂" U2042 # ASTERISM
+<Multi_key> <asterisk> <4>      :"✢"  U2722  # FOUR TEARDROP-SPOKED ASTERISK
+<Multi_key> <asterisk> <6>	:"✡" U2721 # STAR OF DAVID
+<Multi_key> <asterisk> <numbersign>	:"✯" U272F # PINWHEEL STAR
+<Multi_key> <asterisk> <exclam>	:"✱" U2731 # HEAVY ASTERISK
+<Multi_key> <at> <numbersign>	: "⌘" U2318	# PLACE OF INTEREST SIGN
+# Using backslash-minus-slash etc. conflicts with combining accents.
+<Multi_key> <grave> <minus> <apostrophe>	 : "⚞"	U269E  # THREE LINES CONVERGING RIGHT
+<Multi_key> <apostrophe> <minus> <grave>	 : "⚟"	U269F  # THREE LINES CONVERGING LEFT
+<Multi_key> <Multi_key> <b> <e> <l> <l>		: "⍾" U237E  # BELL SYMBOL (or ALIENS LANDING) -- &-a-l-i-e-n ?
+# Other monstery characters... ѪꙚ (alien abductions?) 
+# ඏൠഋ & others from Kannada et al...? 
+# Can't use -^- for this; conflicts with -^ for ↑, and getting those arrows
+# workable was complicated enough.  How about this?
+<Multi_key> <underscore> <asciicircum> <underscore>	: "⌤" U2324  # UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS; aka ENTER KEY, aka NOT AMUSED.
+<Multi_key> <Multi_key> <w> <a> <i> <t>		: "⌛" U231B   # HOURGLASS
+<Multi_key> <Multi_key> <t> <i> <m> <e>		: "⌚" U231A   # WATCH
+<Multi_key> <space> <apostrophe>  : " " U2009  # THIN SPACE
+<Multi_key> <space> <N>		  : " "	U2002  # EN SPACE
+<Multi_key> <space> <M>		  : " " U2003  # EM SPACE
+<Multi_key> <space> <3> <M>	  : " "	U2004  # THREE-PER-EM SPACE
+<Multi_key> <space> <4> <M>	  : " "	U2005  # FOUR-PER-EM SPACE
+<Multi_key> <parenleft> <parenright>: "◌" U25CC # DOTTED CIRCLE
+<Multi_key> <bracketleft> <bracketright>: "⬚" U2B1A # DOTTED SQUARE
+<Multi_key> <asterisk> <parenleft>      : "﴾"   UFD3E           # ORNATE LEFT PARENTHESIS
+<Multi_key> <asterisk> <parenright>     : "﴿"   UFD3F           # ORNATE RIGHT PARENTHESIS
+<Multi_key> <k> <s>                     : "ʘ"   U0298           # LATIN LETTER BILABIAL CLICK (kiss sound)
+<Multi_key> <bar> <greater>             : "‣"   U2023           # TRIANGULAR BULLET
+# Sigh.  So many emoji...  I think the first ones I'd go for would be
+# 💡💢💣💤💥💦💧💨💫 (1F4A1-1F4A8 and 1F4AB).  Maybe 1F550-1F567 are useful.  
+<Multi_key> <Multi_key> <i> <d> <e> <a>	    : "💡"    U1F4A1 # ELECTRIC LIGHT BULB
+<Multi_key> <Multi_key> <a> <n> <g> <e> <r> : "💢"    U1F4A2 # ANGER SYMBOL
+<Multi_key> <Multi_key> <b> <o> <m> <b>	    : "💣"    U1F4A3 # BOMB
+<Multi_key> <Multi_key> <z> <z> <z> 	    : "💤"    U1F4A4 # SLEEPING SYMBOL
+<Multi_key> <Multi_key> <p> <o> <w>	    : "💥"    U1F4A5 # COLLISION SYMBOL
+<Multi_key> <Multi_key> <s> <w> <e> <a> <t> : "💦"    U1F4A6 # SPLASHING SWEAT SYMBOL
+<Multi_key> <Multi_key> <d> <r> <o> <p>	    : "💧"    U1F4A7 # DROPLET
+<Multi_key> <Multi_key> <z> <i> <p> 	    : "💨"    U1F4A8 # DASH SYMBOL
+<Multi_key> <Multi_key> <p> <o> <o>	    : "💩"    U1F4A9 # PILE OF POO
+# Skipping U+1F4AA just now.
+<Multi_key> <Multi_key> <d> <i> <z> <z> <y> : "💫"    U1F4AB # DIZZY SYMBOL
+<Multi_key> <Multi_key> <dollar> <b> <a> <g>  : "💰"  U1F4B0 # MONEY BAG
+<Multi_key> <Multi_key> <c> <a> <k> <e>	    : "🍰"    U1F370 # SHORTCAKE
+# The cake is a lie... OK, too cutesy?
+<Multi_key> <Multi_key> <l> <i> <e> 	    : "🎂"    U1F382 # BIRTHDAY CAKE
+<Multi_key> <Multi_key> <b> <d> <a> <y>	    : "🎂"    U1F382 # BIRTHDAY CAKE
+<Multi_key> <Multi_key> <A> <O> <K>	    : "👌"    U1F44C # OK HAND SIGN
+<Multi_key> <Multi_key> <t> <h> <m> <u> <p> : "👍"    U1F44D # THUMBS UP SIGN
+<Multi_key> <Multi_key> <t> <h> <m> <d> <n> : "👎"    U1F44E # THUMBS DOWN SIGN
+# More useful in chat than U+1F48F KISS
+<Multi_key> <Multi_key> <k> <i> <s> <s>	    : "💋"    U1F48B # KISS MARK
+# ⛔ U+26D4 NO ENTRY for "Don't go there"?
+# So many hearts... I'm not touching them for now.
+# And emoticons? (U+1F600 et seq)

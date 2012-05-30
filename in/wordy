@@ -1,0 +1,8 @@
+# for Emacs: -*- coding: utf-8 -*-
+# A few word-based bindings, e.g. H e a r t for ♥
+
+<Multi_key> <i> <n> <f> <t> <y> : "∞" U221E # Compose i n f t y
+<Multi_key> <s> <q> <r> <t> : "√" U221A # Compose s q r t
+<Multi_key> <i> <n> <t> <e> <g> <r> <a> <l> : "∫" U222B # Compose i n t e g r a l
+<Multi_key> <h> <e> <a> <r> <t> : "♡" U2661 # Compose h e a r t
+<Multi_key> <H> <e> <a> <r> <t> : "♥" U2665 # Compose H e a r t
