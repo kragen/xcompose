@@ -55,7 +55,9 @@ open my $outfile, '>.XCompose' or die "Couldn't open .XCompose: $!";
 print $outfile $result or die "Very weird. Couldn't write to .XCompose. ($!)";
 close $outfile or die "Superweird. Couldn't close .XCompose. ($!)";
 
-print MAGENTA "Added the following…\n",
-    WHITE $result,
-    MAGENTA "…to .XCompose\n";
-print color 'reset';
+if (not $be_quiet) {
+    print MAGENTA "Added the following…\n",
+        WHITE $result,
+        MAGENTA "…to .XCompose\n";
+    print color 'reset';
+}
