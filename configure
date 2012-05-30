@@ -28,6 +28,8 @@ sub usage {
     exit 1
 }
 
+my $be_quiet = 0;
+$be_quiet = 1 && shift if $ARGV[0] eq '--quiet';
 usage if @ARGV;
 
 sub expand {

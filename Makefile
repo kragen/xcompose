@@ -1,5 +1,5 @@
 default: deps check-mapping ensure-config
-	@echo -e "OK! ...now for: \e[35mmake install\e[0m"
+	@/bin/echo -e "OK! ...now for: \e[35mmake install\e[0m"
 
 install: deps check-mapping ensure-config pave-the-way install-link
 
@@ -37,7 +37,7 @@ ensure-config:
 pave-the-way:
 # Symlinks don't survive. This presumes the most common case of the
 # user moving their xcompose working directory and wanting to reseat
-# the link. If they did something funky, like had their own symlink... 
+# the link. If they did something funky, like had their own symlink...
 # it will be removed, but they are apparently an advanced user and
 # should be able to figure it out.
 	@[ -L ~/.XCompose ] && rm ~/.XCompose || true
