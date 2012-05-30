@@ -3,15 +3,10 @@ default: deps check-mapping ensure-config
 
 install: deps check-mapping ensure-config pave-the-way install-link
 
-full: deps xmodmap config-all install
-
-refill: git-pull full
+refill: git-pull install
 
 deps:
 	@type fmt >/dev/null || (echo -e "\e[31mOh snap.\e[0m rking thought 'fmt' was universal, but apparently not. Try installing a 'coreutils' OS package, and please also tell rking he's totally wrong → \e[35mxcompose@sharpsaw.org\e[0m"; false)
-
-config-all:
-	./configure --all
 
 git-pull:
 	git pull

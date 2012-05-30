@@ -22,7 +22,7 @@ sub read_desc {
 
 sub colored_head { "\n " . CYAN . shift . WHITE ": \n" }
 sub usage {
-    print colored_head 'Nevermind.';
+    print colored_head "Nevermind\n";
     print "This no longer has any options. For now we'll install everything.\n";
     print "You can delete whatever `include` lines you want, to pare down.\n";
     exit 1
