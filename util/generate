@@ -4,7 +4,6 @@ use Getopt::Long;
 use Term::ANSIColor qw(:constants color);
 use Cwd;
 
-chdir $1 if $0 =~ /(.+\/)/;
 -e 'in/arrows' or die "something went wrong";
 
 sub glob_basename { map { /.+\/(.+)/ } glob "$_[0]/*" }

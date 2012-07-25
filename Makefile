@@ -1,7 +1,7 @@
-default: deps check-mapping ensure-config
+default: deps check-mapping generate
 	@/bin/echo -e "OK! ...now for: \e[35mmake install\e[0m"
 
-install: deps check-mapping ensure-config pave-the-way install-link
+install: deps check-mapping generate pave-the-way install-link
 
 refill: git-pull install
 
@@ -28,11 +28,8 @@ xmodmap:
 You should at this point already be able to type: Right-Alt (then let go of it), then \" then o, and ö should appear. This is a system default.\n\n\
 Now, you will have to ensure that \e[35mxmodmap ~/.Xmodmap\e[0m gets run at some point during the next X session. Some systems are already set up this way, and others you'll have to help out (e.g., adding it to your existing ~/.xsession or ~/.xinitrc)." | fmt
 
-ensure-config:
-	@if [ ! -f .XCompose ]; then \
-	    echo -e "Please run \e[35m./configure\e[0m to select the mappings you want."; \
-	    exit 1; \
-	fi
+generate:
+	util/generate > .XCompose
 
 pave-the-way:
 # Symlinks don't survive. This presumes the most common case of the

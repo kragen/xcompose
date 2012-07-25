@@ -28,15 +28,17 @@ Setup
 
 After that, enter the `xcompose/` dir, and do:
 
-    ./configure --help
-
-To shop around for which mappings you'll want. Run `./configure` with your
-selected options, then do:
-
     make install
 
 The `Makefile` should help you if you have any troubles. If it doesn't, or if
-anything else goes wrong, please let us know so we can improve it for others.
+anything else goes wrong, please [let me
+know](mailto:rkingxcompose@sharpsaw.org) so we can improve it for others.
+
+There used to be a more complicated ./configure step, that accepted
+enable/disable args. Now I think the easiest thing is to just edit the
+.XCompose file to however you want (for example, you can delete some of the
+input files' lines so they don't have an effect, or you can reorder them so a
+certain one overrides another in the case of conflicts).
 
 Behavior
 --------
