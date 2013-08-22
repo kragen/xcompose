@@ -62,6 +62,15 @@ include "%L"
 # We already have THIN SPACE below, as <space> <apostrophe>!  Keep both?
 <Multi_key> <backslash> <comma>		: " "	U2009		# THIN SPACE
 <Multi_key> <s> <e> <c> : "§"   U00A7   # SECTION SIGN
+# It's in the Asian section, but it's a general-purpose punctuation:
+<Multi_key> <quotedbl> <quotedbl>       : "〃"	U3003		# DITTO MARK
+# Working with the pattern from FLOOR/CEILING
+<Multi_key> <7> <asciicircum> <bracketleft>  : "⸢"  U2E22	# TOP LEFT HALF BRACKET
+<Multi_key> <7> <asciicircum> <bracketright> : "⸣"  U2E23	# TOP RIGHT HALF BRACKET
+<Multi_key> <L> <underscore> <bracketleft>   : "⸤"  U2E24	# BOTTOM LEFT HALF BRACKET
+<Multi_key> <L> <underscore> <bracketright>  : "⸥"  U2E25	# BOTTOM RIGHT HALF BRACKET
+# Consider <7> <less>/<greater> for ⸂⸃ maybe? <S> and <slash> for ⸉⸊⸌⸍ ...?
+# I guess we can get by with sub/superset for ⸦⸧.
 
 <Multi_key> <minus> <less>		: "←"	leftarrow	# LEFTWARDS ARROW
 <Multi_key> <minus> <asciicircum>	: "↑"	uparrow		# UPWARDS ARROW
@@ -241,6 +250,8 @@ include "%L"
 <Multi_key> <parenleft> <x> <x> <parenright>    : "⊗"  U2297    # CIRCLED TIMES
 <Multi_key> <parenleft> <slash> <parenright>    : "⊘"  U2298    # CIRCLED DIVISION SLASH
 <Multi_key> <parenleft> <asterisk> <parenright> : "⊛"  U229B    # CIRCLED ASTERISK OPERATOR
+# )- conflicts with system for }.
+<Multi_key> <parenright> <underscore>    : "⟌"   	U27CC		# LONG DIVISION
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <Multi_key> <b> <e> <c> <a> <u> <s> <e>	   	: "∵"	U2235  		# BECAUSE
@@ -649,6 +660,8 @@ include "%L"
 <Multi_key> <asterisk> <0>	:"☆" U2606 # WHITE STAR
 <Multi_key> <asterisk> <minus>	:"✪" U272A # CIRCLED WHITE STAR
 <Multi_key> <asterisk> <3>	:"⁂" U2042 # ASTERISM
+<Multi_key> <3> <asterisk>	:"⁂" U2042 # ASTERISM
+<Multi_key> <2> <asterisk>	:"⁑" U2051 # TWO ASTERISKS ALIGNED VERTICALLY
 <Multi_key> <asterisk> <4>      :"✢"  U2722  # FOUR TEARDROP-SPOKED ASTERISK
 <Multi_key> <asterisk> <6>	:"✡" U2721 # STAR OF DAVID
 <Multi_key> <asterisk> <numbersign>	:"✯" U272F # PINWHEEL STAR
@@ -836,8 +849,8 @@ include "%L"
 <Multi_key> <backslash> <2> <asciitilde> : "͠" U0360 # COMBINING DOUBLE TILDE
 <Multi_key> <backslash> <ampersand> <i> <b>  : "͡"  U0361 # COMBINING DOUBLE INVERTED BREVE
 <Multi_key> <backslash> <2> <i> <b>  : "͡"  U0361 # COMBINING DOUBLE INVERTED BREVE
-<Multi_key> <backslash> <ampersand> <at> <i> <b>  : "᷼"  U0361 # COMBINING DOUBLE INVERTED BREVE BELOW
-<Multi_key> <backslash> <2> <at> <i> <b>  : "᷼"  U0361 # COMBINING DOUBLE INVERTED BREVE BELOW
+<Multi_key> <backslash> <ampersand> <at> <i> <b>  : "᷼"  U1DFC # COMBINING DOUBLE INVERTED BREVE BELOW
+<Multi_key> <backslash> <2> <at> <i> <b>  : "᷼"  U1DFC # COMBINING DOUBLE INVERTED BREVE BELOW
 # Might as well finish up the set.
 <Multi_key> <backslash> <ampersand> <greater> : "͢" U0362 # COMBINING DOUBLE RIGHTWARDS ARROW BELOW
 <Multi_key> <backslash> <2> <greater> : "͢" U0362 # COMBINING DOUBLE RIGHTWARDS ARROW BELOW
