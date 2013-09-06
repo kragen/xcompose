@@ -11,12 +11,13 @@ include "%L"
 #     emit(' '.join("<%s>" % char for char in str(num)), 0x245f + num, word)
 
 # Custom additions: Typography
-<Multi_key> <period> <period> <period>	: "…"	U2026		# HORIZONTAL ELLIPSIS
+# Already present for me as <period> <period>:
+# <Multi_key> <period> <period> <period>: "…"	U2026		# HORIZONTAL ELLIPSIS
 <Multi_key> <v> <period> <period>	: "⋮"	U22EE		# VERTICAL ELLIPSIS
 <Multi_key> <c> <period> <period>	: "⋯"	U22EF		# MIDLINE HORIZONTAL ELLIPSIS
 <Multi_key> <slash> <period> <period>	: "⋰"	U22F0		# UP RIGHT DIAGONAL ELLIPSIS
 # To avoid conflict with \. for combining dot above.
-#<Multi_key> <backslash> <period> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
+# <Multi_key> <backslash> <period> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
 <Multi_key> <period> <backslash> <period> : "⋱" U22F1		# DOWN RIGHT DIAGONAL ELLIPSIS
 <Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
 # Printable sign for space.  But is \<space> too useful a key combo to use
