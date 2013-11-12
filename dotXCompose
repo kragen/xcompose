@@ -550,12 +550,17 @@ include "%L"
 # Keep looking into big hunks of Latin Extended-D, A720- et seq.
 <Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
 <Multi_key> <3> <3>			: "♣" U2663		# BLACK CLUB SUIT
+<Multi_key> <o> <8>			: "♣" U2663		# BLACK CLUB SUIT
+<Multi_key> <c> <3>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
 <Multi_key> <3> <minus>		: "♠" U2660		# BLACK SPADE SUIT
+<Multi_key> <less> <braceright>	: "♠" U2660		# BLACK SPADE SUIT
 <Multi_key> <E> <greater>		: "♡" U2661		# WHITE HEART SUIT
 # "shamrock" is too long; there IS a limit to these!
 <Multi_key> <Multi_key> <s> <h> <m> <r> <c> <k>		: "☘" U2618   # SHAMROCK
+<Multi_key> <Multi_key> <s> <h> <a> <m> <r> <o>		: "☘" U2618   # SHAMROCK
 <Multi_key> <Multi_key> <p> <c>         : "☮"   U262E           # PEACE SYMBOL
+<Multi_key> <Multi_key> <p> <e> <a> <c> <e> : "☮"   U262E           # PEACE SYMBOL
 <Multi_key> <Multi_key> <y> <y>		: "☯" U262F		# YIN YANG
 # And now that we are into hearts...
 <Multi_key> <Left> <less> <3>           : "❥"  U2765            # ROTATED HEAVY BLACK HEART BULLET
@@ -563,8 +568,6 @@ include "%L"
 <Multi_key> <f> <less> <3>              : "❦"  U2766            # FLORAL HEART
 <Multi_key> <Left> <f> <less> <3>       : "❧"  U2767            # ROTATED FLORAL HEART BULLET
 <Multi_key> <Right> <f> <less> <3>      : "☙"  U2619            # REVERSED ROTATED FLORAL HEART BULLET
-# For some reason, I don't really like these word-based mnemonics.  But until we have something better... -clsn
-# are the ampersand versions better? -kragen
 <Multi_key> <Multi_key> <t> <e> <l>			: "☎" 	U260E		# BLACK TELEPHONE
 <Multi_key> <Multi_key> <t> <e> <a>		: "☕"	U2615		# HOT BEVERAGE
 # These last two bother me less, though they can still be improved.
@@ -611,7 +614,6 @@ include "%L"
 <Multi_key> <Multi_key> <m> <e> <d> 		: "☤"	U2624	  # CADEUCEUS
 # Something different for STAFF OF AESCULAPIUS?
 <Multi_key> <Multi_key> <1> <m> <e> <d>		: "⚕"	U2695	# STAFF OF AESCULAPIUS
-# Maybe something different that isn't lousy.
 # 26B0 COFFIN ?
 # One of the SNOWFLAKEs?
 # SNOWMAN? COMET? ANCHOR?
@@ -666,6 +668,7 @@ include "%L"
 <Multi_key> <asterisk> <6>	:"✡" U2721 # STAR OF DAVID
 <Multi_key> <asterisk> <numbersign>	:"✯" U272F # PINWHEEL STAR
 <Multi_key> <asterisk> <exclam>	:"✱" U2731 # HEAVY ASTERISK
+<Multi_key> <less> <X> <greater> :  "❖"	U2756	# BLACK DIAMOND MINUS WHITE X
 <Multi_key> <at> <numbersign>	: "⌘" U2318	# PLACE OF INTEREST SIGN
 # Using backslash-minus-slash etc. conflicts with combining accents.
 <Multi_key> <grave> <minus> <apostrophe>	 : "⚞"	U269E  # THREE LINES CONVERGING RIGHT
