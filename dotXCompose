@@ -327,6 +327,11 @@ include "%L"
 <Multi_key> <L> <bracketright>	    : "⌋"     U230B   # RIGHT FLOOR
 <Multi_key> <7> <bracketleft>	    : "⌈"     U2308   # LEFT CEILING
 <Multi_key> <7> <bracketright>	    : "⌉"     U2309   # RIGHT CEILING
+# These are actually quotes, hence the mnemonic.
+<Multi_key> <7> <apostrophe>	    : "｢"     UFF62   # HALFWIDTH LEFT CORNER BRACKET
+<Multi_key> <L> <apostrophe>	    : "｣"     UFF63   # HALFWIDTH RIGHT CORNER BRACKET
+<Multi_key> <7> <quotedbl>	    : "『"    U300E   # LEFT WHITE CORNER BRACKET
+<Multi_key> <L> <quotedbl>	    : "』"    U300F   # RIGHT WHITE CORNER BRACKET
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
