@@ -322,6 +322,7 @@ include "%L"
 <Multi_key> <A> <A>                     : "∀"  U2200           # FOR ALL
 <Multi_key> <Multi_key> <Q> <E> <D>     : "∎"   U220E           # END OF PROOF
 <Multi_key> <8> <8>                     : "∞"  U221E           # INFINITY
+<Multi_key> <Multi_key> <i> <n> <f>     : "∞"  U221E           # INFINITY
 <Multi_key> <Multi_key> <a> <l> <e> <p> <h> : "ℵ" U2135	       # ALEF SYMBOL
 <Multi_key> <Multi_key> <a> <l> <e> <p> <0> : "ℵ₀"        # ALEF Null
 <Multi_key> <Multi_key> <a> <l> <e> <p> <1> : "ℵ₁"        # ALEF One
