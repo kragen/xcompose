@@ -286,8 +286,8 @@ include "%L"
 <Multi_key> <period> <equal> <space>	: "≐"  U2254		# DOT EQUALS
 <Multi_key> <colon> <equal> 		: "≔"  U2254		# COLON EQUALS
 <Multi_key> <equal> <colon> 		: "≕"  U2255		# EQUALS COLON
-# Using <slash> conflicts.
 <Multi_key> <equal> <bar> <equal>	: "≢"	U2262		# NOT IDENTICAL TO
+<Multi_key> <equal> <slash> <equal>	: "≢"	U2262		# NOT IDENTICAL TO
 # We already have ±
 <Multi_key> <minus> <plus>		: "∓"	U2213		# MINUS OR PLUS SIGN
 <Multi_key> <s> <q>			: "√"	U221A		# SQUARE ROOT
