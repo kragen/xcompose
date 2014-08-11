@@ -283,6 +283,11 @@ include "%L"
 <Multi_key> <asterisk> <period> <period> <d>   : "∂" U2202	# PARTIAL DIFFERENTIAL
 <Multi_key> <R> <e>    		: "ℜ"	 U211C 	     	# BLACK-LETTER CAPITAL R (Real Part)
 <Multi_key> <I> <m>		: "ℑ"	 U2111		# BLACK-LETTER CAPTIAL I (Imaginary Part)
+<Multi_key> <Multi_key> <h> <b> <a> <r>	:   "ℏ"	U210F	# PLANCK CONSTANT OVER TWO PI
+<Multi_key> <h> <minus>			:   "ℏ"	U210F	# PLANCK CONSTANT OVER TWO PI
+<Multi_key> <h> <p>	    :	"ℎ"	    U210E   # PLANCK CONSTANT
+<Multi_key> <Multi_key> <e> <x> <p> :   "ℯ"	U212F   # SCRIPT SMALL E
+<Multi_key> <e> <1> <0> :	"⏨" 	U23E8   # DECIMAL EXPONENT SYMBOL
 # Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
 # There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
@@ -302,6 +307,10 @@ include "%L"
 <Multi_key> <bar> <Greek_PI> 	 : "ℿ" U213F	# DOUBLE-STRUCK CAPITAL PI
 <Multi_key> <bar> <asterisk> <S> : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
 <Multi_key> <bar> <Greek_SIGMA>  : "⅀" U2140	# DOUBLE-STRUCK N-ARY SUMMATION
+<Multi_key> <bar> <colon>   :	"⦂" U2982	# Z NOTATION TYPE COLON
+# Apparently it is only for historical reasons that this is not unified with
+# ⨟ U+2A1F Z NOTATION SCHEMA COMPOSITION
+<Multi_key> <bar> <semicolon>	:   "⨾"	U2A3E	# Z NOTATION RELATIONAL COMPOSITION
 # The *look* double-struck.
 <Multi_key> <bar> <braceleft>	 : "⦃" U2983	# LEFT WHITE CURLY BRACKET
 <Multi_key> <bar> <braceright>	 : "⦄" U2984	# RIGHT WHITE CURLY BRACKET 
@@ -312,10 +321,17 @@ include "%L"
 # Others too, of course, but these to start with.  Some are likely worthy.
 <Multi_key> <S> <parenleft>  	: "⟅" U27C5 	# LEFT S-SHAPED BAG DELIMITER
 <Multi_key> <S> <parenright>	: "⟆" U27C6 	# RIGHT S-SHAPED BAG DELIMITER
-# Keystrokes for these?  And are the Mathematical versions ⟨⟩ preferable?
-# Geez, and there are more at 3008 and 3009
-<Multi_key> <less> <parenleft>	: "〈" U2329	# LEFT-POINTING ANGLE BRACKET
-<Multi_key> <greater> <parenright>: "〉" U232A	# RIGHT-POINTING ANGLE BRACKET
+# There are a lot of angle brackets (3008/9, 27E8/9, 2329/A).  I'm deciding
+# to go with the mathematical brackets from now on, since they seem to be
+# better supported.
+<Multi_key> <less> <parenleft>	: "⟨" U27E8	# MATHEMATICAL LEFT ANGLE BRACKET
+<Multi_key> <greater> <parenright>: "⟩" U27E9	# MATHEMATICAL RIGHT ANGLE BRACKET
+<Multi_key> <bar> <bracketleft>	:   "⟦"	U27E6	# MATHEMATICAL LEFT WHITE SQUARE BRACKET
+<Multi_key> <bar> <bracketright>:   "⟧"	U27E7	# MATHEMATICAL RIGHT WHITE SQUARE BRACKET
+<Multi_key> <percent> <parenleft>:  "⧘"	U29D8	# LEFT WIGGLY FENCE
+<Multi_key> <percent> <parenright>: "⧙"	U29D9	# RIGHT WIGGLY FENCE
+<Multi_key> <2> <percent> <parenleft>:	"⧚" U29DA   # LEFT DOUBLE WIGGLY FENCE
+<Multi_key> <2> <percent> <parenright>:	"⧛" U29DB   # RIGHT DOUBLE WIGGLY FENCE
 <Multi_key> <parenleft> <ampersand> <parenleft>:  "⸨"  U2E28 # LEFT DOUBLE PARENTHESIS
 <Multi_key> <parenright> <ampersand> <parenright>:  "⸩"  U2E29 # RIGHT DOUBLE PARENTHESIS
 <Multi_key> <2> <parenleft>:  "⸨"  U2E28 # LEFT DOUBLE PARENTHESIS
@@ -706,6 +722,9 @@ include "%L"
 <Multi_key> <asciicircum> <asciicircum> <r>       : "ʳ"   U02B3           # SUPERSCRIPT R
 <Multi_key> <asciicircum> <asciicircum> <w>       : "ʷ"   U02B7           # SUPERSCRIPT W
 <Multi_key> <asciicircum> <asciicircum> <y>       : "ʸ"   U02B8           # SUPERSCRIPT Y
+# So I can use yᵗ and yᵉ
+<Multi_key> <asciicircum> <asciicircum> <e>	  : "ᵉ"	  U1D49		  # MODIFIER LETTER SMALL E
+<Multi_key> <asciicircum> <asciicircum> <t>	  : "ᵗ"	  U1D57		  # MODIFIER LETTER SMALL T
 #Maybe add: ˀˁ˃˂  Need to be able to talk about ʔˁ...
 <Multi_key> <asciicircum> <question> <period>	: "ˀ"	U02C0	# MODIFIER LETTER GLOTTAL STOP
 <Multi_key> <asciicircum> <question> <parenleft> : "ˁ"	U02C1	# MODIFIER LETTER REVERSED GLOTTAL STOP
