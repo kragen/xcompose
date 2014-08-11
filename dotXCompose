@@ -722,9 +722,11 @@ include "%L"
 <Multi_key> <asciicircum> <asciicircum> <r>       : "ʳ"   U02B3           # SUPERSCRIPT R
 <Multi_key> <asciicircum> <asciicircum> <w>       : "ʷ"   U02B7           # SUPERSCRIPT W
 <Multi_key> <asciicircum> <asciicircum> <y>       : "ʸ"   U02B8           # SUPERSCRIPT Y
-# So I can use yᵗ and yᵉ
+# So I can use yᵗ/þᵗ and yᵉ/þᵉ
 <Multi_key> <asciicircum> <asciicircum> <e>	  : "ᵉ"	  U1D49		  # MODIFIER LETTER SMALL E
 <Multi_key> <asciicircum> <asciicircum> <t>	  : "ᵗ"	  U1D57		  # MODIFIER LETTER SMALL T
+# Abbreviation for "that":
+<Multi_key> <U00FE> <t>	  			  : "ꝥ"	  UA765		  # LATIN SMALL LETTER THORN WITH STROKE
 #Maybe add: ˀˁ˃˂  Need to be able to talk about ʔˁ...
 <Multi_key> <asciicircum> <question> <period>	: "ˀ"	U02C0	# MODIFIER LETTER GLOTTAL STOP
 <Multi_key> <asciicircum> <question> <parenleft> : "ˁ"	U02C1	# MODIFIER LETTER REVERSED GLOTTAL STOP
