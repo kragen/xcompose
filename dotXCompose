@@ -32,9 +32,12 @@ include "%L"
 # <Multi_key> <minus> <minus> <period>	: "–"	U2013		# EN DASH
 <Multi_key> <minus> <minus> <space>	: "– "			# EN DASH (followed by space)
 <Multi_key> <minus> <asciitilde> <minus> : "―" U2015 # HORIZONTAL BAR
+<Multi_key> <minus> <2> <M>	 	 : "⸺" U2E3A # TWO-EM DASH
+<Multi_key> <minus> <3> <M>	 	 : "⸻" U2E3B # THREE-EM DASH
 <Multi_key> <backslash> <minus>		: "­"	U00AD		# SOFT HYPHEN
 <Multi_key> <comma> <space>		: "‚"	U201A		# SINGLE LOW-9 QUOTATION MARK
 <Multi_key> <comma> <comma>		: "„"	U201E		# DOUBLE LOW-9 QUOTATION MARK
+<Multi_key> <less> <comma> <comma>	: "⹂"	U2E42		# DOUBLE LOW-REVERSED-9 QUOTATION MARK
 <Multi_key> <apostrophe> <space>	: "’"	U2019		# RIGHT SINGLE QUOTATION MARK
 <Multi_key> <apostrophe> <apostrophe>	: "”"	U201D		# RIGHT DOUBLE QUOTATION MARK
 <Multi_key> <grave> <space>		: "‘"	U2018		# LEFT SINGLE QUOTATION MARK
@@ -47,6 +50,17 @@ include "%L"
 <Multi_key> <less> <9> <quotedbl>	: "‟"	U201F		# DOUBLE HIGH-REVERSED-9 QUOTATION MARK
 <Multi_key> <comma> <apostrophe>	: "‚"	U201A		# SINGLE LOW-9 QUOTATION MARK (quote resembling a comma)
 <Multi_key> <comma> <quotedbl>		: "„"	U201E		# DOUBLE LOW-9 QUOTATION MARK
+<Multi_key> <comma> <at>		: "⸲"	U2E32		# TURNED COMMA
+# Conflicts with system def? (·)
+<Multi_key> <period> <asciicircum>	: "⸳"	U2E33		# RAISED DOT
+<Multi_key> <period> <asciitilde>	: "⸳"	U2E33		# RAISED DOT
+<Multi_key> <comma> <asciicircum>	: "⸴"	U2E34		# RAISED COMMA
+<Multi_key> <semicolon> <at>		: "⸵"	U2E35		# TURNED SEMICOLON
+# Convlicts with system def? (⍭)
+<Multi_key> <asciitilde> <bar>		: "ⸯ"	U2E2F		# VERTICAL TILDE
+<Multi_key> <asciicircum> <bar>		: "ⸯ"	U2E2F		# VERTICAL TILDE
+<Multi_key> <minus> <equal>		: "⹀"	U2E40		# DOUBLE HYPHEN
+<Multi_key> <comma> <less>		: "⹁"	U2E41		# REVERSED COMMA
 <Multi_key> <less> <bar>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
 # The bullet was <o> <period>, but it clashes with ꙭ
 <Multi_key> <asterisk> <1>		: "•"	U2022		# BULLET
@@ -289,6 +303,7 @@ include "%L"
 <Multi_key> <h> <p>	    :	"ℎ"	    U210E   # PLANCK CONSTANT
 <Multi_key> <Multi_key> <e> <x> <p> :   "ℯ"	U212F   # SCRIPT SMALL E
 <Multi_key> <e> <1> <0> :	"⏨" 	U23E8   # DECIMAL EXPONENT SYMBOL
+<Multi_key> <w> <p> 	:	"℘"	U2118	# SCRIPT CAPITAL P
 # Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
 # There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
@@ -471,6 +486,8 @@ include "%L"
 <Multi_key> <asterisk> <period> <U>    : "ϴ"	U03F4	# GREEK CAPITAL THETA SYMBOL
 <Multi_key> <asterisk> <period> <e>    : "ϵ"	U03F5	# GREEK LUNATE EPSILON SYMBOL
 # Not doing the lunate sigmas and dotted versions thereof...  What about SAN, which is at least a letter?
+<Multi_key> <asterisk> <period> <s>	 : "ϻ"	  U03FB	      # GREEK SMALL LETTER SAN
+<Multi_key> <asterisk> <period> <S>	 : "Ϻ"	  U03FA	      # GREEK CAPITAL LETTER SAN
 
 # If you wanted to actually type in Greek, you would also need άίέ
 # etc.  But you would probably just switch to a Greek keyboard layout.
@@ -489,6 +506,11 @@ include "%L"
 <Multi_key> <3> <8>                     : "⅜" U215C           # VULGAR FRACTION THREE EIGHTHS
 <Multi_key> <5> <8>                     : "⅝" U215D           # VULGAR FRACTION FIVE EIGHTHS
 <Multi_key> <7> <8>                     : "⅞" U215E           # VULGAR FRACTION SEVEN EIGHTHS
+<Multi_key> <1> <7>			: "⅐" U2150	      # VULGAR FRACTION ONE SEVENTH
+<Multi_key> <1> <9>			: "⅑" U2151	      # VULGAR FRACTION ONE NINTH
+<Multi_key> <1> <x>			: "⅒" U2152	      # VULGAR FRACTION ONE TENTH
+<Multi_key> <0> <3>			: "↉" U2189	      # VULGAR FRACTION ZERO THIRDS
+<Multi_key> <1> <slash>			: "⅟" U215F	      # FRACTION NUMERATOR ONE
 
 # How about roman numerals?  Percent for numerical mnemonic?
 # Does this go against the spirit of this file?  These symbols are accessible 
@@ -675,10 +697,7 @@ include "%L"
 <Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
 <Multi_key> <Multi_key> <s> <k> <u> <l> <l>:	  "☠" U2620 # SKULL AND CROSSBONES
 <Multi_key> <Multi_key> <k> <b> <d> :	"⌨"	  U2328	    # KEYBOARD
-# Can we get better keycodes for these?
-<Multi_key> <equal> <minus>	: "☞" U261E # WHITE RIGHT POINTING INDEX
 <Multi_key> <Multi_key> <r> <h> <a> <n> <d>	: "☞" U261E # WHITE RIGHT POINTING INDEX
-<Multi_key> <minus> <equal>	: "☜" U261C # WHITE LEFT POINTING INDEX
 <Multi_key> <Multi_key> <l> <h> <a> <n> <d>	: "☜" U261C # WHITE LEFT POINTING INDEX
 <Multi_key> <asterisk> <asterisk>	:"★" U2605 # BLACK STAR
 <Multi_key> <asterisk> <0>	:"☆" U2606 # WHITE STAR
