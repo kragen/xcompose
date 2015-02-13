@@ -63,9 +63,13 @@ include "%L"
 # Convenience shortcuts for quotation marks.
 <Multi_key> <space> <quotedbl>          : " “"                  # space followed by LEFT DOUBLE QUOTATION MARK
 <Multi_key> <quotedbl> <space>          : "” "                  # RIGHT DOUBLE QUOTATION MARK followed by space
-<Multi_key> <space> <apostrophe>          : " ‘"                # space followed by LEFT SINGLE QUOTATION MARK
+<Multi_key> <space> <apostrophe>        : " ‘"                # space followed by LEFT SINGLE QUOTATION MARK
 # Unfortunately <apostrophe> <space> is, asymmetrically, just "’".  Whatever.
-
+<Multi_key> <n> <t>                     : "n’t"               # Apostrophized English “not.”
+# Some more English shortcuts:
+<Multi_key> <space> <t>                 : " the "
+<Multi_key> <space> <T>                 : "  The "
+<Multi_key> <space> <a>                 : " and "
 
 <Multi_key> <comma> <at>		: "⸲"	U2E32		# TURNED COMMA
 # Conflicts with system def? (·)
