@@ -15,7 +15,7 @@ for line in sys.stdin:
     print("({0})".format(line))
     continue
   (keystrokes, char, num, comments)=match.groups()
-  nummatch=re.match(r'U([0-9A-Fa-f]+)', num)
+  nummatch=re.match(r'^U([0-9A-Fa-f]+)$', num)
   if not nummatch:
     print("Number not parsed: {0}".format(line))
     continue
