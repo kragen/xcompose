@@ -28,6 +28,13 @@ include "%L"
 <Multi_key> <minus> <minus> <space>	: "– "			# EN DASH (followed by space)
 <Multi_key> <minus> <asciitilde> <minus> : "―" U2015 # HORIZONTAL BAR
 <Multi_key> <backslash> <minus>		: "­"	U00AD		# SOFT HYPHEN
+# This is the recommended typographical practice for em dashes in English.
+# Unfortunately, it doesn’t work out all that well in monospace fonts,
+# where the thin spaces aren’t thin.  But I think this is okay.
+<Multi_key> <space> <minus>             : " — "                 # EM DASH surrounded by THIN SPACEs.
+
+
+# Quotation marks.
 <Multi_key> <comma> <space>		: "‚"	U201A		# SINGLE LOW-9 QUOTATION MARK
 <Multi_key> <comma> <comma>		: "„"	U201E		# DOUBLE LOW-9 QUOTATION MARK
 <Multi_key> <apostrophe> <space>	: "’"	U2019		# RIGHT SINGLE QUOTATION MARK
@@ -42,19 +49,29 @@ include "%L"
 <Multi_key> <less> <9> <quotedbl>	: "‟"	U201F		# DOUBLE HIGH-REVERSED-9 QUOTATION MARK
 <Multi_key> <comma> <apostrophe>	: "‚"	U201A		# SINGLE LOW-9 QUOTATION MARK (quote resembling a comma)
 <Multi_key> <comma> <quotedbl>		: "„"	U201E		# DOUBLE LOW-9 QUOTATION MARK
+
+# Convenience shortcuts for quotation marks.
+<Multi_key> <space> <quotedbl>          : " ”"                  # space followed by LEFT DOUBLE QUOTATION MARK
+<Multi_key> <quotedbl> <space>          : "” "                  # RIGHT DOUBLE QUOTATION MARK followed by space
+<Multi_key> <space> <apostrophe>          : " ‘"                # space followed by LEFT SINGLE QUOTATION MARK
+# Unfortunately <apostrophe> <space> is, asymmetrically, just "’".  Whatever.
+
+
 <Multi_key> <less> <bar>		: "↵"	U21B5		# DOWNWARDS ARROW WITH CORNER LEFTWARDS
 # The bullet was <o> <period>, but it clashes with ꙭ
 <Multi_key> <asterisk> <1>		: "•"	U2022		# BULLET
 # By default <Multi_key> <period> <period> does this, but we broke that with the ... binding.
 <Multi_key> <o> <underscore>		: "⁃"   U2043		# HYPHEN BULLET
 <Multi_key> <o> <comma>			: "·"	periodcentered	# MIDDLE DOT
-<Multi_key> <space> <minus>		: "‑"	U2011		# NON-BREAKING HYPHEN
+# I don’t use this nearly as often as the em-dash sequence I’ve remapped it to:
+#<Multi_key> <space> <minus>		: "‑"	U2011		# NON-BREAKING HYPHEN
 # Already present for me:
 # <Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
 # Do we want/need these?
 <Multi_key> <d> <a> <g>			: "†"	U2020		# DAGGER
 <Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
-# We already have THIN SPACE below, as <space> <apostrophe>!  Keep both?
+# We used to have THIN SPACE as <space> <apostrophe>, but now that’s remapped
+# to " ‘", for conveniently enclosing things in proper single-quotes.
 <Multi_key> <backslash> <comma>		: " "	U2009		# THIN SPACE
 <Multi_key> <s> <e> <c> : "§"   U00A7   # SECTION SIGN
 
@@ -130,6 +147,7 @@ include "%L"
 <Multi_key> <U017F> <t>		: "ﬅ"  UFB05	   # LATIN SMALL LIGATURE LONG S T
 # ß is already available as <s><s> I think.  But now it comes in industrial size!
 <Multi_key> <S> <S> 		: "ẞ"  U1E9E	   # LATIN CAPITAL LETTER SHARP S
+
 # Eventually we'll have to look over the really crazy-cakes Latin letters 
 # they're adding as "mediævalist extensions"
 # ꜢꜣꜤꜥ for the Egyptologists, Ꝏꝏ because they're cꝏl...  Maybe some others.
@@ -652,7 +670,6 @@ include "%L"
 <Multi_key> <underscore> <asciicircum> <underscore>	: "⌤" U2324  # UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS; aka ENTER KEY, aka NOT AMUSED.
 <Multi_key> <Multi_key> <w> <a> <i> <t>		: "⌛" U231B   # HOURGLASS
 <Multi_key> <Multi_key> <t> <i> <m> <e>		: "⌚" U231A   # WATCH
-<Multi_key> <space> <apostrophe>  : " " U2009  # THIN SPACE
 <Multi_key> <space> <N>		  : " "	U2002  # EN SPACE
 <Multi_key> <space> <M>		  : " " U2003  # EM SPACE
 <Multi_key> <space> <3> <M>	  : " "	U2004  # THREE-PER-EM SPACE
