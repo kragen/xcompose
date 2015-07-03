@@ -1191,3 +1191,6 @@ include "%L"
 <Multi_key> <parenleft> <1> <1> <colon> <3> <0> <parenright>     : "🕦" U1F566 # CLOCK FACE ELEVEN-THIRTY
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
 
+# Currencies.  Or, at least, a currency.
+
+<Multi_key> <bar> <b>               : "฿"   Thai_baht           # THAI CURRENCY SYMBOL BAHT
