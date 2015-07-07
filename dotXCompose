@@ -65,11 +65,13 @@ include "%L"
 <Multi_key> <quotedbl> <space>          : "” "                  # RIGHT DOUBLE QUOTATION MARK followed by space
 <Multi_key> <space> <apostrophe>        : " ‘"                # space followed by LEFT SINGLE QUOTATION MARK
 # Unfortunately <apostrophe> <space> is, asymmetrically, just "’".  Whatever.
-<Multi_key> <n> <t>                     : "n’t"               # Apostrophized English “not.”
+<Multi_key> <n> <t>                     : "n’t "              # Apostrophized English “not.”
 # Some more English shortcuts:
 <Multi_key> <space> <t>                 : " the "
 <Multi_key> <space> <T>                 : "  The "
 <Multi_key> <space> <a>                 : " and "
+<Multi_key> <i> <m>                     : " I’m "
+<Multi_key> <v> <e>                     : "’ve "
 
 <Multi_key> <comma> <at>		: "⸲"	U2E32		# TURNED COMMA
 # Conflicts with system def? (·)
@@ -462,7 +464,7 @@ include "%L"
 <Multi_key> <asterisk> <N>		: "Ν"	U039D		# GREEK CAPITAL LETTER NU
 <Multi_key> <asterisk> <O>		: "Ο"	U039F		# GREEK CAPITAL LETTER OMICRON
 <Multi_key> <asterisk> <P>		: "Π"	U03A0		# GREEK CAPITAL LETTER PI
-# no mapping for Q; in Emacs that's ":"
+# see below for Q qoppa; in Emacs Q is “:”
 <Multi_key> <asterisk> <R>		: "Ρ"	U03A1		# GREEK CAPITAL LETTER RHO
 <Multi_key> <asterisk> <S>		: "Σ"	U03A3		# GREEK CAPITAL LETTER SIGMA
 <Multi_key> <asterisk> <T>		: "Τ"	U03A4		# GREEK CAPITAL LETTER TAU
