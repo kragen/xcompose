@@ -60,6 +60,15 @@ include "%L"
 <Multi_key> <comma> <apostrophe>	: "‚"	U201A		# SINGLE LOW-9 QUOTATION MARK (quote resembling a comma)
 <Multi_key> <comma> <quotedbl>		: "„"	U201E		# DOUBLE LOW-9 QUOTATION MARK
 
+#GERMAN UMLAUTS
+<Multi_key> <a> <u> : "ä" U00E4 #SMALL A WITH DIAERESIS
+<Multi_key> <A> <u> : "Ä" U00C4 #CAPITAL A WITH DIAERESIS
+<Multi_key> <u> <u> : "ü" U00FC #SMALL U WITH DIAERESIS
+<Multi_key> <U> <u> : "Ü" U00DC #CAPITAL U WITH DIAERESIS
+<Multi_key> <o> <u> : "ö" U00F6 #SMALL O WITH DIAERESIS
+<Multi_key> <O> <u> : "Ö" U00D6 #CAPITAL O WITH DIAERESIS
+<Multi_key> <s> <u> : "ß" U00DF #SMALL SHARP S
+
 # Convenience shortcuts for quotation marks.
 <Multi_key> <space> <quotedbl>          : " “"                  # space followed by LEFT DOUBLE QUOTATION MARK
 <Multi_key> <quotedbl> <space>          : "” "                  # RIGHT DOUBLE QUOTATION MARK followed by space
