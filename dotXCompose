@@ -347,6 +347,7 @@ include "%L"
 # Ordinal indicators, for femenine and masculine, used in Romance languages
 <Multi_key> <minus> <a>	      	  	: "ª"   U00AA		# FEMININE ORDINAL INDICATOR
 <Multi_key> <minus> <o>			: "º"	U00BA		# MASCULINE ORDINAL INDICATOR
+<Multi_key> <period> <plus> <u>		: "⊎"	U228E		# MULTISET UNION
 
 <Multi_key> <Multi_key> <p> <r> <o> <d>	: "∏"	U220F		# N-ARY PRODUCT
 <Multi_key> <Multi_key> <c> <o> <p> <r> <o> <d>	: "∐"	U2210		# N-ARY PRODUCT
