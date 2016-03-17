@@ -603,7 +603,7 @@ include "%L"
 # While we're doing stacks of circles with dots.
 <Multi_key> <o> <3>			: "߷"	U07F7		# NKO SYMBOL GBAKURUNEN
 <Multi_key> <exclam> <question>         : "‽"   U203D           # INTERROBANG
-<Multi_key> <question> <exclam>         : "‽"   U203D           # INTERROBANG (in case you can’t remember the order)
+<Multi_key> <question> <exclam>         : "⸘"	U2E18		# INVERTED INTERROBANG, standard now.
 <Multi_key> <questiondown> <exclamdown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otherwise...? "?i" maybe?
 <Multi_key> <exclamdown> <questiondown>	: "⸘"	U2E18		# INVERTED INTERROBANG (if you have a ¡ key.  Otherwise...? "?i" maybe?
 <Multi_key> <question> <less>	      : "⸮"	  U2E2E		# REVERSED QUESTION MARK
@@ -656,6 +656,10 @@ include "%L"
 <Multi_key> <at> <X>  		:	"✗"	U2717	# BALLOT X
 <Multi_key> <at> <at> <X>	:	"✘"	U2718	# HEAVY BALLOT X
 # Will I want <at> <at> for something else?
+# Now there is such a thing as text style and emoji style.  Use the
+# "dingbat prefix" in an unusual way:
+<Multi_key> <at> <Multi_key>	:	"️"	UFE0F		# Emoji selector
+<Multi_key> <exclam> <Multi_key>	:	"︎"		UFE0E	# Text selector
 # How about dice?
 <Multi_key> <bracketleft> <1> <bracketright>  :  "⚀"  U2680	# DIE FACE-1
 <Multi_key> <bracketleft> <2> <bracketright>  :  "⚁"  U2681	# DIE FACE-2
@@ -887,6 +891,11 @@ include "%L"
 <Multi_key> <backslash> <bar>       	: "̍"	U030d	# COMBINING VERTICAL LINE ABOVE
 <Multi_key> <backslash> <2> <bar>	: "̎"	U030e	# COMBINING DOUBLE VERTICAL LINE ABOVE
 <Multi_key> <backslash> <2> <grave>	: "̏"	U030f	# COMBINING DOUBLE GRAVE ACCENT
+# For writing PSILI and DASIA in Greek
+# Ugh, better key-coding?  I may need @ for BELOW.
+<Multi_key> <backslash> <backslash> <backslash> <comma>	:	"̒"  U0312   # COMBINING TURNED COMMA ABOVE
+<Multi_key> <backslash> <backslash> <comma>	:	"̓"  U0313   # COMBINING COMMA ABOVE
+<Multi_key> <backslash> <backslash> <less> <comma>	:	"̔"   U0314   # COMBINING REVERSED COMMA ABOVE
 <Multi_key> <backslash> <f> <m>                 : "͒"   U0352   # COMBINING FERMATA
 <Multi_key> <backslash> <parenleft> <period>:	: "̐"	U0310	# COMBINING CHANDRABINDU
 <Multi_key> <backslash> <i> <b>		: "̑"	U0311	# COMBINING INVERTED BREVE -- ??
@@ -932,8 +941,8 @@ include "%L"
 <Multi_key> <period> <parenright>	: "͒"	U0352   # COMBINING FERMATA
 
 <Multi_key> <backslash> <asterisk>	: "҉"	U0489	# COMBINING CYRILLIC MILLIONS SIGN  -- aka COMBINING SHINY
-<Multi_key> <P> <minus>		: "₽"	# Russian ruble sign
-<Multi_key> <p> <minus>		: "₽"	# Russian ruble sign
+<Multi_key> <P> <minus>		: "₽"	U20BD	# RUBLE SIGN
+<Multi_key> <p> <minus>		: "₽"	U20BD	# RUBLE SIGN
 
 # How about for a little extra control:
 <Multi_key> <Z> <W> <S> <P>		: "​"	U200B	# ZERO WIDTH SPACE
@@ -1194,7 +1203,7 @@ include "%L"
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
 
 # Bitcoin signs
-<Multi_key> <bar> <B> : "฿" U0E3F # BITCOIN CURRENCY SIGN, ORIGINAL THAI CURRENCY SYMBOL BAHT
+# Real bitcoin codepoint coming at U+20BF!
 <Multi_key> <B> <bar> : "฿" U0E3F # BITCOIN CURRENCY SIGN, ORIGINAL THAI CURRENCY SYMBOL BAHT
 
 <Multi_key> <minus> <B> : "Ƀ" U0243 # ALTERNATIVE BITCOIN CURRENCY SIGN, LATIN CAPITAL LETTER B WITH STROKE
