@@ -31,6 +31,70 @@
 <Multi_key> <Multi_key>  <e> <a> <r> <t> <h> <A> <M> :  "🌎"   U1F30E	# EARTH GLOBE AMERICAS
 #- 1F30F;EARTH GLOBE ASIA-AUSTRALIA;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <e> <a> <r> <t> <h> <A> <S> :  "🌏"   U1F30F	# EARTH GLOBE ASIA-AUSTRALIA
+#- 1F310;GLOBE WITH MERIDIANS;So;0;ON;;;;;N;;;;;
+### <MM> {globe with meridians} :  "🌐"   U1F310	# GLOBE WITH MERIDIANS
+#- 1F311;NEW MOON SYMBOL;So;0;ON;;;;;N;;;;;
+### <MM> {new moon symbol} :  "🌑"   U1F311	# NEW MOON SYMBOL
+#- 1F312;WAXING CRESCENT MOON SYMBOL;So;0;ON;;;;;N;;;;;
+### <MM> {waxing crescent moon symbol} :  "🌒"   U1F312	# WAXING CRESCENT MOON SYMBOL
+#- 1F313;FIRST QUARTER MOON SYMBOL;So;0;ON;;;;;N;;;;;
+### <MM> {first quarter moon symbol} :  "🌓"   U1F313	# FIRST QUARTER MOON SYMBOL
+#- 1F314;WAXING GIBBOUS MOON SYMBOL;So;0;ON;;;;;N;;;;;
+### <MM> {waxing gibbous moon symbol} :  "🌔"   U1F314	# WAXING GIBBOUS MOON SYMBOL
+#- 1F315;FULL MOON SYMBOL;So;0;ON;;;;;N;;;;;
+### <MM> {full moon symbol} :  "🌕"   U1F315	# FULL MOON SYMBOL
+#- 1F316;WANING GIBBOUS MOON SYMBOL;So;0;ON;;;;;N;;;;;
+### <MM> {waning gibbous moon symbol} :  "🌖"   U1F316	# WANING GIBBOUS MOON SYMBOL
+#- 1F317;LAST QUARTER MOON SYMBOL;So;0;ON;;;;;N;;;;;
+### <MM> {last quarter moon symbol} :  "🌗"   U1F317	# LAST QUARTER MOON SYMBOL
+#- 1F318;WANING CRESCENT MOON SYMBOL;So;0;ON;;;;;N;;;;;
+### <MM> {waning crescent moon symbol} :  "🌘"   U1F318	# WANING CRESCENT MOON SYMBOL
+#- 1F319;CRESCENT MOON;So;0;ON;;;;;N;;;;;
+### <MM> {crescent moon} :  "🌙"   U1F319	# CRESCENT MOON
+#- 1F31A;NEW MOON WITH FACE;So;0;ON;;;;;N;;;;;
+### <MM> {new moon with face} :  "🌚"   U1F31A	# NEW MOON WITH FACE
+#- 1F31B;FIRST QUARTER MOON WITH FACE;So;0;ON;;;;;N;;;;;
+### <MM> {first quarter moon with face} :  "🌛"   U1F31B	# FIRST QUARTER MOON WITH FACE
+#- 1F31C;LAST QUARTER MOON WITH FACE;So;0;ON;;;;;N;;;;;
+### <MM> {last quarter moon with face} :  "🌜"   U1F31C	# LAST QUARTER MOON WITH FACE
+#- 1F31D;FULL MOON WITH FACE;So;0;ON;;;;;N;;;;;
+### <MM> {full moon with face} :  "🌝"   U1F31D	# FULL MOON WITH FACE
+#- 1F31E;SUN WITH FACE;So;0;ON;;;;;N;;;;;
+### <MM> {sun with face} :  "🌞"   U1F31E	# SUN WITH FACE
+#- 1F31F;GLOWING STAR;So;0;ON;;;;;N;;;;;
+### <MM> {glowing star} :  "🌟"   U1F31F	# GLOWING STAR
+#- 1F320;SHOOTING STAR;So;0;ON;;;;;N;;;;;
+### <MM> {shooting star} :  "🌠"   U1F320	# SHOOTING STAR
+#- 1F321;THERMOMETER;So;0;ON;;;;;N;;;;;
+### <MM> {thermometer} :  "🌡"   U1F321	# THERMOMETER
+#- 1F322;BLACK DROPLET;So;0;ON;;;;;N;;;;;
+### <MM> {black droplet} :  "🌢"   U1F322	# BLACK DROPLET
+#- 1F323;WHITE SUN;So;0;ON;;;;;N;;;;;
+### <MM> {white sun} :  "🌣"   U1F323	# WHITE SUN
+#- 1F324;WHITE SUN WITH SMALL CLOUD;So;0;ON;;;;;N;;;;;
+### <MM> {white sun with small cloud} :  "🌤"   U1F324	# WHITE SUN WITH SMALL CLOUD
+#- 1F325;WHITE SUN BEHIND CLOUD;So;0;ON;;;;;N;;;;;
+### <MM> {white sun behind cloud} :  "🌥"   U1F325	# WHITE SUN BEHIND CLOUD
+#- 1F326;WHITE SUN BEHIND CLOUD WITH RAIN;So;0;ON;;;;;N;;;;;
+### <MM> {white sun behind cloud with rain} :  "🌦"   U1F326	# WHITE SUN BEHIND CLOUD WITH RAIN
+#- 1F327;CLOUD WITH RAIN;So;0;ON;;;;;N;;;;;
+### <MM> {cloud with rain} :  "🌧"   U1F327	# CLOUD WITH RAIN
+#- 1F328;CLOUD WITH SNOW;So;0;ON;;;;;N;;;;;
+### <MM> {cloud with snow} :  "🌨"   U1F328	# CLOUD WITH SNOW
+#- 1F329;CLOUD WITH LIGHTNING;So;0;ON;;;;;N;;;;;
+### <MM> {cloud with lightning} :  "🌩"   U1F329	# CLOUD WITH LIGHTNING
+#- 1F32A;CLOUD WITH TORNADO;So;0;ON;;;;;N;;;;;
+### <MM> {cloud with tornado} :  "🌪"   U1F32A	# CLOUD WITH TORNADO
+#- 1F32B;FOG;So;0;ON;;;;;N;;;;;
+<Multi_key> <Multi_key>  <f> <o> <G> :  "🌫"   U1F32B	# FOG
+#- 1F32C;WIND BLOWING FACE;So;0;ON;;;;;N;;;;;
+### <MM> {wind blowing face} :  "🌬"   U1F32C	# WIND BLOWING FACE
+#- 1F32D;HOT DOG;So;0;ON;;;;;N;;;;;
+<Multi_key> <Multi_key>  <h> <o> <t> <space> <d> <o> <g> :  "🌭"   U1F32D	# HOT DOG
+#- 1F32E;TACO;So;0;ON;;;;;N;;;;;
+<Multi_key> <Multi_key>  <t> <a> <c> <o> :  "🌮"   U1F32E	# TACO
+#- 1F32F;BURRITO;So;0;ON;;;;;N;;;;;
+<Multi_key> <Multi_key>  <b> <u> <r> <r> <i> <t> <o> :  "🌯"   U1F32F	# BURRITO
 #- 1F330;CHESTNUT;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <c> <h> <s> <t> <n> <u> <t> :  "🌰"   U1F330	# CHESTNUT
 #- 1F331;SEEDLING;So;0;ON;;;;;N;;;;;
@@ -50,7 +114,7 @@
 #- 1F338;CHERRY BLOSSOM;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <c> <h> <e> <r> <r> <y> <f> :  "🌸"   U1F338	# CHERRY BLOSSOM
 #- 1F339;ROSE;So;0;ON;;;;;N;;;;;
-<Multi_key> <Multi_key>  <r> <o> <s> <e> :  "🌹"   U1F339	# ROSE
+<Multi_key> <Multi_key>  <r> <o> <s> <E> :  "🌹"   U1F339	# ROSE
 #- 1F33A;HIBISCUS;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <h> <i> <b> <i> <s> <c> :  "🌺"   U1F33A	# HIBISCUS
 #- 1F33B;SUNFLOWER;So;0;ON;;;;;N;;;;;
@@ -187,6 +251,10 @@
 <Multi_key> <Multi_key>  <b> <o> <t> <t> <l> <e> :  "🍼"   U1F37C	# BABY BOTTLE
 #- 1F37D;FORK AND KNIFE WITH PLATE;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <s> <e> <t> <t> <i> <n> <g> :  "🍽"   U1F37D	# FORK AND KNIFE WITH PLATE
+#- 1F37E;BOTTLE WITH POPPING CORK;So;0;ON;;;;;N;;;;;
+### <MM> {bottle with popping cork} :  "🍾"   U1F37E	# BOTTLE WITH POPPING CORK
+#- 1F37F;POPCORN;So;0;ON;;;;;N;;;;;
+<Multi_key> <Multi_key>  <p> <o> <p> <c> <o> <r> <n> :  "🍿"   U1F37F	# POPCORN
 #- 1F380;RIBBON;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <r> <i> <b> <b> <o> <n> :  "🎀"   U1F380	# RIBBON
 #- 1F381;WRAPPED PRESENT;So;0;ON;;;;;N;;;;;
@@ -290,6 +358,7 @@
 #- 1F3B2;GAME DIE;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <g> <a> <m> <e> <d> <i> <e> :  "🎲"   U1F3B2	# GAME DIE
 ## Careful not to conflict with "bowl"
+#- 1F3B3;BOWLING;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <b> <o> <w> <l> <i> <n> <g> :  "🎳"   U1F3B3	# BOWLING
 #- 1F3B4;FLOWER PLAYING CARDS;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <h> <a> <n> <a> <f> <d> <a> :  "🎴"   U1F3B4	# FLOWER PLAYING CARDS
@@ -345,6 +414,16 @@
 ### <MM> {racing motorcycle} :  "🏍"   U1F3CD	# RACING MOTORCYCLE
 #- 1F3CE;RACING CAR;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <r> <a> <c> <e> <c> <a> <r> :  "🏎"   U1F3CE	# RACING CAR
+#- 1F3CF;CRICKET BAT AND BALL;So;0;ON;;;;;N;;;;;
+### <MM> {cricket bat and ball} :  "🏏"   U1F3CF	# CRICKET BAT AND BALL
+#- 1F3D0;VOLLEYBALL;So;0;ON;;;;;N;;;;;
+### <MM> {volleyball} :  "🏐"   U1F3D0	# VOLLEYBALL
+#- 1F3D1;FIELD HOCKEY STICK AND BALL;So;0;ON;;;;;N;;;;;
+### <MM> {field hockey stick and ball} :  "🏑"   U1F3D1	# FIELD HOCKEY STICK AND BALL
+#- 1F3D2;ICE HOCKEY STICK AND PUCK;So;0;ON;;;;;N;;;;;
+### <MM> {ice hockey stick and puck} :  "🏒"   U1F3D2	# ICE HOCKEY STICK AND PUCK
+#- 1F3D3;TABLE TENNIS PADDLE AND BALL;So;0;ON;;;;;N;;;;;
+### <MM> {table tennis paddle and ball} :  "🏓"   U1F3D3	# TABLE TENNIS PADDLE AND BALL
 #- 1F3D4;SNOW CAPPED MOUNTAIN;So;0;ON;;;;;N;;;;;
 ### <MM> {snow capped mountain} :  "🏔"   U1F3D4	# SNOW CAPPED MOUNTAIN
 #- 1F3D5;CAMPING;So;0;ON;;;;;N;;;;;
@@ -639,6 +718,7 @@
 <Multi_key> <Multi_key>  <s> <o> <m> <e> <1> :  "👤"   U1F464	# BUST IN SILHOUETTE
 <Multi_key> <Multi_key>  <s> <o> <m> <e> <o> <n> <e> :  "👤"   U1F464	# BUST IN SILHOUETTE
 #- 1F465;BUSTS IN SILHOUETTE;So;0;ON;;;;;N;;;;;
+<Multi_key> <Multi_key>  <s> <o> <m> <e> <2> :  "👥"   U1F465	# BUSTS IN SILHOUETTE
 <Multi_key> <Multi_key>  <s> <o> <m> <e> <p> <p> <l> :  "👥"   U1F465	# BUSTS IN SILHOUETTE
 #- 1F466;BOY;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <b> <o> <y> :  "👦"   U1F466	# BOY
@@ -948,6 +1028,8 @@
 ### <MM> {film projector} :  "📽"   U1F4FD	# FILM PROJECTOR
 #- 1F4FE;PORTABLE STEREO;So;0;ON;;;;;N;;;;;
 ### <MM> {portable stereo} :  "📾"   U1F4FE	# PORTABLE STEREO
+#- 1F4FF;PRAYER BEADS;So;0;ON;;;;;N;;;;;
+### <MM> {prayer beads} :  "📿"   U1F4FF	# PRAYER BEADS
 #- 1F500;TWISTED RIGHTWARDS ARROWS;So;0;ON;;;;;N;;;;;
 ### <MM> {twisted rightwards arrows} :  "🔀"   U1F500	# TWISTED RIGHTWARDS ARROWS
 #- 1F501;CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS;So;0;ON;;;;;N;;;;;
@@ -1550,6 +1632,10 @@
 ### <MM> {slightly frowning face} :  "🙁"   U1F641	# SLIGHTLY FROWNING FACE
 #- 1F642;SLIGHTLY SMILING FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {slightly smiling face} :  "🙂"   U1F642	# SLIGHTLY SMILING FACE
+#- 1F643;UPSIDE-DOWN FACE;So;0;ON;;;;;N;;;;;
+### <MM> {upside-down face} :  "🙃"   U1F643	# UPSIDE-DOWN FACE
+#- 1F644;FACE WITH ROLLING EYES;So;0;ON;;;;;N;;;;;
+### <MM> {face with rolling eyes} :  "🙄"   U1F644	# FACE WITH ROLLING EYES
 #- 1F645;FACE WITH NO GOOD GESTURE;So;0;ON;;;;;N;;;;;
 ### <MM> {face with no good gesture} :  "🙅"   U1F645	# FACE WITH NO GOOD GESTURE
 #- 1F646;FACE WITH OK GESTURE;So;0;ON;;;;;N;;;;;
@@ -1832,6 +1918,8 @@
 ### <MM> {bellhop bell} :  "🛎"   U1F6CE	# BELLHOP BELL
 #- 1F6CF;BED;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <b> <e> <d> :  "🛏"   U1F6CF	# BED
+#- 1F6D0;PLACE OF WORSHIP;So;0;ON;;;;;N;;;;;
+### <MM> {place of worship} :  "🛐"   U1F6D0	# PLACE OF WORSHIP
 #- 1F6E0;HAMMER AND WRENCH;So;0;ON;;;;;N;;;;;
 ### <MM> {hammer and wrench} :  "🛠"   U1F6E0	# HAMMER AND WRENCH
 #- 1F6E1;SHIELD;So;0;ON;;;;;N;;;;;
