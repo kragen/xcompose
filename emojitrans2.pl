@@ -15,6 +15,7 @@ BEGIN { binmode(STDOUT, ":utf8");
 	     '/' => 'slash',
 	     '#' => 'numbersign',
 	     '@' => 'at',
+	     ' ' => 'space',
 );
 
 sub splitup {
