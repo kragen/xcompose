@@ -17,6 +17,14 @@ BEGIN { binmode(STDOUT, ":utf8");
 	     '@' => 'at',
 	     '|' => 'bar',
 	     '~' => 'asciitilde',
+	     '(' => 'parenleft',
+	     ')' => 'parenright',
+	     '[' => 'bracketleft',
+	     ']' => 'bracketright',
+	     "'" => 'apostrophe',
+	     '\\' => 'backslash',
+	     ':' => 'colon',
+	     ';' => 'semicolon',
 	     ' ' => 'space',
 );
 
@@ -40,7 +48,7 @@ sub splitup {
 unless (/^#/) {
     my $hold=$_;
     s/<MM>/<Multi_key> <Multi_key>/;
-    s({([][[:alnum:] _+%@><,.^\$+#()!/|~-]+)})(splitup($1))e;
+    s({([][[:alnum:] _+:;%@><,.^\$+#()?!/|'\\~-]+)})(splitup($1))e;
     if (length($1) > 7) {
 	$_=$hold;
 	s/^<MM>/### <MM>/;

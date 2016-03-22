@@ -102,7 +102,7 @@
 #- 1F32B;FOG;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <f> <o> <g> :  "🌫"   U1F32B	# FOG
 #- 1F32C;WIND BLOWING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {wind blowing face} :  "🌬"   U1F32C	# WIND BLOWING FACE
+<Multi_key> <Multi_key>  <b> <l> <o> <w> <e> <r> :  "🌬"   U1F32C	# WIND BLOWING FACE
 #- 1F32D;HOT DOG;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <h> <o> <t> <d> <o> <g> :  "🌭"   U1F32D	# HOT DOG
 <Multi_key> <Multi_key>  <h> <o> <t> <space> <d> <o> <g> :  "🌭"   U1F32D	# HOT DOG
@@ -644,37 +644,37 @@
 #- 1F42C;DOLPHIN;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <d> <o> <l> <p> <h> <i> <n> :  "🐬"   U1F42C	# DOLPHIN
 #- 1F42D;MOUSE FACE;So;0;ON;;;;;N;;;;;
-### <MM> {mouse face} :  "🐭"   U1F42D	# MOUSE FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <m> <o> <u> <s> <e> :  "🐭"   U1F42D	# MOUSE FACE
 #- 1F42E;COW FACE;So;0;ON;;;;;N;;;;;
-### <MM> {cow face} :  "🐮"   U1F42E	# COW FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <c> <o> <w> :  "🐮"   U1F42E	# COW FACE
 #- 1F42F;TIGER FACE;So;0;ON;;;;;N;;;;;
-### <MM> {tiger face} :  "🐯"   U1F42F	# TIGER FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <t> <i> <g> <e> <r> :  "🐯"   U1F42F	# TIGER FACE
 #- 1F430;RABBIT FACE;So;0;ON;;;;;N;;;;;
-### <MM> {rabbit face} :  "🐰"   U1F430	# RABBIT FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <r> <a> <b> <b> <i> :  "🐰"   U1F430	# RABBIT FACE
 #- 1F431;CAT FACE;So;0;ON;;;;;N;;;;;
-### <MM> {cat face} :  "🐱"   U1F431	# CAT FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <c> <a> <t> :  "🐱"   U1F431	# CAT FACE
 #- 1F432;DRAGON FACE;So;0;ON;;;;;N;;;;;
-### <MM> {dragon face} :  "🐲"   U1F432	# DRAGON FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <d> <r> <a> <g> <o> :  "🐲"   U1F432	# DRAGON FACE
 #- 1F433;SPOUTING WHALE;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <s> <p> <o> <u> <t> <e> <r> :  "🐳"   U1F433	# SPOUTING WHALE
 #- 1F434;HORSE FACE;So;0;ON;;;;;N;;;;;
-### <MM> {horse face} :  "🐴"   U1F434	# HORSE FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <h> <o> <r> <s> <e> :  "🐴"   U1F434	# HORSE FACE
 #- 1F435;MONKEY FACE;So;0;ON;;;;;N;;;;;
-### <MM> {monkey face} :  "🐵"   U1F435	# MONKEY FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <m> <o> <n> <k> <e> :  "🐵"   U1F435	# MONKEY FACE
 #- 1F436;DOG FACE;So;0;ON;;;;;N;;;;;
-### <MM> {dog face} :  "🐶"   U1F436	# DOG FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <d> <o> <g> :  "🐶"   U1F436	# DOG FACE
 #- 1F437;PIG FACE;So;0;ON;;;;;N;;;;;
-### <MM> {pig face} :  "🐷"   U1F437	# PIG FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <p> <i> <g> :  "🐷"   U1F437	# PIG FACE
 #- 1F438;FROG FACE;So;0;ON;;;;;N;;;;;
-### <MM> {frog face} :  "🐸"   U1F438	# FROG FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <f> <r> <o> <g> :  "🐸"   U1F438	# FROG FACE
 #- 1F439;HAMSTER FACE;So;0;ON;;;;;N;;;;;
-### <MM> {hamster face} :  "🐹"   U1F439	# HAMSTER FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <h> <a> <m> <s> <t> :  "🐹"   U1F439	# HAMSTER FACE
 #- 1F43A;WOLF FACE;So;0;ON;;;;;N;;;;;
-### <MM> {wolf face} :  "🐺"   U1F43A	# WOLF FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <w> <o> <l> <f> :  "🐺"   U1F43A	# WOLF FACE
 #- 1F43B;BEAR FACE;So;0;ON;;;;;N;;;;;
-### <MM> {bear face} :  "🐻"   U1F43B	# BEAR FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <b> <e> <a> <r> :  "🐻"   U1F43B	# BEAR FACE
 #- 1F43C;PANDA FACE;So;0;ON;;;;;N;;;;;
-### <MM> {panda face} :  "🐼"   U1F43C	# PANDA FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <p> <a> <n> <d> <a> :  "🐼"   U1F43C	# PANDA FACE
 #- 1F43D;PIG NOSE;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <P> <i> <g> <n> <o> <s> <e> :  "🐽"   U1F43D	# PIG NOSE
 #- 1F43E;PAW PRINTS;So;0;ON;;;;;N;;;;;
@@ -1552,133 +1552,150 @@
 #- 1F5FF;MOYAI;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <m> <o> <y> <a> <i> :  "🗿"   U1F5FF	# MOYAI
 #- 1F600;GRINNING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {grinning face} :  "😀"   U1F600	# GRINNING FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <g> <r> <i> <n> :  "😀"   U1F600	# GRINNING FACE
+## Extra right paren for smiling eyes?  Keys for all these faces will be
+## tough.
 #- 1F601;GRINNING FACE WITH SMILING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {grinning face with smiling eyes} :  "😁"   U1F601	# GRINNING FACE WITH SMILING EYES
+<Multi_key> <Multi_key>  <parenleft> <parenright> <parenright> <g> <r> <i> <n> :  "😁"   U1F601	# GRINNING FACE WITH SMILING EYES
 #- 1F602;FACE WITH TEARS OF JOY;So;0;ON;;;;;N;;;;;
-### <MM> {face with tears of joy} :  "😂"   U1F602	# FACE WITH TEARS OF JOY
+<Multi_key> <Multi_key>  <parenleft> <parenright> <j> <o> <y> :  "😂"   U1F602	# FACE WITH TEARS OF JOY
+<Multi_key> <Multi_key>  <colon> <apostrophe> <minus> <D> :  "😂"   U1F602	# FACE WITH TEARS OF JOY
+<Multi_key> <Multi_key>  <colon> <comma> <minus> <D> :  "😂"   U1F602	# FACE WITH TEARS OF JOY
 #- 1F603;SMILING FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with open mouth} :  "😃"   U1F603	# SMILING FACE WITH OPEN MOUTH
+<Multi_key> <Multi_key>  <colon> <minus> <D> :  "😃"   U1F603	# SMILING FACE WITH OPEN MOUTH
+<Multi_key> <Multi_key>  <parenleft> <parenright> <D> <s> <m> <i> <l> :  "😃"   U1F603	# SMILING FACE WITH OPEN MOUTH
 #- 1F604;SMILING FACE WITH OPEN MOUTH AND SMILING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with open mouth and smiling eyes} :  "😄"   U1F604	# SMILING FACE WITH OPEN MOUTH AND SMILING EYES
+<Multi_key> <Multi_key>  <semicolon> <minus> <D> :  "😄"   U1F604	# SMILING FACE WITH OPEN MOUTH AND SMILING EYES
+## Cold sweat is above eyes, tears below?
 #- 1F605;SMILING FACE WITH OPEN MOUTH AND COLD SWEAT;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with open mouth and cold sweat} :  "😅"   U1F605	# SMILING FACE WITH OPEN MOUTH AND COLD SWEAT
+<Multi_key> <Multi_key>  <apostrophe> <colon> <minus> <D> :  "😅"   U1F605	# SMILING FACE WITH OPEN MOUTH AND COLD SWEAT
+<Multi_key> <Multi_key>  <comma> <colon> <minus> <D> :  "😅"   U1F605	# SMILING FACE WITH OPEN MOUTH AND COLD SWEAT
 #- 1F606;SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with open mouth and tightly-closed eyes} :  "😆"   U1F606	# SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES
+<Multi_key> <Multi_key>  <bar> <minus> <D> :  "😆"   U1F606	# SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES
 #- 1F607;SMILING FACE WITH HALO;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with halo} :  "😇"   U1F607	# SMILING FACE WITH HALO
+<Multi_key> <Multi_key>  <O> <colon> <minus> <parenright> :  "😇"   U1F607	# SMILING FACE WITH HALO
+<Multi_key> <Multi_key>  <O> <colon> <parenright> :  "😇"   U1F607	# SMILING FACE WITH HALO
 #- 1F608;SMILING FACE WITH HORNS;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with horns} :  "😈"   U1F608	# SMILING FACE WITH HORNS
+<Multi_key> <Multi_key>  <greater> <colon> <minus> <parenright> :  "😈"   U1F608	# SMILING FACE WITH HORNS
 #- 1F609;WINKING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {winking face} :  "😉"   U1F609	# WINKING FACE
+<Multi_key> <Multi_key>  <semicolon> <minus> <parenright> :  "😉"   U1F609	# WINKING FACE
 #- 1F60A;SMILING FACE WITH SMILING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with smiling eyes} :  "😊"   U1F60A	# SMILING FACE WITH SMILING EYES
+<Multi_key> <Multi_key>  <parenleft> <parenright> <parenright> <s> <m> <i> <l> :  "😊"   U1F60A	# SMILING FACE WITH SMILING EYES
+<Multi_key> <Multi_key>  <parenright> <colon> <minus> <parenright> :  "😊"   U1F60A	# SMILING FACE WITH SMILING EYES
 #- 1F60B;FACE SAVOURING DELICIOUS FOOD;So;0;ON;;;;;N;;;;;
-### <MM> {face savouring delicious food} :  "😋"   U1F60B	# FACE SAVOURING DELICIOUS FOOD
+<Multi_key> <Multi_key>  <colon> <minus> <9> :  "😋"   U1F60B	# FACE SAVOURING DELICIOUS FOOD
+<Multi_key> <Multi_key>  <colon> <9> :  "😋"   U1F60B	# FACE SAVOURING DELICIOUS FOOD
 #- 1F60C;RELIEVED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {relieved face} :  "😌"   U1F60C	# RELIEVED FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <r> <e> <l> <i> <e> :  "😌"   U1F60C	# RELIEVED FACE
 #- 1F60D;SMILING FACE WITH HEART-SHAPED EYES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with heart-shaped eyes} :  "😍"   U1F60D	# SMILING FACE WITH HEART-SHAPED EYES
+<Multi_key> <Multi_key>  <less> <3> <colon> <minus> <parenright> :  "😍"   U1F60D	# SMILING FACE WITH HEART-SHAPED EYES
 #- 1F60E;SMILING FACE WITH SUNGLASSES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with sunglasses} :  "😎"   U1F60E	# SMILING FACE WITH SUNGLASSES
+<Multi_key> <Multi_key>  <B> <minus> <parenright> :  "😎"   U1F60E	# SMILING FACE WITH SUNGLASSES
+<Multi_key> <Multi_key>  <B> <parenright> :  "😎"   U1F60E	# SMILING FACE WITH SUNGLASSES
 #- 1F60F;SMIRKING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {smirking face} :  "😏"   U1F60F	# SMIRKING FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <s> <m> <i> <r> <k> :  "😏"   U1F60F	# SMIRKING FACE
 #- 1F610;NEUTRAL FACE;So;0;ON;;;;;N;;;;;
-### <MM> {neutral face} :  "😐"   U1F610	# NEUTRAL FACE
+<Multi_key> <Multi_key>  <colon> <minus> <bar> :  "😐"   U1F610	# NEUTRAL FACE
 #- 1F611;EXPRESSIONLESS FACE;So;0;ON;;;;;N;;;;;
-### <MM> {expressionless face} :  "😑"   U1F611	# EXPRESSIONLESS FACE
+<Multi_key> <Multi_key>  <bar> <minus> <bar> :  "😑"   U1F611	# EXPRESSIONLESS FACE
 #- 1F612;UNAMUSED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {unamused face} :  "😒"   U1F612	# UNAMUSED FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <exclam> <a> <m> <u> <s> :  "😒"   U1F612	# UNAMUSED FACE
 #- 1F613;FACE WITH COLD SWEAT;So;0;ON;;;;;N;;;;;
-### <MM> {face with cold sweat} :  "😓"   U1F613	# FACE WITH COLD SWEAT
+<Multi_key> <Multi_key>  <apostrophe> <colon> <minus> <parenright> :  "😓"   U1F613	# FACE WITH COLD SWEAT
+<Multi_key> <Multi_key>  <comma> <colon> <minus> <parenright> :  "😓"   U1F613	# FACE WITH COLD SWEAT
 #- 1F614;PENSIVE FACE;So;0;ON;;;;;N;;;;;
-### <MM> {pensive face} :  "😔"   U1F614	# PENSIVE FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <p> <e> <n> <s> <i> :  "😔"   U1F614	# PENSIVE FACE
 #- 1F615;CONFUSED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {confused face} :  "😕"   U1F615	# CONFUSED FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <h> <u> <h> <question> :  "😕"   U1F615	# CONFUSED FACE
 #- 1F616;CONFOUNDED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {confounded face} :  "😖"   U1F616	# CONFOUNDED FACE
 #- 1F617;KISSING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {kissing face} :  "😗"   U1F617	# KISSING FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <k> <i> <s> <s> :  "😗"   U1F617	# KISSING FACE
 #- 1F618;FACE THROWING A KISS;So;0;ON;;;;;N;;;;;
-### <MM> {face throwing a kiss} :  "😘"   U1F618	# FACE THROWING A KISS
+<Multi_key> <Multi_key>  <parenleft> <parenright> <minus> <k> <i> <s> <s> :  "😘"   U1F618	# FACE THROWING A KISS
 #- 1F619;KISSING FACE WITH SMILING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {kissing face with smiling eyes} :  "😙"   U1F619	# KISSING FACE WITH SMILING EYES
+<Multi_key> <Multi_key>  <parenleft> <parenright> <parenright> <k> <i> <s> <s> :  "😙"   U1F619	# KISSING FACE WITH SMILING EYES
 #- 1F61A;KISSING FACE WITH CLOSED EYES;So;0;ON;;;;;N;;;;;
-### <MM> {kissing face with closed eyes} :  "😚"   U1F61A	# KISSING FACE WITH CLOSED EYES
+<Multi_key> <Multi_key>  <parenleft> <parenright> <bar> <k> <i> <s> <s> :  "😚"   U1F61A	# KISSING FACE WITH CLOSED EYES
 #- 1F61B;FACE WITH STUCK-OUT TONGUE;So;0;ON;;;;;N;;;;;
-### <MM> {face with stuck-out tongue} :  "😛"   U1F61B	# FACE WITH STUCK-OUT TONGUE
+<Multi_key> <Multi_key>  <colon> <minus> <P> :  "😛"   U1F61B	# FACE WITH STUCK-OUT TONGUE
 #- 1F61C;FACE WITH STUCK-OUT TONGUE AND WINKING EYE;So;0;ON;;;;;N;;;;;
-### <MM> {face with stuck-out tongue and winking eye} :  "😜"   U1F61C	# FACE WITH STUCK-OUT TONGUE AND WINKING EYE
+<Multi_key> <Multi_key>  <semicolon> <minus> <P> :  "😜"   U1F61C	# FACE WITH STUCK-OUT TONGUE AND WINKING EYE
 #- 1F61D;FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES;So;0;ON;;;;;N;;;;;
-### <MM> {face with stuck-out tongue and tightly-closed eyes} :  "😝"   U1F61D	# FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES
+<Multi_key> <Multi_key>  <bar> <minus> <P> :  "😝"   U1F61D	# FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES
 #- 1F61E;DISAPPOINTED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {disappointed face} :  "😞"   U1F61E	# DISAPPOINTED FACE
 #- 1F61F;WORRIED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {worried face} :  "😟"   U1F61F	# WORRIED FACE
 #- 1F620;ANGRY FACE;So;0;ON;;;;;N;;;;;
-### <MM> {angry face} :  "😠"   U1F620	# ANGRY FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <a> <n> <g> <r> <y> :  "😠"   U1F620	# ANGRY FACE
 #- 1F621;POUTING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {pouting face} :  "😡"   U1F621	# POUTING FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <p> <o> <u> <t> :  "😡"   U1F621	# POUTING FACE
 #- 1F622;CRYING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {crying face} :  "😢"   U1F622	# CRYING FACE
+### <MM> {()crying} :  "😢"   U1F622	# CRYING FACE
 #- 1F623;PERSEVERING FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {persevering face} :  "😣"   U1F623	# PERSEVERING FACE
 #- 1F624;FACE WITH LOOK OF TRIUMPH;So;0;ON;;;;;N;;;;;
-### <MM> {face with look of triumph} :  "😤"   U1F624	# FACE WITH LOOK OF TRIUMPH
+<Multi_key> <Multi_key>  <parenleft> <parenright> <t> <r> <i> <u> <m> :  "😤"   U1F624	# FACE WITH LOOK OF TRIUMPH
+<Multi_key> <Multi_key>  <parenleft> <parenright> <w> <i> <n> :  "😤"   U1F624	# FACE WITH LOOK OF TRIUMPH
 #- 1F625;DISAPPOINTED BUT RELIEVED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {disappointed but relieved face} :  "😥"   U1F625	# DISAPPOINTED BUT RELIEVED FACE
 #- 1F626;FROWNING FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
-### <MM> {frowning face with open mouth} :  "😦"   U1F626	# FROWNING FACE WITH OPEN MOUTH
+<Multi_key> <Multi_key>  <D> <minus> <colon> :  "😦"   U1F626	# FROWNING FACE WITH OPEN MOUTH
 #- 1F627;ANGUISHED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {anguished face} :  "😧"   U1F627	# ANGUISHED FACE
 #- 1F628;FEARFUL FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {fearful face} :  "😨"   U1F628	# FEARFUL FACE
 #- 1F629;WEARY FACE;So;0;ON;;;;;N;;;;;
-### <MM> {weary face} :  "😩"   U1F629	# WEARY FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <w> <e> <a> <r> <y> :  "😩"   U1F629	# WEARY FACE
 #- 1F62A;SLEEPY FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {sleepy face} :  "😪"   U1F62A	# SLEEPY FACE
 #- 1F62B;TIRED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {tired face} :  "😫"   U1F62B	# TIRED FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <t> <i> <r> <e> <d> :  "😫"   U1F62B	# TIRED FACE
 #- 1F62C;GRIMACING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {grimacing face} :  "😬"   U1F62C	# GRIMACING FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <g> <r> <i> <m> <a> :  "😬"   U1F62C	# GRIMACING FACE
 #- 1F62D;LOUDLY CRYING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {loudly crying face} :  "😭"   U1F62D	# LOUDLY CRYING FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <l> <o> <u> <d> :  "😭"   U1F62D	# LOUDLY CRYING FACE
 #- 1F62E;FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
-### <MM> {face with open mouth} :  "😮"   U1F62E	# FACE WITH OPEN MOUTH
+<Multi_key> <Multi_key>  <colon> <minus> <O> :  "😮"   U1F62E	# FACE WITH OPEN MOUTH
 #- 1F62F;HUSHED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {hushed face} :  "😯"   U1F62F	# HUSHED FACE
 #- 1F630;FACE WITH OPEN MOUTH AND COLD SWEAT;So;0;ON;;;;;N;;;;;
-### <MM> {face with open mouth and cold sweat} :  "😰"   U1F630	# FACE WITH OPEN MOUTH AND COLD SWEAT
+<Multi_key> <Multi_key>  <comma> <colon> <minus> <O> :  "😰"   U1F630	# FACE WITH OPEN MOUTH AND COLD SWEAT
+<Multi_key> <Multi_key>  <apostrophe> <colon> <minus> <O> :  "😰"   U1F630	# FACE WITH OPEN MOUTH AND COLD SWEAT
 #- 1F631;FACE SCREAMING IN FEAR;So;0;ON;;;;;N;;;;;
 ### <MM> {face screaming in fear} :  "😱"   U1F631	# FACE SCREAMING IN FEAR
 #- 1F632;ASTONISHED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {astonished face} :  "😲"   U1F632	# ASTONISHED FACE
 #- 1F633;FLUSHED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {flushed face} :  "😳"   U1F633	# FLUSHED FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <f> <l> <u> <s> <h> :  "😳"   U1F633	# FLUSHED FACE
 #- 1F634;SLEEPING FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {sleeping face} :  "😴"   U1F634	# SLEEPING FACE
 #- 1F635;DIZZY FACE;So;0;ON;;;;;N;;;;;
-### <MM> {dizzy face} :  "😵"   U1F635	# DIZZY FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <d> <i> <z> <z> <y> :  "😵"   U1F635	# DIZZY FACE
 #- 1F636;FACE WITHOUT MOUTH;So;0;ON;;;;;N;;;;;
-### <MM> {face without mouth} :  "😶"   U1F636	# FACE WITHOUT MOUTH
+<Multi_key> <Multi_key>  <colon> <minus> <space> :  "😶"   U1F636	# FACE WITHOUT MOUTH
 #- 1F637;FACE WITH MEDICAL MASK;So;0;ON;;;;;N;;;;;
-### <MM> {face with medical mask} :  "😷"   U1F637	# FACE WITH MEDICAL MASK
+<Multi_key> <Multi_key>  <parenleft> <parenright> <m> <a> <s> <k> :  "😷"   U1F637	# FACE WITH MEDICAL MASK
+<Multi_key> <Multi_key>  <colon> <minus> <bracketleft> <bracketright> :  "😷"   U1F637	# FACE WITH MEDICAL MASK
+## Cat faces now?? Um. ] for ears?
 #- 1F638;GRINNING CAT FACE WITH SMILING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {grinning cat face with smiling eyes} :  "😸"   U1F638	# GRINNING CAT FACE WITH SMILING EYES
+<Multi_key> <Multi_key>  <parenleft> <parenright> <parenright> <bracketright> <g> <r> <i> :  "😸"   U1F638	# GRINNING CAT FACE WITH SMILING EYES
 #- 1F639;CAT FACE WITH TEARS OF JOY;So;0;ON;;;;;N;;;;;
-### <MM> {cat face with tears of joy} :  "😹"   U1F639	# CAT FACE WITH TEARS OF JOY
+<Multi_key> <Multi_key>  <parenleft> <parenright> <bracketright> <j> <o> <y> :  "😹"   U1F639	# CAT FACE WITH TEARS OF JOY
+<Multi_key> <Multi_key>  <bracketright> <colon> <comma> <minus> <parenright> :  "😹"   U1F639	# CAT FACE WITH TEARS OF JOY
 #- 1F63A;SMILING CAT FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
-### <MM> {smiling cat face with open mouth} :  "😺"   U1F63A	# SMILING CAT FACE WITH OPEN MOUTH
+<Multi_key> <Multi_key>  <bracketright> <colon> <minus> <D> :  "😺"   U1F63A	# SMILING CAT FACE WITH OPEN MOUTH
 #- 1F63B;SMILING CAT FACE WITH HEART-SHAPED EYES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling cat face with heart-shaped eyes} :  "😻"   U1F63B	# SMILING CAT FACE WITH HEART-SHAPED EYES
+<Multi_key> <Multi_key>  <less> <3> <bracketright> <colon> <minus> <parenright> :  "😻"   U1F63B	# SMILING CAT FACE WITH HEART-SHAPED EYES
 #- 1F63C;CAT FACE WITH WRY SMILE;So;0;ON;;;;;N;;;;;
 ### <MM> {cat face with wry smile} :  "😼"   U1F63C	# CAT FACE WITH WRY SMILE
 #- 1F63D;KISSING CAT FACE WITH CLOSED EYES;So;0;ON;;;;;N;;;;;
 ### <MM> {kissing cat face with closed eyes} :  "😽"   U1F63D	# KISSING CAT FACE WITH CLOSED EYES
 #- 1F63E;POUTING CAT FACE;So;0;ON;;;;;N;;;;;
-### <MM> {pouting cat face} :  "😾"   U1F63E	# POUTING CAT FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <bracketright> <p> <o> <u> <t> :  "😾"   U1F63E	# POUTING CAT FACE
 #- 1F63F;CRYING CAT FACE;So;0;ON;;;;;N;;;;;
-### <MM> {crying cat face} :  "😿"   U1F63F	# CRYING CAT FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <bracketright> <c> <r> <y> :  "😿"   U1F63F	# CRYING CAT FACE
 #- 1F640;WEARY CAT FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {weary cat face} :  "🙀"   U1F640	# WEARY CAT FACE
 #- 1F641;SLIGHTLY FROWNING FACE;So;0;ON;;;;;N;;;;;
@@ -1686,29 +1703,31 @@
 #- 1F642;SLIGHTLY SMILING FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {slightly smiling face} :  "🙂"   U1F642	# SLIGHTLY SMILING FACE
 #- 1F643;UPSIDE-DOWN FACE;So;0;ON;;;;;N;;;;;
-### <MM> {upside-down face} :  "🙃"   U1F643	# UPSIDE-DOWN FACE
+<Multi_key> <Multi_key>  <parenleft> <minus> <colon> :  "🙃"   U1F643	# UPSIDE-DOWN FACE
 #- 1F644;FACE WITH ROLLING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {face with rolling eyes} :  "🙄"   U1F644	# FACE WITH ROLLING EYES
+<Multi_key> <Multi_key>  <8> <minus> <parenright> :  "🙄"   U1F644	# FACE WITH ROLLING EYES
 #- 1F645;FACE WITH NO GOOD GESTURE;So;0;ON;;;;;N;;;;;
-### <MM> {face with no good gesture} :  "🙅"   U1F645	# FACE WITH NO GOOD GESTURE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <N> <G> :  "🙅"   U1F645	# FACE WITH NO GOOD GESTURE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <exclam> <g> <o> <o> <d> :  "🙅"   U1F645	# FACE WITH NO GOOD GESTURE
 #- 1F646;FACE WITH OK GESTURE;So;0;ON;;;;;N;;;;;
-### <MM> {face with ok gesture} :  "🙆"   U1F646	# FACE WITH OK GESTURE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <O> <K> :  "🙆"   U1F646	# FACE WITH OK GESTURE
 #- 1F647;PERSON BOWING DEEPLY;So;0;ON;;;;;N;;;;;
-### <MM> {person bowing deeply} :  "🙇"   U1F647	# PERSON BOWING DEEPLY
+<Multi_key> <Multi_key>  <b> <o> <w> <i> <n> <g> :  "🙇"   U1F647	# PERSON BOWING DEEPLY
+<Multi_key> <Multi_key>  <b> <o> <w> <e> <r> :  "🙇"   U1F647	# PERSON BOWING DEEPLY
 #- 1F648;SEE-NO-EVIL MONKEY;So;0;ON;;;;;N;;;;;
-### <MM> {see-no-evil monkey} :  "🙈"   U1F648	# SEE-NO-EVIL MONKEY
+<Multi_key> <Multi_key>  <exclam> <s> <e> <e> :  "🙈"   U1F648	# SEE-NO-EVIL MONKEY
 #- 1F649;HEAR-NO-EVIL MONKEY;So;0;ON;;;;;N;;;;;
-### <MM> {hear-no-evil monkey} :  "🙉"   U1F649	# HEAR-NO-EVIL MONKEY
+<Multi_key> <Multi_key>  <exclam> <h> <e> <a> <r> :  "🙉"   U1F649	# HEAR-NO-EVIL MONKEY
 #- 1F64A;SPEAK-NO-EVIL MONKEY;So;0;ON;;;;;N;;;;;
-### <MM> {speak-no-evil monkey} :  "🙊"   U1F64A	# SPEAK-NO-EVIL MONKEY
+<Multi_key> <Multi_key>  <exclam> <s> <p> <e> <a> <k> :  "🙊"   U1F64A	# SPEAK-NO-EVIL MONKEY
 #- 1F64B;HAPPY PERSON RAISING ONE HAND;So;0;ON;;;;;N;;;;;
-### <MM> {happy person raising one hand} :  "🙋"   U1F64B	# HAPPY PERSON RAISING ONE HAND
+<Multi_key> <Multi_key>  <o> <slash> :  "🙋"   U1F64B	# HAPPY PERSON RAISING ONE HAND
 #- 1F64C;PERSON RAISING BOTH HANDS IN CELEBRATION;So;0;ON;;;;;N;;;;;
-### <MM> {person raising both hands in celebration} :  "🙌"   U1F64C	# PERSON RAISING BOTH HANDS IN CELEBRATION
+<Multi_key> <Multi_key>  <backslash> <o> <slash> :  "🙌"   U1F64C	# PERSON RAISING BOTH HANDS IN CELEBRATION
 #- 1F64D;PERSON FROWNING;So;0;ON;;;;;N;;;;;
-### <MM> {person frowning} :  "🙍"   U1F64D	# PERSON FROWNING
+<Multi_key> <Multi_key>  <f> <r> <o> <w> <n> <e> <r> :  "🙍"   U1F64D	# PERSON FROWNING
 #- 1F64E;PERSON WITH POUTING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {person with pouting face} :  "🙎"   U1F64E	# PERSON WITH POUTING FACE
+<Multi_key> <Multi_key>  <p> <o> <u> <t> <e> <r> :  "🙎"   U1F64E	# PERSON WITH POUTING FACE
 #- 1F64F;PERSON WITH FOLDED HANDS;So;0;ON;;;;;N;;;;;
 ### <MM> {person with folded hands} :  "🙏"   U1F64F	# PERSON WITH FOLDED HANDS
 #- 1F650;NORTH WEST POINTING LEAF;So;0;ON;;;;;N;;;;;
@@ -2009,21 +2028,23 @@
 #- 1F6F3;PASSENGER SHIP;So;0;ON;;;;;N;;;;;
 ### <MM> {passenger ship} :  "🛳"   U1F6F3	# PASSENGER SHIP
 #- 1F910;ZIPPER-MOUTH FACE;So;0;ON;;;;;N;;;;;
-### <MM> {zipper-mouth face} :  "🤐"   U1F910	# ZIPPER-MOUTH FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <z> <i> <p> :  "🤐"   U1F910	# ZIPPER-MOUTH FACE
 #- 1F911;MONEY-MOUTH FACE;So;0;ON;;;;;N;;;;;
-### <MM> {money-mouth face} :  "🤑"   U1F911	# MONEY-MOUTH FACE
+<Multi_key> <Multi_key>  <colon> <minus> <dollar> :  "🤑"   U1F911	# MONEY-MOUTH FACE
 #- 1F912;FACE WITH THERMOMETER;So;0;ON;;;;;N;;;;;
 ### <MM> {face with thermometer} :  "🤒"   U1F912	# FACE WITH THERMOMETER
 #- 1F913;NERD FACE;So;0;ON;;;;;N;;;;;
-### <MM> {nerd face} :  "🤓"   U1F913	# NERD FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <n> <e> <r> <d> :  "🤓"   U1F913	# NERD FACE
 #- 1F914;THINKING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {thinking face} :  "🤔"   U1F914	# THINKING FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <t> <h> <i> <n> <k> :  "🤔"   U1F914	# THINKING FACE
 #- 1F915;FACE WITH HEAD-BANDAGE;So;0;ON;;;;;N;;;;;
-### <MM> {face with head-bandage} :  "🤕"   U1F915	# FACE WITH HEAD-BANDAGE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <b> <a> <n> <d> :  "🤕"   U1F915	# FACE WITH HEAD-BANDAGE
+<Multi_key> <Multi_key>  <at> <colon> <minus> <parenright> :  "🤕"   U1F915	# FACE WITH HEAD-BANDAGE
 #- 1F916;ROBOT FACE;So;0;ON;;;;;N;;;;;
-### <MM> {robot face} :  "🤖"   U1F916	# ROBOT FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <r> <o> <b> <o> <t> :  "🤖"   U1F916	# ROBOT FACE
+<Multi_key> <Multi_key>  <colon> <minus> <bracketright> :  "🤖"   U1F916	# ROBOT FACE
 #- 1F917;HUGGING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {hugging face} :  "🤗"   U1F917	# HUGGING FACE
+<Multi_key> <Multi_key>  <parenleft> <parenright> <h> <u> <g> :  "🤗"   U1F917	# HUGGING FACE
 #- 1F918;SIGN OF THE HORNS;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <r> <o> <c> <k> <o> <n> :  "🤘"   U1F918	# SIGN OF THE HORNS
 #- 1F980;CRAB;So;0;ON;;;;;N;;;;;

@@ -102,7 +102,7 @@
 #- 1F32B;FOG;So;0;ON;;;;;N;;;;;
 <MM> {fog} :  "🌫"   U1F32B	# FOG
 #- 1F32C;WIND BLOWING FACE;So;0;ON;;;;;N;;;;;
-<MM> {wind blowing face} :  "🌬"   U1F32C	# WIND BLOWING FACE
+<MM> {blower} :  "🌬"   U1F32C	# WIND BLOWING FACE
 #- 1F32D;HOT DOG;So;0;ON;;;;;N;;;;;
 <MM> {hotdog} :  "🌭"   U1F32D	# HOT DOG
 <MM> {hot dog} :  "🌭"   U1F32D	# HOT DOG
@@ -644,37 +644,37 @@
 #- 1F42C;DOLPHIN;So;0;ON;;;;;N;;;;;
 <MM> {dolphin} :  "🐬"   U1F42C	# DOLPHIN
 #- 1F42D;MOUSE FACE;So;0;ON;;;;;N;;;;;
-### <MM> {mouse face} :  "🐭"   U1F42D	# MOUSE FACE
+<MM> {()mouse} :  "🐭"   U1F42D	# MOUSE FACE
 #- 1F42E;COW FACE;So;0;ON;;;;;N;;;;;
-### <MM> {cow face} :  "🐮"   U1F42E	# COW FACE
+<MM> {()cow} :  "🐮"   U1F42E	# COW FACE
 #- 1F42F;TIGER FACE;So;0;ON;;;;;N;;;;;
-### <MM> {tiger face} :  "🐯"   U1F42F	# TIGER FACE
+<MM> {()tiger} :  "🐯"   U1F42F	# TIGER FACE
 #- 1F430;RABBIT FACE;So;0;ON;;;;;N;;;;;
-### <MM> {rabbit face} :  "🐰"   U1F430	# RABBIT FACE
+<MM> {()rabbi} :  "🐰"   U1F430	# RABBIT FACE
 #- 1F431;CAT FACE;So;0;ON;;;;;N;;;;;
-### <MM> {cat face} :  "🐱"   U1F431	# CAT FACE
+<MM> {()cat} :  "🐱"   U1F431	# CAT FACE
 #- 1F432;DRAGON FACE;So;0;ON;;;;;N;;;;;
-### <MM> {dragon face} :  "🐲"   U1F432	# DRAGON FACE
+<MM> {()drago} :  "🐲"   U1F432	# DRAGON FACE
 #- 1F433;SPOUTING WHALE;So;0;ON;;;;;N;;;;;
 <MM> {spouter} :  "🐳"   U1F433	# SPOUTING WHALE
 #- 1F434;HORSE FACE;So;0;ON;;;;;N;;;;;
-### <MM> {horse face} :  "🐴"   U1F434	# HORSE FACE
+<MM> {()horse} :  "🐴"   U1F434	# HORSE FACE
 #- 1F435;MONKEY FACE;So;0;ON;;;;;N;;;;;
-### <MM> {monkey face} :  "🐵"   U1F435	# MONKEY FACE
+<MM> {()monke} :  "🐵"   U1F435	# MONKEY FACE
 #- 1F436;DOG FACE;So;0;ON;;;;;N;;;;;
-### <MM> {dog face} :  "🐶"   U1F436	# DOG FACE
+<MM> {()dog} :  "🐶"   U1F436	# DOG FACE
 #- 1F437;PIG FACE;So;0;ON;;;;;N;;;;;
-### <MM> {pig face} :  "🐷"   U1F437	# PIG FACE
+<MM> {()pig} :  "🐷"   U1F437	# PIG FACE
 #- 1F438;FROG FACE;So;0;ON;;;;;N;;;;;
-### <MM> {frog face} :  "🐸"   U1F438	# FROG FACE
+<MM> {()frog} :  "🐸"   U1F438	# FROG FACE
 #- 1F439;HAMSTER FACE;So;0;ON;;;;;N;;;;;
-### <MM> {hamster face} :  "🐹"   U1F439	# HAMSTER FACE
+<MM> {()hamst} :  "🐹"   U1F439	# HAMSTER FACE
 #- 1F43A;WOLF FACE;So;0;ON;;;;;N;;;;;
-### <MM> {wolf face} :  "🐺"   U1F43A	# WOLF FACE
+<MM> {()wolf} :  "🐺"   U1F43A	# WOLF FACE
 #- 1F43B;BEAR FACE;So;0;ON;;;;;N;;;;;
-### <MM> {bear face} :  "🐻"   U1F43B	# BEAR FACE
+<MM> {()bear} :  "🐻"   U1F43B	# BEAR FACE
 #- 1F43C;PANDA FACE;So;0;ON;;;;;N;;;;;
-### <MM> {panda face} :  "🐼"   U1F43C	# PANDA FACE
+<MM> {()panda} :  "🐼"   U1F43C	# PANDA FACE
 #- 1F43D;PIG NOSE;So;0;ON;;;;;N;;;;;
 <MM> {Pignose} :  "🐽"   U1F43D	# PIG NOSE
 #- 1F43E;PAW PRINTS;So;0;ON;;;;;N;;;;;
@@ -1552,133 +1552,150 @@
 #- 1F5FF;MOYAI;So;0;ON;;;;;N;;;;;
 <MM> {moyai} :  "🗿"   U1F5FF	# MOYAI
 #- 1F600;GRINNING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {grinning face} :  "😀"   U1F600	# GRINNING FACE
+<MM> {()grin} :  "😀"   U1F600	# GRINNING FACE
+## Extra right paren for smiling eyes?  Keys for all these faces will be
+## tough.
 #- 1F601;GRINNING FACE WITH SMILING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {grinning face with smiling eyes} :  "😁"   U1F601	# GRINNING FACE WITH SMILING EYES
+<MM> {())grin} :  "😁"   U1F601	# GRINNING FACE WITH SMILING EYES
 #- 1F602;FACE WITH TEARS OF JOY;So;0;ON;;;;;N;;;;;
-### <MM> {face with tears of joy} :  "😂"   U1F602	# FACE WITH TEARS OF JOY
+<MM> {()joy} :  "😂"   U1F602	# FACE WITH TEARS OF JOY
+<MM> {:'-D} :  "😂"   U1F602	# FACE WITH TEARS OF JOY
+<MM> {:,-D} :  "😂"   U1F602	# FACE WITH TEARS OF JOY
 #- 1F603;SMILING FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with open mouth} :  "😃"   U1F603	# SMILING FACE WITH OPEN MOUTH
+<MM> {:-D} :  "😃"   U1F603	# SMILING FACE WITH OPEN MOUTH
+<MM> {()Dsmil} :  "😃"   U1F603	# SMILING FACE WITH OPEN MOUTH
 #- 1F604;SMILING FACE WITH OPEN MOUTH AND SMILING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with open mouth and smiling eyes} :  "😄"   U1F604	# SMILING FACE WITH OPEN MOUTH AND SMILING EYES
+<MM> {;-D} :  "😄"   U1F604	# SMILING FACE WITH OPEN MOUTH AND SMILING EYES
+## Cold sweat is above eyes, tears below?
 #- 1F605;SMILING FACE WITH OPEN MOUTH AND COLD SWEAT;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with open mouth and cold sweat} :  "😅"   U1F605	# SMILING FACE WITH OPEN MOUTH AND COLD SWEAT
+<MM> {':-D} :  "😅"   U1F605	# SMILING FACE WITH OPEN MOUTH AND COLD SWEAT
+<MM> {,:-D} :  "😅"   U1F605	# SMILING FACE WITH OPEN MOUTH AND COLD SWEAT
 #- 1F606;SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with open mouth and tightly-closed eyes} :  "😆"   U1F606	# SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES
+<MM> {|-D} :  "😆"   U1F606	# SMILING FACE WITH OPEN MOUTH AND TIGHTLY-CLOSED EYES
 #- 1F607;SMILING FACE WITH HALO;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with halo} :  "😇"   U1F607	# SMILING FACE WITH HALO
+<MM> {O:-)} :  "😇"   U1F607	# SMILING FACE WITH HALO
+<MM> {O:)} :  "😇"   U1F607	# SMILING FACE WITH HALO
 #- 1F608;SMILING FACE WITH HORNS;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with horns} :  "😈"   U1F608	# SMILING FACE WITH HORNS
+<MM> {>:-)} :  "😈"   U1F608	# SMILING FACE WITH HORNS
 #- 1F609;WINKING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {winking face} :  "😉"   U1F609	# WINKING FACE
+<MM> {;-)} :  "😉"   U1F609	# WINKING FACE
 #- 1F60A;SMILING FACE WITH SMILING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with smiling eyes} :  "😊"   U1F60A	# SMILING FACE WITH SMILING EYES
+<MM> {())smil} :  "😊"   U1F60A	# SMILING FACE WITH SMILING EYES
+<MM> {):-)} :  "😊"   U1F60A	# SMILING FACE WITH SMILING EYES
 #- 1F60B;FACE SAVOURING DELICIOUS FOOD;So;0;ON;;;;;N;;;;;
-### <MM> {face savouring delicious food} :  "😋"   U1F60B	# FACE SAVOURING DELICIOUS FOOD
+<MM> {:-9} :  "😋"   U1F60B	# FACE SAVOURING DELICIOUS FOOD
+<MM> {:9} :  "😋"   U1F60B	# FACE SAVOURING DELICIOUS FOOD
 #- 1F60C;RELIEVED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {relieved face} :  "😌"   U1F60C	# RELIEVED FACE
+<MM> {()relie} :  "😌"   U1F60C	# RELIEVED FACE
 #- 1F60D;SMILING FACE WITH HEART-SHAPED EYES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with heart-shaped eyes} :  "😍"   U1F60D	# SMILING FACE WITH HEART-SHAPED EYES
+<MM> {<3:-)} :  "😍"   U1F60D	# SMILING FACE WITH HEART-SHAPED EYES
 #- 1F60E;SMILING FACE WITH SUNGLASSES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling face with sunglasses} :  "😎"   U1F60E	# SMILING FACE WITH SUNGLASSES
+<MM> {B-)} :  "😎"   U1F60E	# SMILING FACE WITH SUNGLASSES
+<MM> {B)} :  "😎"   U1F60E	# SMILING FACE WITH SUNGLASSES
 #- 1F60F;SMIRKING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {smirking face} :  "😏"   U1F60F	# SMIRKING FACE
+<MM> {()smirk} :  "😏"   U1F60F	# SMIRKING FACE
 #- 1F610;NEUTRAL FACE;So;0;ON;;;;;N;;;;;
-### <MM> {neutral face} :  "😐"   U1F610	# NEUTRAL FACE
+<MM> {:-|} :  "😐"   U1F610	# NEUTRAL FACE
 #- 1F611;EXPRESSIONLESS FACE;So;0;ON;;;;;N;;;;;
-### <MM> {expressionless face} :  "😑"   U1F611	# EXPRESSIONLESS FACE
+<MM> {|-|} :  "😑"   U1F611	# EXPRESSIONLESS FACE
 #- 1F612;UNAMUSED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {unamused face} :  "😒"   U1F612	# UNAMUSED FACE
+<MM> {()!amus} :  "😒"   U1F612	# UNAMUSED FACE
 #- 1F613;FACE WITH COLD SWEAT;So;0;ON;;;;;N;;;;;
-### <MM> {face with cold sweat} :  "😓"   U1F613	# FACE WITH COLD SWEAT
+<MM> {':-)} :  "😓"   U1F613	# FACE WITH COLD SWEAT
+<MM> {,:-)} :  "😓"   U1F613	# FACE WITH COLD SWEAT
 #- 1F614;PENSIVE FACE;So;0;ON;;;;;N;;;;;
-### <MM> {pensive face} :  "😔"   U1F614	# PENSIVE FACE
+<MM> {()pensi} :  "😔"   U1F614	# PENSIVE FACE
 #- 1F615;CONFUSED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {confused face} :  "😕"   U1F615	# CONFUSED FACE
+<MM> {()huh?} :  "😕"   U1F615	# CONFUSED FACE
 #- 1F616;CONFOUNDED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {confounded face} :  "😖"   U1F616	# CONFOUNDED FACE
 #- 1F617;KISSING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {kissing face} :  "😗"   U1F617	# KISSING FACE
+<MM> {()kiss} :  "😗"   U1F617	# KISSING FACE
 #- 1F618;FACE THROWING A KISS;So;0;ON;;;;;N;;;;;
-### <MM> {face throwing a kiss} :  "😘"   U1F618	# FACE THROWING A KISS
+<MM> {()-kiss} :  "😘"   U1F618	# FACE THROWING A KISS
 #- 1F619;KISSING FACE WITH SMILING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {kissing face with smiling eyes} :  "😙"   U1F619	# KISSING FACE WITH SMILING EYES
+<MM> {())kiss} :  "😙"   U1F619	# KISSING FACE WITH SMILING EYES
 #- 1F61A;KISSING FACE WITH CLOSED EYES;So;0;ON;;;;;N;;;;;
-### <MM> {kissing face with closed eyes} :  "😚"   U1F61A	# KISSING FACE WITH CLOSED EYES
+<MM> {()|kiss} :  "😚"   U1F61A	# KISSING FACE WITH CLOSED EYES
 #- 1F61B;FACE WITH STUCK-OUT TONGUE;So;0;ON;;;;;N;;;;;
-### <MM> {face with stuck-out tongue} :  "😛"   U1F61B	# FACE WITH STUCK-OUT TONGUE
+<MM> {:-P} :  "😛"   U1F61B	# FACE WITH STUCK-OUT TONGUE
 #- 1F61C;FACE WITH STUCK-OUT TONGUE AND WINKING EYE;So;0;ON;;;;;N;;;;;
-### <MM> {face with stuck-out tongue and winking eye} :  "😜"   U1F61C	# FACE WITH STUCK-OUT TONGUE AND WINKING EYE
+<MM> {;-P} :  "😜"   U1F61C	# FACE WITH STUCK-OUT TONGUE AND WINKING EYE
 #- 1F61D;FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES;So;0;ON;;;;;N;;;;;
-### <MM> {face with stuck-out tongue and tightly-closed eyes} :  "😝"   U1F61D	# FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES
+<MM> {|-P} :  "😝"   U1F61D	# FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES
 #- 1F61E;DISAPPOINTED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {disappointed face} :  "😞"   U1F61E	# DISAPPOINTED FACE
 #- 1F61F;WORRIED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {worried face} :  "😟"   U1F61F	# WORRIED FACE
 #- 1F620;ANGRY FACE;So;0;ON;;;;;N;;;;;
-### <MM> {angry face} :  "😠"   U1F620	# ANGRY FACE
+<MM> {()angry} :  "😠"   U1F620	# ANGRY FACE
 #- 1F621;POUTING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {pouting face} :  "😡"   U1F621	# POUTING FACE
+<MM> {()pout} :  "😡"   U1F621	# POUTING FACE
 #- 1F622;CRYING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {crying face} :  "😢"   U1F622	# CRYING FACE
+<MM> {()crying} :  "😢"   U1F622	# CRYING FACE
 #- 1F623;PERSEVERING FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {persevering face} :  "😣"   U1F623	# PERSEVERING FACE
 #- 1F624;FACE WITH LOOK OF TRIUMPH;So;0;ON;;;;;N;;;;;
-### <MM> {face with look of triumph} :  "😤"   U1F624	# FACE WITH LOOK OF TRIUMPH
+<MM> {()trium} :  "😤"   U1F624	# FACE WITH LOOK OF TRIUMPH
+<MM> {()win} :  "😤"   U1F624	# FACE WITH LOOK OF TRIUMPH
 #- 1F625;DISAPPOINTED BUT RELIEVED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {disappointed but relieved face} :  "😥"   U1F625	# DISAPPOINTED BUT RELIEVED FACE
 #- 1F626;FROWNING FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
-### <MM> {frowning face with open mouth} :  "😦"   U1F626	# FROWNING FACE WITH OPEN MOUTH
+<MM> {D-:} :  "😦"   U1F626	# FROWNING FACE WITH OPEN MOUTH
 #- 1F627;ANGUISHED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {anguished face} :  "😧"   U1F627	# ANGUISHED FACE
 #- 1F628;FEARFUL FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {fearful face} :  "😨"   U1F628	# FEARFUL FACE
 #- 1F629;WEARY FACE;So;0;ON;;;;;N;;;;;
-### <MM> {weary face} :  "😩"   U1F629	# WEARY FACE
+<MM> {()weary} :  "😩"   U1F629	# WEARY FACE
 #- 1F62A;SLEEPY FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {sleepy face} :  "😪"   U1F62A	# SLEEPY FACE
 #- 1F62B;TIRED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {tired face} :  "😫"   U1F62B	# TIRED FACE
+<MM> {()tired} :  "😫"   U1F62B	# TIRED FACE
 #- 1F62C;GRIMACING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {grimacing face} :  "😬"   U1F62C	# GRIMACING FACE
+<MM> {()grima} :  "😬"   U1F62C	# GRIMACING FACE
 #- 1F62D;LOUDLY CRYING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {loudly crying face} :  "😭"   U1F62D	# LOUDLY CRYING FACE
+<MM> {()loud} :  "😭"   U1F62D	# LOUDLY CRYING FACE
 #- 1F62E;FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
-### <MM> {face with open mouth} :  "😮"   U1F62E	# FACE WITH OPEN MOUTH
+<MM> {:-O} :  "😮"   U1F62E	# FACE WITH OPEN MOUTH
 #- 1F62F;HUSHED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {hushed face} :  "😯"   U1F62F	# HUSHED FACE
 #- 1F630;FACE WITH OPEN MOUTH AND COLD SWEAT;So;0;ON;;;;;N;;;;;
-### <MM> {face with open mouth and cold sweat} :  "😰"   U1F630	# FACE WITH OPEN MOUTH AND COLD SWEAT
+<MM> {,:-O} :  "😰"   U1F630	# FACE WITH OPEN MOUTH AND COLD SWEAT
+<MM> {':-O} :  "😰"   U1F630	# FACE WITH OPEN MOUTH AND COLD SWEAT
 #- 1F631;FACE SCREAMING IN FEAR;So;0;ON;;;;;N;;;;;
 ### <MM> {face screaming in fear} :  "😱"   U1F631	# FACE SCREAMING IN FEAR
 #- 1F632;ASTONISHED FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {astonished face} :  "😲"   U1F632	# ASTONISHED FACE
 #- 1F633;FLUSHED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {flushed face} :  "😳"   U1F633	# FLUSHED FACE
+<MM> {()flush} :  "😳"   U1F633	# FLUSHED FACE
 #- 1F634;SLEEPING FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {sleeping face} :  "😴"   U1F634	# SLEEPING FACE
 #- 1F635;DIZZY FACE;So;0;ON;;;;;N;;;;;
-### <MM> {dizzy face} :  "😵"   U1F635	# DIZZY FACE
+<MM> {()dizzy} :  "😵"   U1F635	# DIZZY FACE
 #- 1F636;FACE WITHOUT MOUTH;So;0;ON;;;;;N;;;;;
-### <MM> {face without mouth} :  "😶"   U1F636	# FACE WITHOUT MOUTH
+<MM> {:- } :  "😶"   U1F636	# FACE WITHOUT MOUTH
 #- 1F637;FACE WITH MEDICAL MASK;So;0;ON;;;;;N;;;;;
-### <MM> {face with medical mask} :  "😷"   U1F637	# FACE WITH MEDICAL MASK
+<MM> {()mask} :  "😷"   U1F637	# FACE WITH MEDICAL MASK
+<MM> {:-[]} :  "😷"   U1F637	# FACE WITH MEDICAL MASK
+## Cat faces now?? Um. ] for ears?
 #- 1F638;GRINNING CAT FACE WITH SMILING EYES;So;0;ON;;;;;N;;;;;
-### <MM> {grinning cat face with smiling eyes} :  "😸"   U1F638	# GRINNING CAT FACE WITH SMILING EYES
+<MM> {())]gri} :  "😸"   U1F638	# GRINNING CAT FACE WITH SMILING EYES
 #- 1F639;CAT FACE WITH TEARS OF JOY;So;0;ON;;;;;N;;;;;
-### <MM> {cat face with tears of joy} :  "😹"   U1F639	# CAT FACE WITH TEARS OF JOY
+<MM> {()]joy} :  "😹"   U1F639	# CAT FACE WITH TEARS OF JOY
+<MM> {]:,-)} :  "😹"   U1F639	# CAT FACE WITH TEARS OF JOY
 #- 1F63A;SMILING CAT FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
-### <MM> {smiling cat face with open mouth} :  "😺"   U1F63A	# SMILING CAT FACE WITH OPEN MOUTH
+<MM> {]:-D} :  "😺"   U1F63A	# SMILING CAT FACE WITH OPEN MOUTH
 #- 1F63B;SMILING CAT FACE WITH HEART-SHAPED EYES;So;0;ON;;;;;N;;;;;
-### <MM> {smiling cat face with heart-shaped eyes} :  "😻"   U1F63B	# SMILING CAT FACE WITH HEART-SHAPED EYES
+<MM> {<3]:-)} :  "😻"   U1F63B	# SMILING CAT FACE WITH HEART-SHAPED EYES
 #- 1F63C;CAT FACE WITH WRY SMILE;So;0;ON;;;;;N;;;;;
 ### <MM> {cat face with wry smile} :  "😼"   U1F63C	# CAT FACE WITH WRY SMILE
 #- 1F63D;KISSING CAT FACE WITH CLOSED EYES;So;0;ON;;;;;N;;;;;
 ### <MM> {kissing cat face with closed eyes} :  "😽"   U1F63D	# KISSING CAT FACE WITH CLOSED EYES
 #- 1F63E;POUTING CAT FACE;So;0;ON;;;;;N;;;;;
-### <MM> {pouting cat face} :  "😾"   U1F63E	# POUTING CAT FACE
+<MM> {()]pout} :  "😾"   U1F63E	# POUTING CAT FACE
 #- 1F63F;CRYING CAT FACE;So;0;ON;;;;;N;;;;;
-### <MM> {crying cat face} :  "😿"   U1F63F	# CRYING CAT FACE
+<MM> {()]cry} :  "😿"   U1F63F	# CRYING CAT FACE
 #- 1F640;WEARY CAT FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {weary cat face} :  "🙀"   U1F640	# WEARY CAT FACE
 #- 1F641;SLIGHTLY FROWNING FACE;So;0;ON;;;;;N;;;;;
@@ -1686,29 +1703,31 @@
 #- 1F642;SLIGHTLY SMILING FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {slightly smiling face} :  "🙂"   U1F642	# SLIGHTLY SMILING FACE
 #- 1F643;UPSIDE-DOWN FACE;So;0;ON;;;;;N;;;;;
-<MM> {upside-down face} :  "🙃"   U1F643	# UPSIDE-DOWN FACE
+<MM> {(-:} :  "🙃"   U1F643	# UPSIDE-DOWN FACE
 #- 1F644;FACE WITH ROLLING EYES;So;0;ON;;;;;N;;;;;
-<MM> {face with rolling eyes} :  "🙄"   U1F644	# FACE WITH ROLLING EYES
+<MM> {8-)} :  "🙄"   U1F644	# FACE WITH ROLLING EYES
 #- 1F645;FACE WITH NO GOOD GESTURE;So;0;ON;;;;;N;;;;;
-### <MM> {face with no good gesture} :  "🙅"   U1F645	# FACE WITH NO GOOD GESTURE
+<MM> {()NG} :  "🙅"   U1F645	# FACE WITH NO GOOD GESTURE
+<MM> {()!good} :  "🙅"   U1F645	# FACE WITH NO GOOD GESTURE
 #- 1F646;FACE WITH OK GESTURE;So;0;ON;;;;;N;;;;;
-### <MM> {face with ok gesture} :  "🙆"   U1F646	# FACE WITH OK GESTURE
+<MM> {()OK} :  "🙆"   U1F646	# FACE WITH OK GESTURE
 #- 1F647;PERSON BOWING DEEPLY;So;0;ON;;;;;N;;;;;
-### <MM> {person bowing deeply} :  "🙇"   U1F647	# PERSON BOWING DEEPLY
+<MM> {bowing} :  "🙇"   U1F647	# PERSON BOWING DEEPLY
+<MM> {bower} :  "🙇"   U1F647	# PERSON BOWING DEEPLY
 #- 1F648;SEE-NO-EVIL MONKEY;So;0;ON;;;;;N;;;;;
-### <MM> {see-no-evil monkey} :  "🙈"   U1F648	# SEE-NO-EVIL MONKEY
+<MM> {!see} :  "🙈"   U1F648	# SEE-NO-EVIL MONKEY
 #- 1F649;HEAR-NO-EVIL MONKEY;So;0;ON;;;;;N;;;;;
-### <MM> {hear-no-evil monkey} :  "🙉"   U1F649	# HEAR-NO-EVIL MONKEY
+<MM> {!hear} :  "🙉"   U1F649	# HEAR-NO-EVIL MONKEY
 #- 1F64A;SPEAK-NO-EVIL MONKEY;So;0;ON;;;;;N;;;;;
-### <MM> {speak-no-evil monkey} :  "🙊"   U1F64A	# SPEAK-NO-EVIL MONKEY
+<MM> {!speak} :  "🙊"   U1F64A	# SPEAK-NO-EVIL MONKEY
 #- 1F64B;HAPPY PERSON RAISING ONE HAND;So;0;ON;;;;;N;;;;;
-### <MM> {happy person raising one hand} :  "🙋"   U1F64B	# HAPPY PERSON RAISING ONE HAND
+<MM> {o/} :  "🙋"   U1F64B	# HAPPY PERSON RAISING ONE HAND
 #- 1F64C;PERSON RAISING BOTH HANDS IN CELEBRATION;So;0;ON;;;;;N;;;;;
-### <MM> {person raising both hands in celebration} :  "🙌"   U1F64C	# PERSON RAISING BOTH HANDS IN CELEBRATION
+<MM> {\o/} :  "🙌"   U1F64C	# PERSON RAISING BOTH HANDS IN CELEBRATION
 #- 1F64D;PERSON FROWNING;So;0;ON;;;;;N;;;;;
-### <MM> {person frowning} :  "🙍"   U1F64D	# PERSON FROWNING
+<MM> {frowner} :  "🙍"   U1F64D	# PERSON FROWNING
 #- 1F64E;PERSON WITH POUTING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {person with pouting face} :  "🙎"   U1F64E	# PERSON WITH POUTING FACE
+<MM> {pouter} :  "🙎"   U1F64E	# PERSON WITH POUTING FACE
 #- 1F64F;PERSON WITH FOLDED HANDS;So;0;ON;;;;;N;;;;;
 ### <MM> {person with folded hands} :  "🙏"   U1F64F	# PERSON WITH FOLDED HANDS
 #- 1F650;NORTH WEST POINTING LEAF;So;0;ON;;;;;N;;;;;
@@ -2009,21 +2028,23 @@
 #- 1F6F3;PASSENGER SHIP;So;0;ON;;;;;N;;;;;
 ### <MM> {passenger ship} :  "🛳"   U1F6F3	# PASSENGER SHIP
 #- 1F910;ZIPPER-MOUTH FACE;So;0;ON;;;;;N;;;;;
-### <MM> {zipper-mouth face} :  "🤐"   U1F910	# ZIPPER-MOUTH FACE
+<MM> {()zip} :  "🤐"   U1F910	# ZIPPER-MOUTH FACE
 #- 1F911;MONEY-MOUTH FACE;So;0;ON;;;;;N;;;;;
-### <MM> {money-mouth face} :  "🤑"   U1F911	# MONEY-MOUTH FACE
+<MM> {:-$} :  "🤑"   U1F911	# MONEY-MOUTH FACE
 #- 1F912;FACE WITH THERMOMETER;So;0;ON;;;;;N;;;;;
 ### <MM> {face with thermometer} :  "🤒"   U1F912	# FACE WITH THERMOMETER
 #- 1F913;NERD FACE;So;0;ON;;;;;N;;;;;
-### <MM> {nerd face} :  "🤓"   U1F913	# NERD FACE
+<MM> {()nerd} :  "🤓"   U1F913	# NERD FACE
 #- 1F914;THINKING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {thinking face} :  "🤔"   U1F914	# THINKING FACE
+<MM> {()think} :  "🤔"   U1F914	# THINKING FACE
 #- 1F915;FACE WITH HEAD-BANDAGE;So;0;ON;;;;;N;;;;;
-### <MM> {face with head-bandage} :  "🤕"   U1F915	# FACE WITH HEAD-BANDAGE
+<MM> {()band} :  "🤕"   U1F915	# FACE WITH HEAD-BANDAGE
+<MM> {@:-)} :  "🤕"   U1F915	# FACE WITH HEAD-BANDAGE
 #- 1F916;ROBOT FACE;So;0;ON;;;;;N;;;;;
-### <MM> {robot face} :  "🤖"   U1F916	# ROBOT FACE
+<MM> {()robot} :  "🤖"   U1F916	# ROBOT FACE
+<MM> {:-]} :  "🤖"   U1F916	# ROBOT FACE
 #- 1F917;HUGGING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {hugging face} :  "🤗"   U1F917	# HUGGING FACE
+<MM> {()hug} :  "🤗"   U1F917	# HUGGING FACE
 #- 1F918;SIGN OF THE HORNS;So;0;ON;;;;;N;;;;;
 <MM> {rockon} :  "🤘"   U1F918	# SIGN OF THE HORNS
 #- 1F980;CRAB;So;0;ON;;;;;N;;;;;
