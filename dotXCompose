@@ -170,6 +170,7 @@ include "%L"
 # These are just too cool-looking not to have (if your font supports them)
 <Multi_key> <equal> <period> <equal>	: "⸎"	U2E0E		# EDITORIAL CORONIS
 <Multi_key> <Multi_key> <p> <a> <l> <m>	: "⸙"	U2E19		# PALM BRANCH
+<Multi_key> <Multi_key> <b> <r> <a> <n> <c> <h>: "⸙"	U2E19		# PALM BRANCH
 
 
 <Multi_key> <f> <f>		: "ﬀ"	   UFB00   # LATIN SMALL LIGATURE FF
@@ -725,7 +726,8 @@ include "%L"
 
 
 <Multi_key> <O> <X>: 			"☠" U2620 # SKULL AND CROSSBONES
-<Multi_key> <Multi_key> <s> <k> <u> <l> <l>:	  "☠" U2620 # SKULL AND CROSSBONES
+<Multi_key> <Multi_key> <d> <e> <a> <t> <h>:	  "☠" U2620 # SKULL AND CROSSBONES
+<Multi_key> <Multi_key> <X> <b> <o> <n> <e> <s>:	  "☠" U2620 # SKULL AND CROSSBONES
 <Multi_key> <Multi_key> <k> <b> <d> :	"⌨"	  U2328	    # KEYBOARD
 <Multi_key> <Multi_key> <r> <h> <a> <n> <d>	: "☞" U261E # WHITE RIGHT POINTING INDEX
 <Multi_key> <Multi_key> <l> <h> <a> <n> <d>	: "☜" U261C # WHITE LEFT POINTING INDEX
@@ -744,14 +746,16 @@ include "%L"
 # Using backslash-minus-slash etc. conflicts with combining accents.
 <Multi_key> <grave> <minus> <apostrophe>	 : "⚞"	U269E  # THREE LINES CONVERGING RIGHT
 <Multi_key> <apostrophe> <minus> <grave>	 : "⚟"	U269F  # THREE LINES CONVERGING LEFT
-<Multi_key> <Multi_key> <b> <e> <l> <l>		: "⍾" U237E  # BELL SYMBOL (or ALIENS LANDING) -- &-a-l-i-e-n ?
-# Other monstery characters... ѪꙚ (alien abductions?) 
-# ඏൠഋ & others from Kannada et al...? 
+<Multi_key> <Multi_key> <B> <e> <l> <l> <s> <y> <m>	: "⍾" U237E  # BELL SYMBOL (or ALIENS LANDING) -- &-a-l-i-e-n ?
+# Other monstery characters... ѪꙚ (alien abductions?)
+# ඏൠഋ & others from Kannada et al...?
 # Can't use -^- for this; conflicts with -^ for ↑, and getting those arrows
 # workable was complicated enough.  How about this?
 <Multi_key> <underscore> <asciicircum> <underscore>	: "⌤" U2324  # UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS; aka ENTER KEY, aka NOT AMUSED.
 <Multi_key> <Multi_key> <w> <a> <i> <t>		: "⌛" U231B   # HOURGLASS
+<Multi_key> <Multi_key> <h> <o> <u> <r>		: "⌛" U231B   # HOURGLASS
 <Multi_key> <Multi_key> <t> <i> <m> <e>		: "⌚" U231A   # WATCH
+<Multi_key> <Multi_key> <w> <a> <t> <c> <h>	: "⌚" U231A   # WATCH
 <Multi_key> <space> <N>		  : " "	U2002  # EN SPACE
 <Multi_key> <space> <M>		  : " " U2003  # EM SPACE
 <Multi_key> <space> <3> <M>	  : " "	U2004  # THREE-PER-EM SPACE
