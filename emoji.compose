@@ -6,10 +6,11 @@
 ## to avoid duplicates with the main dotXCompose file?
 ##
 ## Anything whose full Unicode name fits inside 7 characters gets that for
-## its keys.  Otherwise maybe get creative, and no need to stick to just
-## one per symbol.  There's much to be said for truncating in mid-word:
-## if you type the word, you'll still get your symbol, just with some
-## extra letters you can backspace over.  So that will often be an option.
+## its keys (usually).  Otherwise maybe get creative, and no need to stick
+## to just one per symbol.  There's much to be said for truncating in
+## mid-word: if you type the word, you'll still get your symbol, just with
+## some extra letters you can backspace over.  So that will often be an
+## option.
 #### <MM> {bogus}:  "X"  U00000  # BOGUS ENTRY TO ENSURE SORTING
 #- 1F300;CYCLONE;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <c> <y> <c> <l> <o> <n> <e> :  "🌀"   U1F300	# CYCLONE
@@ -32,7 +33,7 @@
 #- 1F309;BRIDGE AT NIGHT;So;0;ON;;;;;N;;;;;
 ### <MM> {bridge at night} :  "🌉"   U1F309	# BRIDGE AT NIGHT
 #- 1F30A;WATER WAVE;So;0;ON;;;;;N;;;;;
-### <MM> {water wave} :  "🌊"   U1F30A	# WATER WAVE
+<Multi_key> <Multi_key>  <w> <a> <v> <e> :  "🌊"   U1F30A	# WATER WAVE
 #- 1F30B;VOLCANO;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <v> <o> <l> <c> <a> <n> <o> :  "🌋"   U1F30B	# VOLCANO
 #- 1F30C;MILKY WAY;So;0;ON;;;;;N;;;;;
@@ -44,7 +45,7 @@
 #- 1F30F;EARTH GLOBE ASIA-AUSTRALIA;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <e> <a> <r> <t> <h> <A> <S> :  "🌏"   U1F30F	# EARTH GLOBE ASIA-AUSTRALIA
 #- 1F310;GLOBE WITH MERIDIANS;So;0;ON;;;;;N;;;;;
-### <MM> {globe with meridians} :  "🌐"   U1F310	# GLOBE WITH MERIDIANS
+<Multi_key> <Multi_key>  <e> <a> <r> <t> <h> <bar> <minus> :  "🌐"   U1F310	# GLOBE WITH MERIDIANS
 #- 1F311;NEW MOON SYMBOL;So;0;ON;;;;;N;;;;;
 ### <MM> {new moon symbol} :  "🌑"   U1F311	# NEW MOON SYMBOL
 #- 1F312;WAXING CRESCENT MOON SYMBOL;So;0;ON;;;;;N;;;;;
@@ -102,6 +103,7 @@
 #- 1F32C;WIND BLOWING FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {wind blowing face} :  "🌬"   U1F32C	# WIND BLOWING FACE
 #- 1F32D;HOT DOG;So;0;ON;;;;;N;;;;;
+<Multi_key> <Multi_key>  <h> <o> <t> <d> <o> <g> :  "🌭"   U1F32D	# HOT DOG
 <Multi_key> <Multi_key>  <h> <o> <t> <space> <d> <o> <g> :  "🌭"   U1F32D	# HOT DOG
 #- 1F32E;TACO;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <t> <a> <c> <o> :  "🌮"   U1F32E	# TACO
@@ -277,7 +279,7 @@
 #- 1F37D;FORK AND KNIFE WITH PLATE;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <s> <e> <t> <t> <i> <n> <g> :  "🍽"   U1F37D	# FORK AND KNIFE WITH PLATE
 #- 1F37E;BOTTLE WITH POPPING CORK;So;0;ON;;;;;N;;;;;
-### <MM> {bottle with popping cork} :  "🍾"   U1F37E	# BOTTLE WITH POPPING CORK
+<Multi_key> <Multi_key>  <p> <o> <p> <c> <o> <r> <k> :  "🍾"   U1F37E	# BOTTLE WITH POPPING CORK
 #- 1F37F;POPCORN;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <p> <o> <p> <c> <o> <r> <n> :  "🍿"   U1F37F	# POPCORN
 #- 1F380;RIBBON;So;0;ON;;;;;N;;;;;
@@ -285,7 +287,7 @@
 #- 1F381;WRAPPED PRESENT;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <p> <r> <e> <s> <e> <n> <t> :  "🎁"   U1F381	# WRAPPED PRESENT
 #- 1F382;BIRTHDAY CAKE;So;0;ON;;;;;N;;;;;
-### <MM> {birthday} :  "🎂"   U1F382	# BIRTHDAY CAKE
+<Multi_key> <Multi_key>  <b> <i> <r> <t> <h> <d> <a> :  "🎂"   U1F382	# BIRTHDAY CAKE
 #- 1F383;JACK-O-LANTERN;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <p> <u> <m> <p> <k> <i> <n> :  "🎃"   U1F383	# JACK-O-LANTERN
 #- 1F384;CHRISTMAS TREE;So;0;ON;;;;;N;;;;;
@@ -303,7 +305,7 @@
 #- 1F38A;CONFETTI BALL;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <c> <o> <n> <f> <e> <t> <i> :  "🎊"   U1F38A	# CONFETTI BALL
 #- 1F38B;TANABATA TREE;So;0;ON;;;;;N;;;;;
-### <MM> {tanabata tree} :  "🎋"   U1F38B	# TANABATA TREE
+<Multi_key> <Multi_key>  <t> <a> <n> <a> <b> <a> <t> :  "🎋"   U1F38B	# TANABATA TREE
 #- 1F38C;CROSSED FLAGS;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <X> <f> <l> <a> <g> <s> :  "🎌"   U1F38C	# CROSSED FLAGS
 #- 1F38D;PINE DECORATION;So;0;ON;;;;;N;;;;;
@@ -327,6 +329,8 @@
 #- 1F396;MILITARY MEDAL;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <m> <e> <d> <a> <l> :  "🎖"   U1F396	# MILITARY MEDAL
 #- 1F397;REMINDER RIBBON;So;0;ON;;;;;N;;;;;
+<Multi_key> <Multi_key>  <r> <e> <m> <i> <n> <d> :  "🎗"   U1F397	# REMINDER RIBBON
+<Multi_key> <Multi_key>  <r> <e> <m> <e> <m> <b> <e> :  "🎗"   U1F397	# REMINDER RIBBON
 <Multi_key> <Multi_key>  <r> <e> <m> <e> <m> <b> <r> :  "🎗"   U1F397	# REMINDER RIBBON
 #- 1F398;MUSICAL KEYBOARD WITH JACKS;So;0;ON;;;;;N;;;;;
 ### <MM> {musical keyboard with jacks} :  "🎘"   U1F398	# MUSICAL KEYBOARD WITH JACKS
@@ -443,17 +447,17 @@
 #- 1F3CE;RACING CAR;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <r> <a> <c> <e> <c> <a> <r> :  "🏎"   U1F3CE	# RACING CAR
 #- 1F3CF;CRICKET BAT AND BALL;So;0;ON;;;;;N;;;;;
-### <MM> {cricket bat and ball} :  "🏏"   U1F3CF	# CRICKET BAT AND BALL
+<Multi_key> <Multi_key>  <c> <r> <i> <c> <k> <e> <t> :  "🏏"   U1F3CF	# CRICKET BAT AND BALL
 #- 1F3D0;VOLLEYBALL;So;0;ON;;;;;N;;;;;
-### <MM> {volleyball} :  "🏐"   U1F3D0	# VOLLEYBALL
+<Multi_key> <Multi_key>  <v> <o> <l> <l> <e> <y> :  "🏐"   U1F3D0	# VOLLEYBALL
 #- 1F3D1;FIELD HOCKEY STICK AND BALL;So;0;ON;;;;;N;;;;;
 ### <MM> {field hockey stick and ball} :  "🏑"   U1F3D1	# FIELD HOCKEY STICK AND BALL
 #- 1F3D2;ICE HOCKEY STICK AND PUCK;So;0;ON;;;;;N;;;;;
 ### <MM> {ice hockey stick and puck} :  "🏒"   U1F3D2	# ICE HOCKEY STICK AND PUCK
 #- 1F3D3;TABLE TENNIS PADDLE AND BALL;So;0;ON;;;;;N;;;;;
-### <MM> {table tennis paddle and ball} :  "🏓"   U1F3D3	# TABLE TENNIS PADDLE AND BALL
+<Multi_key> <Multi_key>  <p> <i> <n> <g> <p> <o> <n> :  "🏓"   U1F3D3	# TABLE TENNIS PADDLE AND BALL
 #- 1F3D4;SNOW CAPPED MOUNTAIN;So;0;ON;;;;;N;;;;;
-### <MM> {snow capped mountain} :  "🏔"   U1F3D4	# SNOW CAPPED MOUNTAIN
+<Multi_key> <Multi_key>  <m> <o> <u> <n> <t> <a> <i> :  "🏔"   U1F3D4	# SNOW CAPPED MOUNTAIN
 #- 1F3D5;CAMPING;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <c> <a> <m> <p> <i> <n> <g> :  "🏕"   U1F3D5	# CAMPING
 #- 1F3D6;BEACH WITH UMBRELLA;So;0;ON;;;;;N;;;;;
@@ -473,7 +477,7 @@
 #- 1F3DD;DESERT ISLAND;So;0;ON;;;;;N;;;;;
 ### <MM> {desert island} :  "🏝"   U1F3DD	# DESERT ISLAND
 #- 1F3DE;NATIONAL PARK;So;0;ON;;;;;N;;;;;
-### <MM> {national park} :  "🏞"   U1F3DE	# NATIONAL PARK
+<Multi_key> <Multi_key>  <n> <a> <t> <p> <a> <r> <k> :  "🏞"   U1F3DE	# NATIONAL PARK
 #- 1F3DF;STADIUM;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <s> <t> <a> <d> <i> <u> <m> :  "🏟"   U1F3DF	# STADIUM
 #- 1F3E0;HOUSE BUILDING;So;0;ON;;;;;N;;;;;
@@ -497,7 +501,9 @@
 #- 1F3E9;LOVE HOTEL;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <s> <x> <h> <o> <t> <e> <l> :  "🏩"   U1F3E9	# LOVE HOTEL
 #- 1F3EA;CONVENIENCE STORE;So;0;ON;;;;;N;;;;;
+## Obvious culturally biased keyword below...
 ### <MM> {convenience store} :  "🏪"   U1F3EA	# CONVENIENCE STORE
+<Multi_key> <Multi_key>  <7> <minus> <1> <1> :  "🏪"   U1F3EA	# CONVENIENCE STORE
 #- 1F3EB;SCHOOL;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <s> <c> <h> <o> <o> <l> :  "🏫"   U1F3EB	# SCHOOL
 #- 1F3EC;DEPARTMENT STORE;So;0;ON;;;;;N;;;;;
@@ -505,19 +511,19 @@
 #- 1F3ED;FACTORY;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <f> <a> <c> <t> <r> <y> :  "🏭"   U1F3ED	# FACTORY
 #- 1F3EE;IZAKAYA LANTERN;So;0;ON;;;;;N;;;;;
-### <MM> {izakaya lantern} :  "🏮"   U1F3EE	# IZAKAYA LANTERN
+<Multi_key> <Multi_key>  <i> <z> <a> <k> <a> <y> :  "🏮"   U1F3EE	# IZAKAYA LANTERN
 #- 1F3EF;JAPANESE CASTLE;So;0;ON;;;;;N;;;;;
 ### <MM> {japanese castle} :  "🏯"   U1F3EF	# JAPANESE CASTLE
 #- 1F3F0;EUROPEAN CASTLE;So;0;ON;;;;;N;;;;;
 ### <MM> {european castle} :  "🏰"   U1F3F0	# EUROPEAN CASTLE
 #- 1F3F1;WHITE PENNANT;So;0;ON;;;;;N;;;;;
-### <MM> {white pennant} :  "🏱"   U1F3F1	# WHITE PENNANT
+<Multi_key> <Multi_key>  <W> <p> <e> <n> <n> <a> <n> :  "🏱"   U1F3F1	# WHITE PENNANT
 #- 1F3F2;BLACK PENNANT;So;0;ON;;;;;N;;;;;
-### <MM> {black pennant} :  "🏲"   U1F3F2	# BLACK PENNANT
+<Multi_key> <Multi_key>  <B> <p> <e> <n> <n> <a> <n> :  "🏲"   U1F3F2	# BLACK PENNANT
 #- 1F3F3;WAVING WHITE FLAG;So;0;ON;;;;;N;;;;;
-<Multi_key> <Multi_key>  <W> <f> <l> <a> <g> :  "🏳"   U1F3F3	# WAVING WHITE FLAG
+<Multi_key> <Multi_key>  <W> <f> <l> <a> <g> <asciitilde> :  "🏳"   U1F3F3	# WAVING WHITE FLAG
 #- 1F3F4;WAVING BLACK FLAG;So;0;ON;;;;;N;;;;;
-<Multi_key> <Multi_key>  <B> <f> <l> <a> <g> :  "🏴"   U1F3F4	# WAVING BLACK FLAG
+<Multi_key> <Multi_key>  <B> <f> <l> <a> <g> <asciitilde> :  "🏴"   U1F3F4	# WAVING BLACK FLAG
 #- 1F3F5;ROSETTE;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <r> <o> <s> <e> <t> <t> <e> :  "🏵"   U1F3F5	# ROSETTE
 #- 1F3F6;BLACK ROSETTE;So;0;ON;;;;;N;;;;;
@@ -548,7 +554,7 @@
 #- 1F402;OX;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <o> <x> :  "🐂"   U1F402	# OX
 #- 1F403;WATER BUFFALO;So;0;ON;;;;;N;;;;;
-### <MM> {water buffalo} :  "🐃"   U1F403	# WATER BUFFALO
+<Multi_key> <Multi_key>  <b> <u> <f> <f> <a> <l> <o> :  "🐃"   U1F403	# WATER BUFFALO
 #- 1F404;COW;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <c> <o> <w> :  "🐄"   U1F404	# COW
 #- 1F405;TIGER;So;0;ON;;;;;N;;;;;
@@ -591,6 +597,7 @@
 #- 1F417;BOAR;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <b> <o> <a> <r> :  "🐗"   U1F417	# BOAR
 #- 1F418;ELEPHANT;So;0;ON;;;;;N;;;;;
+<Multi_key> <Multi_key>  <e> <l> <e> <p> <h> <a> <n> :  "🐘"   U1F418	# ELEPHANT
 <Multi_key> <Multi_key>  <e> <l> <e> <p> <h> <n> <t> :  "🐘"   U1F418	# ELEPHANT
 #- 1F419;OCTOPUS;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <o> <c> <t> <o> <p> <u> <s> :  "🐙"   U1F419	# OCTOPUS
@@ -667,9 +674,9 @@
 #- 1F43C;PANDA FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {panda face} :  "🐼"   U1F43C	# PANDA FACE
 #- 1F43D;PIG NOSE;So;0;ON;;;;;N;;;;;
-### <MM> {pig nose} :  "🐽"   U1F43D	# PIG NOSE
+<Multi_key> <Multi_key>  <P> <i> <g> <n> <o> <s> <e> :  "🐽"   U1F43D	# PIG NOSE
 #- 1F43E;PAW PRINTS;So;0;ON;;;;;N;;;;;
-### <MM> {paw prints} :  "🐾"   U1F43E	# PAW PRINTS
+<Multi_key> <Multi_key>  <p> <a> <w> <s> :  "🐾"   U1F43E	# PAW PRINTS
 #- 1F43F;CHIPMUNK;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <c> <h> <i> <p> <m> <u> <n> :  "🐿"   U1F43F	# CHIPMUNK
 <Multi_key> <Multi_key>  <c> <h> <p> <m> <u> <n> <k> :  "🐿"   U1F43F	# CHIPMUNK
@@ -696,7 +703,7 @@
 #- 1F44A;FISTED HAND SIGN;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <f> <i> <s> <t> :  "👊"   U1F44A	# FISTED HAND SIGN
 #- 1F44B;WAVING HAND SIGN;So;0;ON;;;;;N;;;;;
-<Multi_key> <Multi_key>  <w> <a> <v> <e> :  "👋"   U1F44B	# WAVING HAND SIGN
+<Multi_key> <Multi_key>  <w> <a> <v> <i> <n> <g> :  "👋"   U1F44B	# WAVING HAND SIGN
 #- 1F44C;OK HAND SIGN;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <O> <K> :  "👌"   U1F44C	# OK HAND SIGN
 #- 1F44D;THUMBS UP SIGN;So;0;ON;;;;;N;;;;;
@@ -774,9 +781,9 @@
 #- 1F470;BRIDE WITH VEIL;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <b> <r> <i> <d> <e> :  "👰"   U1F470	# BRIDE WITH VEIL
 #- 1F471;PERSON WITH BLOND HAIR;So;0;ON;;;;;N;;;;;
-### <MM> {person with blond hair} :  "👱"   U1F471	# PERSON WITH BLOND HAIR
+<Multi_key> <Multi_key>  <b> <l> <o> <n> <d> :  "👱"   U1F471	# PERSON WITH BLOND HAIR
 #- 1F472;MAN WITH GUA PI MAO;So;0;ON;;;;;N;;;;;
-### <MM> {man with gua pi mao} :  "👲"   U1F472	# MAN WITH GUA PI MAO
+<Multi_key> <Multi_key>  <g> <u> <a> <p> <m> <a> <o> :  "👲"   U1F472	# MAN WITH GUA PI MAO
 #- 1F473;MAN WITH TURBAN;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <t> <u> <r> <b> <a> <n> :  "👳"   U1F473	# MAN WITH TURBAN
 #- 1F474;OLDER MAN;So;0;ON;;;;;N;;;;;
@@ -786,7 +793,7 @@
 #- 1F476;BABY;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <b> <a> <b> <y> :  "👶"   U1F476	# BABY
 #- 1F477;CONSTRUCTION WORKER;So;0;ON;;;;;N;;;;;
-### <MM> {construction worker} :  "👷"   U1F477	# CONSTRUCTION WORKER
+<Multi_key> <Multi_key>  <b> <u> <i> <l> <d> <e> <r> :  "👷"   U1F477	# CONSTRUCTION WORKER
 #- 1F478;PRINCESS;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <p> <r> <i> <n> <c> <s> <s> :  "👸"   U1F478	# PRINCESS
 #- 1F479;JAPANESE OGRE;So;0;ON;;;;;N;;;;;
@@ -796,7 +803,7 @@
 #- 1F47B;GHOST;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <g> <h> <o> <s> <t> :  "👻"   U1F47B	# GHOST
 #- 1F47C;BABY ANGEL;So;0;ON;;;;;N;;;;;
-### <MM> {baby angel} :  "👼"   U1F47C	# BABY ANGEL
+<Multi_key> <Multi_key>  <c> <h> <e> <r> <u> <b> :  "👼"   U1F47C	# BABY ANGEL
 #- 1F47D;EXTRATERRESTRIAL ALIEN;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <g> <r> <a> <y> :  "👽"   U1F47D	# EXTRATERRESTRIAL ALIEN
 <Multi_key> <Multi_key>  <E> <period> <T> <period> :  "👽"   U1F47D	# EXTRATERRESTRIAL ALIEN
@@ -915,11 +922,13 @@
 #- 1F4B4;BANKNOTE WITH YEN SIGN;So;0;ON;;;;;N;;;;;
 ### <MM> {banknote with yen sign} :  "💴"   U1F4B4	# BANKNOTE WITH YEN SIGN
 #- 1F4B5;BANKNOTE WITH DOLLAR SIGN;So;0;ON;;;;;N;;;;;
-### <MM> {banknote with dollar sign} :  "💵"   U1F4B5	# BANKNOTE WITH DOLLAR SIGN
+<Multi_key> <Multi_key>  <dollar> <b> <i> <l> <l> :  "💵"   U1F4B5	# BANKNOTE WITH DOLLAR SIGN
 #- 1F4B6;BANKNOTE WITH EURO SIGN;So;0;ON;;;;;N;;;;;
-### <MM> {banknote with euro sign} :  "💶"   U1F4B6	# BANKNOTE WITH EURO SIGN
+<Multi_key> <Multi_key>  <e> <u> <r> <o> <b> <i> <l> :  "💶"   U1F4B6	# BANKNOTE WITH EURO SIGN
+<Multi_key> <Multi_key>  <e> <u> <r> <b> <i> <l> <l> :  "💶"   U1F4B6	# BANKNOTE WITH EURO SIGN
 #- 1F4B7;BANKNOTE WITH POUND SIGN;So;0;ON;;;;;N;;;;;
-### <MM> {banknote with pound sign} :  "💷"   U1F4B7	# BANKNOTE WITH POUND SIGN
+<Multi_key> <Multi_key>  <L> <b> <i> <l> <l> :  "💷"   U1F4B7	# BANKNOTE WITH POUND SIGN
+<Multi_key> <Multi_key>  <G> <B> <b> <i> <l> <l> :  "💷"   U1F4B7	# BANKNOTE WITH POUND SIGN
 #- 1F4B8;MONEY WITH WINGS;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <f> <l> <y> <i> <n> <g> <dollar> :  "💸"   U1F4B8	# MONEY WITH WINGS
 #- 1F4B9;CHART WITH UPWARDS TREND AND YEN SIGN;So;0;ON;;;;;N;;;;;
@@ -929,11 +938,11 @@
 #- 1F4BB;PERSONAL COMPUTER;So;0;ON;;;;;N;;;;;
 ### <MM> {personal computer} :  "💻"   U1F4BB	# PERSONAL COMPUTER
 #- 1F4BC;BRIEFCASE;So;0;ON;;;;;N;;;;;
-### <MM> {briefcase} :  "💼"   U1F4BC	# BRIEFCASE
+<Multi_key> <Multi_key>  <a> <t> <t> <a> <c> <h> <e> :  "💼"   U1F4BC	# BRIEFCASE
 #- 1F4BD;MINIDISC;So;0;ON;;;;;N;;;;;
 ### <MM> {minidisc} :  "💽"   U1F4BD	# MINIDISC
 #- 1F4BE;FLOPPY DISK;So;0;ON;;;;;N;;;;;
-### <MM> {floppy disk} :  "💾"   U1F4BE	# FLOPPY DISK
+<Multi_key> <Multi_key>  <f> <l> <o> <p> <p> <y> :  "💾"   U1F4BE	# FLOPPY DISK
 #- 1F4BF;OPTICAL DISC;So;0;ON;;;;;N;;;;;
 ### <MM> {optical disc} :  "💿"   U1F4BF	# OPTICAL DISC
 #- 1F4C0;DVD;So;0;ON;;;;;N;;;;;
@@ -957,7 +966,7 @@
 #- 1F4C9;CHART WITH DOWNWARDS TREND;So;0;ON;;;;;N;;;;;
 ### <MM> {chart with downwards trend} :  "📉"   U1F4C9	# CHART WITH DOWNWARDS TREND
 #- 1F4CA;BAR CHART;So;0;ON;;;;;N;;;;;
-### <MM> {bar chart} :  "📊"   U1F4CA	# BAR CHART
+<Multi_key> <Multi_key>  <b> <a> <r> <c> <h> <a> <r> :  "📊"   U1F4CA	# BAR CHART
 #- 1F4CB;CLIPBOARD;So;0;ON;;;;;N;;;;;
 ### <MM> {clipboard} :  "📋"   U1F4CB	# CLIPBOARD
 #- 1F4CC;PUSHPIN;So;0;ON;;;;;N;;;;;
@@ -1015,7 +1024,8 @@
 #- 1F4E6;PACKAGE;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <p> <a> <c> <k> <a> <g> <e> :  "📦"   U1F4E6	# PACKAGE
 #- 1F4E7;E-MAIL SYMBOL;So;0;ON;;;;;N;;;;;
-### <MM> {e-mail symbol} :  "📧"   U1F4E7	# E-MAIL SYMBOL
+<Multi_key> <Multi_key>  <e> <minus> <m> <a> <i> <l> :  "📧"   U1F4E7	# E-MAIL SYMBOL
+<Multi_key> <Multi_key>  <e> <m> <a> <i> <l> :  "📧"   U1F4E7	# E-MAIL SYMBOL
 #- 1F4E8;INCOMING ENVELOPE;So;0;ON;;;;;N;;;;;
 ### <MM> {incoming envelope} :  "📨"   U1F4E8	# INCOMING ENVELOPE
 #- 1F4E9;ENVELOPE WITH DOWNWARDS ARROW ABOVE;So;0;ON;;;;;N;;;;;
@@ -1063,7 +1073,7 @@
 #- 1F4FE;PORTABLE STEREO;So;0;ON;;;;;N;;;;;
 ### <MM> {portable stereo} :  "📾"   U1F4FE	# PORTABLE STEREO
 #- 1F4FF;PRAYER BEADS;So;0;ON;;;;;N;;;;;
-### <MM> {prayer beads} :  "📿"   U1F4FF	# PRAYER BEADS
+<Multi_key> <Multi_key>  <r> <o> <s> <a> <r> <y> :  "📿"   U1F4FF	# PRAYER BEADS
 #- 1F500;TWISTED RIGHTWARDS ARROWS;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <s> <h> <u> <f> <f> <l> <e> :  "🔀"   U1F500	# TWISTED RIGHTWARDS ARROWS
 #- 1F501;CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS;So;0;ON;;;;;N;;;;;
@@ -1151,7 +1161,7 @@
 #- 1F528;HAMMER;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <h> <a> <m> <m> <e> <r> :  "🔨"   U1F528	# HAMMER
 #- 1F529;NUT AND BOLT;So;0;ON;;;;;N;;;;;
-### <MM> {nut and bolt} :  "🔩"   U1F529	# NUT AND BOLT
+<Multi_key> <Multi_key>  <b> <o> <l> <t> :  "🔩"   U1F529	# NUT AND BOLT
 #- 1F52A;HOCHO;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <h> <o> <c> <h> <o> :  "🔪"   U1F52A	# HOCHO
 #- 1F52B;PISTOL;So;0;ON;;;;;N;;;;;
@@ -1161,11 +1171,11 @@
 #- 1F52D;TELESCOPE;So;0;ON;;;;;N;;;;;
 ### <MM> {telescope} :  "🔭"   U1F52D	# TELESCOPE
 #- 1F52E;CRYSTAL BALL;So;0;ON;;;;;N;;;;;
-### <MM> {crystal ball} :  "🔮"   U1F52E	# CRYSTAL BALL
+<Multi_key> <Multi_key>  <f> <o> <r> <t> <u> <n> <e> :  "🔮"   U1F52E	# CRYSTAL BALL
 #- 1F52F;SIX POINTED STAR WITH MIDDLE DOT;So;0;ON;;;;;N;;;;;
 ### <MM> {six pointed star with middle dot} :  "🔯"   U1F52F	# SIX POINTED STAR WITH MIDDLE DOT
 #- 1F530;JAPANESE SYMBOL FOR BEGINNER;So;0;ON;;;;;N;;;;;
-### <MM> {japanese symbol for beginner} :  "🔰"   U1F530	# JAPANESE SYMBOL FOR BEGINNER
+<Multi_key> <Multi_key>  <b> <e> <g> <i> <n> <n> <r> :  "🔰"   U1F530	# JAPANESE SYMBOL FOR BEGINNER
 #- 1F531;TRIDENT EMBLEM;So;0;ON;;;;;N;;;;;
 ### <MM> {trident emblem} :  "🔱"   U1F531	# TRIDENT EMBLEM
 #- 1F532;BLACK SQUARE BUTTON;So;0;ON;;;;;N;;;;;
@@ -1261,7 +1271,7 @@
 #- 1F575;SLEUTH OR SPY;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <s> <p> <y> :  "🕵"   U1F575	# SLEUTH OR SPY
 #- 1F576;DARK SUNGLASSES;So;0;ON;;;;;N;;;;;
-### <MM> {dark sunglasses} :  "🕶"   U1F576	# DARK SUNGLASSES
+<Multi_key> <Multi_key>  <s> <h> <a> <d> <e> <s> :  "🕶"   U1F576	# DARK SUNGLASSES
 #- 1F577;SPIDER;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <s> <p> <i> <d> <e> <r> :  "🕷"   U1F577	# SPIDER
 #- 1F578;SPIDER WEB;So;0;ON;;;;;N;;;;;
@@ -1311,9 +1321,9 @@
 #- 1F58F;TURNED OK HAND SIGN;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <at> <O> <K> :  "🖏"   U1F58F	# TURNED OK HAND SIGN
 #- 1F590;RAISED HAND WITH FINGERS SPLAYED;So;0;ON;;;;;N;;;;;
-### <MM> {raised hand with fingers splayed} :  "🖐"   U1F590	# RAISED HAND WITH FINGERS SPLAYED
+<Multi_key> <Multi_key>  <5> <h> <a> <n> <d> :  "🖐"   U1F590	# RAISED HAND WITH FINGERS SPLAYED
 #- 1F591;REVERSED RAISED HAND WITH FINGERS SPLAYED;So;0;ON;;;;;N;;;;;
-### <MM> {reversed raised hand with fingers splayed} :  "🖑"   U1F591	# REVERSED RAISED HAND WITH FINGERS SPLAYED
+<Multi_key> <Multi_key>  <at> <5> <h> <a> <n> <d> :  "🖑"   U1F591	# REVERSED RAISED HAND WITH FINGERS SPLAYED
 #- 1F592;REVERSED THUMBS UP SIGN;So;0;ON;;;;;N;;;;;
 ### <MM> {reversed thumbs up sign} :  "🖒"   U1F592	# REVERSED THUMBS UP SIGN
 #- 1F593;REVERSED THUMBS DOWN SIGN;So;0;ON;;;;;N;;;;;
@@ -1373,13 +1383,13 @@
 #- 1F5AE;WIRED KEYBOARD;So;0;ON;;;;;N;;;;;
 ### <MM> {wired keyboard} :  "🖮"   U1F5AE	# WIRED KEYBOARD
 #- 1F5AF;ONE BUTTON MOUSE;So;0;ON;;;;;N;;;;;
-### <MM> {one button mouse} :  "🖯"   U1F5AF	# ONE BUTTON MOUSE
+<Multi_key> <Multi_key>  <1> <m> <o> <u> <s> <e> :  "🖯"   U1F5AF	# ONE BUTTON MOUSE
 #- 1F5B0;TWO BUTTON MOUSE;So;0;ON;;;;;N;;;;;
-### <MM> {two button mouse} :  "🖰"   U1F5B0	# TWO BUTTON MOUSE
+<Multi_key> <Multi_key>  <2> <m> <o> <u> <s> <e> :  "🖰"   U1F5B0	# TWO BUTTON MOUSE
 #- 1F5B1;THREE BUTTON MOUSE;So;0;ON;;;;;N;;;;;
-### <MM> {three button mouse} :  "🖱"   U1F5B1	# THREE BUTTON MOUSE
+<Multi_key> <Multi_key>  <3> <m> <o> <u> <s> <e> :  "🖱"   U1F5B1	# THREE BUTTON MOUSE
 #- 1F5B2;TRACKBALL;So;0;ON;;;;;N;;;;;
-### <MM> {trackball} :  "🖲"   U1F5B2	# TRACKBALL
+### <MM> {trackbal} :  "🖲"   U1F5B2	# TRACKBALL
 #- 1F5B3;OLD PERSONAL COMPUTER;So;0;ON;;;;;N;;;;;
 ### <MM> {old personal computer} :  "🖳"   U1F5B3	# OLD PERSONAL COMPUTER
 #- 1F5B4;HARD DISK;So;0;ON;;;;;N;;;;;
@@ -1478,7 +1488,7 @@
 #- 1F5E2;LIPS;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <l> <i> <p> <S> :  "🗢"   U1F5E2	# LIPS
 #- 1F5E3;SPEAKING HEAD IN SILHOUETTE;So;0;ON;;;;;N;;;;;
-### <MM> {speaking head in silhouette} :  "🗣"   U1F5E3	# SPEAKING HEAD IN SILHOUETTE
+<Multi_key> <Multi_key>  <t> <a> <l> <k> <e> <r> :  "🗣"   U1F5E3	# SPEAKING HEAD IN SILHOUETTE
 ## Arguably the wrong way around.
 #- 1F5E4;THREE RAYS ABOVE;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <t> <a> <l> <k> <d> <w> <n> :  "🗤"   U1F5E4	# THREE RAYS ABOVE
@@ -1884,8 +1894,9 @@
 ### <MM> {smoking symbol} :  "🚬"   U1F6AC	# SMOKING SYMBOL
 #- 1F6AD;NO SMOKING SYMBOL;So;0;ON;;;;;N;;;;;
 ### <MM> {no smoking symbol} :  "🚭"   U1F6AD	# NO SMOKING SYMBOL
+## Capitalize to avoid conflicts
 #- 1F6AE;PUT LITTER IN ITS PLACE SYMBOL;So;0;ON;;;;;N;;;;;
-### <MM> {put litter in its place symbol} :  "🚮"   U1F6AE	# PUT LITTER IN ITS PLACE SYMBOL
+<Multi_key> <Multi_key>  <I> <n> <T> <r> <a> <s> <h> :  "🚮"   U1F6AE	# PUT LITTER IN ITS PLACE SYMBOL
 #- 1F6AF;DO NOT LITTER SYMBOL;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <exclam> <l> <i> <t> <t> <e> <r> :  "🚯"   U1F6AF	# DO NOT LITTER SYMBOL
 #- 1F6B0;POTABLE WATER SYMBOL;So;0;ON;;;;;N;;;;;
@@ -1938,7 +1949,7 @@
 #- 1F6C6;TRIANGLE WITH ROUNDED CORNERS;So;0;ON;;;;;N;;;;;
 ### <MM> {triangle with rounded corners} :  "🛆"   U1F6C6	# TRIANGLE WITH ROUNDED CORNERS
 #- 1F6C7;PROHIBITED SIGN;So;0;ON;;;;;N;;;;;
-### <MM> {prohibited sign} :  "🛇"   U1F6C7	# PROHIBITED SIGN
+<Multi_key> <Multi_key>  <n> <o> <w> <a> <y> :  "🛇"   U1F6C7	# PROHIBITED SIGN
 #- 1F6C8;CIRCLED INFORMATION SOURCE;So;0;ON;;;;;N;;;;;
 ### <MM> {circled information source} :  "🛈"   U1F6C8	# CIRCLED INFORMATION SOURCE
 ## careful for conflicts with {boy} and {girl}
@@ -1957,13 +1968,13 @@
 #- 1F6CF;BED;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <b> <e> <d> :  "🛏"   U1F6CF	# BED
 #- 1F6D0;PLACE OF WORSHIP;So;0;ON;;;;;N;;;;;
-### <MM> {place of worship} :  "🛐"   U1F6D0	# PLACE OF WORSHIP
+<Multi_key> <Multi_key>  <s> <h> <r> <i> <n> <e> :  "🛐"   U1F6D0	# PLACE OF WORSHIP
 #- 1F6E0;HAMMER AND WRENCH;So;0;ON;;;;;N;;;;;
-### <MM> {hammer and wrench} :  "🛠"   U1F6E0	# HAMMER AND WRENCH
+<Multi_key> <Multi_key>  <t> <o> <o> <l> <s> :  "🛠"   U1F6E0	# HAMMER AND WRENCH
 #- 1F6E1;SHIELD;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <s> <h> <i> <e> <l> <d> :  "🛡"   U1F6E1	# SHIELD
 #- 1F6E2;OIL DRUM;So;0;ON;;;;;N;;;;;
-### <MM> {oil drum} :  "🛢"   U1F6E2	# OIL DRUM
+<Multi_key> <Multi_key>  <o> <i> <l> <d> <r> <u> <m> :  "🛢"   U1F6E2	# OIL DRUM
 #- 1F6E3;MOTORWAY;So;0;ON;;;;;N;;;;;
 ### <MM> {motorway} :  "🛣"   U1F6E3	# MOTORWAY
 #- 1F6E4;RAILWAY TRACK;So;0;ON;;;;;N;;;;;
@@ -1985,7 +1996,7 @@
 #- 1F6EC;AIRPLANE ARRIVING;So;0;ON;;;;;N;;;;;
 ### <MM> {airplane arriving} :  "🛬"   U1F6EC	# AIRPLANE ARRIVING
 #- 1F6F0;SATELLITE;So;0;ON;;;;;N;;;;;
-### <MM> {satellite} :  "🛰"   U1F6F0	# SATELLITE
+<Multi_key> <Multi_key>  <s> <p> <u> <t> <n> <i> <k> :  "🛰"   U1F6F0	# SATELLITE
 #- 1F6F1;ONCOMING FIRE ENGINE;So;0;ON;;;;;N;;;;;
 ### <MM> {oncoming fire engine} :  "🛱"   U1F6F1	# ONCOMING FIRE ENGINE
 #- 1F6F2;DIESEL LOCOMOTIVE;So;0;ON;;;;;N;;;;;
