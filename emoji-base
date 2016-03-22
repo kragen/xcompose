@@ -33,7 +33,7 @@
 #- 1F309;BRIDGE AT NIGHT;So;0;ON;;;;;N;;;;;
 ### <MM> {bridge at night} :  "🌉"   U1F309	# BRIDGE AT NIGHT
 #- 1F30A;WATER WAVE;So;0;ON;;;;;N;;;;;
-### <MM> {water wave} :  "🌊"   U1F30A	# WATER WAVE
+<MM> {wave} :  "🌊"   U1F30A	# WATER WAVE
 #- 1F30B;VOLCANO;So;0;ON;;;;;N;;;;;
 <MM> {volcano} :  "🌋"   U1F30B	# VOLCANO
 #- 1F30C;MILKY WAY;So;0;ON;;;;;N;;;;;
@@ -45,7 +45,7 @@
 #- 1F30F;EARTH GLOBE ASIA-AUSTRALIA;So;0;ON;;;;;N;;;;;
 <MM> {earthAS} :  "🌏"   U1F30F	# EARTH GLOBE ASIA-AUSTRALIA
 #- 1F310;GLOBE WITH MERIDIANS;So;0;ON;;;;;N;;;;;
-<MM> {globe with meridians} :  "🌐"   U1F310	# GLOBE WITH MERIDIANS
+<MM> {earth|-} :  "🌐"   U1F310	# GLOBE WITH MERIDIANS
 #- 1F311;NEW MOON SYMBOL;So;0;ON;;;;;N;;;;;
 <MM> {new moon symbol} :  "🌑"   U1F311	# NEW MOON SYMBOL
 #- 1F312;WAXING CRESCENT MOON SYMBOL;So;0;ON;;;;;N;;;;;
@@ -103,6 +103,7 @@
 #- 1F32C;WIND BLOWING FACE;So;0;ON;;;;;N;;;;;
 <MM> {wind blowing face} :  "🌬"   U1F32C	# WIND BLOWING FACE
 #- 1F32D;HOT DOG;So;0;ON;;;;;N;;;;;
+<MM> {hotdog} :  "🌭"   U1F32D	# HOT DOG
 <MM> {hot dog} :  "🌭"   U1F32D	# HOT DOG
 #- 1F32E;TACO;So;0;ON;;;;;N;;;;;
 <MM> {taco} :  "🌮"   U1F32E	# TACO
@@ -278,7 +279,7 @@
 #- 1F37D;FORK AND KNIFE WITH PLATE;So;0;ON;;;;;N;;;;;
 <MM> {setting} :  "🍽"   U1F37D	# FORK AND KNIFE WITH PLATE
 #- 1F37E;BOTTLE WITH POPPING CORK;So;0;ON;;;;;N;;;;;
-### <MM> {bottle with popping cork} :  "🍾"   U1F37E	# BOTTLE WITH POPPING CORK
+<MM> {popcork} :  "🍾"   U1F37E	# BOTTLE WITH POPPING CORK
 #- 1F37F;POPCORN;So;0;ON;;;;;N;;;;;
 <MM> {popcorn} :  "🍿"   U1F37F	# POPCORN
 #- 1F380;RIBBON;So;0;ON;;;;;N;;;;;
@@ -286,7 +287,7 @@
 #- 1F381;WRAPPED PRESENT;So;0;ON;;;;;N;;;;;
 <MM> {present} :  "🎁"   U1F381	# WRAPPED PRESENT
 #- 1F382;BIRTHDAY CAKE;So;0;ON;;;;;N;;;;;
-### <MM> {birthday} :  "🎂"   U1F382	# BIRTHDAY CAKE
+<MM> {birthda} :  "🎂"   U1F382	# BIRTHDAY CAKE
 #- 1F383;JACK-O-LANTERN;So;0;ON;;;;;N;;;;;
 <MM> {pumpkin} :  "🎃"   U1F383	# JACK-O-LANTERN
 #- 1F384;CHRISTMAS TREE;So;0;ON;;;;;N;;;;;
@@ -304,7 +305,7 @@
 #- 1F38A;CONFETTI BALL;So;0;ON;;;;;N;;;;;
 <MM> {confeti} :  "🎊"   U1F38A	# CONFETTI BALL
 #- 1F38B;TANABATA TREE;So;0;ON;;;;;N;;;;;
-### <MM> {tanabata tree} :  "🎋"   U1F38B	# TANABATA TREE
+<MM> {tanabat} :  "🎋"   U1F38B	# TANABATA TREE
 #- 1F38C;CROSSED FLAGS;So;0;ON;;;;;N;;;;;
 <MM> {Xflags} :  "🎌"   U1F38C	# CROSSED FLAGS
 #- 1F38D;PINE DECORATION;So;0;ON;;;;;N;;;;;
@@ -328,6 +329,8 @@
 #- 1F396;MILITARY MEDAL;So;0;ON;;;;;N;;;;;
 <MM> {medal} :  "🎖"   U1F396	# MILITARY MEDAL
 #- 1F397;REMINDER RIBBON;So;0;ON;;;;;N;;;;;
+<MM> {remind} :  "🎗"   U1F397	# REMINDER RIBBON
+<MM> {remembe} :  "🎗"   U1F397	# REMINDER RIBBON
 <MM> {remembr} :  "🎗"   U1F397	# REMINDER RIBBON
 #- 1F398;MUSICAL KEYBOARD WITH JACKS;So;0;ON;;;;;N;;;;;
 ### <MM> {musical keyboard with jacks} :  "🎘"   U1F398	# MUSICAL KEYBOARD WITH JACKS
@@ -444,17 +447,17 @@
 #- 1F3CE;RACING CAR;So;0;ON;;;;;N;;;;;
 <MM> {racecar} :  "🏎"   U1F3CE	# RACING CAR
 #- 1F3CF;CRICKET BAT AND BALL;So;0;ON;;;;;N;;;;;
-<MM> {cricket bat and ball} :  "🏏"   U1F3CF	# CRICKET BAT AND BALL
+<MM> {cricket} :  "🏏"   U1F3CF	# CRICKET BAT AND BALL
 #- 1F3D0;VOLLEYBALL;So;0;ON;;;;;N;;;;;
-<MM> {volleyball} :  "🏐"   U1F3D0	# VOLLEYBALL
+<MM> {volley} :  "🏐"   U1F3D0	# VOLLEYBALL
 #- 1F3D1;FIELD HOCKEY STICK AND BALL;So;0;ON;;;;;N;;;;;
 <MM> {field hockey stick and ball} :  "🏑"   U1F3D1	# FIELD HOCKEY STICK AND BALL
 #- 1F3D2;ICE HOCKEY STICK AND PUCK;So;0;ON;;;;;N;;;;;
 <MM> {ice hockey stick and puck} :  "🏒"   U1F3D2	# ICE HOCKEY STICK AND PUCK
 #- 1F3D3;TABLE TENNIS PADDLE AND BALL;So;0;ON;;;;;N;;;;;
-<MM> {table tennis paddle and ball} :  "🏓"   U1F3D3	# TABLE TENNIS PADDLE AND BALL
+<MM> {pingpon} :  "🏓"   U1F3D3	# TABLE TENNIS PADDLE AND BALL
 #- 1F3D4;SNOW CAPPED MOUNTAIN;So;0;ON;;;;;N;;;;;
-### <MM> {snow capped mountain} :  "🏔"   U1F3D4	# SNOW CAPPED MOUNTAIN
+<MM> {mountai} :  "🏔"   U1F3D4	# SNOW CAPPED MOUNTAIN
 #- 1F3D5;CAMPING;So;0;ON;;;;;N;;;;;
 <MM> {camping} :  "🏕"   U1F3D5	# CAMPING
 #- 1F3D6;BEACH WITH UMBRELLA;So;0;ON;;;;;N;;;;;
@@ -474,7 +477,7 @@
 #- 1F3DD;DESERT ISLAND;So;0;ON;;;;;N;;;;;
 ### <MM> {desert island} :  "🏝"   U1F3DD	# DESERT ISLAND
 #- 1F3DE;NATIONAL PARK;So;0;ON;;;;;N;;;;;
-### <MM> {national park} :  "🏞"   U1F3DE	# NATIONAL PARK
+<MM> {natpark} :  "🏞"   U1F3DE	# NATIONAL PARK
 #- 1F3DF;STADIUM;So;0;ON;;;;;N;;;;;
 <MM> {stadium} :  "🏟"   U1F3DF	# STADIUM
 #- 1F3E0;HOUSE BUILDING;So;0;ON;;;;;N;;;;;
@@ -498,7 +501,9 @@
 #- 1F3E9;LOVE HOTEL;So;0;ON;;;;;N;;;;;
 <MM> {sxhotel} :  "🏩"   U1F3E9	# LOVE HOTEL
 #- 1F3EA;CONVENIENCE STORE;So;0;ON;;;;;N;;;;;
+## Obvious culturally biased keyword below...
 ### <MM> {convenience store} :  "🏪"   U1F3EA	# CONVENIENCE STORE
+<MM> {7-11} :  "🏪"   U1F3EA	# CONVENIENCE STORE
 #- 1F3EB;SCHOOL;So;0;ON;;;;;N;;;;;
 <MM> {school} :  "🏫"   U1F3EB	# SCHOOL
 #- 1F3EC;DEPARTMENT STORE;So;0;ON;;;;;N;;;;;
@@ -506,19 +511,19 @@
 #- 1F3ED;FACTORY;So;0;ON;;;;;N;;;;;
 <MM> {factry} :  "🏭"   U1F3ED	# FACTORY
 #- 1F3EE;IZAKAYA LANTERN;So;0;ON;;;;;N;;;;;
-### <MM> {izakaya lantern} :  "🏮"   U1F3EE	# IZAKAYA LANTERN
+<MM> {izakay} :  "🏮"   U1F3EE	# IZAKAYA LANTERN
 #- 1F3EF;JAPANESE CASTLE;So;0;ON;;;;;N;;;;;
 ### <MM> {japanese castle} :  "🏯"   U1F3EF	# JAPANESE CASTLE
 #- 1F3F0;EUROPEAN CASTLE;So;0;ON;;;;;N;;;;;
 ### <MM> {european castle} :  "🏰"   U1F3F0	# EUROPEAN CASTLE
 #- 1F3F1;WHITE PENNANT;So;0;ON;;;;;N;;;;;
-### <MM> {white pennant} :  "🏱"   U1F3F1	# WHITE PENNANT
+<MM> {Wpennan} :  "🏱"   U1F3F1	# WHITE PENNANT
 #- 1F3F2;BLACK PENNANT;So;0;ON;;;;;N;;;;;
-### <MM> {black pennant} :  "🏲"   U1F3F2	# BLACK PENNANT
+<MM> {Bpennan} :  "🏲"   U1F3F2	# BLACK PENNANT
 #- 1F3F3;WAVING WHITE FLAG;So;0;ON;;;;;N;;;;;
-<MM> {Wflag} :  "🏳"   U1F3F3	# WAVING WHITE FLAG
+<MM> {Wflag~} :  "🏳"   U1F3F3	# WAVING WHITE FLAG
 #- 1F3F4;WAVING BLACK FLAG;So;0;ON;;;;;N;;;;;
-<MM> {Bflag} :  "🏴"   U1F3F4	# WAVING BLACK FLAG
+<MM> {Bflag~} :  "🏴"   U1F3F4	# WAVING BLACK FLAG
 #- 1F3F5;ROSETTE;So;0;ON;;;;;N;;;;;
 <MM> {rosette} :  "🏵"   U1F3F5	# ROSETTE
 #- 1F3F6;BLACK ROSETTE;So;0;ON;;;;;N;;;;;
@@ -528,7 +533,7 @@
 #- 1F3F8;BADMINTON RACQUET AND SHUTTLECOCK;So;0;ON;;;;;N;;;;;
 <MM> {badminton racquet and shuttlecock} :  "🏸"   U1F3F8	# BADMINTON RACQUET AND SHUTTLECOCK
 #- 1F3F9;BOW AND ARROW;So;0;ON;;;;;N;;;;;
-<MM> {bow and arrow} :  "🏹"   U1F3F9	# BOW AND ARROW
+### <MM> {bow and arrow} :  "🏹"   U1F3F9	# BOW AND ARROW
 #- 1F3FA;AMPHORA;So;0;ON;;;;;N;;;;;
 <MM> {amphora} :  "🏺"   U1F3FA	# AMPHORA
 #- 1F3FB;EMOJI MODIFIER FITZPATRICK TYPE-1-2;Sk;0;ON;;;;;N;;;;;
@@ -549,7 +554,7 @@
 #- 1F402;OX;So;0;ON;;;;;N;;;;;
 <MM> {ox} :  "🐂"   U1F402	# OX
 #- 1F403;WATER BUFFALO;So;0;ON;;;;;N;;;;;
-### <MM> {water buffalo} :  "🐃"   U1F403	# WATER BUFFALO
+<MM> {buffalo} :  "🐃"   U1F403	# WATER BUFFALO
 #- 1F404;COW;So;0;ON;;;;;N;;;;;
 <MM> {cow} :  "🐄"   U1F404	# COW
 #- 1F405;TIGER;So;0;ON;;;;;N;;;;;
@@ -592,6 +597,7 @@
 #- 1F417;BOAR;So;0;ON;;;;;N;;;;;
 <MM> {boar} :  "🐗"   U1F417	# BOAR
 #- 1F418;ELEPHANT;So;0;ON;;;;;N;;;;;
+<MM> {elephan} :  "🐘"   U1F418	# ELEPHANT
 <MM> {elephnt} :  "🐘"   U1F418	# ELEPHANT
 #- 1F419;OCTOPUS;So;0;ON;;;;;N;;;;;
 <MM> {octopus} :  "🐙"   U1F419	# OCTOPUS
@@ -668,9 +674,9 @@
 #- 1F43C;PANDA FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {panda face} :  "🐼"   U1F43C	# PANDA FACE
 #- 1F43D;PIG NOSE;So;0;ON;;;;;N;;;;;
-### <MM> {pig nose} :  "🐽"   U1F43D	# PIG NOSE
+<MM> {Pignose} :  "🐽"   U1F43D	# PIG NOSE
 #- 1F43E;PAW PRINTS;So;0;ON;;;;;N;;;;;
-### <MM> {paw prints} :  "🐾"   U1F43E	# PAW PRINTS
+<MM> {paws} :  "🐾"   U1F43E	# PAW PRINTS
 #- 1F43F;CHIPMUNK;So;0;ON;;;;;N;;;;;
 <MM> {chipmun} :  "🐿"   U1F43F	# CHIPMUNK
 <MM> {chpmunk} :  "🐿"   U1F43F	# CHIPMUNK
@@ -697,7 +703,7 @@
 #- 1F44A;FISTED HAND SIGN;So;0;ON;;;;;N;;;;;
 <MM> {fist} :  "👊"   U1F44A	# FISTED HAND SIGN
 #- 1F44B;WAVING HAND SIGN;So;0;ON;;;;;N;;;;;
-<MM> {wave} :  "👋"   U1F44B	# WAVING HAND SIGN
+<MM> {waving} :  "👋"   U1F44B	# WAVING HAND SIGN
 #- 1F44C;OK HAND SIGN;So;0;ON;;;;;N;;;;;
 <MM> {OK} :  "👌"   U1F44C	# OK HAND SIGN
 #- 1F44D;THUMBS UP SIGN;So;0;ON;;;;;N;;;;;
@@ -775,9 +781,9 @@
 #- 1F470;BRIDE WITH VEIL;So;0;ON;;;;;N;;;;;
 <MM> {bride} :  "👰"   U1F470	# BRIDE WITH VEIL
 #- 1F471;PERSON WITH BLOND HAIR;So;0;ON;;;;;N;;;;;
-### <MM> {person with blond hair} :  "👱"   U1F471	# PERSON WITH BLOND HAIR
+<MM> {blond} :  "👱"   U1F471	# PERSON WITH BLOND HAIR
 #- 1F472;MAN WITH GUA PI MAO;So;0;ON;;;;;N;;;;;
-### <MM> {man with gua pi mao} :  "👲"   U1F472	# MAN WITH GUA PI MAO
+<MM> {guapmao} :  "👲"   U1F472	# MAN WITH GUA PI MAO
 #- 1F473;MAN WITH TURBAN;So;0;ON;;;;;N;;;;;
 <MM> {turban} :  "👳"   U1F473	# MAN WITH TURBAN
 #- 1F474;OLDER MAN;So;0;ON;;;;;N;;;;;
@@ -787,7 +793,7 @@
 #- 1F476;BABY;So;0;ON;;;;;N;;;;;
 <MM> {baby} :  "👶"   U1F476	# BABY
 #- 1F477;CONSTRUCTION WORKER;So;0;ON;;;;;N;;;;;
-### <MM> {construction worker} :  "👷"   U1F477	# CONSTRUCTION WORKER
+<MM> {builder} :  "👷"   U1F477	# CONSTRUCTION WORKER
 #- 1F478;PRINCESS;So;0;ON;;;;;N;;;;;
 <MM> {princss} :  "👸"   U1F478	# PRINCESS
 #- 1F479;JAPANESE OGRE;So;0;ON;;;;;N;;;;;
@@ -797,7 +803,7 @@
 #- 1F47B;GHOST;So;0;ON;;;;;N;;;;;
 <MM> {ghost} :  "👻"   U1F47B	# GHOST
 #- 1F47C;BABY ANGEL;So;0;ON;;;;;N;;;;;
-### <MM> {baby angel} :  "👼"   U1F47C	# BABY ANGEL
+<MM> {cherub} :  "👼"   U1F47C	# BABY ANGEL
 #- 1F47D;EXTRATERRESTRIAL ALIEN;So;0;ON;;;;;N;;;;;
 <MM> {gray} :  "👽"   U1F47D	# EXTRATERRESTRIAL ALIEN
 <MM> {E.T.} :  "👽"   U1F47D	# EXTRATERRESTRIAL ALIEN
@@ -916,11 +922,13 @@
 #- 1F4B4;BANKNOTE WITH YEN SIGN;So;0;ON;;;;;N;;;;;
 ### <MM> {banknote with yen sign} :  "💴"   U1F4B4	# BANKNOTE WITH YEN SIGN
 #- 1F4B5;BANKNOTE WITH DOLLAR SIGN;So;0;ON;;;;;N;;;;;
-### <MM> {banknote with dollar sign} :  "💵"   U1F4B5	# BANKNOTE WITH DOLLAR SIGN
+<MM> {$bill} :  "💵"   U1F4B5	# BANKNOTE WITH DOLLAR SIGN
 #- 1F4B6;BANKNOTE WITH EURO SIGN;So;0;ON;;;;;N;;;;;
-### <MM> {banknote with euro sign} :  "💶"   U1F4B6	# BANKNOTE WITH EURO SIGN
+<MM> {eurobil} :  "💶"   U1F4B6	# BANKNOTE WITH EURO SIGN
+<MM> {eurbill} :  "💶"   U1F4B6	# BANKNOTE WITH EURO SIGN
 #- 1F4B7;BANKNOTE WITH POUND SIGN;So;0;ON;;;;;N;;;;;
-### <MM> {banknote with pound sign} :  "💷"   U1F4B7	# BANKNOTE WITH POUND SIGN
+<MM> {Lbill} :  "💷"   U1F4B7	# BANKNOTE WITH POUND SIGN
+<MM> {GBbill} :  "💷"   U1F4B7	# BANKNOTE WITH POUND SIGN
 #- 1F4B8;MONEY WITH WINGS;So;0;ON;;;;;N;;;;;
 <MM> {flying$} :  "💸"   U1F4B8	# MONEY WITH WINGS
 #- 1F4B9;CHART WITH UPWARDS TREND AND YEN SIGN;So;0;ON;;;;;N;;;;;
@@ -930,11 +938,11 @@
 #- 1F4BB;PERSONAL COMPUTER;So;0;ON;;;;;N;;;;;
 ### <MM> {personal computer} :  "💻"   U1F4BB	# PERSONAL COMPUTER
 #- 1F4BC;BRIEFCASE;So;0;ON;;;;;N;;;;;
-### <MM> {briefcase} :  "💼"   U1F4BC	# BRIEFCASE
+<MM> {attache} :  "💼"   U1F4BC	# BRIEFCASE
 #- 1F4BD;MINIDISC;So;0;ON;;;;;N;;;;;
 ### <MM> {minidisc} :  "💽"   U1F4BD	# MINIDISC
 #- 1F4BE;FLOPPY DISK;So;0;ON;;;;;N;;;;;
-### <MM> {floppy disk} :  "💾"   U1F4BE	# FLOPPY DISK
+<MM> {floppy} :  "💾"   U1F4BE	# FLOPPY DISK
 #- 1F4BF;OPTICAL DISC;So;0;ON;;;;;N;;;;;
 ### <MM> {optical disc} :  "💿"   U1F4BF	# OPTICAL DISC
 #- 1F4C0;DVD;So;0;ON;;;;;N;;;;;
@@ -958,7 +966,7 @@
 #- 1F4C9;CHART WITH DOWNWARDS TREND;So;0;ON;;;;;N;;;;;
 ### <MM> {chart with downwards trend} :  "📉"   U1F4C9	# CHART WITH DOWNWARDS TREND
 #- 1F4CA;BAR CHART;So;0;ON;;;;;N;;;;;
-### <MM> {bar chart} :  "📊"   U1F4CA	# BAR CHART
+<MM> {barchar} :  "📊"   U1F4CA	# BAR CHART
 #- 1F4CB;CLIPBOARD;So;0;ON;;;;;N;;;;;
 ### <MM> {clipboard} :  "📋"   U1F4CB	# CLIPBOARD
 #- 1F4CC;PUSHPIN;So;0;ON;;;;;N;;;;;
@@ -1016,7 +1024,8 @@
 #- 1F4E6;PACKAGE;So;0;ON;;;;;N;;;;;
 <MM> {package} :  "📦"   U1F4E6	# PACKAGE
 #- 1F4E7;E-MAIL SYMBOL;So;0;ON;;;;;N;;;;;
-### <MM> {e-mail symbol} :  "📧"   U1F4E7	# E-MAIL SYMBOL
+<MM> {e-mail} :  "📧"   U1F4E7	# E-MAIL SYMBOL
+<MM> {email} :  "📧"   U1F4E7	# E-MAIL SYMBOL
 #- 1F4E8;INCOMING ENVELOPE;So;0;ON;;;;;N;;;;;
 ### <MM> {incoming envelope} :  "📨"   U1F4E8	# INCOMING ENVELOPE
 #- 1F4E9;ENVELOPE WITH DOWNWARDS ARROW ABOVE;So;0;ON;;;;;N;;;;;
@@ -1064,7 +1073,7 @@
 #- 1F4FE;PORTABLE STEREO;So;0;ON;;;;;N;;;;;
 ### <MM> {portable stereo} :  "📾"   U1F4FE	# PORTABLE STEREO
 #- 1F4FF;PRAYER BEADS;So;0;ON;;;;;N;;;;;
-### <MM> {prayer beads} :  "📿"   U1F4FF	# PRAYER BEADS
+<MM> {rosary} :  "📿"   U1F4FF	# PRAYER BEADS
 #- 1F500;TWISTED RIGHTWARDS ARROWS;So;0;ON;;;;;N;;;;;
 <MM> {shuffle} :  "🔀"   U1F500	# TWISTED RIGHTWARDS ARROWS
 #- 1F501;CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS;So;0;ON;;;;;N;;;;;
@@ -1152,7 +1161,7 @@
 #- 1F528;HAMMER;So;0;ON;;;;;N;;;;;
 <MM> {hammer} :  "🔨"   U1F528	# HAMMER
 #- 1F529;NUT AND BOLT;So;0;ON;;;;;N;;;;;
-### <MM> {nut and bolt} :  "🔩"   U1F529	# NUT AND BOLT
+<MM> {bolt} :  "🔩"   U1F529	# NUT AND BOLT
 #- 1F52A;HOCHO;So;0;ON;;;;;N;;;;;
 <MM> {hocho} :  "🔪"   U1F52A	# HOCHO
 #- 1F52B;PISTOL;So;0;ON;;;;;N;;;;;
@@ -1162,11 +1171,11 @@
 #- 1F52D;TELESCOPE;So;0;ON;;;;;N;;;;;
 ### <MM> {telescope} :  "🔭"   U1F52D	# TELESCOPE
 #- 1F52E;CRYSTAL BALL;So;0;ON;;;;;N;;;;;
-### <MM> {crystal ball} :  "🔮"   U1F52E	# CRYSTAL BALL
+<MM> {fortune} :  "🔮"   U1F52E	# CRYSTAL BALL
 #- 1F52F;SIX POINTED STAR WITH MIDDLE DOT;So;0;ON;;;;;N;;;;;
 ### <MM> {six pointed star with middle dot} :  "🔯"   U1F52F	# SIX POINTED STAR WITH MIDDLE DOT
 #- 1F530;JAPANESE SYMBOL FOR BEGINNER;So;0;ON;;;;;N;;;;;
-### <MM> {japanese symbol for beginner} :  "🔰"   U1F530	# JAPANESE SYMBOL FOR BEGINNER
+<MM> {beginnr} :  "🔰"   U1F530	# JAPANESE SYMBOL FOR BEGINNER
 #- 1F531;TRIDENT EMBLEM;So;0;ON;;;;;N;;;;;
 ### <MM> {trident emblem} :  "🔱"   U1F531	# TRIDENT EMBLEM
 #- 1F532;BLACK SQUARE BUTTON;So;0;ON;;;;;N;;;;;
@@ -1262,7 +1271,7 @@
 #- 1F575;SLEUTH OR SPY;So;0;ON;;;;;N;;;;;
 <MM> {spy} :  "🕵"   U1F575	# SLEUTH OR SPY
 #- 1F576;DARK SUNGLASSES;So;0;ON;;;;;N;;;;;
-### <MM> {dark sunglasses} :  "🕶"   U1F576	# DARK SUNGLASSES
+<MM> {shades} :  "🕶"   U1F576	# DARK SUNGLASSES
 #- 1F577;SPIDER;So;0;ON;;;;;N;;;;;
 <MM> {spider} :  "🕷"   U1F577	# SPIDER
 #- 1F578;SPIDER WEB;So;0;ON;;;;;N;;;;;
@@ -1312,9 +1321,9 @@
 #- 1F58F;TURNED OK HAND SIGN;So;0;ON;;;;;N;;;;;
 <MM> {@OK} :  "🖏"   U1F58F	# TURNED OK HAND SIGN
 #- 1F590;RAISED HAND WITH FINGERS SPLAYED;So;0;ON;;;;;N;;;;;
-### <MM> {raised hand with fingers splayed} :  "🖐"   U1F590	# RAISED HAND WITH FINGERS SPLAYED
+<MM> {5hand} :  "🖐"   U1F590	# RAISED HAND WITH FINGERS SPLAYED
 #- 1F591;REVERSED RAISED HAND WITH FINGERS SPLAYED;So;0;ON;;;;;N;;;;;
-### <MM> {reversed raised hand with fingers splayed} :  "🖑"   U1F591	# REVERSED RAISED HAND WITH FINGERS SPLAYED
+<MM> {@5hand} :  "🖑"   U1F591	# REVERSED RAISED HAND WITH FINGERS SPLAYED
 #- 1F592;REVERSED THUMBS UP SIGN;So;0;ON;;;;;N;;;;;
 ### <MM> {reversed thumbs up sign} :  "🖒"   U1F592	# REVERSED THUMBS UP SIGN
 #- 1F593;REVERSED THUMBS DOWN SIGN;So;0;ON;;;;;N;;;;;
@@ -1374,13 +1383,13 @@
 #- 1F5AE;WIRED KEYBOARD;So;0;ON;;;;;N;;;;;
 ### <MM> {wired keyboard} :  "🖮"   U1F5AE	# WIRED KEYBOARD
 #- 1F5AF;ONE BUTTON MOUSE;So;0;ON;;;;;N;;;;;
-### <MM> {one button mouse} :  "🖯"   U1F5AF	# ONE BUTTON MOUSE
+<MM> {1mouse} :  "🖯"   U1F5AF	# ONE BUTTON MOUSE
 #- 1F5B0;TWO BUTTON MOUSE;So;0;ON;;;;;N;;;;;
-### <MM> {two button mouse} :  "🖰"   U1F5B0	# TWO BUTTON MOUSE
+<MM> {2mouse} :  "🖰"   U1F5B0	# TWO BUTTON MOUSE
 #- 1F5B1;THREE BUTTON MOUSE;So;0;ON;;;;;N;;;;;
-### <MM> {three button mouse} :  "🖱"   U1F5B1	# THREE BUTTON MOUSE
+<MM> {3mouse} :  "🖱"   U1F5B1	# THREE BUTTON MOUSE
 #- 1F5B2;TRACKBALL;So;0;ON;;;;;N;;;;;
-### <MM> {trackball} :  "🖲"   U1F5B2	# TRACKBALL
+<MM> {trackbal} :  "🖲"   U1F5B2	# TRACKBALL
 #- 1F5B3;OLD PERSONAL COMPUTER;So;0;ON;;;;;N;;;;;
 ### <MM> {old personal computer} :  "🖳"   U1F5B3	# OLD PERSONAL COMPUTER
 #- 1F5B4;HARD DISK;So;0;ON;;;;;N;;;;;
@@ -1479,7 +1488,7 @@
 #- 1F5E2;LIPS;So;0;ON;;;;;N;;;;;
 <MM> {lipS} :  "🗢"   U1F5E2	# LIPS
 #- 1F5E3;SPEAKING HEAD IN SILHOUETTE;So;0;ON;;;;;N;;;;;
-### <MM> {speaking head in silhouette} :  "🗣"   U1F5E3	# SPEAKING HEAD IN SILHOUETTE
+<MM> {talker} :  "🗣"   U1F5E3	# SPEAKING HEAD IN SILHOUETTE
 ## Arguably the wrong way around.
 #- 1F5E4;THREE RAYS ABOVE;So;0;ON;;;;;N;;;;;
 <MM> {talkdwn} :  "🗤"   U1F5E4	# THREE RAYS ABOVE
@@ -1885,8 +1894,9 @@
 ### <MM> {smoking symbol} :  "🚬"   U1F6AC	# SMOKING SYMBOL
 #- 1F6AD;NO SMOKING SYMBOL;So;0;ON;;;;;N;;;;;
 ### <MM> {no smoking symbol} :  "🚭"   U1F6AD	# NO SMOKING SYMBOL
+## Capitalize to avoid conflicts
 #- 1F6AE;PUT LITTER IN ITS PLACE SYMBOL;So;0;ON;;;;;N;;;;;
-### <MM> {put litter in its place symbol} :  "🚮"   U1F6AE	# PUT LITTER IN ITS PLACE SYMBOL
+<MM> {InTrash} :  "🚮"   U1F6AE	# PUT LITTER IN ITS PLACE SYMBOL
 #- 1F6AF;DO NOT LITTER SYMBOL;So;0;ON;;;;;N;;;;;
 <MM> {!litter} :  "🚯"   U1F6AF	# DO NOT LITTER SYMBOL
 #- 1F6B0;POTABLE WATER SYMBOL;So;0;ON;;;;;N;;;;;
@@ -1939,7 +1949,7 @@
 #- 1F6C6;TRIANGLE WITH ROUNDED CORNERS;So;0;ON;;;;;N;;;;;
 ### <MM> {triangle with rounded corners} :  "🛆"   U1F6C6	# TRIANGLE WITH ROUNDED CORNERS
 #- 1F6C7;PROHIBITED SIGN;So;0;ON;;;;;N;;;;;
-### <MM> {prohibited sign} :  "🛇"   U1F6C7	# PROHIBITED SIGN
+<MM> {noway} :  "🛇"   U1F6C7	# PROHIBITED SIGN
 #- 1F6C8;CIRCLED INFORMATION SOURCE;So;0;ON;;;;;N;;;;;
 ### <MM> {circled information source} :  "🛈"   U1F6C8	# CIRCLED INFORMATION SOURCE
 ## careful for conflicts with {boy} and {girl}
@@ -1958,13 +1968,13 @@
 #- 1F6CF;BED;So;0;ON;;;;;N;;;;;
 <MM> {bed} :  "🛏"   U1F6CF	# BED
 #- 1F6D0;PLACE OF WORSHIP;So;0;ON;;;;;N;;;;;
-<MM> {place of worship} :  "🛐"   U1F6D0	# PLACE OF WORSHIP
+<MM> {shrine} :  "🛐"   U1F6D0	# PLACE OF WORSHIP
 #- 1F6E0;HAMMER AND WRENCH;So;0;ON;;;;;N;;;;;
-### <MM> {hammer and wrench} :  "🛠"   U1F6E0	# HAMMER AND WRENCH
+<MM> {tools} :  "🛠"   U1F6E0	# HAMMER AND WRENCH
 #- 1F6E1;SHIELD;So;0;ON;;;;;N;;;;;
 <MM> {shield} :  "🛡"   U1F6E1	# SHIELD
 #- 1F6E2;OIL DRUM;So;0;ON;;;;;N;;;;;
-### <MM> {oil drum} :  "🛢"   U1F6E2	# OIL DRUM
+<MM> {oildrum} :  "🛢"   U1F6E2	# OIL DRUM
 #- 1F6E3;MOTORWAY;So;0;ON;;;;;N;;;;;
 ### <MM> {motorway} :  "🛣"   U1F6E3	# MOTORWAY
 #- 1F6E4;RAILWAY TRACK;So;0;ON;;;;;N;;;;;
@@ -1986,7 +1996,7 @@
 #- 1F6EC;AIRPLANE ARRIVING;So;0;ON;;;;;N;;;;;
 ### <MM> {airplane arriving} :  "🛬"   U1F6EC	# AIRPLANE ARRIVING
 #- 1F6F0;SATELLITE;So;0;ON;;;;;N;;;;;
-### <MM> {satellite} :  "🛰"   U1F6F0	# SATELLITE
+<MM> {sputnik} :  "🛰"   U1F6F0	# SATELLITE
 #- 1F6F1;ONCOMING FIRE ENGINE;So;0;ON;;;;;N;;;;;
 ### <MM> {oncoming fire engine} :  "🛱"   U1F6F1	# ONCOMING FIRE ENGINE
 #- 1F6F2;DIESEL LOCOMOTIVE;So;0;ON;;;;;N;;;;;
