@@ -325,7 +325,7 @@
 #- 1F393;GRADUATION CAP;So;0;ON;;;;;N;;;;;
 <MM> {grad} :  "🎓"   U1F393	# GRADUATION CAP
 #- 1F394;HEART WITH TIP ON THE LEFT;So;0;ON;;;;;N;;;;;
-### <MM> {heart with tip on the left} :  "🎔"   U1F394	# HEART WITH TIP ON THE LEFT
+<MM> {<<3} :  "🎔"   U1F394	# HEART WITH TIP ON THE LEFT
 #- 1F395;BOUQUET OF FLOWERS;So;0;ON;;;;;N;;;;;
 ### <MM> {bouquet of flowers} :  "🎕"   U1F395	# BOUQUET OF FLOWERS
 #- 1F396;MILITARY MEDAL;So;0;ON;;;;;N;;;;;
@@ -850,36 +850,38 @@
 #- 1F490;BOUQUET;So;0;ON;;;;;N;;;;;
 <MM> {bouquet} :  "💐"   U1F490	# BOUQUET
 #- 1F491;COUPLE WITH HEART;So;0;ON;;;;;N;;;;;
-### <MM> {couple with heart} :  "💑"   U1F491	# COUPLE WITH HEART
+<MM> {2ppl<3} :  "💑"   U1F491	# COUPLE WITH HEART
 #- 1F492;WEDDING;So;0;ON;;;;;N;;;;;
 <MM> {wedding} :  "💒"   U1F492	# WEDDING
 #- 1F493;BEATING HEART;So;0;ON;;;;;N;;;;;
-### <MM> {beating heart} :  "💓"   U1F493	# BEATING HEART
+<MM> {beat<3} :  "💓"   U1F493	# BEATING HEART
 #- 1F494;BROKEN HEART;So;0;ON;;;;;N;;;;;
-### <MM> {broken heart} :  "💔"   U1F494	# BROKEN HEART
+<MM> {broke<3} :  "💔"   U1F494	# BROKEN HEART
+## The inequality is even correct
 #- 1F495;TWO HEARTS;So;0;ON;;;;;N;;;;;
 <MM> {2heart} :  "💕"   U1F495	# TWO HEARTS
+<MM> {2<3} :  "💕"   U1F495	# TWO HEARTS
 #- 1F496;SPARKLING HEART;So;0;ON;;;;;N;;;;;
-### <MM> {sparkling heart} :  "💖"   U1F496	# SPARKLING HEART
+<MM> {spark<3} :  "💖"   U1F496	# SPARKLING HEART
 #- 1F497;GROWING HEART;So;0;ON;;;;;N;;;;;
-### <MM> {growing heart} :  "💗"   U1F497	# GROWING HEART
+<MM> {grow<3} :  "💗"   U1F497	# GROWING HEART
 #- 1F498;HEART WITH ARROW;So;0;ON;;;;;N;;;;;
 <MM> {-><3} :  "💘"   U1F498	# HEART WITH ARROW
 <MM> {->heart} :  "💘"   U1F498	# HEART WITH ARROW
 #- 1F499;BLUE HEART;So;0;ON;;;;;N;;;;;
-### <MM> {blue heart} :  "💙"   U1F499	# BLUE HEART
+<MM> {blue<3} :  "💙"   U1F499	# BLUE HEART
 #- 1F49A;GREEN HEART;So;0;ON;;;;;N;;;;;
-### <MM> {green heart} :  "💚"   U1F49A	# GREEN HEART
+<MM> {green<3} :  "💚"   U1F49A	# GREEN HEART
 #- 1F49B;YELLOW HEART;So;0;ON;;;;;N;;;;;
-### <MM> {yellow heart} :  "💛"   U1F49B	# YELLOW HEART
+<MM> {yello<3} :  "💛"   U1F49B	# YELLOW HEART
 #- 1F49C;PURPLE HEART;So;0;ON;;;;;N;;;;;
-### <MM> {purple heart} :  "💜"   U1F49C	# PURPLE HEART
+<MM> {purpl<3} :  "💜"   U1F49C	# PURPLE HEART
 #- 1F49D;HEART WITH RIBBON;So;0;ON;;;;;N;;;;;
-### <MM> {heart with ribbon} :  "💝"   U1F49D	# HEART WITH RIBBON
+<MM> {ribon<3} :  "💝"   U1F49D	# HEART WITH RIBBON
 #- 1F49E;REVOLVING HEARTS;So;0;ON;;;;;N;;;;;
-### <MM> {revolving hearts} :  "💞"   U1F49E	# REVOLVING HEARTS
+<MM> {turn<3} :  "💞"   U1F49E	# REVOLVING HEARTS
 #- 1F49F;HEART DECORATION;So;0;ON;;;;;N;;;;;
-### <MM> {heart decoration} :  "💟"   U1F49F	# HEART DECORATION
+<MM> {@<3} :  "💟"   U1F49F	# HEART DECORATION
 #- 1F4A0;DIAMOND SHAPE WITH A DOT INSIDE;So;0;ON;;;;;N;;;;;
 <MM> {<.>} :  "💠"   U1F4A0	# DIAMOND SHAPE WITH A DOT INSIDE
 #- 1F4A1;ELECTRIC LIGHT BULB;So;0;ON;;;;;N;;;;;

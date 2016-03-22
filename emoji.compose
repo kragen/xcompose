@@ -325,7 +325,7 @@
 #- 1F393;GRADUATION CAP;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <g> <r> <a> <d> :  "🎓"   U1F393	# GRADUATION CAP
 #- 1F394;HEART WITH TIP ON THE LEFT;So;0;ON;;;;;N;;;;;
-### <MM> {heart with tip on the left} :  "🎔"   U1F394	# HEART WITH TIP ON THE LEFT
+<Multi_key> <Multi_key>  <less> <less> <3> :  "🎔"   U1F394	# HEART WITH TIP ON THE LEFT
 #- 1F395;BOUQUET OF FLOWERS;So;0;ON;;;;;N;;;;;
 ### <MM> {bouquet of flowers} :  "🎕"   U1F395	# BOUQUET OF FLOWERS
 #- 1F396;MILITARY MEDAL;So;0;ON;;;;;N;;;;;
@@ -850,36 +850,38 @@
 #- 1F490;BOUQUET;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <b> <o> <u> <q> <u> <e> <t> :  "💐"   U1F490	# BOUQUET
 #- 1F491;COUPLE WITH HEART;So;0;ON;;;;;N;;;;;
-### <MM> {couple with heart} :  "💑"   U1F491	# COUPLE WITH HEART
+<Multi_key> <Multi_key>  <2> <p> <p> <l> <less> <3> :  "💑"   U1F491	# COUPLE WITH HEART
 #- 1F492;WEDDING;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <w> <e> <d> <d> <i> <n> <g> :  "💒"   U1F492	# WEDDING
 #- 1F493;BEATING HEART;So;0;ON;;;;;N;;;;;
-### <MM> {beating heart} :  "💓"   U1F493	# BEATING HEART
+<Multi_key> <Multi_key>  <b> <e> <a> <t> <less> <3> :  "💓"   U1F493	# BEATING HEART
 #- 1F494;BROKEN HEART;So;0;ON;;;;;N;;;;;
-### <MM> {broken heart} :  "💔"   U1F494	# BROKEN HEART
+<Multi_key> <Multi_key>  <b> <r> <o> <k> <e> <less> <3> :  "💔"   U1F494	# BROKEN HEART
+## The inequality is even correct
 #- 1F495;TWO HEARTS;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <2> <h> <e> <a> <r> <t> :  "💕"   U1F495	# TWO HEARTS
+<Multi_key> <Multi_key>  <2> <less> <3> :  "💕"   U1F495	# TWO HEARTS
 #- 1F496;SPARKLING HEART;So;0;ON;;;;;N;;;;;
-### <MM> {sparkling heart} :  "💖"   U1F496	# SPARKLING HEART
+<Multi_key> <Multi_key>  <s> <p> <a> <r> <k> <less> <3> :  "💖"   U1F496	# SPARKLING HEART
 #- 1F497;GROWING HEART;So;0;ON;;;;;N;;;;;
-### <MM> {growing heart} :  "💗"   U1F497	# GROWING HEART
+<Multi_key> <Multi_key>  <g> <r> <o> <w> <less> <3> :  "💗"   U1F497	# GROWING HEART
 #- 1F498;HEART WITH ARROW;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <minus> <greater> <less> <3> :  "💘"   U1F498	# HEART WITH ARROW
 <Multi_key> <Multi_key>  <minus> <greater> <h> <e> <a> <r> <t> :  "💘"   U1F498	# HEART WITH ARROW
 #- 1F499;BLUE HEART;So;0;ON;;;;;N;;;;;
-### <MM> {blue heart} :  "💙"   U1F499	# BLUE HEART
+<Multi_key> <Multi_key>  <b> <l> <u> <e> <less> <3> :  "💙"   U1F499	# BLUE HEART
 #- 1F49A;GREEN HEART;So;0;ON;;;;;N;;;;;
-### <MM> {green heart} :  "💚"   U1F49A	# GREEN HEART
+<Multi_key> <Multi_key>  <g> <r> <e> <e> <n> <less> <3> :  "💚"   U1F49A	# GREEN HEART
 #- 1F49B;YELLOW HEART;So;0;ON;;;;;N;;;;;
-### <MM> {yellow heart} :  "💛"   U1F49B	# YELLOW HEART
+<Multi_key> <Multi_key>  <y> <e> <l> <l> <o> <less> <3> :  "💛"   U1F49B	# YELLOW HEART
 #- 1F49C;PURPLE HEART;So;0;ON;;;;;N;;;;;
-### <MM> {purple heart} :  "💜"   U1F49C	# PURPLE HEART
+<Multi_key> <Multi_key>  <p> <u> <r> <p> <l> <less> <3> :  "💜"   U1F49C	# PURPLE HEART
 #- 1F49D;HEART WITH RIBBON;So;0;ON;;;;;N;;;;;
-### <MM> {heart with ribbon} :  "💝"   U1F49D	# HEART WITH RIBBON
+<Multi_key> <Multi_key>  <r> <i> <b> <o> <n> <less> <3> :  "💝"   U1F49D	# HEART WITH RIBBON
 #- 1F49E;REVOLVING HEARTS;So;0;ON;;;;;N;;;;;
-### <MM> {revolving hearts} :  "💞"   U1F49E	# REVOLVING HEARTS
+<Multi_key> <Multi_key>  <t> <u> <r> <n> <less> <3> :  "💞"   U1F49E	# REVOLVING HEARTS
 #- 1F49F;HEART DECORATION;So;0;ON;;;;;N;;;;;
-### <MM> {heart decoration} :  "💟"   U1F49F	# HEART DECORATION
+<Multi_key> <Multi_key>  <at> <less> <3> :  "💟"   U1F49F	# HEART DECORATION
 #- 1F4A0;DIAMOND SHAPE WITH A DOT INSIDE;So;0;ON;;;;;N;;;;;
 <Multi_key> <Multi_key>  <less> <period> <greater> :  "💠"   U1F4A0	# DIAMOND SHAPE WITH A DOT INSIDE
 #- 1F4A1;ELECTRIC LIGHT BULB;So;0;ON;;;;;N;;;;;
