@@ -419,9 +419,9 @@ include "%L"
 <Multi_key> <underscore> <9>  	       : "₉"  U2089   	  # SUBSCRIPT NONE
 <Multi_key> <underscore> <plus>	       : "₊"  U208A	  # SUBSCRIPT PLUS
 <Multi_key> <underscore> <minus>       : "₋"  U208B	  # SUBSCRIPT MINUS
-<Multi_key> <underscore> <=>           : "₌"  U208C	  # SUBSCRIPT EQUALS SIGN
-<Multi_key> <underscore> <(>           : "₍"  U208D	  # SUBSCRIPT LEFT PARENTHESIS
-<Multi_key> <underscore> <)>           : "₎"  U208E	  # SUBSCRIPT RIGHT PARENTHESIS
+<Multi_key> <underscore> <equals>           : "₌"  U208C	  # SUBSCRIPT EQUALS SIGN
+<Multi_key> <underscore> <parenleft>           : "₍"  U208D	  # SUBSCRIPT LEFT PARENTHESIS
+<Multi_key> <underscore> <parenright>           : "₎"  U208E	  # SUBSCRIPT RIGHT PARENTHESIS
 
 # block U+209x
 <Multi_key> <underscore> <a>	       : "ₐ"  U2090	  # LATIN SUBSCRIPT SMALL LETTER A
