@@ -46,6 +46,7 @@
 #- 1F30F;EARTH GLOBE ASIA-AUSTRALIA;So;0;ON;;;;;N;;;;;
 <MM> {EarthAS} :  "🌏"   U1F30F	# EARTH GLOBE ASIA-AUSTRALIA
 #- 1F310;GLOBE WITH MERIDIANS;So;0;ON;;;;;N;;;;;
+<MM> {globe} :  "🌐"   U1F310	# GLOBE WITH MERIDIANS
 <MM> {Earth|-} :  "🌐"   U1F310	# GLOBE WITH MERIDIANS
 #- 1F311;NEW MOON SYMBOL;So;0;ON;;;;;N;;;;;
 <MM> {new moon symbol} :  "🌑"   U1F311	# NEW MOON SYMBOL
@@ -72,15 +73,16 @@
 #- 1F31C;LAST QUARTER MOON WITH FACE;So;0;ON;;;;;N;;;;;
 <MM> {last quarter moon with face} :  "🌜"   U1F31C	# LAST QUARTER MOON WITH FACE
 #- 1F31D;FULL MOON WITH FACE;So;0;ON;;;;;N;;;;;
-<MM> {full moon with face} :  "🌝"   U1F31D	# FULL MOON WITH FACE
+<MM> {()moon} :  "🌝"   U1F31D	# FULL MOON WITH FACE
 #- 1F31E;SUN WITH FACE;So;0;ON;;;;;N;;;;;
-<MM> {sun with face} :  "🌞"   U1F31E	# SUN WITH FACE
+<MM> {()sun} :  "🌞"   U1F31E	# SUN WITH FACE
+<MM> {Sunface} :  "🌞"   U1F31E	# SUN WITH FACE
 #- 1F31F;GLOWING STAR;So;0;ON;;;;;N;;;;;
 <MM> {glowing star} :  "🌟"   U1F31F	# GLOWING STAR
 #- 1F320;SHOOTING STAR;So;0;ON;;;;;N;;;;;
 <MM> {shooting star} :  "🌠"   U1F320	# SHOOTING STAR
 #- 1F321;THERMOMETER;So;0;ON;;;;;N;;;;;
-<MM> {thermometer} :  "🌡"   U1F321	# THERMOMETER
+<MM> {thermom} :  "🌡"   U1F321	# THERMOMETER
 #- 1F322;BLACK DROPLET;So;0;ON;;;;;N;;;;;
 <MM> {black droplet} :  "🌢"   U1F322	# BLACK DROPLET
 #- 1F323;WHITE SUN;So;0;ON;;;;;N;;;;;
@@ -102,6 +104,7 @@
 #- 1F32B;FOG;So;0;ON;;;;;N;;;;;
 <MM> {fog} :  "🌫"   U1F32B	# FOG
 #- 1F32C;WIND BLOWING FACE;So;0;ON;;;;;N;;;;;
+<MM> {()Wind} :  "🌬"   U1F32C	# WIND BLOWING FACE
 <MM> {blower} :  "🌬"   U1F32C	# WIND BLOWING FACE
 #- 1F32D;HOT DOG;So;0;ON;;;;;N;;;;;
 <MM> {hotdog} :  "🌭"   U1F32D	# HOT DOG
@@ -198,6 +201,7 @@
 #- 1F355;SLICE OF PIZZA;So;0;ON;;;;;N;;;;;
 <MM> {pizza} :  "🍕"   U1F355	# SLICE OF PIZZA
 #- 1F356;MEAT ON BONE;So;0;ON;;;;;N;;;;;
+<MM> {meat} :  "🍖"   U1F356	# MEAT ON BONE
 <MM> {bone} :  "🍖"   U1F356	# MEAT ON BONE
 #- 1F357;POULTRY LEG;So;0;ON;;;;;N;;;;;
 <MM> {Chknleg} :  "🍗"   U1F357	# POULTRY LEG
@@ -361,7 +365,7 @@
 #- 1F3A4;MICROPHONE;So;0;ON;;;;;N;;;;;
 <MM> {mic} :  "🎤"   U1F3A4	# MICROPHONE
 #- 1F3A5;MOVIE CAMERA;So;0;ON;;;;;N;;;;;
-### <MM> {movie camera} :  "🎥"   U1F3A5	# MOVIE CAMERA
+<MM> {movicam} :  "🎥"   U1F3A5	# MOVIE CAMERA
 #- 1F3A6;CINEMA;So;0;ON;;;;;N;;;;;
 <MM> {cinema} :  "🎦"   U1F3A6	# CINEMA
 #- 1F3A7;HEADPHONE;So;0;ON;;;;;N;;;;;
@@ -378,7 +382,7 @@
 #- 1F3AC;CLAPPER BOARD;So;0;ON;;;;;N;;;;;
 <MM> {clapper} :  "🎬"   U1F3AC	# CLAPPER BOARD
 #- 1F3AD;PERFORMING ARTS;So;0;ON;;;;;N;;;;;
-### <MM> {performing arts} :  "🎭"   U1F3AD	# PERFORMING ARTS
+<MM> {:):(} :  "🎭"   U1F3AD	# PERFORMING ARTS
 #- 1F3AE;VIDEO GAME;So;0;ON;;;;;N;;;;;
 <MM> {vidgame} :  "🎮"   U1F3AE	# VIDEO GAME
 #- 1F3AF;DIRECT HIT;So;0;ON;;;;;N;;;;;
@@ -652,6 +656,7 @@
 #- 1F430;RABBIT FACE;So;0;ON;;;;;N;;;;;
 <MM> {()rabbi} :  "🐰"   U1F430	# RABBIT FACE
 #- 1F431;CAT FACE;So;0;ON;;;;;N;;;;;
+<MM> {:-3} :  "🐱"   U1F431	# CAT FACE
 <MM> {()cat} :  "🐱"   U1F431	# CAT FACE
 #- 1F432;DRAGON FACE;So;0;ON;;;;;N;;;;;
 <MM> {()drago} :  "🐲"   U1F432	# DRAGON FACE
@@ -1586,6 +1591,7 @@
 <MM> {:-9} :  "😋"   U1F60B	# FACE SAVOURING DELICIOUS FOOD
 <MM> {:9} :  "😋"   U1F60B	# FACE SAVOURING DELICIOUS FOOD
 #- 1F60C;RELIEVED FACE;So;0;ON;;;;;N;;;;;
+<MM> {()whew} :  "😌"   U1F60C	# RELIEVED FACE
 <MM> {()relie} :  "😌"   U1F60C	# RELIEVED FACE
 #- 1F60D;SMILING FACE WITH HEART-SHAPED EYES;So;0;ON;;;;;N;;;;;
 <MM> {<3:-)} :  "😍"   U1F60D	# SMILING FACE WITH HEART-SHAPED EYES
@@ -1624,28 +1630,30 @@
 #- 1F61D;FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES;So;0;ON;;;;;N;;;;;
 <MM> {|-P} :  "😝"   U1F61D	# FACE WITH STUCK-OUT TONGUE AND TIGHTLY-CLOSED EYES
 #- 1F61E;DISAPPOINTED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {disappointed face} :  "😞"   U1F61E	# DISAPPOINTED FACE
+### <MM> {()disap} :  "😞"   U1F61E	# DISAPPOINTED FACE
 #- 1F61F;WORRIED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {worried face} :  "😟"   U1F61F	# WORRIED FACE
+<MM> {()worri} :  "😟"   U1F61F	# WORRIED FACE
+<MM> {()worry} :  "😟"   U1F61F	# WORRIED FACE
 #- 1F620;ANGRY FACE;So;0;ON;;;;;N;;;;;
 <MM> {()angry} :  "😠"   U1F620	# ANGRY FACE
 #- 1F621;POUTING FACE;So;0;ON;;;;;N;;;;;
 <MM> {()pout} :  "😡"   U1F621	# POUTING FACE
 #- 1F622;CRYING FACE;So;0;ON;;;;;N;;;;;
-<MM> {()crying} :  "😢"   U1F622	# CRYING FACE
+<MM> {()cry} :  "😢"   U1F622	# CRYING FACE
 #- 1F623;PERSEVERING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {persevering face} :  "😣"   U1F623	# PERSEVERING FACE
+<MM> {()perse} :  "😣"   U1F623	# PERSEVERING FACE
 #- 1F624;FACE WITH LOOK OF TRIUMPH;So;0;ON;;;;;N;;;;;
 <MM> {()trium} :  "😤"   U1F624	# FACE WITH LOOK OF TRIUMPH
 <MM> {()win} :  "😤"   U1F624	# FACE WITH LOOK OF TRIUMPH
 #- 1F625;DISAPPOINTED BUT RELIEVED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {disappointed but relieved face} :  "😥"   U1F625	# DISAPPOINTED BUT RELIEVED FACE
+<MM> {()owell} :  "😥"   U1F625	# DISAPPOINTED BUT RELIEVED FACE
+<MM> {()ohwel} :  "😥"   U1F625	# DISAPPOINTED BUT RELIEVED FACE
 #- 1F626;FROWNING FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
 <MM> {D-:} :  "😦"   U1F626	# FROWNING FACE WITH OPEN MOUTH
 #- 1F627;ANGUISHED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {anguished face} :  "😧"   U1F627	# ANGUISHED FACE
+<MM> {()angui} :  "😧"   U1F627	# ANGUISHED FACE
 #- 1F628;FEARFUL FACE;So;0;ON;;;;;N;;;;;
-### <MM> {fearful face} :  "😨"   U1F628	# FEARFUL FACE
+<MM> {()fearf} :  "😨"   U1F628	# FEARFUL FACE
 #- 1F629;WEARY FACE;So;0;ON;;;;;N;;;;;
 <MM> {()weary} :  "😩"   U1F629	# WEARY FACE
 #- 1F62A;SLEEPY FACE;So;0;ON;;;;;N;;;;;
@@ -1664,10 +1672,11 @@
 <MM> {,:-O} :  "😰"   U1F630	# FACE WITH OPEN MOUTH AND COLD SWEAT
 <MM> {':-O} :  "😰"   U1F630	# FACE WITH OPEN MOUTH AND COLD SWEAT
 #- 1F631;FACE SCREAMING IN FEAR;So;0;ON;;;;;N;;;;;
-### <MM> {face screaming in fear} :  "😱"   U1F631	# FACE SCREAMING IN FEAR
+<MM> {()screa} :  "😱"   U1F631	# FACE SCREAMING IN FEAR
 #- 1F632;ASTONISHED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {astonished face} :  "😲"   U1F632	# ASTONISHED FACE
+<MM> {()aston} :  "😲"   U1F632	# ASTONISHED FACE
 #- 1F633;FLUSHED FACE;So;0;ON;;;;;N;;;;;
+<MM> {()blush} :  "😳"   U1F633	# FLUSHED FACE
 <MM> {()flush} :  "😳"   U1F633	# FLUSHED FACE
 #- 1F634;SLEEPING FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {sleeping face} :  "😴"   U1F634	# SLEEPING FACE
@@ -1698,10 +1707,11 @@
 <MM> {()]cry} :  "😿"   U1F63F	# CRYING CAT FACE
 #- 1F640;WEARY CAT FACE;So;0;ON;;;;;N;;;;;
 ### <MM> {weary cat face} :  "🙀"   U1F640	# WEARY CAT FACE
+## Doing /2 at the end would have led to prefix problems.
 #- 1F641;SLIGHTLY FROWNING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {slightly frowning face} :  "🙁"   U1F641	# SLIGHTLY FROWNING FACE
+<MM> {.5:-(} :  "🙁"   U1F641	# SLIGHTLY FROWNING FACE
 #- 1F642;SLIGHTLY SMILING FACE;So;0;ON;;;;;N;;;;;
-### <MM> {slightly smiling face} :  "🙂"   U1F642	# SLIGHTLY SMILING FACE
+<MM> {.5:-)} :  "🙂"   U1F642	# SLIGHTLY SMILING FACE
 #- 1F643;UPSIDE-DOWN FACE;So;0;ON;;;;;N;;;;;
 <MM> {(-:} :  "🙃"   U1F643	# UPSIDE-DOWN FACE
 #- 1F644;FACE WITH ROLLING EYES;So;0;ON;;;;;N;;;;;
@@ -1729,7 +1739,8 @@
 #- 1F64E;PERSON WITH POUTING FACE;So;0;ON;;;;;N;;;;;
 <MM> {pouter} :  "🙎"   U1F64E	# PERSON WITH POUTING FACE
 #- 1F64F;PERSON WITH FOLDED HANDS;So;0;ON;;;;;N;;;;;
-### <MM> {person with folded hands} :  "🙏"   U1F64F	# PERSON WITH FOLDED HANDS
+<MM> {plead} :  "🙏"   U1F64F	# PERSON WITH FOLDED HANDS
+<MM> {please} :  "🙏"   U1F64F	# PERSON WITH FOLDED HANDS
 #- 1F650;NORTH WEST POINTING LEAF;So;0;ON;;;;;N;;;;;
 ### <MM> {north west pointing leaf} :  "🙐"   U1F650	# NORTH WEST POINTING LEAF
 #- 1F651;SOUTH WEST POINTING LEAF;So;0;ON;;;;;N;;;;;
@@ -1787,13 +1798,13 @@
 #- 1F66B;SOLID QUILT SQUARE ORNAMENT IN BLACK SQUARE;So;0;ON;;;;;N;;;;;
 ### <MM> {solid quilt square ornament in black square} :  "🙫"   U1F66B	# SOLID QUILT SQUARE ORNAMENT IN BLACK SQUARE
 #- 1F66C;LEFTWARDS ROCKET;So;0;ON;;;;;N;;;;;
-### <MM> {leftwards rocket} :  "🙬"   U1F66C	# LEFTWARDS ROCKET
+<MM> {Rocket<} :  "🙬"   U1F66C	# LEFTWARDS ROCKET
 #- 1F66D;UPWARDS ROCKET;So;0;ON;;;;;N;;;;;
-### <MM> {upwards rocket} :  "🙭"   U1F66D	# UPWARDS ROCKET
+<MM> {Rocket^} :  "🙭"   U1F66D	# UPWARDS ROCKET
 #- 1F66E;RIGHTWARDS ROCKET;So;0;ON;;;;;N;;;;;
-### <MM> {rightwards rocket} :  "🙮"   U1F66E	# RIGHTWARDS ROCKET
+<MM> {Rocket>} :  "🙮"   U1F66E	# RIGHTWARDS ROCKET
 #- 1F66F;DOWNWARDS ROCKET;So;0;ON;;;;;N;;;;;
-### <MM> {downwards rocket} :  "🙯"   U1F66F	# DOWNWARDS ROCKET
+<MM> {Rocketv} :  "🙯"   U1F66F	# DOWNWARDS ROCKET
 #- 1F670;SCRIPT LIGATURE ET ORNAMENT;So;0;ON;;;;;N;;;;;
 ### <MM> {script ligature et ornament} :  "🙰"   U1F670	# SCRIPT LIGATURE ET ORNAMENT
 #- 1F671;HEAVY SCRIPT LIGATURE ET ORNAMENT;So;0;ON;;;;;N;;;;;
@@ -1829,7 +1840,7 @@
 #- 1F680;ROCKET;So;0;ON;;;;;N;;;;;
 <MM> {rocket} :  "🚀"   U1F680	# ROCKET
 #- 1F681;HELICOPTER;So;0;ON;;;;;N;;;;;
-### <MM> {helicopter} :  "🚁"   U1F681	# HELICOPTER
+<MM> {copter} :  "🚁"   U1F681	# HELICOPTER
 #- 1F682;STEAM LOCOMOTIVE;So;0;ON;;;;;N;;;;;
 ### <MM> {steam locomotive} :  "🚂"   U1F682	# STEAM LOCOMOTIVE
 #- 1F683;RAILWAY CAR;So;0;ON;;;;;N;;;;;
@@ -1915,9 +1926,10 @@
 #- 1F6AB;NO ENTRY SIGN;So;0;ON;;;;;N;;;;;
 ### <MM> {no entry sign} :  "🚫"   U1F6AB	# NO ENTRY SIGN
 #- 1F6AC;SMOKING SYMBOL;So;0;ON;;;;;N;;;;;
-### <MM> {smoking symbol} :  "🚬"   U1F6AC	# SMOKING SYMBOL
+<MM> {smoke} :  "🚬"   U1F6AC	# SMOKING SYMBOL
 #- 1F6AD;NO SMOKING SYMBOL;So;0;ON;;;;;N;;;;;
-### <MM> {no smoking symbol} :  "🚭"   U1F6AD	# NO SMOKING SYMBOL
+<MM> {nosmoke} :  "🚭"   U1F6AD	# NO SMOKING SYMBOL
+<MM> {!smoke} :  "🚭"   U1F6AD	# NO SMOKING SYMBOL
 ## Capitalize to avoid conflicts
 #- 1F6AE;PUT LITTER IN ITS PLACE SYMBOL;So;0;ON;;;;;N;;;;;
 <MM> {InTrash} :  "🚮"   U1F6AE	# PUT LITTER IN ITS PLACE SYMBOL
@@ -1941,7 +1953,8 @@
 #- 1F6B7;NO PEDESTRIANS;So;0;ON;;;;;N;;;;;
 <MM> {!walker} :  "🚷"   U1F6B7	# NO PEDESTRIANS
 #- 1F6B8;CHILDREN CROSSING;So;0;ON;;;;;N;;;;;
-### <MM> {children crossing} :  "🚸"   U1F6B8	# CHILDREN CROSSING
+<MM> {kidsX} :  "🚸"   U1F6B8	# CHILDREN CROSSING
+<MM> {kidxing} :  "🚸"   U1F6B8	# CHILDREN CROSSING
 #- 1F6B9;MENS SYMBOL;So;0;ON;;;;;N;;;;;
 <MM> {mens} :  "🚹"   U1F6B9	# MENS SYMBOL
 #- 1F6BA;WOMENS SYMBOL;So;0;ON;;;;;N;;;;;
@@ -1975,7 +1988,7 @@
 #- 1F6C7;PROHIBITED SIGN;So;0;ON;;;;;N;;;;;
 <MM> {noway} :  "🛇"   U1F6C7	# PROHIBITED SIGN
 #- 1F6C8;CIRCLED INFORMATION SOURCE;So;0;ON;;;;;N;;;;;
-### <MM> {circled information source} :  "🛈"   U1F6C8	# CIRCLED INFORMATION SOURCE
+<MM> {(info)} :  "🛈"   U1F6C8	# CIRCLED INFORMATION SOURCE
 ## careful for conflicts with {boy} and {girl}
 #- 1F6C9;BOYS SYMBOL;So;0;ON;;;;;N;;;;;
 <MM> {BOYS} :  "🛉"   U1F6C9	# BOYS SYMBOL
@@ -1988,7 +2001,8 @@
 #- 1F6CD;SHOPPING BAGS;So;0;ON;;;;;N;;;;;
 ### <MM> {shopping bags} :  "🛍"   U1F6CD	# SHOPPING BAGS
 #- 1F6CE;BELLHOP BELL;So;0;ON;;;;;N;;;;;
-### <MM> {bellhop bell} :  "🛎"   U1F6CE	# BELLHOP BELL
+<MM> {Bellboy} :  "🛎"   U1F6CE	# BELLHOP BELL
+<MM> {Bellhop} :  "🛎"   U1F6CE	# BELLHOP BELL
 #- 1F6CF;BED;So;0;ON;;;;;N;;;;;
 <MM> {bed} :  "🛏"   U1F6CF	# BED
 #- 1F6D0;PLACE OF WORSHIP;So;0;ON;;;;;N;;;;;
@@ -2016,9 +2030,9 @@
 #- 1F6EA;NORTHEAST-POINTING AIRPLANE;So;0;ON;;;;;N;;;;;
 ### <MM> {northeast-pointing airplane} :  "🛪"   U1F6EA	# NORTHEAST-POINTING AIRPLANE
 #- 1F6EB;AIRPLANE DEPARTURE;So;0;ON;;;;;N;;;;;
-### <MM> {airplane departure} :  "🛫"   U1F6EB	# AIRPLANE DEPARTURE
+<MM> {takeoff} :  "🛫"   U1F6EB	# AIRPLANE DEPARTURE
 #- 1F6EC;AIRPLANE ARRIVING;So;0;ON;;;;;N;;;;;
-### <MM> {airplane arriving} :  "🛬"   U1F6EC	# AIRPLANE ARRIVING
+<MM> {landing} :  "🛬"   U1F6EC	# AIRPLANE ARRIVING
 #- 1F6F0;SATELLITE;So;0;ON;;;;;N;;;;;
 <MM> {sputnik} :  "🛰"   U1F6F0	# SATELLITE
 #- 1F6F1;ONCOMING FIRE ENGINE;So;0;ON;;;;;N;;;;;
@@ -2028,6 +2042,8 @@
 #- 1F6F3;PASSENGER SHIP;So;0;ON;;;;;N;;;;;
 ### <MM> {passenger ship} :  "🛳"   U1F6F3	# PASSENGER SHIP
 #- 1F910;ZIPPER-MOUTH FACE;So;0;ON;;;;;N;;;;;
+<MM> {:-#} :  "🤐"   U1F910	# ZIPPER-MOUTH FACE
+<MM> {:-+} :  "🤐"   U1F910	# ZIPPER-MOUTH FACE
 <MM> {()zip} :  "🤐"   U1F910	# ZIPPER-MOUTH FACE
 #- 1F911;MONEY-MOUTH FACE;So;0;ON;;;;;N;;;;;
 <MM> {:-$} :  "🤑"   U1F911	# MONEY-MOUTH FACE
@@ -2050,12 +2066,13 @@
 #- 1F980;CRAB;So;0;ON;;;;;N;;;;;
 <MM> {crab} :  "🦀"   U1F980	# CRAB
 #- 1F981;LION FACE;So;0;ON;;;;;N;;;;;
-### <MM> {lion face} :  "🦁"   U1F981	# LION FACE
+<MM> {()lion} :  "🦁"   U1F981	# LION FACE
 #- 1F982;SCORPION;So;0;ON;;;;;N;;;;;
-### <MM> {scorpion} :  "🦂"   U1F982	# SCORPION
+<MM> {Scorpio} :  "🦂"   U1F982	# SCORPION
 #- 1F983;TURKEY;So;0;ON;;;;;N;;;;;
 <MM> {turkey} :  "🦃"   U1F983	# TURKEY
 #- 1F984;UNICORN FACE;So;0;ON;;;;;N;;;;;
-### <MM> {unicorn face} :  "🦄"   U1F984	# UNICORN FACE
+<MM> {()1horn} :  "🦄"   U1F984	# UNICORN FACE
+<MM> {()unico} :  "🦄"   U1F984	# UNICORN FACE
 #- 1F9C0;CHEESE WEDGE;So;0;ON;;;;;N;;;;;
 <MM> {cheese} :  "🧀"   U1F9C0	# CHEESE WEDGE

@@ -17,6 +17,7 @@ BEGIN { binmode(STDOUT, ":utf8");
 	     '@' => 'at',
 	     '|' => 'bar',
 	     '~' => 'asciitilde',
+	     '^' => 'asciicircum',
 	     '(' => 'parenleft',
 	     ')' => 'parenright',
 	     '[' => 'bracketleft',
