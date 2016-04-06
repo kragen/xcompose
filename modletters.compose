@@ -1,0 +1,467 @@
+### I think this is going to be a private one.
+### For davka *letters*, not punctuation that looks like it.
+### Mnemonic/signal: <♫>!#, because they are not numbers.
+### Maybe #!^ for ones that are just raised letters?  Those not as critical.
+#- 02B0;MODIFIER LETTER SMALL H;Lm;0;L;<super> 0068;;;;N;;;;;
+### <MM> {modifier letter small h} :  "ʰ"   U02B0	# MODIFIER LETTER SMALL H
+#- 02B1;MODIFIER LETTER SMALL H WITH HOOK;Lm;0;L;<super> 0266;;;;N;MODIFIER LETTER SMALL H HOOK;;;;
+### <MM> {modifier letter small h with hook} :  "ʱ"   U02B1	# MODIFIER LETTER SMALL H WITH HOOK
+#- 02B2;MODIFIER LETTER SMALL J;Lm;0;L;<super> 006A;;;;N;;;;;
+### <MM> {modifier letter small j} :  "ʲ"   U02B2	# MODIFIER LETTER SMALL J
+#- 02B3;MODIFIER LETTER SMALL R;Lm;0;L;<super> 0072;;;;N;;;;;
+### <MM> {modifier letter small r} :  "ʳ"   U02B3	# MODIFIER LETTER SMALL R
+#- 02B4;MODIFIER LETTER SMALL TURNED R;Lm;0;L;<super> 0279;;;;N;;;;;
+### <MM> {modifier letter small turned r} :  "ʴ"   U02B4	# MODIFIER LETTER SMALL TURNED R
+#- 02B5;MODIFIER LETTER SMALL TURNED R WITH HOOK;Lm;0;L;<super> 027B;;;;N;MODIFIER LETTER SMALL TURNED R HOOK;;;;
+### <MM> {modifier letter small turned r with hook} :  "ʵ"   U02B5	# MODIFIER LETTER SMALL TURNED R WITH HOOK
+#- 02B6;MODIFIER LETTER SMALL CAPITAL INVERTED R;Lm;0;L;<super> 0281;;;;N;;;;;
+### <MM> {modifier letter small capital inverted r} :  "ʶ"   U02B6	# MODIFIER LETTER SMALL CAPITAL INVERTED R
+#- 02B7;MODIFIER LETTER SMALL W;Lm;0;L;<super> 0077;;;;N;;;;;
+### <MM> {modifier letter small w} :  "ʷ"   U02B7	# MODIFIER LETTER SMALL W
+#- 02B8;MODIFIER LETTER SMALL Y;Lm;0;L;<super> 0079;;;;N;;;;;
+### <MM> {modifier letter small y} :  "ʸ"   U02B8	# MODIFIER LETTER SMALL Y
+## 7 is prime, and it looks similar, doesn't it?
+#- 02B9;MODIFIER LETTER PRIME;Lm;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <7> :  "ʹ"   U02B9	# MODIFIER LETTER PRIME
+#- 02BA;MODIFIER LETTER DOUBLE PRIME;Lm;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <2> <7> :  "ʺ"   U02BA	# MODIFIER LETTER DOUBLE PRIME
+## I'm going to need this more than MODIFIER LETTER GRAVE
+#- 02BB;MODIFIER LETTER TURNED COMMA;Lm;0;L;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <grave> :  "ʻ"   U02BB	# MODIFIER LETTER TURNED COMMA
+#- 02BC;MODIFIER LETTER APOSTROPHE;Lm;0;L;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <apostrophe> :  "ʼ"   U02BC	# MODIFIER LETTER APOSTROPHE
+#- 02BD;MODIFIER LETTER REVERSED COMMA;Lm;0;L;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <at> <apostrophe> :  "ʽ"   U02BD	# MODIFIER LETTER REVERSED COMMA
+#- 02BE;MODIFIER LETTER RIGHT HALF RING;Lm;0;L;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <parenright> :  "ʾ"   U02BE	# MODIFIER LETTER RIGHT HALF RING
+#- 02BF;MODIFIER LETTER LEFT HALF RING;Lm;0;L;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <parenleft> :  "ʿ"   U02BF	# MODIFIER LETTER LEFT HALF RING
+#- 02C0;MODIFIER LETTER GLOTTAL STOP;Lm;0;L;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <question> <period> :  "ˀ"   U02C0	# MODIFIER LETTER GLOTTAL STOP
+#- 02C1;MODIFIER LETTER REVERSED GLOTTAL STOP;Lm;0;L;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <question> <parenleft> :  "ˁ"   U02C1	# MODIFIER LETTER REVERSED GLOTTAL STOP
+#- 02C2;MODIFIER LETTER LEFT ARROWHEAD;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <numbersign> <exclam> <less> :  "˂"   U02C2	# MODIFIER LETTER LEFT ARROWHEAD
+#- 02C3;MODIFIER LETTER RIGHT ARROWHEAD;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <greater> :  "˃"   U02C3	# MODIFIER LETTER RIGHT ARROWHEAD
+#- 02C4;MODIFIER LETTER UP ARROWHEAD;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <asciicircum> <asciicircum> :  "˄"   U02C4	# MODIFIER LETTER UP ARROWHEAD
+#- 02C5;MODIFIER LETTER DOWN ARROWHEAD;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <v> <v> :  "˅"   U02C5	# MODIFIER LETTER DOWN ARROWHEAD
+#- 02C6;MODIFIER LETTER CIRCUMFLEX ACCENT;Lm;0;ON;;;;;N;MODIFIER LETTER CIRCUMFLEX;;;;
+<Multi_key>  <exclam> <numbersign> <backslash> <asciicircum> :  "ˆ"   U02C6	# MODIFIER LETTER CIRCUMFLEX ACCENT
+#- 02C7;CARON;Lm;0;ON;;;;;N;MODIFIER LETTER HACEK;;;;
+<Multi_key>  <exclam> <numbersign> <backslash> <v> :  "ˇ"   U02C7	# CARON
+#- 02C8;MODIFIER LETTER VERTICAL LINE;Lm;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <bar> :  "ˈ"   U02C8	# MODIFIER LETTER VERTICAL LINE
+#- 02C9;MODIFIER LETTER MACRON;Lm;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <equal> :  "ˉ"   U02C9	# MODIFIER LETTER MACRON
+#- 02CA;MODIFIER LETTER ACUTE ACCENT;Lm;0;ON;;;;;N;MODIFIER LETTER ACUTE;;;;
+<Multi_key>  <exclam> <numbersign> <backslash> <apostrophe> :  "ˊ"   U02CA	# MODIFIER LETTER ACUTE ACCENT
+#- 02CB;MODIFIER LETTER GRAVE ACCENT;Lm;0;ON;;;;;N;MODIFIER LETTER GRAVE;;;;
+<Multi_key>  <exclam> <numbersign> <backslash> <grave> :  "ˋ"   U02CB	# MODIFIER LETTER GRAVE ACCENT
+#- 02CC;MODIFIER LETTER LOW VERTICAL LINE;Lm;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <bar> :  "ˌ"   U02CC	# MODIFIER LETTER LOW VERTICAL LINE
+#- 02CD;MODIFIER LETTER LOW MACRON;Lm;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <equal> :  "ˍ"   U02CD	# MODIFIER LETTER LOW MACRON
+#- 02CE;MODIFIER LETTER LOW GRAVE ACCENT;Lm;0;ON;;;;;N;MODIFIER LETTER LOW GRAVE;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <grave> :  "ˎ"   U02CE	# MODIFIER LETTER LOW GRAVE ACCENT
+#- 02CF;MODIFIER LETTER LOW ACUTE ACCENT;Lm;0;ON;;;;;N;MODIFIER LETTER LOW ACUTE;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <apostrophe> :  "ˏ"   U02CF	# MODIFIER LETTER LOW ACUTE ACCENT
+#- 02D0;MODIFIER LETTER TRIANGULAR COLON;Lm;0;L;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <colon> :  "ː"   U02D0	# MODIFIER LETTER TRIANGULAR COLON
+#- 02D1;MODIFIER LETTER HALF TRIANGULAR COLON;Lm;0;L;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <period> :  "ˑ"   U02D1	# MODIFIER LETTER HALF TRIANGULAR COLON
+#- 02D2;MODIFIER LETTER CENTRED RIGHT HALF RING;Sk;0;ON;;;;;N;MODIFIER LETTER CENTERED RIGHT HALF RING;;;;
+<Multi_key>  <exclam> <numbersign> <minus> <parenright> :  "˒"   U02D2	# MODIFIER LETTER CENTRED RIGHT HALF RING
+#- 02D3;MODIFIER LETTER CENTRED LEFT HALF RING;Sk;0;ON;;;;;N;MODIFIER LETTER CENTERED LEFT HALF RING;;;;
+<Multi_key>  <exclam> <numbersign> <minus> <parenleft> :  "˓"   U02D3	# MODIFIER LETTER CENTRED LEFT HALF RING
+#- 02D4;MODIFIER LETTER UP TACK;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <plus> <asciicircum> :  "˔"   U02D4	# MODIFIER LETTER UP TACK
+#- 02D5;MODIFIER LETTER DOWN TACK;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <plus> <v> :  "˕"   U02D5	# MODIFIER LETTER DOWN TACK
+#- 02D6;MODIFIER LETTER PLUS SIGN;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <plus> <plus> :  "˖"   U02D6	# MODIFIER LETTER PLUS SIGN
+#- 02D7;MODIFIER LETTER MINUS SIGN;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <minus> <minus> :  "˗"   U02D7	# MODIFIER LETTER MINUS SIGN
+#- 02DE;MODIFIER LETTER RHOTIC HOOK;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <r> :  "˞"   U02DE	# MODIFIER LETTER RHOTIC HOOK
+#- 02DF;MODIFIER LETTER CROSS ACCENT;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <backslash> <x> :  "˟"   U02DF	# MODIFIER LETTER CROSS ACCENT
+#- 02E0;MODIFIER LETTER SMALL GAMMA;Lm;0;L;<super> 0263;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <g> <h> :  "ˠ"   U02E0	# MODIFIER LETTER SMALL GAMMA
+#- 02E1;MODIFIER LETTER SMALL L;Lm;0;L;<super> 006C;;;;N;;;;;
+### <MM> {modifier letter small l} :  "ˡ"   U02E1	# MODIFIER LETTER SMALL L
+#- 02E2;MODIFIER LETTER SMALL S;Lm;0;L;<super> 0073;;;;N;;;;;
+### <MM> {modifier letter small s} :  "ˢ"   U02E2	# MODIFIER LETTER SMALL S
+#- 02E3;MODIFIER LETTER SMALL X;Lm;0;L;<super> 0078;;;;N;;;;;
+### <MM> {modifier letter small x} :  "ˣ"   U02E3	# MODIFIER LETTER SMALL X
+#- 02E4;MODIFIER LETTER SMALL REVERSED GLOTTAL STOP;Lm;0;L;<super> 0295;;;;N;;;;;
+### <MM> {modifier letter small reversed glottal stop} :  "ˤ"   U02E4	# MODIFIER LETTER SMALL REVERSED GLOTTAL STOP
+#- 02E5;MODIFIER LETTER EXTRA-HIGH TONE BAR;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <T> <5> :  "˥"   U02E5	# MODIFIER LETTER EXTRA-HIGH TONE BAR
+#- 02E6;MODIFIER LETTER HIGH TONE BAR;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <T> <4> :  "˦"   U02E6	# MODIFIER LETTER HIGH TONE BAR
+#- 02E7;MODIFIER LETTER MID TONE BAR;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <T> <3> :  "˧"   U02E7	# MODIFIER LETTER MID TONE BAR
+#- 02E8;MODIFIER LETTER LOW TONE BAR;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <T> <2> :  "˨"   U02E8	# MODIFIER LETTER LOW TONE BAR
+#- 02E9;MODIFIER LETTER EXTRA-LOW TONE BAR;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <T> <1> :  "˩"   U02E9	# MODIFIER LETTER EXTRA-LOW TONE BAR
+#- 02EA;MODIFIER LETTER YIN DEPARTING TONE MARK;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter yin departing tone mark} :  "˪"   U02EA	# MODIFIER LETTER YIN DEPARTING TONE MARK
+#- 02EB;MODIFIER LETTER YANG DEPARTING TONE MARK;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <plus> <greater> :  "˫"   U02EB	# MODIFIER LETTER YANG DEPARTING TONE MARK
+#- 02EC;MODIFIER LETTER VOICING;Lm;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <v> <o> :  "ˬ"   U02EC	# MODIFIER LETTER VOICING
+#- 02ED;MODIFIER LETTER UNASPIRATED;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <minus> <h> :  "˭"   U02ED	# MODIFIER LETTER UNASPIRATED
+#- 02EE;MODIFIER LETTER DOUBLE APOSTROPHE;Lm;0;L;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <2> <apostrophe> :  "ˮ"   U02EE	# MODIFIER LETTER DOUBLE APOSTROPHE
+#- 02EF;MODIFIER LETTER LOW DOWN ARROWHEAD;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <v> :  "˯"   U02EF	# MODIFIER LETTER LOW DOWN ARROWHEAD
+#- 02F0;MODIFIER LETTER LOW UP ARROWHEAD;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <asciicircum> :  "˰"   U02F0	# MODIFIER LETTER LOW UP ARROWHEAD
+#- 02F1;MODIFIER LETTER LOW LEFT ARROWHEAD;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <less> :  "˱"   U02F1	# MODIFIER LETTER LOW LEFT ARROWHEAD
+#- 02F2;MODIFIER LETTER LOW RIGHT ARROWHEAD;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <greater> :  "˲"   U02F2	# MODIFIER LETTER LOW RIGHT ARROWHEAD
+#- 02F3;MODIFIER LETTER LOW RING;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <o> :  "˳"   U02F3	# MODIFIER LETTER LOW RING
+#- 02F4;MODIFIER LETTER MIDDLE GRAVE ACCENT;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <minus> <grave> :  "˴"   U02F4	# MODIFIER LETTER MIDDLE GRAVE ACCENT
+#- 02F5;MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <minus> <2> <grave> :  "˵"   U02F5	# MODIFIER LETTER MIDDLE DOUBLE GRAVE ACCENT
+#- 02F6;MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <minus> <2> <apostrophe> :  "˶"   U02F6	# MODIFIER LETTER MIDDLE DOUBLE ACUTE ACCENT
+#- 02F7;MODIFIER LETTER LOW TILDE;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <asciitilde> :  "˷"   U02F7	# MODIFIER LETTER LOW TILDE
+#- 02F8;MODIFIER LETTER RAISED COLON;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <backslash> <colon> :  "˸"   U02F8	# MODIFIER LETTER RAISED COLON
+#- 02F9;MODIFIER LETTER BEGIN HIGH TONE;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <T> <parenleft> <H> :  "˹"   U02F9	# MODIFIER LETTER BEGIN HIGH TONE
+#- 02FA;MODIFIER LETTER END HIGH TONE;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <T> <parenright> <H> :  "˺"   U02FA	# MODIFIER LETTER END HIGH TONE
+#- 02FB;MODIFIER LETTER BEGIN LOW TONE;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <T> <parenleft> <L> :  "˻"   U02FB	# MODIFIER LETTER BEGIN LOW TONE
+#- 02FC;MODIFIER LETTER END LOW TONE;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <T> <parenright> <L> :  "˼"   U02FC	# MODIFIER LETTER END LOW TONE
+#- 02FD;MODIFIER LETTER SHELF;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <bracketright> :  "˽"   U02FD	# MODIFIER LETTER SHELF
+#- 02FE;MODIFIER LETTER OPEN SHELF;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <L> :  "˾"   U02FE	# MODIFIER LETTER OPEN SHELF
+#- 02FF;MODIFIER LETTER LOW LEFT ARROW;Sk;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <underscore> <minus> <less> :  "˿"   U02FF	# MODIFIER LETTER LOW LEFT ARROW
+#- 0559;ARMENIAN MODIFIER LETTER LEFT HALF RING;Lm;0;L;;;;;N;;;;;
+### <MM> {armenian modifier letter left half ring} :  "ՙ"   U0559	# ARMENIAN MODIFIER LETTER LEFT HALF RING
+#- 055A;ARMENIAN APOSTROPHE;Po;0;L;;;;;N;ARMENIAN MODIFIER LETTER RIGHT HALF RING;;;;
+### <MM> {armenian apostrophe} :  "՚"   U055A	# ARMENIAN APOSTROPHE
+#- 081A;SAMARITAN MODIFIER LETTER EPENTHETIC YUT;Lm;0;R;;;;;N;;;;;
+### <MM> {samaritan modifier letter epenthetic yut} :  "ࠚ"   U081A	# SAMARITAN MODIFIER LETTER EPENTHETIC YUT
+#- 0824;SAMARITAN MODIFIER LETTER SHORT A;Lm;0;R;;;;;N;;;;;
+### <MM> {samaritan modifier letter short a} :  "ࠤ"   U0824	# SAMARITAN MODIFIER LETTER SHORT A
+#- 0828;SAMARITAN MODIFIER LETTER I;Lm;0;R;;;;;N;;;;;
+### <MM> {samaritan modifier letter i} :  "ࠨ"   U0828	# SAMARITAN MODIFIER LETTER I
+#- 10FC;MODIFIER LETTER GEORGIAN NAR;Lm;0;L;<super> 10DC;;;;N;;;;;
+### <MM> {modifier letter georgian nar} :  "ჼ"   U10FC	# MODIFIER LETTER GEORGIAN NAR
+#- 1D2C;MODIFIER LETTER CAPITAL A;Lm;0;L;<super> 0041;;;;N;;;;;
+### <MM> {modifier letter capital a} :  "ᴬ"   U1D2C	# MODIFIER LETTER CAPITAL A
+#- 1D2D;MODIFIER LETTER CAPITAL AE;Lm;0;L;<super> 00C6;;;;N;;;;;
+### <MM> {modifier letter capital ae} :  "ᴭ"   U1D2D	# MODIFIER LETTER CAPITAL AE
+#- 1D2E;MODIFIER LETTER CAPITAL B;Lm;0;L;<super> 0042;;;;N;;;;;
+### <MM> {modifier letter capital b} :  "ᴮ"   U1D2E	# MODIFIER LETTER CAPITAL B
+#- 1D2F;MODIFIER LETTER CAPITAL BARRED B;Lm;0;L;;;;;N;;;;;
+### <MM> {modifier letter capital barred b} :  "ᴯ"   U1D2F	# MODIFIER LETTER CAPITAL BARRED B
+#- 1D30;MODIFIER LETTER CAPITAL D;Lm;0;L;<super> 0044;;;;N;;;;;
+### <MM> {modifier letter capital d} :  "ᴰ"   U1D30	# MODIFIER LETTER CAPITAL D
+#- 1D31;MODIFIER LETTER CAPITAL E;Lm;0;L;<super> 0045;;;;N;;;;;
+### <MM> {modifier letter capital e} :  "ᴱ"   U1D31	# MODIFIER LETTER CAPITAL E
+#- 1D32;MODIFIER LETTER CAPITAL REVERSED E;Lm;0;L;<super> 018E;;;;N;;;;;
+### <MM> {modifier letter capital reversed e} :  "ᴲ"   U1D32	# MODIFIER LETTER CAPITAL REVERSED E
+#- 1D33;MODIFIER LETTER CAPITAL G;Lm;0;L;<super> 0047;;;;N;;;;;
+### <MM> {modifier letter capital g} :  "ᴳ"   U1D33	# MODIFIER LETTER CAPITAL G
+#- 1D34;MODIFIER LETTER CAPITAL H;Lm;0;L;<super> 0048;;;;N;;;;;
+### <MM> {modifier letter capital h} :  "ᴴ"   U1D34	# MODIFIER LETTER CAPITAL H
+#- 1D35;MODIFIER LETTER CAPITAL I;Lm;0;L;<super> 0049;;;;N;;;;;
+### <MM> {modifier letter capital i} :  "ᴵ"   U1D35	# MODIFIER LETTER CAPITAL I
+#- 1D36;MODIFIER LETTER CAPITAL J;Lm;0;L;<super> 004A;;;;N;;;;;
+### <MM> {modifier letter capital j} :  "ᴶ"   U1D36	# MODIFIER LETTER CAPITAL J
+#- 1D37;MODIFIER LETTER CAPITAL K;Lm;0;L;<super> 004B;;;;N;;;;;
+### <MM> {modifier letter capital k} :  "ᴷ"   U1D37	# MODIFIER LETTER CAPITAL K
+#- 1D38;MODIFIER LETTER CAPITAL L;Lm;0;L;<super> 004C;;;;N;;;;;
+### <MM> {modifier letter capital l} :  "ᴸ"   U1D38	# MODIFIER LETTER CAPITAL L
+#- 1D39;MODIFIER LETTER CAPITAL M;Lm;0;L;<super> 004D;;;;N;;;;;
+### <MM> {modifier letter capital m} :  "ᴹ"   U1D39	# MODIFIER LETTER CAPITAL M
+#- 1D3A;MODIFIER LETTER CAPITAL N;Lm;0;L;<super> 004E;;;;N;;;;;
+### <MM> {modifier letter capital n} :  "ᴺ"   U1D3A	# MODIFIER LETTER CAPITAL N
+#- 1D3B;MODIFIER LETTER CAPITAL REVERSED N;Lm;0;L;;;;;N;;;;;
+### <MM> {modifier letter capital reversed n} :  "ᴻ"   U1D3B	# MODIFIER LETTER CAPITAL REVERSED N
+#- 1D3C;MODIFIER LETTER CAPITAL O;Lm;0;L;<super> 004F;;;;N;;;;;
+### <MM> {modifier letter capital o} :  "ᴼ"   U1D3C	# MODIFIER LETTER CAPITAL O
+#- 1D3D;MODIFIER LETTER CAPITAL OU;Lm;0;L;<super> 0222;;;;N;;;;;
+### <MM> {modifier letter capital ou} :  "ᴽ"   U1D3D	# MODIFIER LETTER CAPITAL OU
+#- 1D3E;MODIFIER LETTER CAPITAL P;Lm;0;L;<super> 0050;;;;N;;;;;
+### <MM> {modifier letter capital p} :  "ᴾ"   U1D3E	# MODIFIER LETTER CAPITAL P
+#- 1D3F;MODIFIER LETTER CAPITAL R;Lm;0;L;<super> 0052;;;;N;;;;;
+### <MM> {modifier letter capital r} :  "ᴿ"   U1D3F	# MODIFIER LETTER CAPITAL R
+#- 1D40;MODIFIER LETTER CAPITAL T;Lm;0;L;<super> 0054;;;;N;;;;;
+### <MM> {modifier letter capital t} :  "ᵀ"   U1D40	# MODIFIER LETTER CAPITAL T
+#- 1D41;MODIFIER LETTER CAPITAL U;Lm;0;L;<super> 0055;;;;N;;;;;
+### <MM> {modifier letter capital u} :  "ᵁ"   U1D41	# MODIFIER LETTER CAPITAL U
+#- 1D42;MODIFIER LETTER CAPITAL W;Lm;0;L;<super> 0057;;;;N;;;;;
+### <MM> {modifier letter capital w} :  "ᵂ"   U1D42	# MODIFIER LETTER CAPITAL W
+#- 1D43;MODIFIER LETTER SMALL A;Lm;0;L;<super> 0061;;;;N;;;;;
+### <MM> {modifier letter small a} :  "ᵃ"   U1D43	# MODIFIER LETTER SMALL A
+#- 1D44;MODIFIER LETTER SMALL TURNED A;Lm;0;L;<super> 0250;;;;N;;;;;
+### <MM> {modifier letter small turned a} :  "ᵄ"   U1D44	# MODIFIER LETTER SMALL TURNED A
+#- 1D45;MODIFIER LETTER SMALL ALPHA;Lm;0;L;<super> 0251;;;;N;;;;;
+### <MM> {modifier letter small alpha} :  "ᵅ"   U1D45	# MODIFIER LETTER SMALL ALPHA
+#- 1D46;MODIFIER LETTER SMALL TURNED AE;Lm;0;L;<super> 1D02;;;;N;;;;;
+### <MM> {modifier letter small turned ae} :  "ᵆ"   U1D46	# MODIFIER LETTER SMALL TURNED AE
+#- 1D47;MODIFIER LETTER SMALL B;Lm;0;L;<super> 0062;;;;N;;;;;
+### <MM> {modifier letter small b} :  "ᵇ"   U1D47	# MODIFIER LETTER SMALL B
+#- 1D48;MODIFIER LETTER SMALL D;Lm;0;L;<super> 0064;;;;N;;;;;
+### <MM> {modifier letter small d} :  "ᵈ"   U1D48	# MODIFIER LETTER SMALL D
+#- 1D49;MODIFIER LETTER SMALL E;Lm;0;L;<super> 0065;;;;N;;;;;
+### <MM> {modifier letter small e} :  "ᵉ"   U1D49	# MODIFIER LETTER SMALL E
+#- 1D4A;MODIFIER LETTER SMALL SCHWA;Lm;0;L;<super> 0259;;;;N;;;;;
+### <MM> {modifier letter small schwa} :  "ᵊ"   U1D4A	# MODIFIER LETTER SMALL SCHWA
+#- 1D4B;MODIFIER LETTER SMALL OPEN E;Lm;0;L;<super> 025B;;;;N;;;;;
+### <MM> {modifier letter small open e} :  "ᵋ"   U1D4B	# MODIFIER LETTER SMALL OPEN E
+#- 1D4C;MODIFIER LETTER SMALL TURNED OPEN E;Lm;0;L;<super> 025C;;;;N;;;;;
+### <MM> {modifier letter small turned open e} :  "ᵌ"   U1D4C	# MODIFIER LETTER SMALL TURNED OPEN E
+#- 1D4D;MODIFIER LETTER SMALL G;Lm;0;L;<super> 0067;;;;N;;;;;
+### <MM> {modifier letter small g} :  "ᵍ"   U1D4D	# MODIFIER LETTER SMALL G
+#- 1D4E;MODIFIER LETTER SMALL TURNED I;Lm;0;L;;;;;N;;;;;
+### <MM> {modifier letter small turned i} :  "ᵎ"   U1D4E	# MODIFIER LETTER SMALL TURNED I
+#- 1D4F;MODIFIER LETTER SMALL K;Lm;0;L;<super> 006B;;;;N;;;;;
+### <MM> {modifier letter small k} :  "ᵏ"   U1D4F	# MODIFIER LETTER SMALL K
+#- 1D50;MODIFIER LETTER SMALL M;Lm;0;L;<super> 006D;;;;N;;;;;
+### <MM> {modifier letter small m} :  "ᵐ"   U1D50	# MODIFIER LETTER SMALL M
+#- 1D51;MODIFIER LETTER SMALL ENG;Lm;0;L;<super> 014B;;;;N;;;;;
+### <MM> {modifier letter small eng} :  "ᵑ"   U1D51	# MODIFIER LETTER SMALL ENG
+#- 1D52;MODIFIER LETTER SMALL O;Lm;0;L;<super> 006F;;;;N;;;;;
+### <MM> {modifier letter small o} :  "ᵒ"   U1D52	# MODIFIER LETTER SMALL O
+#- 1D53;MODIFIER LETTER SMALL OPEN O;Lm;0;L;<super> 0254;;;;N;;;;;
+### <MM> {modifier letter small open o} :  "ᵓ"   U1D53	# MODIFIER LETTER SMALL OPEN O
+#- 1D54;MODIFIER LETTER SMALL TOP HALF O;Lm;0;L;<super> 1D16;;;;N;;;;;
+### <MM> {modifier letter small top half o} :  "ᵔ"   U1D54	# MODIFIER LETTER SMALL TOP HALF O
+#- 1D55;MODIFIER LETTER SMALL BOTTOM HALF O;Lm;0;L;<super> 1D17;;;;N;;;;;
+### <MM> {modifier letter small bottom half o} :  "ᵕ"   U1D55	# MODIFIER LETTER SMALL BOTTOM HALF O
+#- 1D56;MODIFIER LETTER SMALL P;Lm;0;L;<super> 0070;;;;N;;;;;
+### <MM> {modifier letter small p} :  "ᵖ"   U1D56	# MODIFIER LETTER SMALL P
+#- 1D57;MODIFIER LETTER SMALL T;Lm;0;L;<super> 0074;;;;N;;;;;
+### <MM> {modifier letter small t} :  "ᵗ"   U1D57	# MODIFIER LETTER SMALL T
+#- 1D58;MODIFIER LETTER SMALL U;Lm;0;L;<super> 0075;;;;N;;;;;
+### <MM> {modifier letter small u} :  "ᵘ"   U1D58	# MODIFIER LETTER SMALL U
+#- 1D59;MODIFIER LETTER SMALL SIDEWAYS U;Lm;0;L;<super> 1D1D;;;;N;;;;;
+### <MM> {modifier letter small sideways u} :  "ᵙ"   U1D59	# MODIFIER LETTER SMALL SIDEWAYS U
+#- 1D5A;MODIFIER LETTER SMALL TURNED M;Lm;0;L;<super> 026F;;;;N;;;;;
+### <MM> {modifier letter small turned m} :  "ᵚ"   U1D5A	# MODIFIER LETTER SMALL TURNED M
+#- 1D5B;MODIFIER LETTER SMALL V;Lm;0;L;<super> 0076;;;;N;;;;;
+### <MM> {modifier letter small v} :  "ᵛ"   U1D5B	# MODIFIER LETTER SMALL V
+#- 1D5C;MODIFIER LETTER SMALL AIN;Lm;0;L;<super> 1D25;;;;N;;;;;
+### <MM> {modifier letter small ain} :  "ᵜ"   U1D5C	# MODIFIER LETTER SMALL AIN
+#- 1D5D;MODIFIER LETTER SMALL BETA;Lm;0;L;<super> 03B2;;;;N;;;;;
+### <MM> {modifier letter small beta} :  "ᵝ"   U1D5D	# MODIFIER LETTER SMALL BETA
+#- 1D5E;MODIFIER LETTER SMALL GREEK GAMMA;Lm;0;L;<super> 03B3;;;;N;;;;;
+### <MM> {modifier letter small greek gamma} :  "ᵞ"   U1D5E	# MODIFIER LETTER SMALL GREEK GAMMA
+#- 1D5F;MODIFIER LETTER SMALL DELTA;Lm;0;L;<super> 03B4;;;;N;;;;;
+### <MM> {modifier letter small delta} :  "ᵟ"   U1D5F	# MODIFIER LETTER SMALL DELTA
+#- 1D60;MODIFIER LETTER SMALL GREEK PHI;Lm;0;L;<super> 03C6;;;;N;;;;;
+### <MM> {modifier letter small greek phi} :  "ᵠ"   U1D60	# MODIFIER LETTER SMALL GREEK PHI
+#- 1D61;MODIFIER LETTER SMALL CHI;Lm;0;L;<super> 03C7;;;;N;;;;;
+### <MM> {modifier letter small chi} :  "ᵡ"   U1D61	# MODIFIER LETTER SMALL CHI
+#- 1D78;MODIFIER LETTER CYRILLIC EN;Lm;0;L;<super> 043D;;;;N;;;;;
+### <MM> {modifier letter cyrillic en} :  "ᵸ"   U1D78	# MODIFIER LETTER CYRILLIC EN
+#- 1D9B;MODIFIER LETTER SMALL TURNED ALPHA;Lm;0;L;<super> 0252;;;;N;;;;;
+### <MM> {modifier letter small turned alpha} :  "ᶛ"   U1D9B	# MODIFIER LETTER SMALL TURNED ALPHA
+#- 1D9C;MODIFIER LETTER SMALL C;Lm;0;L;<super> 0063;;;;N;;;;;
+### <MM> {modifier letter small c} :  "ᶜ"   U1D9C	# MODIFIER LETTER SMALL C
+#- 1D9D;MODIFIER LETTER SMALL C WITH CURL;Lm;0;L;<super> 0255;;;;N;;;;;
+### <MM> {modifier letter small c with curl} :  "ᶝ"   U1D9D	# MODIFIER LETTER SMALL C WITH CURL
+#- 1D9E;MODIFIER LETTER SMALL ETH;Lm;0;L;<super> 00F0;;;;N;;;;;
+### <MM> {modifier letter small eth} :  "ᶞ"   U1D9E	# MODIFIER LETTER SMALL ETH
+#- 1D9F;MODIFIER LETTER SMALL REVERSED OPEN E;Lm;0;L;<super> 025C;;;;N;;;;;
+### <MM> {modifier letter small reversed open e} :  "ᶟ"   U1D9F	# MODIFIER LETTER SMALL REVERSED OPEN E
+#- 1DA0;MODIFIER LETTER SMALL F;Lm;0;L;<super> 0066;;;;N;;;;;
+### <MM> {modifier letter small f} :  "ᶠ"   U1DA0	# MODIFIER LETTER SMALL F
+#- 1DA1;MODIFIER LETTER SMALL DOTLESS J WITH STROKE;Lm;0;L;<super> 025F;;;;N;;;;;
+### <MM> {modifier letter small dotless j with stroke} :  "ᶡ"   U1DA1	# MODIFIER LETTER SMALL DOTLESS J WITH STROKE
+#- 1DA2;MODIFIER LETTER SMALL SCRIPT G;Lm;0;L;<super> 0261;;;;N;;;;;
+### <MM> {modifier letter small script g} :  "ᶢ"   U1DA2	# MODIFIER LETTER SMALL SCRIPT G
+#- 1DA3;MODIFIER LETTER SMALL TURNED H;Lm;0;L;<super> 0265;;;;N;;;;;
+### <MM> {modifier letter small turned h} :  "ᶣ"   U1DA3	# MODIFIER LETTER SMALL TURNED H
+#- 1DA4;MODIFIER LETTER SMALL I WITH STROKE;Lm;0;L;<super> 0268;;;;N;;;;;
+### <MM> {modifier letter small i with stroke} :  "ᶤ"   U1DA4	# MODIFIER LETTER SMALL I WITH STROKE
+#- 1DA5;MODIFIER LETTER SMALL IOTA;Lm;0;L;<super> 0269;;;;N;;;;;
+### <MM> {modifier letter small iota} :  "ᶥ"   U1DA5	# MODIFIER LETTER SMALL IOTA
+#- 1DA6;MODIFIER LETTER SMALL CAPITAL I;Lm;0;L;<super> 026A;;;;N;;;;;
+### <MM> {modifier letter small capital i} :  "ᶦ"   U1DA6	# MODIFIER LETTER SMALL CAPITAL I
+#- 1DA7;MODIFIER LETTER SMALL CAPITAL I WITH STROKE;Lm;0;L;<super> 1D7B;;;;N;;;;;
+### <MM> {modifier letter small capital i with stroke} :  "ᶧ"   U1DA7	# MODIFIER LETTER SMALL CAPITAL I WITH STROKE
+#- 1DA8;MODIFIER LETTER SMALL J WITH CROSSED-TAIL;Lm;0;L;<super> 029D;;;;N;;;;;
+### <MM> {modifier letter small j with crossed-tail} :  "ᶨ"   U1DA8	# MODIFIER LETTER SMALL J WITH CROSSED-TAIL
+#- 1DA9;MODIFIER LETTER SMALL L WITH RETROFLEX HOOK;Lm;0;L;<super> 026D;;;;N;;;;;
+### <MM> {modifier letter small l with retroflex hook} :  "ᶩ"   U1DA9	# MODIFIER LETTER SMALL L WITH RETROFLEX HOOK
+#- 1DAA;MODIFIER LETTER SMALL L WITH PALATAL HOOK;Lm;0;L;<super> 1D85;;;;N;;;;;
+### <MM> {modifier letter small l with palatal hook} :  "ᶪ"   U1DAA	# MODIFIER LETTER SMALL L WITH PALATAL HOOK
+#- 1DAB;MODIFIER LETTER SMALL CAPITAL L;Lm;0;L;<super> 029F;;;;N;;;;;
+### <MM> {modifier letter small capital l} :  "ᶫ"   U1DAB	# MODIFIER LETTER SMALL CAPITAL L
+#- 1DAC;MODIFIER LETTER SMALL M WITH HOOK;Lm;0;L;<super> 0271;;;;N;;;;;
+### <MM> {modifier letter small m with hook} :  "ᶬ"   U1DAC	# MODIFIER LETTER SMALL M WITH HOOK
+#- 1DAD;MODIFIER LETTER SMALL TURNED M WITH LONG LEG;Lm;0;L;<super> 0270;;;;N;;;;;
+### <MM> {modifier letter small turned m with long leg} :  "ᶭ"   U1DAD	# MODIFIER LETTER SMALL TURNED M WITH LONG LEG
+#- 1DAE;MODIFIER LETTER SMALL N WITH LEFT HOOK;Lm;0;L;<super> 0272;;;;N;;;;;
+### <MM> {modifier letter small n with left hook} :  "ᶮ"   U1DAE	# MODIFIER LETTER SMALL N WITH LEFT HOOK
+#- 1DAF;MODIFIER LETTER SMALL N WITH RETROFLEX HOOK;Lm;0;L;<super> 0273;;;;N;;;;;
+### <MM> {modifier letter small n with retroflex hook} :  "ᶯ"   U1DAF	# MODIFIER LETTER SMALL N WITH RETROFLEX HOOK
+#- 1DB0;MODIFIER LETTER SMALL CAPITAL N;Lm;0;L;<super> 0274;;;;N;;;;;
+### <MM> {modifier letter small capital n} :  "ᶰ"   U1DB0	# MODIFIER LETTER SMALL CAPITAL N
+#- 1DB1;MODIFIER LETTER SMALL BARRED O;Lm;0;L;<super> 0275;;;;N;;;;;
+### <MM> {modifier letter small barred o} :  "ᶱ"   U1DB1	# MODIFIER LETTER SMALL BARRED O
+#- 1DB2;MODIFIER LETTER SMALL PHI;Lm;0;L;<super> 0278;;;;N;;;;;
+### <MM> {modifier letter small phi} :  "ᶲ"   U1DB2	# MODIFIER LETTER SMALL PHI
+#- 1DB3;MODIFIER LETTER SMALL S WITH HOOK;Lm;0;L;<super> 0282;;;;N;;;;;
+### <MM> {modifier letter small s with hook} :  "ᶳ"   U1DB3	# MODIFIER LETTER SMALL S WITH HOOK
+#- 1DB4;MODIFIER LETTER SMALL ESH;Lm;0;L;<super> 0283;;;;N;;;;;
+### <MM> {modifier letter small esh} :  "ᶴ"   U1DB4	# MODIFIER LETTER SMALL ESH
+#- 1DB5;MODIFIER LETTER SMALL T WITH PALATAL HOOK;Lm;0;L;<super> 01AB;;;;N;;;;;
+### <MM> {modifier letter small t with palatal hook} :  "ᶵ"   U1DB5	# MODIFIER LETTER SMALL T WITH PALATAL HOOK
+#- 1DB6;MODIFIER LETTER SMALL U BAR;Lm;0;L;<super> 0289;;;;N;;;;;
+### <MM> {modifier letter small u bar} :  "ᶶ"   U1DB6	# MODIFIER LETTER SMALL U BAR
+#- 1DB7;MODIFIER LETTER SMALL UPSILON;Lm;0;L;<super> 028A;;;;N;;;;;
+### <MM> {modifier letter small upsilon} :  "ᶷ"   U1DB7	# MODIFIER LETTER SMALL UPSILON
+#- 1DB8;MODIFIER LETTER SMALL CAPITAL U;Lm;0;L;<super> 1D1C;;;;N;;;;;
+### <MM> {modifier letter small capital u} :  "ᶸ"   U1DB8	# MODIFIER LETTER SMALL CAPITAL U
+#- 1DB9;MODIFIER LETTER SMALL V WITH HOOK;Lm;0;L;<super> 028B;;;;N;;;;;
+### <MM> {modifier letter small v with hook} :  "ᶹ"   U1DB9	# MODIFIER LETTER SMALL V WITH HOOK
+#- 1DBA;MODIFIER LETTER SMALL TURNED V;Lm;0;L;<super> 028C;;;;N;;;;;
+### <MM> {modifier letter small turned v} :  "ᶺ"   U1DBA	# MODIFIER LETTER SMALL TURNED V
+#- 1DBB;MODIFIER LETTER SMALL Z;Lm;0;L;<super> 007A;;;;N;;;;;
+### <MM> {modifier letter small z} :  "ᶻ"   U1DBB	# MODIFIER LETTER SMALL Z
+#- 1DBC;MODIFIER LETTER SMALL Z WITH RETROFLEX HOOK;Lm;0;L;<super> 0290;;;;N;;;;;
+### <MM> {modifier letter small z with retroflex hook} :  "ᶼ"   U1DBC	# MODIFIER LETTER SMALL Z WITH RETROFLEX HOOK
+#- 1DBD;MODIFIER LETTER SMALL Z WITH CURL;Lm;0;L;<super> 0291;;;;N;;;;;
+### <MM> {modifier letter small z with curl} :  "ᶽ"   U1DBD	# MODIFIER LETTER SMALL Z WITH CURL
+#- 1DBE;MODIFIER LETTER SMALL EZH;Lm;0;L;<super> 0292;;;;N;;;;;
+### <MM> {modifier letter small ezh} :  "ᶾ"   U1DBE	# MODIFIER LETTER SMALL EZH
+#- 1DBF;MODIFIER LETTER SMALL THETA;Lm;0;L;<super> 03B8;;;;N;;;;;
+### <MM> {modifier letter small theta} :  "ᶿ"   U1DBF	# MODIFIER LETTER SMALL THETA
+#- 2C7D;MODIFIER LETTER CAPITAL V;Lm;0;L;<super> 0056;;;;N;;;;;
+### <MM> {modifier letter capital v} :  "ⱽ"   U2C7D	# MODIFIER LETTER CAPITAL V
+#- 2D6F;TIFINAGH MODIFIER LETTER LABIALIZATION MARK;Lm;0;L;<super> 2D61;;;;N;;;;;
+### <MM> {tifinagh modifier letter labialization mark} :  "ⵯ"   U2D6F	# TIFINAGH MODIFIER LETTER LABIALIZATION MARK
+#- A69C;MODIFIER LETTER CYRILLIC HARD SIGN;Lm;0;L;<super> 044A;;;;N;;;;;
+### <MM> {modifier letter cyrillic hard sign} :  "ꚜ"   UA69C	# MODIFIER LETTER CYRILLIC HARD SIGN
+#- A69D;MODIFIER LETTER CYRILLIC SOFT SIGN;Lm;0;L;<super> 044C;;;;N;;;;;
+### <MM> {modifier letter cyrillic soft sign} :  "ꚝ"   UA69D	# MODIFIER LETTER CYRILLIC SOFT SIGN
+#- A700;MODIFIER LETTER CHINESE TONE YIN PING;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter chinese tone yin ping} :  "꜀"   UA700	# MODIFIER LETTER CHINESE TONE YIN PING
+#- A701;MODIFIER LETTER CHINESE TONE YANG PING;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter chinese tone yang ping} :  "꜁"   UA701	# MODIFIER LETTER CHINESE TONE YANG PING
+#- A702;MODIFIER LETTER CHINESE TONE YIN SHANG;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter chinese tone yin shang} :  "꜂"   UA702	# MODIFIER LETTER CHINESE TONE YIN SHANG
+#- A703;MODIFIER LETTER CHINESE TONE YANG SHANG;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter chinese tone yang shang} :  "꜃"   UA703	# MODIFIER LETTER CHINESE TONE YANG SHANG
+#- A704;MODIFIER LETTER CHINESE TONE YIN QU;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter chinese tone yin qu} :  "꜄"   UA704	# MODIFIER LETTER CHINESE TONE YIN QU
+#- A705;MODIFIER LETTER CHINESE TONE YANG QU;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter chinese tone yang qu} :  "꜅"   UA705	# MODIFIER LETTER CHINESE TONE YANG QU
+#- A706;MODIFIER LETTER CHINESE TONE YIN RU;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter chinese tone yin ru} :  "꜆"   UA706	# MODIFIER LETTER CHINESE TONE YIN RU
+#- A707;MODIFIER LETTER CHINESE TONE YANG RU;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter chinese tone yang ru} :  "꜇"   UA707	# MODIFIER LETTER CHINESE TONE YANG RU
+#- A708;MODIFIER LETTER EXTRA-HIGH DOTTED TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter extra-high dotted tone bar} :  "꜈"   UA708	# MODIFIER LETTER EXTRA-HIGH DOTTED TONE BAR
+#- A709;MODIFIER LETTER HIGH DOTTED TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter high dotted tone bar} :  "꜉"   UA709	# MODIFIER LETTER HIGH DOTTED TONE BAR
+#- A70A;MODIFIER LETTER MID DOTTED TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter mid dotted tone bar} :  "꜊"   UA70A	# MODIFIER LETTER MID DOTTED TONE BAR
+#- A70B;MODIFIER LETTER LOW DOTTED TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter low dotted tone bar} :  "꜋"   UA70B	# MODIFIER LETTER LOW DOTTED TONE BAR
+#- A70C;MODIFIER LETTER EXTRA-LOW DOTTED TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter extra-low dotted tone bar} :  "꜌"   UA70C	# MODIFIER LETTER EXTRA-LOW DOTTED TONE BAR
+#- A70D;MODIFIER LETTER EXTRA-HIGH DOTTED LEFT-STEM TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter extra-high dotted left-stem tone bar} :  "꜍"   UA70D	# MODIFIER LETTER EXTRA-HIGH DOTTED LEFT-STEM TONE BAR
+#- A70E;MODIFIER LETTER HIGH DOTTED LEFT-STEM TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter high dotted left-stem tone bar} :  "꜎"   UA70E	# MODIFIER LETTER HIGH DOTTED LEFT-STEM TONE BAR
+#- A70F;MODIFIER LETTER MID DOTTED LEFT-STEM TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter mid dotted left-stem tone bar} :  "꜏"   UA70F	# MODIFIER LETTER MID DOTTED LEFT-STEM TONE BAR
+#- A710;MODIFIER LETTER LOW DOTTED LEFT-STEM TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter low dotted left-stem tone bar} :  "꜐"   UA710	# MODIFIER LETTER LOW DOTTED LEFT-STEM TONE BAR
+#- A711;MODIFIER LETTER EXTRA-LOW DOTTED LEFT-STEM TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter extra-low dotted left-stem tone bar} :  "꜑"   UA711	# MODIFIER LETTER EXTRA-LOW DOTTED LEFT-STEM TONE BAR
+#- A712;MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter extra-high left-stem tone bar} :  "꜒"   UA712	# MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR
+#- A713;MODIFIER LETTER HIGH LEFT-STEM TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter high left-stem tone bar} :  "꜓"   UA713	# MODIFIER LETTER HIGH LEFT-STEM TONE BAR
+#- A714;MODIFIER LETTER MID LEFT-STEM TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter mid left-stem tone bar} :  "꜔"   UA714	# MODIFIER LETTER MID LEFT-STEM TONE BAR
+#- A715;MODIFIER LETTER LOW LEFT-STEM TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter low left-stem tone bar} :  "꜕"   UA715	# MODIFIER LETTER LOW LEFT-STEM TONE BAR
+#- A716;MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter extra-low left-stem tone bar} :  "꜖"   UA716	# MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR
+#- A717;MODIFIER LETTER DOT VERTICAL BAR;Lm;0;ON;;;;;N;;;;;
+### <MM> {modifier letter dot vertical bar} :  "ꜗ"   UA717	# MODIFIER LETTER DOT VERTICAL BAR
+#- A718;MODIFIER LETTER DOT SLASH;Lm;0;ON;;;;;N;;;;;
+### <MM> {modifier letter dot slash} :  "ꜘ"   UA718	# MODIFIER LETTER DOT SLASH
+#- A719;MODIFIER LETTER DOT HORIZONTAL BAR;Lm;0;ON;;;;;N;;;;;
+### <MM> {modifier letter dot horizontal bar} :  "ꜙ"   UA719	# MODIFIER LETTER DOT HORIZONTAL BAR
+#- A71A;MODIFIER LETTER LOWER RIGHT CORNER ANGLE;Lm;0;ON;;;;;N;;;;;
+### <MM> {modifier letter lower right corner angle} :  "ꜚ"   UA71A	# MODIFIER LETTER LOWER RIGHT CORNER ANGLE
+#- A71B;MODIFIER LETTER RAISED UP ARROW;Lm;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <asciicircum> <minus> <asciicircum> :  "ꜛ"   UA71B	# MODIFIER LETTER RAISED UP ARROW
+#- A71C;MODIFIER LETTER RAISED DOWN ARROW;Lm;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <asciicircum> <minus> <v> :  "ꜜ"   UA71C	# MODIFIER LETTER RAISED DOWN ARROW
+#- A71D;MODIFIER LETTER RAISED EXCLAMATION MARK;Lm;0;ON;;;;;N;;;;;
+<Multi_key>  <exclam> <numbersign> <asciicircum> <exclam> :  "ꜝ"   UA71D	# MODIFIER LETTER RAISED EXCLAMATION MARK
+#- A71E;MODIFIER LETTER RAISED INVERTED EXCLAMATION MARK;Lm;0;ON;;;;;N;;;;;
+### <MM> {modifier letter raised inverted exclamation mark} :  "ꜞ"   UA71E	# MODIFIER LETTER RAISED INVERTED EXCLAMATION MARK
+#- A71F;MODIFIER LETTER LOW INVERTED EXCLAMATION MARK;Lm;0;ON;;;;;N;;;;;
+### <MM> {modifier letter low inverted exclamation mark} :  "ꜟ"   UA71F	# MODIFIER LETTER LOW INVERTED EXCLAMATION MARK
+#- A720;MODIFIER LETTER STRESS AND HIGH TONE;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter stress and high tone} :  "꜠"   UA720	# MODIFIER LETTER STRESS AND HIGH TONE
+#- A721;MODIFIER LETTER STRESS AND LOW TONE;Sk;0;ON;;;;;N;;;;;
+### <MM> {modifier letter stress and low tone} :  "꜡"   UA721	# MODIFIER LETTER STRESS AND LOW TONE
+#- A770;MODIFIER LETTER US;Lm;0;L;<super> A76F;;;;N;;;;;
+### <MM> {modifier letter us} :  "ꝰ"   UA770	# MODIFIER LETTER US
+#- A788;MODIFIER LETTER LOW CIRCUMFLEX ACCENT;Lm;0;ON;;;;;N;;;;;
+### <MM> {modifier letter low circumflex accent} :  "ꞈ"   UA788	# MODIFIER LETTER LOW CIRCUMFLEX ACCENT
+#- A789;MODIFIER LETTER COLON;Sk;0;L;;;;;N;;;;;
+### <MM> {modifier letter colon} :  "꞉"   UA789	# MODIFIER LETTER COLON
+#- A78A;MODIFIER LETTER SHORT EQUALS SIGN;Sk;0;L;;;;;N;;;;;
+### <MM> {modifier letter short equals sign} :  "꞊"   UA78A	# MODIFIER LETTER SHORT EQUALS SIGN
+#- A7F8;MODIFIER LETTER CAPITAL H WITH STROKE;Lm;0;L;<super> 0126;;;;N;;;;;
+### <MM> {modifier letter capital h with stroke} :  "ꟸ"   UA7F8	# MODIFIER LETTER CAPITAL H WITH STROKE
+#- A7F9;MODIFIER LETTER SMALL LIGATURE OE;Lm;0;L;<super> 0153;;;;N;;;;;
+### <MM> {modifier letter small ligature oe} :  "ꟹ"   UA7F9	# MODIFIER LETTER SMALL LIGATURE OE
+#- A9E6;MYANMAR MODIFIER LETTER SHAN REDUPLICATION;Lm;0;L;;;;;N;;;;;
+### <MM> {myanmar modifier letter shan reduplication} :  "ꧦ"   UA9E6	# MYANMAR MODIFIER LETTER SHAN REDUPLICATION
+#- AA70;MYANMAR MODIFIER LETTER KHAMTI REDUPLICATION;Lm;0;L;;;;;N;;;;;
+### <MM> {myanmar modifier letter khamti reduplication} :  "ꩰ"   UAA70	# MYANMAR MODIFIER LETTER KHAMTI REDUPLICATION
+#- AB5C;MODIFIER LETTER SMALL HENG;Lm;0;L;<super> A727;;;;N;;;;;
+### <MM> {modifier letter small heng} :  "ꭜ"   UAB5C	# MODIFIER LETTER SMALL HENG
+#- AB5D;MODIFIER LETTER SMALL L WITH INVERTED LAZY S;Lm;0;L;<super> AB37;;;;N;;;;;
+### <MM> {modifier letter small l with inverted lazy s} :  "ꭝ"   UAB5D	# MODIFIER LETTER SMALL L WITH INVERTED LAZY S
+#- AB5E;MODIFIER LETTER SMALL L WITH MIDDLE TILDE;Lm;0;L;<super> 026B;;;;N;;;;;
+### <MM> {modifier letter small l with middle tilde} :  "ꭞ"   UAB5E	# MODIFIER LETTER SMALL L WITH MIDDLE TILDE
+#- AB5F;MODIFIER LETTER SMALL U WITH LEFT HOOK;Lm;0;L;<super> AB52;;;;N;;;;;
+### <MM> {modifier letter small u with left hook} :  "ꭟ"   UAB5F	# MODIFIER LETTER SMALL U WITH LEFT HOOK
+#- 01C0;LATIN LETTER DENTAL CLICK;Lo;0;L;;;;;N;LATIN LETTER PIPE;;;;
+<Multi_key>  <exclam> <numbersign> <bar> :  "ǀ"   U01C0	# LATIN LETTER DENTAL CLICK
+#- 01C1;LATIN LETTER LATERAL CLICK;Lo;0;L;;;;;N;LATIN LETTER DOUBLE PIPE;;;;
+<Multi_key>  <exclam> <numbersign> <2> <bar> :  "ǁ"   U01C1	# LATIN LETTER LATERAL CLICK
+#- 01C2;LATIN LETTER ALVEOLAR CLICK;Lo;0;L;;;;;N;LATIN LETTER PIPE DOUBLE BAR;;;;
+<Multi_key>  <exclam> <numbersign> <slash> <equal> :  "ǂ"   U01C2	# LATIN LETTER ALVEOLAR CLICK
+#- 01C3;LATIN LETTER RETROFLEX CLICK;Lo;0;L;;;;;N;LATIN LETTER EXCLAMATION MARK;;;;
+<Multi_key>  <exclam> <numbersign> <exclam> :  "ǃ"   U01C3	# LATIN LETTER RETROFLEX CLICK
+#- 0298;LATIN LETTER BILABIAL CLICK;Ll;0;L;;;;;N;LATIN LETTER BULLSEYE;;;;
+### <MM> {latin letter bilabial click} :  "ʘ"   U0298	# LATIN LETTER BILABIAL CLICK
+<Multi_key>  <exclam> <numbersign> <L> <L> :  "Ỻ"   U1EFA	# LATIN CAPITAL LETTER MIDDLE-WELSH LL
+#- 1EFB;LATIN SMALL LETTER MIDDLE-WELSH LL;Ll;0;L;;;;;N;;;1EFA;;1EFA
+<Multi_key>  <exclam> <numbersign> <l> <l> :  "ỻ"   U1EFB	# LATIN SMALL LETTER MIDDLE-WELSH LL
+#- 1EFC;LATIN CAPITAL LETTER MIDDLE-WELSH V;Lu;0;L;;;;;N;;;;1EFD;
+<Multi_key>  <exclam> <numbersign> <W> <W> :  "Ỽ"   U1EFC	# LATIN CAPITAL LETTER MIDDLE-WELSH V
+#- 1EFD;LATIN SMALL LETTER MIDDLE-WELSH V;Ll;0;L;;;;;N;;;1EFC;;1EFC
+<Multi_key>  <exclam> <numbersign> <w> <w> :  "ỽ"   U1EFD	# LATIN SMALL LETTER MIDDLE-WELSH V
