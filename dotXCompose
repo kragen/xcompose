@@ -198,10 +198,13 @@ include "%L"
 <Multi_key> <I> <bar>		: "ꟾ"	UA7FE	# LATIN EPIGRAPHIC LETTER I LONGA
 <Multi_key> <M> <slash>		: "ꟿ"	UA7FF	# LATIN EPIGRAPHIC LETTER ARCHAIC M
 # I'd been avoiding this because we already have ∃...
+# Hey, these, being *letters* can be used as identifiers in some languages...
 <Multi_key> <E> <less>	 	 : "Ǝ"	    U018E	# LATIN CAPITAL LETTER REVERSED E
 <Multi_key> <E> <BackSpace>	 : "Ǝ"	    U018E	# LATIN CAPITAL LETTER REVERSED E
 <Multi_key> <e> <less>		 : "ɘ"	    U0258	# LATIN SMALL LETTER REVERSED E
 <Multi_key> <e> <BackSpace>	 : "ɘ"	    U0258	# LATIN SMALL LETTER REVERSED E
+# Complete the set
+<Multi_key> <A> <less>		 : "Ɐ"	    U2C6F	# LATIN CAPITAL LETTER TURNED A
 # These seem too long as keystrokes; any suggestions?
 # How about 2o?
 <Multi_key> <o> <ampersand> <o>	: "ꝏ"	UA74F	# LATIN SMALL LETTER OO
@@ -242,6 +245,7 @@ include "%L"
 <Multi_key> <asciitilde> <equal>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
 <Multi_key> <equal> <d> <e> <f>		: "≝"	U225D		# EQUAL TO BY DEFINITION
+<Multi_key> <d> <e> <f> <equal>		: "≝"	U225D		# EQUAL TO BY DEFINITION
 <Multi_key> <equal> <equal>		: "≡"	U2261		# IDENTICAL TO
 <Multi_key> <colon> <equal> 		: "≔"  U2254		# COLON EQUALS
 <Multi_key> <equal> <colon> 		: "≕"  U2255		# EQUALS COLON
@@ -607,6 +611,12 @@ include "%L"
 <Multi_key> <percent> <C>		: "Ⅽ"	U216D		# ROMAN NUMERAL ONE HUNDRED
 <Multi_key> <percent> <D>		: "Ⅾ"	U216E		# ROMAN NUMERAL FIVE HUNDRED
 <Multi_key> <percent> <M>		: "Ⅿ"	U216F		# ROMAN NUMERAL ONE THOUSAND
+<Multi_key> <percent> <0> <C> <D>	: "ↀ"	U2180		# ROMAN NUMERAL ONE THOUSAND C D
+<Multi_key> <percent> <0> <D> 		: "ↁ"	U2181		# ROMAN NUMERAL FIVE THOUSAND
+<Multi_key> <percent> <0> <M>		: "ↂ"	U2182		# ROMAN NUMERAL TEN THOUSAND
+<Multi_key> <percent> <0> <0> <D>	: "ↇ"	U2187		# ROMAN NUMERAL FIFTY THOUSAND
+<Multi_key> <percent> <0> <0> <M>	: "ↈ"	U2188		# ROMAN NUMERAL ONE HUNDRED THOUSAND
+
 
 # Custom additions: for chat (kragen)
 <Multi_key> <parenleft> <colon>         : "☻"   U263B           # BLACK SMILING FACE
@@ -657,6 +667,7 @@ include "%L"
 <Multi_key> <Multi_key> <p> <c>         : "☮"   U262E           # PEACE SYMBOL
 <Multi_key> <Multi_key> <p> <e> <a> <c> <e> : "☮"   U262E           # PEACE SYMBOL
 <Multi_key> <Multi_key> <y> <y>		: "☯" U262F		# YIN YANG
+<Multi_key> <Multi_key> <y> <i>	<n> <y> <a> <n>	: "☯" U262F	# YIN YANG
 # And now that we are into hearts...
 <Multi_key> <Left> <less> <3>           : "❥"  U2765            # ROTATED HEAVY BLACK HEART BULLET
 <Multi_key> <exclam> <less> <3>         : "❣"  U2763            # HEAVY HEART EXCLAMATION MARK ORNAMENT
@@ -705,6 +716,7 @@ include "%L"
 # a useful word.
 <Multi_key> <Multi_key> <r> <a> <d>	: "☢"	U2622		# RADIOACTIVE SIGN
 <Multi_key> <Multi_key> <b> <h>		: "☣"	U2623		# BIOHAZARD SIGN
+<Multi_key> <Multi_key> <b> <i> <o> <h>	<a> <z>	: "☣"	U2623		# BIOHAZARD SIGN
 # Changing this from ⚝
 <Multi_key> <Multi_key> <A> <A> <A> <A> <A>	:	"⛤" U26E4 # PENTAGRAM (pentalpha, get it?)
 <Multi_key> <Multi_key> <p> <l> <a> <n> <e>	: "✈"   U2708	  # AIRPLANE
@@ -718,19 +730,11 @@ include "%L"
 # SNOWMAN? COMET? ANCHOR?
 # Maybe if we go with having a "word" symbol and spelling out lots and 
 # lots of whole words, we can have all the planets.
-#    "Word Symbol" Notion:
-#    Have a semi-reserved symbol reserved for this.  Probably ampersand.
-#    Something that isn't already used for much.  Then you can happily make
-#    all the &-j-u-p-i-t-e-r and &-a-r-i-e-s combos you want without worrying
-#    that you'll run into a combination already used, like "ca"=ǎ or something.
-#    (unless you have whole words that are prefixes).  Worth doing?
-#    I think so. -Kragen
 #
 # I already have STAR OF DAVID on another map.
 # 231A, 231B -- WATCH and HOURGLASS -- one should be &-w-a-i-t
 # 23D4 METRICAL LONG OVER TWO SHORTS a.k.a. METRICAL BOOBS
 # 0950 DEVANAGARI OM?
-# 214C PER SIGN?
 # 212E ESTIMATED SYMBOL?
 # 2324 UP ARROWHEAD BETWEEN TWO HORIZONTAL BARS a.k.a. NOT AMUSED
 # 237E BELL SYMBOL a.k.a. ALIENS LANDING
@@ -841,6 +845,8 @@ include "%L"
 <Multi_key> <BackSpace> <e> <h>		: "ɜ"	U025C		# LATIN SMALL LETTER REVERSED OPEN E
 <Multi_key> <less> <e> <r>		: "ɝ"	U025D		# LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
 <Multi_key> <BackSpace> <e> <r>		: "ɝ"	U025D		# LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
+# It's spelled "gy" in Hungarian...
+<Multi_key> <g> <y>			: "ɟ"	U025F		# LATIN SMALL LETTER DOTLESS J WITH STROKE
 # How are these keystrokes?
 <Multi_key> <bar> <apostrophe>		: "ˈ"	U02C8		# MODIFIER LETTER VERTICAL LINE
 <Multi_key> <bar> <comma>		: "ˌ"	U02CC		# MODIFIER LETTER LOW VERTICAL LINE
@@ -854,6 +860,8 @@ include "%L"
 # doubling a letter seems to be mostly used for turning
 <Multi_key> <w> <w>			: "ʍ"	U028D		# LATIN SMALL LETTER TURNED W
 <Multi_key> <a> <a>			: "ɐ"	U0250		# LATIN SMALL LETTER TURNED A
+# ı is already available in the "standard" .XCompose
+<Multi_key> <j> <period>    		: "ȷ"	U0237		# LATIN SMALL LETTER DOTLESS J
 # I'll use capitals for a different double
 <Multi_key> <W> <W>			: "ʬ"	U02AC		# LATIN LETTER BILABIAL PERCUSSIVE
 # Sorry, I miss having this and hate having to use colon instead:
@@ -861,6 +869,8 @@ include "%L"
 # Also handy for writing urls: http://ʬw.omniglot.com/
 # ɣ? ᴥ?  Important enough to add? ᴥ is cool just as a "latin" letter.
 <Multi_key> <g> <h>	     	    : "ɣ"   U0263     # LATIN SMALL LETTER GAMMA
+# It looks like a ɣ and makes an "o" sorta sound:
+<Multi_key> <o> <g> <h>	      	    : "ɤ"  U0264      # LATIN SMALL LETTER RAMS HORN
 <Multi_key> <a> <i> <n>		    : "ᴥ"   U1D25     # LATIN LETTER AIN
 # Sometimes it's a "tail", sometimes a "hook", and sometimes a "retroflex hook"
 <Multi_key> <d> <comma>		    : "ɖ"   U0256     # LATIN SMALL LETTER D WITH TAIL
@@ -881,6 +891,7 @@ include "%L"
 <Multi_key> <G> <apostrophe>	    : "ʛ"   U029B     # LATIN LETTER SMALL CAPITAL G WITH HOOK
 <Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
 <Multi_key> <R> <x>			: "℞"	U211E		# PRESCRIPTION TAKE
+<Multi_key> <P> <e> <r>			: "⅌"	U214C		# PER SIGN
 <Multi_key> <o> <z> <period>		: "℥"	U2125		# OUNCE SIGN
 <Multi_key> <s> <c> <r> <period>	: "℈"	U2108		# SCRUPLE
 # There are all kinds of awesome combining characters in the U+0300 page.

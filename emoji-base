@@ -1338,8 +1338,12 @@
 ### <MM> {reversed thumbs up sign} :  "🖒"   U1F592	# REVERSED THUMBS UP SIGN
 #- 1F593;REVERSED THUMBS DOWN SIGN;So;0;ON;;;;;N;;;;;
 ### <MM> {reversed thumbs down sign} :  "🖓"   U1F593	# REVERSED THUMBS DOWN SIGN
+## Might as well insert this one for better mnemonic; it'll screw up the sort though.
+#- 270C;VICTORY HAND;So;0;ON;;;;;N;;;;;
+<MM> {victory} : "✌"  U270C  # VICTORY HAND
 #- 1F594;REVERSED VICTORY HAND;So;0;ON;;;;;N;;;;;
 <MM> {2fucku} :  "🖔"   U1F594	# REVERSED VICTORY HAND
+<MM> {2FU} :  "🖔"   U1F594	# REVERSED VICTORY HAND
 #- 1F595;REVERSED HAND WITH MIDDLE FINGER EXTENDED;So;0;ON;;;;;N;;;;;
 <MM> {fucku} :  "🖕"   U1F595	# REVERSED HAND WITH MIDDLE FINGER EXTENDED
 ## Live Long and Prosper...
@@ -1667,7 +1671,7 @@
 #- 1F62E;FACE WITH OPEN MOUTH;So;0;ON;;;;;N;;;;;
 <MM> {:-O} :  "😮"   U1F62E	# FACE WITH OPEN MOUTH
 #- 1F62F;HUSHED FACE;So;0;ON;;;;;N;;;;;
-### <MM> {hushed face} :  "😯"   U1F62F	# HUSHED FACE
+<MM> {()hush} :  "😯"   U1F62F	# HUSHED FACE
 #- 1F630;FACE WITH OPEN MOUTH AND COLD SWEAT;So;0;ON;;;;;N;;;;;
 <MM> {,:-O} :  "😰"   U1F630	# FACE WITH OPEN MOUTH AND COLD SWEAT
 <MM> {':-O} :  "😰"   U1F630	# FACE WITH OPEN MOUTH AND COLD SWEAT
@@ -2048,7 +2052,7 @@
 #- 1F911;MONEY-MOUTH FACE;So;0;ON;;;;;N;;;;;
 <MM> {:-$} :  "🤑"   U1F911	# MONEY-MOUTH FACE
 #- 1F912;FACE WITH THERMOMETER;So;0;ON;;;;;N;;;;;
-### <MM> {face with thermometer} :  "🤒"   U1F912	# FACE WITH THERMOMETER
+<MM> {()therm} :  "🤒"   U1F912	# FACE WITH THERMOMETER
 #- 1F913;NERD FACE;So;0;ON;;;;;N;;;;;
 <MM> {()nerd} :  "🤓"   U1F913	# NERD FACE
 #- 1F914;THINKING FACE;So;0;ON;;;;;N;;;;;
