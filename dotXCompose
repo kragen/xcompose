@@ -221,6 +221,39 @@ include "%L"
 # source of the "z" in abbreviations like oz. and viz.)  Some others 
 # are a little appealing too.
 
+<Multi_key> <A> <ampersand> <A> :	"Ꜳ"	UA732		# LATIN CAPITAL LETTER AA
+<Multi_key> <a> <ampersand> <a> :	"ꜳ"	UA733		# LATIN SMALL LETTER AA
+<Multi_key> <2> <A> :	"Ꜳ"	UA732		# LATIN CAPITAL LETTER AA
+<Multi_key> <2> <a> :	"ꜳ"	UA733		# LATIN SMALL LETTER AA
+<Multi_key> <A> <ampersand> <O>	:	"Ꜵ"	UA734	# LATIN CAPITAL LETTER AO
+<Multi_key> <a> <ampersand> <o>	:	"ꜵ"	UA735	# LATIN SMALL LETTER AO
+<Multi_key> <A> <ampersand> <U>	:	"Ꜷ"	UA736	# LATIN CAPITAL LETTER AU
+<Multi_key> <a> <ampersand> <u>	:	"ꜷ"	UA737	# LATIN SMALL LETTER AU
+<Multi_key> <A> <ampersand> <V> :	"Ꜹ"	UA738	# LATIN CAPITAL LETTER AV
+<Multi_key> <a> <ampersand> <v> :	"ꜹ"	UA739	# LATIN SMALL LETTER AV
+<Multi_key> <A> <ampersand> <Y> :	"Ꜽ"	UA73C	# LATIN CAPITAL LETTER AY
+<Multi_key> <a> <ampersand> <y> :	"ꜽ"	UA73D	# LATIN SMALL LETTER AY
+<Multi_key> <slash> <ampersand> <L> :	"Ꝇ"	UA746	# LATIN CAPITAL LETTER BROKEN L
+<Multi_key> <slash> <ampersand> <l> :	"ꝇ"	UA747	# LATIN SMALL LETTER BROKEN L
+# (See above for reason behind keystrokes)
+<Multi_key> <Z> <period>	:	"Ꝫ"	UA75A	# LATIN CAPITAL LETTER ET
+<Multi_key> <z> <period>	:	"ꝫ"	UA75B	# LATIN SMALL LETTER ET
+<Multi_key> <V> <ampersand> <Y>	:	"Ꝡ"	UA760	# LATIN CAPITAL LETTER VY
+<Multi_key> <v> <ampersand> <y>	:	"ꝡ"	UA761	# LATIN SMALL LETTER VY
+<Multi_key> <C> <Z>	    	:	"Ꝣ"	UA762	# LATIN CAPITAL LETTER VISIGOTHIC Z
+<Multi_key> <c> <z>		:	"ꝣ"	UA763	# LATIN SMALL LETTER VISIGOTHIC Z
+<Multi_key> <L> <ampersand> <L>	:	"Ỻ"	U1EFA	# LATIN CAPITAL LETTER MIDDLE-WELSH LL
+<Multi_key> <l> <ampersand> <l>	:	"ỻ"	U1EFB	# LATIN SMALL LETTER MIDDLE-WELSH LL
+<Multi_key> <V> <ampersand> <V>	:	"Ỽ"	U1EFC	# LATIN CAPITAL LETTER MIDDLE-WELSH V
+<Multi_key> <v> <ampersand> <v>	:	"ỽ"	U1EFD	# LATIN SMALL LETTER MIDDLE-WELSH V
+<Multi_key> <d> <ampersand> <b>	:	"ȸ"	U0238	# LATIN SMALL LETTER DB DIGRAPH
+<Multi_key> <q> <ampersand> <p>	:	"ȹ"	U0239	# LATIN SMALL LETTER QP DIGRAPH
+<Multi_key> <w> <y>	    	:	"ƿ"	U01BF	# LATIN LETTER WYNN
+<Multi_key> <W> <Y>		:	"Ƿ"	U01F7	# LATIN CAPITAL LETTER WYNN
+<Multi_key> <O> <U>		:	"Ȣ"	U0222	# LATIN CAPITAL LETTER OU
+<Multi_key> <o> <u>		:	"ȣ"	U0223	# LATIN SMALL LETTER OU
+<Multi_key> <y> <r>		:	"Ʀ"	U01A6	# LATIN LETTER YR
+
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <slash> <equal>		: "≠"	U2260		# NOT EQUAL TO
@@ -859,6 +892,7 @@ include "%L"
 <Multi_key> <u> <i>			: "ɯ"	U026F		# LATIN SMALL LETTER TURNED M
 # doubling a letter seems to be mostly used for turning
 <Multi_key> <w> <w>			: "ʍ"	U028D		# LATIN SMALL LETTER TURNED W
+<Multi_key> <y> <y>			: "ʎ"	U028E		# LATIN SMALL LETTER TURNED Y
 <Multi_key> <a> <a>			: "ɐ"	U0250		# LATIN SMALL LETTER TURNED A
 # ı is already available in the "standard" .XCompose
 <Multi_key> <j> <period>    		: "ȷ"	U0237		# LATIN SMALL LETTER DOTLESS J
