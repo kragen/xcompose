@@ -423,7 +423,7 @@ include "%L"
 <Multi_key> <underscore> <9>  	       : "₉"  U2089   	  # SUBSCRIPT NONE
 <Multi_key> <underscore> <plus>	       : "₊"  U208A	  # SUBSCRIPT PLUS
 <Multi_key> <underscore> <minus>       : "₋"  U208B	  # SUBSCRIPT MINUS
-<Multi_key> <underscore> <equals>           : "₌"  U208C	  # SUBSCRIPT EQUALS SIGN
+<Multi_key> <underscore> <equal>           : "₌"  U208C	  # SUBSCRIPT EQUALS SIGN
 <Multi_key> <underscore> <parenleft>           : "₍"  U208D	  # SUBSCRIPT LEFT PARENTHESIS
 <Multi_key> <underscore> <parenright>           : "₎"  U208E	  # SUBSCRIPT RIGHT PARENTHESIS
 
@@ -936,7 +936,7 @@ include "%L"
 <Multi_key> <backslash> <backslash> <comma>	:	"̓"  U0313   # COMBINING COMMA ABOVE
 <Multi_key> <backslash> <backslash> <less> <comma>	:	"̔"   U0314   # COMBINING REVERSED COMMA ABOVE
 <Multi_key> <backslash> <f> <m>                 : "͒"   U0352   # COMBINING FERMATA
-<Multi_key> <backslash> <parenleft> <period>:	: "̐"	U0310	# COMBINING CHANDRABINDU
+<Multi_key> <backslash> <parenleft> <period>	: "̐"	U0310	# COMBINING CHANDRABINDU
 <Multi_key> <backslash> <i> <b>		: "̑"	U0311	# COMBINING INVERTED BREVE -- ??
 <Multi_key> <backslash> <parenleft> <parenright>: "⃝"  U20DD # COMBINING ENCLOSING CIRCLE
 <Multi_key> <backslash> <parenleft> <slash> <parenright>:    "⃠"	 U20E0	   # COMBINING ENCLOSING CIRCLE BACKSLASH
