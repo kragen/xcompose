@@ -348,6 +348,9 @@
 ### <MM> {modifier letter small ezh} :  "ᶾ"   U1DBE	# MODIFIER LETTER SMALL EZH
 #- 1DBF;MODIFIER LETTER SMALL THETA;Lm;0;L;<super> 03B8;;;;N;;;;;
 ### <MM> {modifier letter small theta} :  "ᶿ"   U1DBF	# MODIFIER LETTER SMALL THETA
+## You're an idiot to want this; you deserve to have hard keystrokes.
+#- 212A;KELVIN SIGN;Lu;0;L;004B;;;;N;DEGREES KELVIN;;;006B;
+<Multi_key>  <exclam> <numbersign> <K> <E> <L> <V> :  "K"   U212A  # KELVIN SIGN
 #- 2C7D;MODIFIER LETTER CAPITAL V;Lm;0;L;<super> 0056;;;;N;;;;;
 ### <MM> {modifier letter capital v} :  "ⱽ"   U2C7D	# MODIFIER LETTER CAPITAL V
 #- 2D6F;TIFINAGH MODIFIER LETTER LABIALIZATION MARK;Lm;0;L;<super> 2D61;;;;N;;;;;
