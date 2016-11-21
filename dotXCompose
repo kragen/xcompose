@@ -481,6 +481,14 @@ include "%L"
 # subscripts in other blocks
 <Multi_key> <underscore> <i>  	       : "ᵢ"  U1D62   	  # LATIN SUBSCRIPT SMALL LETTER I
 <Multi_key> <underscore> <j>           : "ⱼ"  U2C7C	  # LATIN SUBSCRIPT SMALL LETTER J
+<Multi_key> <underscore> <r>           : "ᵣ"  U1D63       # LATIN SUBSCRIPT SMALL LETTER R
+<Multi_key> <underscore> <u>           : "ᵤ"  U1D64       # LATIN SUBSCRIPT SMALL LETTER U
+<Multi_key> <underscore> <v>           : "ᵥ"  U1D65       # LATIN SUBSCRIPT SMALL LETTER V
+<Multi_key> <underscore> <asterisk> <b> : "ᵦ"  U1D66     # GREEK SUBSCRIPT SMALL LETTER BETA
+<Multi_key> <underscore> <asterisk> <g> : "ᵧ"  U1D67     # GREEK SUBSCRIPT SMALL LETTER GAMMA
+<Multi_key> <underscore> <asterisk> <r> : "ᵨ"  U1D68     # GREEK SUBSCRIPT SMALL LETTER RHO
+<Multi_key> <underscore> <asterisk> <f> : "ᵩ"  U1D69     # GREEK SUBSCRIPT SMALL LETTER PHI
+<Multi_key> <underscore> <asterisk> <x> : "ᵪ"  U1D6A     # GREEK SUBSCRIPT SMALL LETTER CHI
 
 # Custom additions: Greek letters.  Mapping corresponds to Emacs Greek
 # input method.  Aristotle Pagaltzis informs me that this is the
