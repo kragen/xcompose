@@ -41,9 +41,9 @@
 #- 02C1;MODIFIER LETTER REVERSED GLOTTAL STOP;Lm;0;L;;;;;N;;;;;
 <Multi_key>  <exclam> <numbersign> <question> <parenleft> :  "ˁ"   U02C1	# MODIFIER LETTER REVERSED GLOTTAL STOP
 #- 02C2;MODIFIER LETTER LEFT ARROWHEAD;Sk;0;ON;;;;;N;;;;;
-<Multi_key>  <numbersign> <exclam> <less> :  "˂"   U02C2	# MODIFIER LETTER LEFT ARROWHEAD
+<Multi_key>  <exclam> <numbersign> <less> :  "˂"   U02C2	# MODIFIER LETTER LEFT ARROWHEAD
 #- 02C3;MODIFIER LETTER RIGHT ARROWHEAD;Sk;0;ON;;;;;N;;;;;
-<Multi_key>  <exclam> <numbersign> <greater> :  "˃"   U02C3	# MODIFIER LETTER RIGHT ARROWHEAD
+<Multi_key>  <exclam> <numbersign> <greater> <greater> :  "˃"   U02C3	# MODIFIER LETTER RIGHT ARROWHEAD
 #- 02C4;MODIFIER LETTER UP ARROWHEAD;Sk;0;ON;;;;;N;;;;;
 <Multi_key>  <exclam> <numbersign> <asciicircum> <asciicircum> :  "˄"   U02C4	# MODIFIER LETTER UP ARROWHEAD
 #- 02C5;MODIFIER LETTER DOWN ARROWHEAD;Sk;0;ON;;;;;N;;;;;
@@ -53,7 +53,7 @@
 #- 02C7;CARON;Lm;0;ON;;;;;N;MODIFIER LETTER HACEK;;;;
 <Multi_key>  <exclam> <numbersign> <backslash> <v> :  "ˇ"   U02C7	# CARON
 #- 02C8;MODIFIER LETTER VERTICAL LINE;Lm;0;ON;;;;;N;;;;;
-<Multi_key>  <exclam> <numbersign> <bar> :  "ˈ"   U02C8	# MODIFIER LETTER VERTICAL LINE
+<Multi_key>  <exclam> <numbersign> <backslash> <bar> :  "ˈ"   U02C8	# MODIFIER LETTER VERTICAL LINE
 #- 02C9;MODIFIER LETTER MACRON;Lm;0;ON;;;;;N;;;;;
 <Multi_key>  <exclam> <numbersign> <equal> :  "ˉ"   U02C9	# MODIFIER LETTER MACRON
 #- 02CA;MODIFIER LETTER ACUTE ACCENT;Lm;0;ON;;;;;N;MODIFIER LETTER ACUTE;;;;
@@ -69,9 +69,9 @@
 #- 02CF;MODIFIER LETTER LOW ACUTE ACCENT;Lm;0;ON;;;;;N;MODIFIER LETTER LOW ACUTE;;;;
 <Multi_key>  <exclam> <numbersign> <underscore> <apostrophe> :  "ˏ"   U02CF	# MODIFIER LETTER LOW ACUTE ACCENT
 #- 02D0;MODIFIER LETTER TRIANGULAR COLON;Lm;0;L;;;;;N;;;;;
-<Multi_key>  <exclam> <numbersign> <colon> :  "ː"   U02D0	# MODIFIER LETTER TRIANGULAR COLON
+<Multi_key>  <exclam> <numbersign> <greater> <colon> :  "ː"   U02D0	# MODIFIER LETTER TRIANGULAR COLON
 #- 02D1;MODIFIER LETTER HALF TRIANGULAR COLON;Lm;0;L;;;;;N;;;;;
-<Multi_key>  <exclam> <numbersign> <period> :  "ˑ"   U02D1	# MODIFIER LETTER HALF TRIANGULAR COLON
+<Multi_key>  <exclam> <numbersign> <greater> <period> :  "ˑ"   U02D1	# MODIFIER LETTER HALF TRIANGULAR COLON
 #- 02D2;MODIFIER LETTER CENTRED RIGHT HALF RING;Sk;0;ON;;;;;N;MODIFIER LETTER CENTERED RIGHT HALF RING;;;;
 <Multi_key>  <exclam> <numbersign> <minus> <parenright> :  "˒"   U02D2	# MODIFIER LETTER CENTRED RIGHT HALF RING
 #- 02D3;MODIFIER LETTER CENTRED LEFT HALF RING;Sk;0;ON;;;;;N;MODIFIER LETTER CENTERED LEFT HALF RING;;;;
@@ -432,7 +432,7 @@
 #- A788;MODIFIER LETTER LOW CIRCUMFLEX ACCENT;Lm;0;ON;;;;;N;;;;;
 ### <MM> {modifier letter low circumflex accent} :  "ꞈ"   UA788	# MODIFIER LETTER LOW CIRCUMFLEX ACCENT
 #- A789;MODIFIER LETTER COLON;Sk;0;L;;;;;N;;;;;
-### <MM> {modifier letter colon} :  "꞉"   UA789	# MODIFIER LETTER COLON
+<Multi_key>  <exclam> <numbersign> <colon> :  "꞉"   UA789	# MODIFIER LETTER COLON
 #- A78A;MODIFIER LETTER SHORT EQUALS SIGN;Sk;0;L;;;;;N;;;;;
 ### <MM> {modifier letter short equals sign} :  "꞊"   UA78A	# MODIFIER LETTER SHORT EQUALS SIGN
 #- A7F8;MODIFIER LETTER CAPITAL H WITH STROKE;Lm;0;L;<super> 0126;;;;N;;;;;
