@@ -1,9 +1,12 @@
 #!/usr/bin/perl -p
+use feature 'unicode_strings';
+use utf8;
 BEGIN { binmode(STDOUT, ":utf8");
 	binmode(STDIN, ":utf8");
 
 %specials = ('%' => 'percent',
 	     '-' => 'minus',
+	     '_' => 'underscore',
 	     '>' => 'greater',
 	     '<' => 'less',
 	     ',' => 'comma',
@@ -16,17 +19,23 @@ BEGIN { binmode(STDOUT, ":utf8");
 	     '#' => 'numbersign',
 	     '@' => 'at',
 	     '|' => 'bar',
+	     '`' => 'grave',
 	     '~' => 'asciitilde',
 	     '^' => 'asciicircum',
 	     '(' => 'parenleft',
 	     ')' => 'parenright',
 	     '[' => 'bracketleft',
 	     ']' => 'bracketright',
+	     '{' => 'braceleft',
+	     '}' => 'braceright',
 	     "'" => 'apostrophe',
 	     '\\' => 'backslash',
 	     ':' => 'colon',
 	     ';' => 'semicolon',
+	     '=' => 'equal',
 	     ' ' => 'space',
+	     '*' => 'asterisk',
+	     '♫' => 'Multi_key',
 );
 
 sub splitup {
@@ -49,7 +58,7 @@ sub splitup {
 unless (/^#/) {
     my $hold=$_;
     s/<MM>/<Multi_key> <Multi_key>/;
-    s({([][[:alnum:] _+:;%@><,.^\$+#()?!/|'\\~-]+)})(splitup($1))e;
+    s({([][[:alnum:] _+:;%@>=`<,.^\$+#()?!/|'\\~*{}♫-]+)})(splitup($1))e;
     if (length($1) > 7) {
 	$_=$hold;
 	s/^<MM>/### <MM>/;
