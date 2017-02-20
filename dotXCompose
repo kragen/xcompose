@@ -428,6 +428,7 @@ include "%L"
 <Multi_key> <L> <apostrophe>	    : "｣"     UFF63   # HALFWIDTH RIGHT CORNER BRACKET
 <Multi_key> <7> <quotedbl>	    : "『"    U300E   # LEFT WHITE CORNER BRACKET
 <Multi_key> <L> <quotedbl>	    : "』"    U300F   # RIGHT WHITE CORNER BRACKET
+<Multi_key> <parenleft> <ampersand> <parenright> :  "≬"	U226C	# BETWEEN
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
 <Multi_key> <bracketleft> <equal>       : "⊑"   U2291           # SQUARE IMAGE OF OR EQUAL TO
@@ -437,6 +438,9 @@ include "%L"
 <Multi_key> <bracketright> <underscore> : "⊒"   U2292           # SQUARE ORIGINAL OF OR EQUAL TO
 # If I did more Haskell, I'd want this more:
 <Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom) or should we use U27C2 PERPENDICULAR?
+<Multi_key> <underscore> <exclam> <underscore>:	"⊤"	 U22A4	# DOWN TACK (opposite of False)
+<Multi_key> <underscore> <greater> <underscore>:	"⊢"	 U22A2	# RIGHT TACK
+<Multi_key> <underscore> <less> <underscore>:	"⊣"	 U22A2	# LEFT TACK
 # Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
 <Multi_key> <slash> <slash>		: "⁄"	U2044	# FRACTION SLASH
 
