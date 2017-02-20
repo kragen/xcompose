@@ -48,7 +48,7 @@ def showdict(data, indent):
                 print ""
                 showdict(value, abs(indent)+4),
             else:
-                showdict(value, -abs(indent+4)),
+                showdict(value, -(abs(indent)+4)),
         else:
             print "    "+value.encode('utf-8'),
             if "-n" in sys.argv:
