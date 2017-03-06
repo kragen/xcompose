@@ -165,13 +165,15 @@
 <Multi_key>  <bracketleft> <B> <y> <bracketright> :  "🆈"   U1F188	# NEGATIVE SQUARED LATIN CAPITAL LETTER Y
 <Multi_key>  <bracketleft> <B> <z> <bracketright> :  "🆉"   U1F189	# NEGATIVE SQUARED LATIN CAPITAL LETTER Z
 <Multi_key>  <bracketleft> <B> <W> <C> <bracketright> :  "🆏"   U1F18F	# NEGATIVE SQUARED WC
-<Multi_key>  <parenleft> <parenleft> <1> <parenright> <parenright> :  "⓵"   U24F5	# DOUBLE CIRCLED DIGIT ONE
-<Multi_key>  <parenleft> <parenleft> <2> <parenright> <parenright> :  "⓶"   U24F6	# DOUBLE CIRCLED DIGIT TWO
-<Multi_key>  <parenleft> <parenleft> <3> <parenright> <parenright> :  "⓷"   U24F7	# DOUBLE CIRCLED DIGIT THREE
-<Multi_key>  <parenleft> <parenleft> <4> <parenright> <parenright> :  "⓸"   U24F8	# DOUBLE CIRCLED DIGIT FOUR
-<Multi_key>  <parenleft> <parenleft> <5> <parenright> <parenright> :  "⓹"   U24F9	# DOUBLE CIRCLED DIGIT FIVE
-<Multi_key>  <parenleft> <parenleft> <6> <parenright> <parenright> :  "⓺"   U24FA	# DOUBLE CIRCLED DIGIT SIX
-<Multi_key>  <parenleft> <parenleft> <7> <parenright> <parenright> :  "⓻"   U24FB	# DOUBLE CIRCLED DIGIT SEVEN
-<Multi_key>  <parenleft> <parenleft> <8> <parenright> <parenright> :  "⓼"   U24FC	# DOUBLE CIRCLED DIGIT EIGHT
-<Multi_key>  <parenleft> <parenleft> <9> <parenright> <parenright> :  "⓽"   U24FD	# DOUBLE CIRCLED DIGIT NINE
-<Multi_key>  <parenleft> <parenleft> <1> <0> <parenright> <parenright> :  "⓾"   U24FE	# DOUBLE CIRCLED NUMBER TEN
+### Using <parenleft> <parenleft> ... <parenright> <parenright> conflicts
+### with system entries.  Using the *letter* O.
+<Multi_key> <parenleft> <O> <1> <parenright> :  "⓵"   U24F5	# DOUBLE CIRCLED DIGIT ONE
+<Multi_key> <parenleft> <O> <2> <parenright> :  "⓶"   U24F6	# DOUBLE CIRCLED DIGIT TWO
+<Multi_key> <parenleft> <O> <3> <parenright> :  "⓷"   U24F7	# DOUBLE CIRCLED DIGIT THREE
+<Multi_key> <parenleft> <O> <4> <parenright> :  "⓸"   U24F8	# DOUBLE CIRCLED DIGIT FOUR
+<Multi_key> <parenleft> <O> <5> <parenright> :  "⓹"   U24F9	# DOUBLE CIRCLED DIGIT FIVE
+<Multi_key> <parenleft> <O> <6> <parenright> :  "⓺"   U24FA	# DOUBLE CIRCLED DIGIT SIX
+<Multi_key> <parenleft> <O> <7> <parenright> :  "⓻"   U24FB	# DOUBLE CIRCLED DIGIT SEVEN
+<Multi_key> <parenleft> <O> <8> <parenright> :  "⓼"   U24FC	# DOUBLE CIRCLED DIGIT EIGHT
+<Multi_key> <parenleft> <O> <9> <parenright> :  "⓽"   U24FD	# DOUBLE CIRCLED DIGIT NINE
+<Multi_key> <parenleft> <O> <1> <0> <parenright> :  "⓾"   U24FE	# DOUBLE CIRCLED NUMBER TEN

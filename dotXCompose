@@ -24,6 +24,8 @@ include "%L"
 #<Multi_key> <1> <period>		  : "․"	U2024		# ONE DOT LEADER
 <Multi_key> <c> <1> <period>		  : "·"	U00B7		# MIDDLE DOT (maybe I can remember the keystroke better?
 <Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
+### or && ?
+<Multi_key> <ampersand> <at>    :   "⅋" U214B   # TURNED AMPERSAND
 # Printable sign for space.  But is \<space> too useful a key combo to use
 # for this?
 <Multi_key> <backslash> <space>		: "␣"	U2423		# OPEN BOX
@@ -906,8 +908,10 @@ include "%L"
 <Multi_key> <w> <w>			: "ʍ"	U028D		# LATIN SMALL LETTER TURNED W
 <Multi_key> <y> <y>			: "ʎ"	U028E		# LATIN SMALL LETTER TURNED Y
 <Multi_key> <a> <a>			: "ɐ"	U0250		# LATIN SMALL LETTER TURNED A
+<Multi_key> <h> <h>			: "ɥ"	U0265		# LATIN SMALL LETTER TURNED H
 # ı is already available in the "standard" .XCompose
 <Multi_key> <j> <period>    		: "ȷ"	U0237		# LATIN SMALL LETTER DOTLESS J
+<Multi_key> <exclam> <period>		: "Ꞌ"	UA78B		# LATIN CAPITAL LETTER SALTILLO
 # I'll use capitals for a different double
 <Multi_key> <W> <W>			: "ʬ"	U02AC		# LATIN LETTER BILABIAL PERCUSSIVE
 # Sorry, I miss having this and hate having to use colon instead:
@@ -1105,6 +1109,7 @@ include "%L"
 <Multi_key> <Multi_key> <v> <e> <s> <t> <a>    	: "⚶"	U26B6	# VESTA
 <Multi_key> <Multi_key> <c> <h> <i> <r> <o> <n>	: "⚷"	U26B7	# CHIRON
 <Multi_key> <Multi_key> <l> <i> <l> <i> <t> <h>	: "⚸"	U26B8	# BLACK MOON LILITH
+<Multi_key>  <bracketleft> <k> <e> <y> <bracketright> : "⚿"	U26BF	# SQUARED KEY
 
 # Unicode 6.0 gave us all kinds of things, perhaps more than we can use...
 
