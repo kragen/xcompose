@@ -1,4 +1,3 @@
-### I think this is going to be a private one.
 ### For davka *letters*, not punctuation that looks like it.
 ### Mnemonic/signal: <♫>!#, because they are not numbers.
 ### Maybe #!^ for ones that are just raised letters?  Those not as critical.
@@ -468,3 +467,7 @@
 <M_> {!#WW} :  "Ỽ"   U1EFC	# LATIN CAPITAL LETTER MIDDLE-WELSH V
 #- 1EFD;LATIN SMALL LETTER MIDDLE-WELSH V;Ll;0;L;;;;;N;;;1EFC;;1EFC
 <M_> {!#ww} :  "ỽ"   U1EFD	# LATIN SMALL LETTER MIDDLE-WELSH V
+#- A78B;LATIN CAPITAL LETTER SALTILLO;Lu;0;L;;;;;N;;;;A78C;
+<M_> {!#/"}   "Ꞌ"     # LATIN CAPITAL LETTER SALTILLO
+#- A78C;LATIN SMALL LETTER SALTILLO;Ll;0;L;;;;;N;;;A78B;;A78B
+<M_> {!#/'}   "ꞌ"   # LATIN SMALL LETTER SALTILLO
