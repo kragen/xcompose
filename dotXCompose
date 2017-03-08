@@ -770,6 +770,9 @@ include "%L"
 <Multi_key> <Multi_key> <m> <a> <i> <l>		: "✉"	U2709	  # ENVELOPE
 <Multi_key> <Multi_key> <w> <h> <l> <c> <h>	: "♿"	U267F	  # WHEELCHAIR SYMBOL
 <Multi_key> <Multi_key> <m> <e> <d> 		: "☤"	U2624	  # CADEUCEUS
+## Don't usually do sequences, but exception made for the
+## "eyewitness" compound emoji sequence:
+<Multi_key> <Multi_key> <i> <w> <i> <t>     : "👁️‍🗨️"
 # Something different for STAFF OF AESCULAPIUS?
 <Multi_key> <Multi_key> <1> <m> <e> <d>		: "⚕"	U2695	# STAFF OF AESCULAPIUS
 # 26B0 COFFIN ?
@@ -914,9 +917,9 @@ include "%L"
 <Multi_key> <exclam> <period>		: "Ꞌ"	UA78B		# LATIN CAPITAL LETTER SALTILLO
 # I'll use capitals for a different double
 <Multi_key> <W> <W>			: "ʬ"	U02AC		# LATIN LETTER BILABIAL PERCUSSIVE
+# Also handy for writing urls: http://ʬw.omniglot.com/
 # Sorry, I miss having this and hate having to use colon instead:
 <Multi_key> <colon> <plus>  	      	: "ː"	U02D0		# MODIFIER LETTER TRIANGULAR COLON
-# Also handy for writing urls: http://ʬw.omniglot.com/
 # ɣ? ᴥ?  Important enough to add? ᴥ is cool just as a "latin" letter.
 <Multi_key> <g> <h>	     	    : "ɣ"   U0263     # LATIN SMALL LETTER GAMMA
 # It looks like a ɣ and makes an "o" sorta sound:
