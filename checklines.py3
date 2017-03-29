@@ -28,5 +28,10 @@ for line in sys.stdin:
       print("\tLine's number: {0:X}".format(x))
       print("\tChar gives number: {0:X}".format(ord(char)))
       print("\tNumber gives character: {0} ({1})".format(c, name(c)))
+    elif comments[1]!='#' and comments[1:].strip() != name(char):
+      # Only report name issues if other stuff is okay.
+      print(line)
+      print("\tLine's char, name: {0} ({1})".format(char, comments[1:].strip()))
+      print("\tCorrect name: "+name(char))
   except Exception as e:
     print("{0}\n\t{1}".format(line, e))
