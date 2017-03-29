@@ -12,3 +12,7 @@ broadly acceptable set of keybindings that won't interfere with the
 traditional Compose bindings, aren't too hard to type, and cover a
 wide set of characters that are useful to use occasionally, making
 them available without the need for specialized input methods.
+
+After installing `.XCompose` you will need to restart any applications
+to see its effect for that application. Not all applications support
+XCompose, and it depends on which input method you are using.
