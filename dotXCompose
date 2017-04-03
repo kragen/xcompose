@@ -513,6 +513,8 @@ include "%L"
 <Multi_key> <asterisk> <p>		: "π"	U03C0		# GREEK SMALL LETTER PI
 # no mapping for q; in Emacs that's ";"
 # U037E GREEK QUESTION MARK is canonically equivalent to U003B SEMICOLON.
+# ... But that won't stop us from doing it anyway!!!
+<Multi_key> <asterisk> <period> <question> : ";"  U037E		# GREEK QUESTION MARK
 <Multi_key> <asterisk> <r>		: "ρ"	U03C1		# GREEK SMALL LETTER RHO
 <Multi_key> <asterisk> <s>		: "σ"	U03C3		# GREEK SMALL LETTER SIGMA
 <Multi_key> <asterisk> <t>		: "τ"	U03C4		# GREEK SMALL LETTER TAU
@@ -915,6 +917,7 @@ include "%L"
 # ı is already available in the "standard" .XCompose
 <Multi_key> <j> <period>    		: "ȷ"	U0237		# LATIN SMALL LETTER DOTLESS J
 <Multi_key> <exclam> <period>		: "Ꞌ"	UA78B		# LATIN CAPITAL LETTER SALTILLO
+<Multi_key> <exclam> <underscore> <period>		: "ꞌ"	UA78C		# LATIN SMALL LETTER SALTILLO
 # I'll use capitals for a different double
 <Multi_key> <W> <W>			: "ʬ"	U02AC		# LATIN LETTER BILABIAL PERCUSSIVE
 # Also handy for writing urls: http://ʬw.omniglot.com/
