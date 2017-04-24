@@ -172,6 +172,7 @@ include "%L"
 # These are just too cool-looking not to have (if your font supports them)
 <Multi_key> <equal> <period> <equal>	: "⸎"	U2E0E		# EDITORIAL CORONIS
 <Multi_key> <Multi_key> <p> <a> <l> <m>	: "⸙"	U2E19		# PALM BRANCH
+<Multi_key> <Multi_key> <f> <p> <a> <l> <m>	: "🤦"	U1F926		# FACE PALM
 <Multi_key> <Multi_key> <b> <r> <a> <n> <c> <h>: "⸙"	U2E19		# PALM BRANCH
 
 
