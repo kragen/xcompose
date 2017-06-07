@@ -1306,3 +1306,9 @@ include "%L"
 <Multi_key> <B> <minus> : "Ƀ" U0243 # ALTERNATIVE BITCOIN CURRENCY SIGN, LATIN CAPITAL LETTER B WITH STROKE
 <Multi_key> <minus> <b> : "ƀ" U0180 # ALTERNATIVE BIT CURRENCY SIGN, LATIN SMALL LETTER B WITH STROKE
 <Multi_key> <b> <minus> : "ƀ" U0180 # ALTERNATIVE BIT CURRENCY SIGN, LATIN SMALL LETTER B WITH STROKE
+
+# Multi-character emojicons
+<Multi_key> <Multi_key> <s> <h> <r> <u> <g>         : "¯\\_(ツ)_/¯"   # SHRUG
+<Multi_key> <Multi_key> <c> <o> <n> <c> <e> <r> <n> : "ಠ_ಠ"          # CONCERNED LOOK
+<Multi_key> <Multi_key> <f> <l> <i> <p>             : "(╯°□°）╯︵ ┻━┻" # TABLE FLIP
+<Multi_key> <Multi_key> <a> <f> <l> <i> <p>         : "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻"  # ANGRY TABLE FLIP
