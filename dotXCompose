@@ -1268,6 +1268,7 @@ include "%L"
 <Multi_key> <Multi_key> <t> <h> <m> <d> <n> : "👎"    U1F44E # THUMBS DOWN SIGN
 # More useful in chat than U+1F48F KISS
 <Multi_key> <Multi_key> <k> <i> <s> <s>	    : "💋"    U1F48B # KISS MARK
+<Multi_key> <Multi_key> <a> <i> <r> <q>     : "✌"     U270C # VICTORY / AIRQUOTE
 # ⛔ U+26D4 NO ENTRY for "Don't go there"?
 # So many hearts... I'm not touching them for now.
 # And emoticons? (U+1F600 et seq)
