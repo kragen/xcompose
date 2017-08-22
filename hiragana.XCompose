@@ -1,0 +1,91 @@
+#implementation of hiragana as compose characters
+
+
+#Monographs
+<Multi_key> <a> <h>				: "あ" #A
+<Multi_key> <i> <h>				: "い" #I
+<Multi_key> <u> <h>				: "う" #U
+<Multi_key> <e> <h>				: "え" #E
+<Multi_key> <o> <h>				: "お" #O
+<Multi_key> <k> <a> <h>			: "か" #KA
+<Multi_key> <k> <i> <h>			: "き" #KI
+<Multi_key> <k> <u> <h>			: "く" #KU
+<Multi_key> <k> <e> <h>			: "け" #KE
+<Multi_key> <k> <o> <h>			: "こ" #KO
+<Multi_key> <s> <a> <h>			: "さ" #SA
+<Multi_key> <s> <i> <h>			: "し" #SI
+<Multi_key> <s> <u> <h>			: "す" #SU
+<Multi_key> <s> <e> <h>			: "せ" #SE
+<Multi_key> <s> <o> <h>			: "そ" #SO
+<Multi_key> <t> <a> <h>			: "た" #TA
+<Multi_key> <t> <i> <h>			: "ち" #TI
+<Multi_key> <t> <u> <h>			: "つ" #TU
+<Multi_key> <t> <e> <h>			: "て" #TE
+<Multi_key> <t> <o> <h>			: "と" #TO
+<Multi_key> <n> <a> <h>			: "な" #NA
+<Multi_key> <n> <i> <h>			: "に" #NI
+<Multi_key> <n> <u> <h>			: "ぬ" #NU
+<Multi_key> <n> <e> <h>			: "ね" #NE
+<Multi_key> <n> <o> <h>			: "の" #NO
+<Multi_key> <h> <a> <h>			: "は" #HA
+<Multi_key> <h> <i> <h>			: "ひ" #HI
+<Multi_key> <h> <u> <h>			: "ふ" #HU
+<Multi_key> <h> <e> <h>			: "へ" #HE
+<Multi_key> <h> <o> <h>			: "ほ" #HO
+<Multi_key> <m> <a> <h>			: "ま" #MA
+<Multi_key> <m> <i> <h>			: "み" #MI
+<Multi_key> <m> <u> <h>			: "む" #MU
+<Multi_key> <m> <e> <h>			: "め" #ME
+<Multi_key> <m> <o> <h>			: "も" #MO
+<Multi_key> <y> <a> <h>			: "や" #YA
+<Multi_key> <y> <u> <h>			: "ゆ" #YU
+<Multi_key> <y> <o> <h>			: "よ" #YO
+<Multi_key> <r> <a> <h>			: "ら" #RA
+<Multi_key> <r> <i> <h>			: "り" #RI
+<Multi_key> <r> <u> <h>			: "る" #RU
+<Multi_key> <r> <e> <h>			: "れ" #RE
+<Multi_key> <r> <o> <h>			: "ろ" #RO
+<Multi_key> <w> <a> <h>			: "わ" #WA
+<Multi_key> <w> <i> <h>			: "ゐ" #WI this one is almost unused now
+<Multi_key> <w> <e> <h>			: "ゑ" #WE same as above
+<Multi_key> <w> <o> <h>			: "を" #WO
+<Multi_key> <n> <h>         	: "ん" #N
+
+
+#these 3 are used as modifiers to create Digraphs
+<Multi_key> <y> <a> <s> <h>			: "ゃ" #small YA
+<Multi_key> <y> <u> <s> <h>			: "ゅ" #small YU
+<Multi_key> <y> <o> <s> <h>			: "ょ" #small YO
+
+
+#Diacritics
+<Multi_key> <g> <a> <h>			: "が" #GA
+<Multi_key> <g> <i> <h>			: "ぎ" #GI
+<Multi_key> <g> <u> <h>			: "ぐ" #GU
+<Multi_key> <g> <e> <h>			: "げ" #GE
+<Multi_key> <g> <o> <h>			: "ご" #GO
+<Multi_key> <z> <a> <h>			: "ざ" #ZA
+<Multi_key> <z> <i> <h>			: "じ" #ZI
+<Multi_key> <z> <u> <h>			: "ず" #ZU
+<Multi_key> <z> <e> <h>			: "ぜ" #ZE
+<Multi_key> <z> <o> <h>			: "ぞ" #ZO
+<Multi_key> <d> <a> <h>			: "だ" #DA
+<Multi_key> <d> <i> <h>			: "ぢ" #DI
+<Multi_key> <d> <u> <h>			: "づ" #DU
+<Multi_key> <d> <e> <h>			: "で" #DE
+<Multi_key> <d> <o> <h>			: "ど" #DO
+<Multi_key> <b> <a> <h>			: "ば" #BA
+<Multi_key> <b> <i> <h>			: "び" #BI
+<Multi_key> <b> <u> <h>			: "ぶ" #BU
+<Multi_key> <b> <e> <h>			: "べ" #BE
+<Multi_key> <b> <o> <h>			: "ぼ" #BO
+<Multi_key> <p> <a> <h>			: "ぱ" #PA
+<Multi_key> <p> <i> <h>			: "ぴ" #PI
+<Multi_key> <p> <u> <h>			: "ぷ" #PU
+<Multi_key> <p> <e> <h>			: "ぺ" #PE
+<Multi_key> <p> <o> <h>			: "ぽ" #PO
+
+#modifers
+#								: "っ" #small TU. (indicates a geminate consonant)
+#								: "ゝ" #(reduplicates and unvoices syllable)
+#								: "ゞ" #(reduplicates and voices syllable)
