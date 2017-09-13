@@ -280,6 +280,7 @@ include "%L"
 <Multi_key> <U220B> <slash>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 <Multi_key> <asciitilde> <equal>			: "≅"	U2245		# APPROXIMATELY EQUAL TO (It actually means "congruent"!)
 <Multi_key> <equal> <question>		: "≟"	U225f		# QUESTIONED EQUAL TO
+<Multi_key> <question> <equal>		: "≟"	U225f		# QUESTIONED EQUAL TO
 <Multi_key> <equal> <d> <e> <f>		: "≝"	U225D		# EQUAL TO BY DEFINITION
 <Multi_key> <d> <e> <f> <equal>		: "≝"	U225D		# EQUAL TO BY DEFINITION
 <Multi_key> <equal> <equal>		: "≡"	U2261		# IDENTICAL TO
