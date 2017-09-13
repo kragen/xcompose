@@ -459,6 +459,12 @@ include "%L"
 <Multi_key> <underscore> <exclam> <underscore>:	"⊤"	 U22A4	# DOWN TACK (opposite of False)
 <Multi_key> <underscore> <greater> <underscore>:	"⊢"	 U22A2	# RIGHT TACK
 <Multi_key> <underscore> <less> <underscore>:	"⊣"	 U22A3	# LEFT TACK
+# Alternative tacks
+<Multi_key> <bar> <minus>	: "⊢"	U22A2	# RIGHT TACK
+<Multi_key> <minus> <bar>	: "⊣"	U22A3	# LEFT TACK
+<Multi_key> <F> <F>		: "⊥"	U22A4	# DOWN TACK
+<Multi_key> <T> <T>		: "⊤"	U22A5	# UP TACK
+<Multi_key> <bar> <equal>	: "⊨"	U22A8	# TRUE
 # Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
 <Multi_key> <slash> <slash>		: "⁄"	U2044	# FRACTION SLASH
 
