@@ -367,6 +367,7 @@ include "%L"
 <Multi_key> <Multi_key> <d> <e> <l>	: "∇"	U2207	        # NABLA
 <Multi_key> <Multi_key> <p> <a> <r> <t>   : "∂" U2202		# PARTIAL DIFFERENTIAL
 <Multi_key> <asterisk> <period> <period> <d>   : "∂" U2202	# PARTIAL DIFFERENTIAL
+<Multi_key> <p> <d>			: "∂" U2202		# PARTIAL DIFFERENTIAL
 <Multi_key> <R> <e>    		: "ℜ"	 U211C 	     	# BLACK-LETTER CAPITAL R (Real Part)
 <Multi_key> <I> <m>		: "ℑ"	 U2111		# BLACK-LETTER CAPTIAL I (Imaginary Part)
 <Multi_key> <Multi_key> <h> <b> <a> <r>	:   "ℏ"	U210F	# PLANCK CONSTANT OVER TWO PI
