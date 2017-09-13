@@ -469,6 +469,9 @@ include "%L"
 # Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
 <Multi_key> <slash> <slash>		: "⁄"	U2044	# FRACTION SLASH
 
+<Multi_key> <Multi_key> <c> <a> <p>	: "⊓"	U2293	# SQUARE CAP
+<Multi_key> <Multi_key> <c> <u> <p>	: "⊔"	U2294	# SQUARE CUP
+
 # The system file gives us subscript numbers, plus/minus, and parens.  But
 # there are letters missing.  It would be nice to have at least a few of them.
 
