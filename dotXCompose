@@ -1349,3 +1349,5 @@ include "%L"
 
 <Multi_key> <braceleft>  <braceleft>  : "⦃" U2983
 <Multi_key> <braceright> <braceright> : "⦄" U2984
+
+<Multi_key> <ampersand> <ampersand> : "⅋" U214B
