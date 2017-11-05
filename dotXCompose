@@ -304,6 +304,8 @@ include "%L"
 <Multi_key> <slash> <backslash>         : "∧"  U2227           # LOGICAL AND
 <Multi_key> <backslash> <slash>         : "∨"  U2228           # LOGICAL OR
 <Multi_key> <backslash> <underscore> <slash>    : "⊻" U22BB     # XOR
+<Multi_key> <slash> <underscore> <underscore> <backslash>    : "⊼" U22BC     # NAND
+<Multi_key> <backslash> <underscore> <underscore> <slash>    : "⊽" U22BD     # NOR
 <Multi_key> <minus> <comma>	     :	"¬"	U00AC 		# NOT SIGN
 <Multi_key> <Multi_key> <asterisk> <o>              : "∘"   U2218           # RING OPERATOR (function composition)
 <Multi_key> <Multi_key> <asterisk> <x>             : "⨯"   U2A2F           # CROSS PRODUCT
