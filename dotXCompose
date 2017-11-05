@@ -873,13 +873,31 @@ include "%L"
 <Multi_key> <bar> <greater>             : "‣"   U2023           # TRIANGULAR BULLET
 #SUPERSCRIPTS:
 #To avoid namespace clashes, <asciicircum> is doubled (will I regret that?)
+<Multi_key> <asciicircum> <asciicircum> <a>       : "ᵃ"
+<Multi_key> <asciicircum> <asciicircum> <b>       : "ᵇ"
+<Multi_key> <asciicircum> <asciicircum> <c>       : "ᶜ"
+<Multi_key> <asciicircum> <asciicircum> <d>       : "ᵈ"
+<Multi_key> <asciicircum> <asciicircum> <e>       : "ᵉ"
+<Multi_key> <asciicircum> <asciicircum> <f>       : "ᶠ"
+<Multi_key> <asciicircum> <asciicircum> <g>       : "ᵍ"
 <Multi_key> <asciicircum> <asciicircum> <h>       : "ʰ"   U02B0           # SUPERSCRIPT H
 <Multi_key> <asciicircum> <asciicircum> <i>       : "ⁱ"   U2071           # SUPERSCRIPT I
 <Multi_key> <asciicircum> <asciicircum> <j>       : "ʲ"   U02B2           # SUPERSCRIPT J
+<Multi_key> <asciicircum> <asciicircum> <k>       : "ᵏ"
+<Multi_key> <asciicircum> <asciicircum> <l>       : "ˡ"
+<Multi_key> <asciicircum> <asciicircum> <m>       : "ᵐ"
 <Multi_key> <asciicircum> <asciicircum> <n>       : "ⁿ"   U207F           # SUPERSCRIPT N
+<Multi_key> <asciicircum> <asciicircum> <o>       : "ᵒ"
+<Multi_key> <asciicircum> <asciicircum> <p>       : "ᵖ"
 <Multi_key> <asciicircum> <asciicircum> <r>       : "ʳ"   U02B3           # SUPERSCRIPT R
+<Multi_key> <asciicircum> <asciicircum> <s>       : "ˢ"
+<Multi_key> <asciicircum> <asciicircum> <t>       : "ᵗ"
+<Multi_key> <asciicircum> <asciicircum> <u>       : "ᵘ"
+<Multi_key> <asciicircum> <asciicircum> <v>       : "ᵛ"
 <Multi_key> <asciicircum> <asciicircum> <w>       : "ʷ"   U02B7           # SUPERSCRIPT W
+<Multi_key> <asciicircum> <asciicircum> <x>       : "ˣ"
 <Multi_key> <asciicircum> <asciicircum> <y>       : "ʸ"   U02B8           # SUPERSCRIPT Y
+<Multi_key> <asciicircum> <asciicircum> <z>       : "ᶻ"
 # So I can use yᵗ/þᵗ and yᵉ/þᵉ
 <Multi_key> <asciicircum> <asciicircum> <e>	  : "ᵉ"	  U1D49		  # MODIFIER LETTER SMALL E
 <Multi_key> <asciicircum> <asciicircum> <t>	  : "ᵗ"	  U1D57		  # MODIFIER LETTER SMALL T
