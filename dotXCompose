@@ -255,6 +255,14 @@ include "%L"
 <Multi_key> <O> <U>		:	"Ȣ"	U0222	# LATIN CAPITAL LETTER OU
 <Multi_key> <o> <u>		:	"ȣ"	U0223	# LATIN SMALL LETTER OU
 <Multi_key> <y> <r>		:	"Ʀ"	U01A6	# LATIN LETTER YR
+# <o><r> might almost make more sense, as it's used when r follows [opb].
+# But it conflicts with system ®
+<Multi_key> <r> <o>             :       "ꝛ"     UA75B   # LATIN SMALL LETTER R ROTUNDA
+<Multi_key> <r> <0>             :       "ꝛ"     UA75B   # LATIN SMALL LETTER R ROTUNDA
+# Alas, <R><O> conflicts with ® anyway.
+<Multi_key> <R> <O>             :       "Ꝛ"     UA75A   # LATIN CAPITAL LETTER R ROTUNDA
+# something, anyway.
+<Multi_key> <R> <0>             :       "Ꝛ"     UA75A   # LATIN CAPITAL LETTER R ROTUNDA
 
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
