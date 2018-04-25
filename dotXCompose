@@ -340,7 +340,7 @@ include "%L"
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
 <Multi_key> <slash> <u>                : "µ"   U00B5      # MICRO SIGN
 # Ordinal indicators, for femenine and masculine, used in Romance languages
-<Multi_key> <minus> <a>	      	  	: "ª"   U00AA		# FEMININE ORDINAL INDICATOR
+<Multi_key> <minus> <a>			: "ª"   U00AA           # FEMININE ORDINAL INDICATOR
 <Multi_key> <minus> <o>			: "º"	U00BA		# MASCULINE ORDINAL INDICATOR
 
 # See also U03A3 (Greek capital sigma)
@@ -896,6 +896,8 @@ include "%L"
 <Multi_key> <asciitilde> <asciitilde>        : "≈"  U2248           # ALMOST EQUAL TO
 <Multi_key> <s> <h>			: "ʃ"	U0283		# LATIN SMALL LETTER ESH
 <Multi_key> <z> <h>			: "ʒ"	U0292		# LATIN SMALL LETTER EZH
+<Multi_key> <Multi_key> <c> <z> <h>          : "ǯ"  U01EF       # LATIN SMALL LETTER EZH WITH CARON
+<Multi_key> <Multi_key> <C> <Z> <H>          : "Ǯ"  U01EE       # LATIN CAPITAL LETTER EZH WITH CARON
 <Multi_key> <l> <h>    			: "ɬ"	U026C		# LATIN SMALL LETTER L WITH BELT
 <Multi_key> <l> <3>			: "ɮ"	U026E		# LATIN SMALL LETTER LEZH
 <Multi_key> <y> <g>			: "ȝ"	U021D		# LATIN SMALL LETTER YOGH
@@ -936,11 +938,13 @@ include "%L"
 <Multi_key> <r> <d>                     : "ɾ"   U027E           # LATIN SMALL LETTER R WITH FISHHOOK: voiced alveolar flap or tap (American English intervocalic allophone of d, or Spanish r)
 <Multi_key> <v> <v>                     : "ʌ"   U028C           # LATIN SMALL LETTER TURNED V
 <Multi_key> <u> <i>			: "ɯ"	U026F		# LATIN SMALL LETTER TURNED M
+<Multi_key> <w> <j>         : "ɰ"   U0270       # LATIN ????
 # doubling a letter seems to be mostly used for turning
 <Multi_key> <w> <w>			: "ʍ"	U028D		# LATIN SMALL LETTER TURNED W
 <Multi_key> <y> <y>			: "ʎ"	U028E		# LATIN SMALL LETTER TURNED Y
 <Multi_key> <a> <a>			: "ɐ"	U0250		# LATIN SMALL LETTER TURNED A
 <Multi_key> <h> <h>			: "ɥ"	U0265		# LATIN SMALL LETTER TURNED H
+<Multi_key> <n> <j>			: "ɲ"	U0272		# IPA symbol for palatal nasal
 # ı is already available in the "standard" .XCompose
 <Multi_key> <j> <period>    		: "ȷ"	U0237		# LATIN SMALL LETTER DOTLESS J
 <Multi_key> <exclam> <period>		: "Ꞌ"	UA78B		# LATIN CAPITAL LETTER SALTILLO
@@ -1324,8 +1328,10 @@ include "%L"
 <Multi_key> <parenleft> <1> <0> <colon> <3> <0> <parenright>     : "🕥" U1F565 # CLOCK FACE TEN-THIRTY
 <Multi_key> <parenleft> <1> <1> <colon> <3> <0> <parenright>     : "🕦" U1F566 # CLOCK FACE ELEVEN-THIRTY
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
+
 # Real bitcoin symbol now.
 <Multi_key> <B> <bar> : "฿" U20BF  # BITCOIN SIGN
+
 
 # Various Currency Symbols
 <Multi_key> <Multi_key> <e> <u> <r> <o> : "€" # EURO SIGN
