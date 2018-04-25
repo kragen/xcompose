@@ -1326,3 +1326,6 @@ include "%L"
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
 # Real bitcoin symbol now.
 <Multi_key> <B> <bar> : "฿" U20BF  # BITCOIN SIGN
+
+# Various Currency Symbols
+<Multi_key> <Multi_key> <e> <u> <r> <o> : "€" # EURO SIGN
