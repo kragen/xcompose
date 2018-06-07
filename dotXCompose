@@ -96,6 +96,8 @@ include "%L"
 #<Multi_key> <space> <minus>		: "‑"	U2011		# NON-BREAKING HYPHEN
 # Already present for me:
 # <Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
+# Narrow no-break space, needed for some Latin languages like French
+<Multi_key> <space> <n> : " "    U202f # NARROW NO-BREAK SPACE
 # Do we want/need these?
 <Multi_key> <d> <a> <g>			: "†"	U2020		# DAGGER
 <Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
@@ -238,8 +240,8 @@ include "%L"
 <Multi_key> <slash> <ampersand> <L> :	"Ꝇ"	UA746	# LATIN CAPITAL LETTER BROKEN L
 <Multi_key> <slash> <ampersand> <l> :	"ꝇ"	UA747	# LATIN SMALL LETTER BROKEN L
 # (See above for reason behind keystrokes)
-<Multi_key> <Z> <period>	:	"Ꝫ"	UA75A	# LATIN CAPITAL LETTER ET
-<Multi_key> <z> <period>	:	"ꝫ"	UA75B	# LATIN SMALL LETTER ET
+<Multi_key> <Z> <period>	:	"Ꝫ"	UA76A	# LATIN CAPITAL LETTER ET
+<Multi_key> <z> <period>	:	"ꝫ"	UA76B	# LATIN SMALL LETTER ET
 <Multi_key> <V> <ampersand> <Y>	:	"Ꝡ"	UA760	# LATIN CAPITAL LETTER VY
 <Multi_key> <v> <ampersand> <y>	:	"ꝡ"	UA761	# LATIN SMALL LETTER VY
 <Multi_key> <C> <Z>	    	:	"Ꝣ"	UA762	# LATIN CAPITAL LETTER VISIGOTHIC Z
@@ -403,6 +405,8 @@ include "%L"
 # Others too, of course, but these to start with.  Some are likely worthy.
 <Multi_key> <S> <parenleft>  	: "⟅" U27C5 	# LEFT S-SHAPED BAG DELIMITER
 <Multi_key> <S> <parenright>	: "⟆" U27C6 	# RIGHT S-SHAPED BAG DELIMITER
+<Multi_key> <E> <bracketleft>   : "⁅" U2045     # LEFT SQUARE BRACKET WITH QUILL
+<Multi_key> <E> <bracketright>  : "⁆" U2046     # RIGHT SQUARE BRACKET WITH QUILL
 # There are a lot of angle brackets (3008/9, 27E8/9, 2329/A).  I'm deciding
 # to go with the mathematical brackets from now on, since they seem to be
 # better supported.
@@ -410,6 +414,16 @@ include "%L"
 <Multi_key> <greater> <parenright>: "⟩" U27E9	# MATHEMATICAL RIGHT ANGLE BRACKET
 <Multi_key> <bar> <bracketleft>	:   "⟦"	U27E6	# MATHEMATICAL LEFT WHITE SQUARE BRACKET
 <Multi_key> <bar> <bracketright>:   "⟧"	U27E7	# MATHEMATICAL RIGHT WHITE SQUARE BRACKET
+<Multi_key> <2> <greater> <parenleft> :   "⟪"	U27EA	# MATHEMATICAL LEFT DOUBLE ANGLE BRACKET
+<Multi_key> <2> <less> <parenright>   :   "⟫"	U27EB	# MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET
+# Keystrokes inconsistent.
+<Multi_key> <bar> <bar> <parenleft>	:   "⟬"  U27EC	# MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET
+<Multi_key> <bar> <bar> <parenright>:   "⟭"	U27ED	# MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET
+<Multi_key> <underscore> <underscore> <parenleft> :   "⟮"  U27EE	# MATHEMATICAL LEFT FLATTENED PARENTHESIS
+<Multi_key> <underscore> <underscore> <parenright>:   "⟯"  U27EF	# MATHEMATICAL RIGHT FLATTENED PARENTHESIS
+<Multi_key> <parenleft> <bracketleft>	:   "⦗"	U2997	# LEFT BLACK TORTOISE SHELL BRACKET
+<Multi_key> <parenright> <bracketright> :   "⦘"	U2998	# RIGHT BLACK TORTOISE SHELL BRACKET
+# Do the underlined brackets, ones with ticks, dots, etc?
 <Multi_key> <percent> <parenleft>:  "⧘"	U29D8	# LEFT WIGGLY FENCE
 <Multi_key> <percent> <parenright>: "⧙"	U29D9	# RIGHT WIGGLY FENCE
 <Multi_key> <2> <percent> <parenleft>:	"⧚" U29DA   # LEFT DOUBLE WIGGLY FENCE
@@ -442,7 +456,7 @@ include "%L"
 <Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom) or should we use U27C2 PERPENDICULAR?
 <Multi_key> <underscore> <exclam> <underscore>:	"⊤"	 U22A4	# DOWN TACK (opposite of False)
 <Multi_key> <underscore> <greater> <underscore>:	"⊢"	 U22A2	# RIGHT TACK
-<Multi_key> <underscore> <less> <underscore>:	"⊣"	 U22A2	# LEFT TACK
+<Multi_key> <underscore> <less> <underscore>:	"⊣"	 U22A3	# LEFT TACK
 # Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
 <Multi_key> <slash> <slash>		: "⁄"	U2044	# FRACTION SLASH
 
@@ -740,6 +754,19 @@ include "%L"
 <Multi_key> <at> <at> <slash>	:	"✔"	U2714	# HEAVY CHECK MARK
 <Multi_key> <at> <X>  		:	"✗"	U2717	# BALLOT X
 <Multi_key> <at> <at> <X>	:	"✘"	U2718	# HEAVY BALLOT X
+<Multi_key> <at> <parenleft>    :       "❨"     U2768   # MEDIUM LEFT PARENTHESIS ORNAMENT
+<Multi_key> <at> <parenright>   :       "❩"     U2769   # MEDIUM RIGHT PARENTHESIS ORNAMENT
+<Multi_key> <at> <at> <parenleft>    :  "❪"     U276A   # MEDIUM FLATTENED LEFT PARENTHESIS ORNAMENT
+<Multi_key> <at> <at> <parenright>   :  "❫"     U276B   # MEDIUM FLATTENED RIGHT PARENTHESIS ORNAMENT
+<Multi_key> <at> <less>         :       "❬"     U276C   # MEDIUM LEFT-POINTING ANGLE BRACKET ORNAMENT
+<Multi_key> <at> <greater>      :       "❭"     U276D   # MEDIUM RIGHT-POINTING ANGLE BRACKET ORNAMENT
+# U276E&F ❮❯ ?  Angle quotation mark ornaments?
+<Multi_key> <at> <at> <less>    :       "❰"     U2770   # HEAVY LEFT-POINTING ANGLE BRACKET ORNAMENT
+<Multi_key> <at> <at> <greater> :       "❱"     U2771   # HEAVY RIGHT-POINTING ANGLE BRACKET ORNAMENT
+<Multi_key> <at> <bracketleft> <parenleft> :    "❲"     U2772   # LIGHT LEFT TORTOISE SHELL BRACKET ORNAMENT
+<Multi_key> <at> <bracketright> <parenright> :  "❳"     U2773   # LIGHT RIGHT TORTOISE SHELL BRACKET ORNAMENT
+<Multi_key> <at> <braceleft>    :       "❴"     U2774   # MEDIUM LEFT CURLY BRACKET ORNAMENT
+<Multi_key> <at> <braceright>   :       "❵"     U2775   # MEDIUM RIGHT CURLY BRACKET ORNAMENT
 # Will I want <at> <at> for something else?
 # Now there is such a thing as text style and emoji style.  Use the
 # "dingbat prefix" in an unusual way:
@@ -1298,14 +1325,8 @@ include "%L"
 <Multi_key> <parenleft> <1> <1> <colon> <3> <0> <parenright>     : "🕦" U1F566 # CLOCK FACE ELEVEN-THIRTY
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
 
-# Bitcoin signs
-# Real bitcoin codepoint coming at U+20BF!
-<Multi_key> <B> <bar> : "฿" U0E3F # BITCOIN CURRENCY SIGN, ORIGINAL THAI CURRENCY SYMBOL BAHT
-
-<Multi_key> <minus> <B> : "Ƀ" U0243 # ALTERNATIVE BITCOIN CURRENCY SIGN, LATIN CAPITAL LETTER B WITH STROKE
-<Multi_key> <B> <minus> : "Ƀ" U0243 # ALTERNATIVE BITCOIN CURRENCY SIGN, LATIN CAPITAL LETTER B WITH STROKE
-<Multi_key> <minus> <b> : "ƀ" U0180 # ALTERNATIVE BIT CURRENCY SIGN, LATIN SMALL LETTER B WITH STROKE
-<Multi_key> <b> <minus> : "ƀ" U0180 # ALTERNATIVE BIT CURRENCY SIGN, LATIN SMALL LETTER B WITH STROKE
+# Real bitcoin symbol now.
+<Multi_key> <B> <bar> : "฿" U20BF  # BITCOIN SIGN
 
 # Multi-character emojicons
 <Multi_key> <Multi_key> <s> <h> <r> <u> <g>         : "¯\\_(ツ)_/¯"   # SHRUG

@@ -41,7 +41,7 @@
 #- 270B;RAISED HAND;So;0;ON;;;;;N;;;;;
 ### <MM> {raised hand} :  "✋"   U270B	# RAISED HAND
 #- 270C;VICTORY HAND;So;0;ON;;;;;N;;;;;
-### <MM> {victory hand} :  "✌"   U270C	# VICTORY HAND
+<MM> {victory} :  "✌"   U270C	# VICTORY HAND
 #- 270D;WRITING HAND;So;0;ON;;;;;N;;;;;
 ### <MM> {writing hand} :  "✍"   U270D	# WRITING HAND
 #- 270E;LOWER RIGHT PENCIL;So;0;ON;;;;;N;;;;;
