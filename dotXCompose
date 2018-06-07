@@ -1324,5 +1324,12 @@ include "%L"
 <Multi_key> <parenleft> <1> <0> <colon> <3> <0> <parenright>     : "🕥" U1F565 # CLOCK FACE TEN-THIRTY
 <Multi_key> <parenleft> <1> <1> <colon> <3> <0> <parenright>     : "🕦" U1F566 # CLOCK FACE ELEVEN-THIRTY
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
+
 # Real bitcoin symbol now.
 <Multi_key> <B> <bar> : "฿" U20BF  # BITCOIN SIGN
+
+# Multi-character emojicons
+<Multi_key> <Multi_key> <s> <h> <r> <u> <g>         : "¯\\_(ツ)_/¯"   # SHRUG
+<Multi_key> <Multi_key> <c> <o> <n> <c> <e> <r> <n> : "ಠ_ಠ"          # CONCERNED LOOK
+<Multi_key> <Multi_key> <f> <l> <i> <p>             : "(╯°□°）╯︵ ┻━┻" # TABLE FLIP
+<Multi_key> <Multi_key> <a> <f> <l> <i> <p>         : "(ﾉಥ益ಥ）ﾉ﻿ ┻━┻"  # ANGRY TABLE FLIP
