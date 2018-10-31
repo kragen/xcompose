@@ -890,6 +890,8 @@ include "%L"
 <Multi_key> <asciicircum> <asciicircum> <r>       : "ʳ"   U02B3           # SUPERSCRIPT R
 <Multi_key> <asciicircum> <asciicircum> <w>       : "ʷ"   U02B7           # SUPERSCRIPT W
 <Multi_key> <asciicircum> <asciicircum> <y>       : "ʸ"   U02B8           # SUPERSCRIPT Y
+# How could I have gone so long without being able to type "10ˣ" for "thanks"?
+<Multi_key> <asciicircum> <asciicircum> <x>       : "ˣ"   U02E3           # SUPERSCRIPT X
 # So I can use yᵗ/þᵗ and yᵉ/þᵉ
 <Multi_key> <asciicircum> <asciicircum> <e>	  : "ᵉ"	  U1D49		  # MODIFIER LETTER SMALL E
 <Multi_key> <asciicircum> <asciicircum> <t>	  : "ᵗ"	  U1D57		  # MODIFIER LETTER SMALL T
@@ -1092,6 +1094,7 @@ include "%L"
 <Multi_key> <R> <L> <O>			: "‮"	U202E	# RIGHT-TO-LEFT OVERRIDE
 <Multi_key> <B> <O> <M>			: "﻿"	UFEFF	# ZERO WIDTH NO-BREAK SPACE (Byte Order Mark)
 <Multi_key> <C> <G> <J>			: "͏"	U034F	# COMBINING GRAPHEME JOINER
+<Multi_key> <W> <J>                     : "⁠"    U2060   # WORD JOINER
 # These are sufficiently special and well-known that they don't need the
 # double <Multi_key> prefix I think.  The all-caps helps too.
 
@@ -1303,9 +1306,9 @@ include "%L"
 <Multi_key> <Multi_key> <t> <h> <m> <d> <n> : "👎"    U1F44E # THUMBS DOWN SIGN
 # More useful in chat than U+1F48F KISS
 <Multi_key> <Multi_key> <k> <i> <s> <s>	    : "💋"    U1F48B # KISS MARK
-# ⛔ U+26D4 NO ENTRY for "Don't go there"?
+<Multi_key> <Multi_key> <D> <N> <E>         : "⛔"    U26D4  # NO ENTRY
 # So many hearts... I'm not touching them for now.
-# And emoticons? (U+1F600 et seq)
+# And emoticons? (U+1F600 et seq) -- Moved to their own file.
 
 <Multi_key> <parenleft> <1> <colon> <0> <0> <parenright> : "🕐" U1F550 # CLOCK FACE ONE OCLOCK
 <Multi_key> <parenleft> <2> <colon> <0> <0> <parenright> : "🕑" U1F551 # CLOCK FACE TWO OCLOCK
@@ -1333,4 +1336,4 @@ include "%L"
 <Multi_key> <parenleft> <1> <1> <colon> <3> <0> <parenright>     : "🕦" U1F566 # CLOCK FACE ELEVEN-THIRTY
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
 # Real bitcoin symbol now.
-<Multi_key> <B> <bar> : "฿" U20BF  # BITCOIN SIGN
+<Multi_key> <B> <bar> : "₿" U20BF  # BITCOIN SIGN
