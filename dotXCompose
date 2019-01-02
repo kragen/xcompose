@@ -135,7 +135,9 @@ include "%L"
 <Multi_key> <Left> <c>			: "↺"	U21BA		# ANTICLOCKWISE OPEN CIRCLE ARROW
 <Multi_key> <Right> <c>			: "↻"	U21BB		# CLOCKWISE OPEN CIRCLE ARROW
 <Multi_key> <Left> <asciitilde>		: "⇜"	U21DC		# LEFTWARDS SQUIGGLE ARROW
+<Multi_key> <asciitilde> <Left> <asciitilde>    : "⬳"  U2B33    # LONG LEFTWARDS SQUIGGLE ARROW
 <Multi_key> <Right> <asciitilde>	: "⇝"	U21DD		# RIGHTWARDS SQUIGGLE ARROW
+<Multi_key> <asciitilde> <Right> <asciitilde>   : "⟿"  U27FF    # LONG RIGHTWARDS SQUIGGLE ARROW
 <Multi_key> <Left> <bar>       		: "⇤"	U21E4		# LEFTWARDS ARROW TO BAR
 <Multi_key> <Right> <bar>       	: "⇥"	U21E5		# RIGHTWARDS ARROW TO BAR
 <Multi_key> <Left> <minus>     		: "⇠"	U21E0		# LEFTWARDS DASHED ARROW
@@ -422,8 +424,8 @@ include "%L"
 <Multi_key> <greater> <parenright>: "⟩" U27E9	# MATHEMATICAL RIGHT ANGLE BRACKET
 <Multi_key> <bar> <bracketleft>	:   "⟦"	U27E6	# MATHEMATICAL LEFT WHITE SQUARE BRACKET
 <Multi_key> <bar> <bracketright>:   "⟧"	U27E7	# MATHEMATICAL RIGHT WHITE SQUARE BRACKET
-<Multi_key> <2> <greater> <parenleft> :   "⟪"	U27EA	# MATHEMATICAL LEFT DOUBLE ANGLE BRACKET
-<Multi_key> <2> <less> <parenright>   :   "⟫"	U27EB	# MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET
+<Multi_key> <2> <less> <parenleft> :   "⟪"	U27EA	# MATHEMATICAL LEFT DOUBLE ANGLE BRACKET
+<Multi_key> <2> <greater> <parenright>   :   "⟫"	U27EB	# MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET
 # Keystrokes inconsistent.
 <Multi_key> <bar> <bar> <parenleft>	:   "⟬"  U27EC	# MATHEMATICAL LEFT WHITE TORTOISE SHELL BRACKET
 <Multi_key> <bar> <bar> <parenright>:   "⟭"	U27ED	# MATHEMATICAL RIGHT WHITE TORTOISE SHELL BRACKET
