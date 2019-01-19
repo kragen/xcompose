@@ -1,4 +1,4 @@
-#!/usr/bin/perl -p
+#!/usr/bin/env -S perl -p
 use feature 'unicode_strings';
 use utf8;
 BEGIN { binmode(STDOUT, ":utf8");
