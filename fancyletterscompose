@@ -120,3 +120,120 @@
 <Multi_key> <x> <semicolon> <asterisk>	:	"𝔵"	U1D535	# MATHEMATICAL FRAKTUR SMALL X
 <Multi_key> <y> <semicolon> <asterisk>	:	"𝔶"	U1D536	# MATHEMATICAL FRAKTUR SMALL Y
 <Multi_key> <z> <semicolon> <asterisk>	:	"𝔷"	U1D537	# MATHEMATICAL FRAKTUR SMALL Z
+
+
+######
+# times new roman font style (serif) characters
+# i used the '#' as the mnemonic cuz its pointy on all sides just like the serif font
+
+<Multi_key> <A> <numbersign>		:			"𝐀" U1D400 # MATHEMATICAL BOLD CAPITAL A
+<Multi_key> <B> <numbersign>		:			"𝐁" U1D401 # MATHEMATICAL BOLD CAPITAL B
+<Multi_key> <C> <numbersign>		:			"𝐂" U1D402 # MATHEMATICAL BOLD CAPITAL C
+<Multi_key> <D> <numbersign>		:			"𝐃" U1D403 # MATHEMATICAL BOLD CAPITAL D
+<Multi_key> <E> <numbersign>		:			"𝐄" U1D404 # MATHEMATICAL BOLD CAPITAL E
+<Multi_key> <F> <numbersign>		:			"𝐅" U1D405 # MATHEMATICAL BOLD CAPITAL F
+<Multi_key> <G> <numbersign>		:			"𝐆" U1D406 # MATHEMATICAL BOLD CAPITAL G
+<Multi_key> <E> <numbersign>		:			"𝐄" U1D404 # MATHEMATICAL BOLD CAPITAL H
+<Multi_key> <I> <numbersign>		:			"𝐈" U1D408 # MATHEMATICAL BOLD CAPITAL I
+<Multi_key> <J> <numbersign>		:			"𝐉" U1D409 # MATHEMATICAL BOLD CAPITAL J
+<Multi_key> <K> <numbersign>		:			"𝐊" U1D40A # MATHEMATICAL BOLD CAPITAL K
+<Multi_key> <L> <numbersign>		:			"𝐋" U1D40B # MATHEMATICAL BOLD CAPITAL L
+<Multi_key> <M> <numbersign>		:			"𝐌" U1D40C # MATHEMATICAL BOLD CAPITAL M
+<Multi_key> <N> <numbersign>		:			"𝐍" U1D40D # MATHEMATICAL BOLD CAPITAL N
+<Multi_key> <O> <numbersign>		:			"𝐎" U1D40E # MATHEMATICAL BOLD CAPITAL O
+<Multi_key> <P> <numbersign>		:			"𝐏" U1D40F # MATHEMATICAL BOLD CAPITAL P
+<Multi_key> <Q> <numbersign>		:			"𝐐" U1D410 # MATHEMATICAL BOLD CAPITAL Q
+<Multi_key> <R> <numbersign>		:			"𝐑" U1D411 # MATHEMATICAL BOLD CAPITAL R
+<Multi_key> <S> <numbersign>		:			"𝐒" U1D412 # MATHEMATICAL BOLD CAPITAL S
+<Multi_key> <T> <numbersign>		:			"𝐓" U1D413 # MATHEMATICAL BOLD CAPITAL T
+<Multi_key> <U> <numbersign>		:			"𝐔" U1D414 # MATHEMATICAL BOLD CAPITAL U
+<Multi_key> <V> <numbersign>		:			"𝐕" U1D415 # MATHEMATICAL BOLD CAPITAL V
+<Multi_key> <W> <numbersign>		:			"𝐖" U1D416 # MATHEMATICAL BOLD CAPITAL W
+<Multi_key> <X> <numbersign>		:			"𝐗" U1D417 # MATHEMATICAL BOLD CAPITAL X
+<Multi_key> <Y> <numbersign>		:			"𝐘" U1D418 # MATHEMATICAL BOLD CAPITAL Y
+<Multi_key> <Z> <numbersign>		:			"𝐙" U1D419 # MATHEMATICAL BOLD CAPITAL Z
+
+<Multi_key> <a> <numbersign>		:			"𝐚" U1D41A # MATHEMATICAL BOLD SMALL A
+<Multi_key> <b> <numbersign>		:			"𝐛" U1D41B # MATHEMATICAL BOLD SMALL B
+<Multi_key> <c> <numbersign>		:			"𝐜" U1D41C # MATHEMATICAL BOLD SMALL C
+<Multi_key> <d> <numbersign>		:			"𝐝" U1D41D # MATHEMATICAL BOLD SMALL D
+<Multi_key> <e> <numbersign>		:			"𝐞" U1D41E # MATHEMATICAL BOLD SMALL E
+<Multi_key> <f> <numbersign>		:			"𝐟" U1D41F # MATHEMATICAL BOLD SMALL F
+<Multi_key> <g> <numbersign>		:			"𝐠" U1D420 # MATHEMATICAL BOLD SMALL G
+<Multi_key> <h> <numbersign>		:			"𝐡" U1D421 # MATHEMATICAL BOLD SMALL H
+<Multi_key> <i> <numbersign>		:			"𝐢" U1D422 # MATHEMATICAL BOLD SMALL I
+<Multi_key> <j> <numbersign>		:			"𝐣" U1D423 # MATHEMATICAL BOLD SMALL J
+<Multi_key> <k> <numbersign>		:			"𝐤" U1D424 # MATHEMATICAL BOLD SMALL K
+<Multi_key> <l> <numbersign>		:			"𝐥" U1D425 # MATHEMATICAL BOLD SMALL L
+<Multi_key> <m> <numbersign>		:			"𝐦" U1D426 # MATHEMATICAL BOLD SMALL M
+<Multi_key> <n> <numbersign>		:			"𝐧" U1D427 # MATHEMATICAL BOLD SMALL N
+<Multi_key> <o> <numbersign>		:			"𝐨" U1D428 # MATHEMATICAL BOLD SMALL O
+<Multi_key> <p> <numbersign>		:			"𝐩" U1D429 # MATHEMATICAL BOLD SMALL P
+<Multi_key> <q> <numbersign>		:			"𝐪" U1D42A # MATHEMATICAL BOLD SMALL Q
+<Multi_key> <r> <numbersign>		:			"𝐫" U1D42B # MATHEMATICAL BOLD SMALL R
+<Multi_key> <s> <numbersign>		:			"𝐬" U1D42C # MATHEMATICAL BOLD SMALL S
+<Multi_key> <t> <numbersign>		:			"𝐭" U1D42D # MATHEMATICAL BOLD SMALL T
+<Multi_key> <u> <numbersign>		:			"𝐮" U1D42E # MATHEMATICAL BOLD SMALL U
+<Multi_key> <v> <numbersign>		:			"𝐯" U1D42F # MATHEMATICAL BOLD SMALL V
+<Multi_key> <w> <numbersign>		:			"𝐰" U1D430 # MATHEMATICAL BOLD SMALL W
+<Multi_key> <x> <numbersign>		:			"𝐱" U1D431 # MATHEMATICAL BOLD SMALL X
+<Multi_key> <y> <numbersign>		:			"𝐲" U1D432 # MATHEMATICAL BOLD SMALL Y
+<Multi_key> <z> <numbersign>		:			"𝐳" U1D433 # MATHEMATICAL BOLD SMALL Z
+
+######
+# all double-struck letters
+# the mnemonic here is '|' cuz it looks like '|'s were inserted inside of the letters
+
+<Multi_key> <A> <bar>		:			"𝔸" U1D400 # MATHEMATICAL DOUBLE-STRUCK CAPITAL A
+<Multi_key> <B> <bar>		:			"𝔹" U1D401 # MATHEMATICAL DOUBLE-STRUCK CAPITAL B
+<Multi_key> <C> <bar>		:			"ℂ" U1D402 # MATHEMATICAL DOUBLE-STRUCK CAPITAL C
+<Multi_key> <D> <bar>		:			"𝔻" U1D403 # MATHEMATICAL DOUBLE-STRUCK CAPITAL D
+<Multi_key> <E> <bar>		:			"𝔼" U1D404 # MATHEMATICAL DOUBLE-STRUCK CAPITAL E
+<Multi_key> <F> <bar>		:			"𝔽" U1D405 # MATHEMATICAL DOUBLE-STRUCK CAPITAL F
+<Multi_key> <G> <bar>		:			"𝔾" U1D406 # MATHEMATICAL DOUBLE-STRUCK CAPITAL G
+<Multi_key> <E> <bar>		:			"𝔼" U1D404 # MATHEMATICAL DOUBLE-STRUCK CAPITAL H
+<Multi_key> <I> <bar>		:			"𝕀" U1D408 # MATHEMATICAL DOUBLE-STRUCK CAPITAL I
+<Multi_key> <J> <bar>		:			"𝕁" U1D409 # MATHEMATICAL DOUBLE-STRUCK CAPITAL J
+<Multi_key> <K> <bar>		:			"𝕂" U1D40A # MATHEMATICAL DOUBLE-STRUCK CAPITAL K
+<Multi_key> <L> <bar>		:			"𝕃" U1D40B # MATHEMATICAL DOUBLE-STRUCK CAPITAL L
+<Multi_key> <M> <bar>		:			"𝕄" U1D40C # MATHEMATICAL DOUBLE-STRUCK CAPITAL M
+<Multi_key> <N> <bar>		:			"ℕ" U1D40D # MATHEMATICAL DOUBLE-STRUCK CAPITAL N
+<Multi_key> <O> <bar>		:			"𝕆" U1D40E # MATHEMATICAL DOUBLE-STRUCK CAPITAL O
+<Multi_key> <P> <bar>		:			"ℙ" U1D40F # MATHEMATICAL DOUBLE-STRUCK CAPITAL P
+<Multi_key> <Q> <bar>		:			"ℚ" U1D410 # MATHEMATICAL DOUBLE-STRUCK CAPITAL Q
+<Multi_key> <R> <bar>		:			"ℝ" U1D411 # MATHEMATICAL DOUBLE-STRUCK CAPITAL R
+<Multi_key> <S> <bar>		:			"𝕊" U1D412 # MATHEMATICAL DOUBLE-STRUCK CAPITAL S
+<Multi_key> <T> <bar>		:			"𝕋" U1D413 # MATHEMATICAL DOUBLE-STRUCK CAPITAL T
+<Multi_key> <U> <bar>		:			"𝕌" U1D414 # MATHEMATICAL DOUBLE-STRUCK CAPITAL U
+<Multi_key> <V> <bar>		:			"𝕍" U1D415 # MATHEMATICAL DOUBLE-STRUCK CAPITAL V
+<Multi_key> <W> <bar>		:			"𝕎" U1D416 # MATHEMATICAL DOUBLE-STRUCK CAPITAL W
+<Multi_key> <X> <bar>		:			"𝕏" U1D417 # MATHEMATICAL DOUBLE-STRUCK CAPITAL X
+<Multi_key> <Y> <bar>		:			"𝕐" U1D418 # MATHEMATICAL DOUBLE-STRUCK CAPITAL Y
+<Multi_key> <Z> <bar>		:			"ℤ" U1D419 # MATHEMATICAL DOUBLE-STRUCK CAPITAL Z
+
+<Multi_key> <a> <bar>		:			"𝕒" U1D41A # MATHEMATICAL DOUBLE-STRUCK SMALL A
+<Multi_key> <b> <bar>		:			"𝕓" U1D41B # MATHEMATICAL DOUBLE-STRUCK SMALL B
+<Multi_key> <c> <bar>		:			"𝕔" U1D41C # MATHEMATICAL DOUBLE-STRUCK SMALL C
+<Multi_key> <d> <bar>		:			"𝕕" U1D41D # MATHEMATICAL DOUBLE-STRUCK SMALL D
+<Multi_key> <e> <bar>		:			"𝕖" U1D41E # MATHEMATICAL DOUBLE-STRUCK SMALL E
+<Multi_key> <f> <bar>		:			"𝕗" U1D41F # MATHEMATICAL DOUBLE-STRUCK SMALL F
+<Multi_key> <g> <bar>		:			"𝕘" U1D420 # MATHEMATICAL DOUBLE-STRUCK SMALL G
+<Multi_key> <h> <bar>		:			"𝕙" U1D421 # MATHEMATICAL DOUBLE-STRUCK SMALL H
+<Multi_key> <i> <bar>		:			"𝕚" U1D422 # MATHEMATICAL DOUBLE-STRUCK SMALL I
+<Multi_key> <j> <bar>		:			"𝕛" U1D423 # MATHEMATICAL DOUBLE-STRUCK SMALL J
+<Multi_key> <k> <bar>		:			"𝕜" U1D424 # MATHEMATICAL DOUBLE-STRUCK SMALL K
+<Multi_key> <l> <bar>		:			"𝕝" U1D425 # MATHEMATICAL DOUBLE-STRUCK SMALL L
+<Multi_key> <m> <bar>		:			"𝕞" U1D426 # MATHEMATICAL DOUBLE-STRUCK SMALL M
+<Multi_key> <n> <bar>		:			"𝕟" U1D427 # MATHEMATICAL DOUBLE-STRUCK SMALL N
+<Multi_key> <o> <bar>		:			"𝕠" U1D428 # MATHEMATICAL DOUBLE-STRUCK SMALL O
+<Multi_key> <p> <bar>		:			"𝕡" U1D429 # MATHEMATICAL DOUBLE-STRUCK SMALL P
+<Multi_key> <q> <bar>		:			"𝕢" U1D42A # MATHEMATICAL DOUBLE-STRUCK SMALL Q
+<Multi_key> <r> <bar>		:			"𝕣" U1D42B # MATHEMATICAL DOUBLE-STRUCK SMALL R
+<Multi_key> <s> <bar>		:			"𝕤" U1D42C # MATHEMATICAL DOUBLE-STRUCK SMALL S
+<Multi_key> <t> <bar>		:			"𝕥" U1D42D # MATHEMATICAL DOUBLE-STRUCK SMALL T
+<Multi_key> <u> <bar>		:			"𝕦" U1D42E # MATHEMATICAL DOUBLE-STRUCK SMALL U
+<Multi_key> <v> <bar>		:			"𝕧" U1D42F # MATHEMATICAL DOUBLE-STRUCK SMALL V
+<Multi_key> <w> <bar>		:			"𝕨" U1D430 # MATHEMATICAL DOUBLE-STRUCK SMALL W
+<Multi_key> <x> <bar>		:			"𝕩" U1D431 # MATHEMATICAL DOUBLE-STRUCK SMALL X
+<Multi_key> <y> <bar>		:			"𝕪" U1D432 # MATHEMATICAL DOUBLE-STRUCK SMALL Y
+<Multi_key> <z> <bar>		:			"𝕫" U1D433 # MATHEMATICAL DOUBLE-STRUCK SMALL Z
