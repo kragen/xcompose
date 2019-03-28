@@ -239,6 +239,17 @@
 <Multi_key> <Y> <bar>  :   "𝕐"    U1D550 #  MATHEMATICAL DOUBLE-STRUCK CAPITAL Y
 <Multi_key> <Z> <bar>  :   "ℤ"    U2124 #  MATHEMATICAL DOUBLE-STRUCK CAPITAL Z
 
+<Multi_key> <0> <bar>  :   "𝟘"    U1D7D8 #  MATHEMATICAL DOUBLE-STRUCK DIGIT 0
+<Multi_key> <1> <bar>  :   "𝟙"    U1D7D9 #  MATHEMATICAL DOUBLE-STRUCK DIGIT 1
+<Multi_key> <2> <bar>  :   "𝟚"    U1D7DA #  MATHEMATICAL DOUBLE-STRUCK DIGIT 2
+<Multi_key> <3> <bar>  :   "𝟛"    U1D7DB #  MATHEMATICAL DOUBLE-STRUCK DIGIT 3
+<Multi_key> <4> <bar>  :   "𝟜"    U1D7DC #  MATHEMATICAL DOUBLE-STRUCK DIGIT 4
+<Multi_key> <5> <bar>  :   "𝟝"    U1D7DD #  MATHEMATICAL DOUBLE-STRUCK DIGIT 5
+<Multi_key> <6> <bar>  :   "𝟞"    U1D7DE #  MATHEMATICAL DOUBLE-STRUCK DIGIT 6
+<Multi_key> <7> <bar>  :   "𝟟"    U1D7DF #  MATHEMATICAL DOUBLE-STRUCK DIGIT 7
+<Multi_key> <8> <bar>  :   "𝟠"    U1D7E0 #  MATHEMATICAL DOUBLE-STRUCK DIGIT 8
+<Multi_key> <9> <bar>  :   "𝟡"    U1D7E1 #  MATHEMATICAL DOUBLE-STRUCK DIGIT 9
+
 
 ######
 # all cursive letters
