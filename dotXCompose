@@ -932,6 +932,8 @@ include "%L"
 <Multi_key> <A> <W>			: "Ɔ"	U0186		# LATIN CAPITAL LETTER OPEN O
 <Multi_key> <e> <h>   	    	    	: "ɛ"   U025B		# LATIN SMALL LETTER OPEN E
 # Have to put the <less> at the beginning for these.
+<Multi_key> <less> <a> <h>		: "ɒ"	U0252		# LATIN SMALL LETTER TURNED ALPHA
+<Multi_key> <BashSpace> <a> <h>		: "ɒ"	U0252		# LATIN SMALL LETTER TURNED ALPHA
 <Multi_key> <less> <e> <h>		: "ɜ"	U025C		# LATIN SMALL LETTER REVERSED OPEN E
 <Multi_key> <BackSpace> <e> <h>		: "ɜ"	U025C		# LATIN SMALL LETTER REVERSED OPEN E
 <Multi_key> <less> <e> <r>		: "ɝ"	U025D		# LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
