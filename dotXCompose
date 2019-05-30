@@ -1034,7 +1034,14 @@ include "%L"
 <Multi_key> <backslash> <parenleft> <period>	: "̐"	U0310	# COMBINING CHANDRABINDU
 <Multi_key> <backslash> <i> <b>		: "̑"	U0311	# COMBINING INVERTED BREVE -- ??
 <Multi_key> <backslash> <parenleft> <parenright>: "⃝"  U20DD # COMBINING ENCLOSING CIRCLE
+<Multi_key> <backslash> <bracketleft> <q> <bracketright>:    "⃞"  U20DE     # COMBINING ENCLOSING SQUARE
+<Multi_key> <backslash> <bracketleft> <d> <bracketright>:    "⃟"  U20DF     # COMBINING ENCLOSING DIAMOND
 <Multi_key> <backslash> <parenleft> <slash> <parenright>:    "⃠"	 U20E0	   # COMBINING ENCLOSING CIRCLE BACKSLASH
+<Multi_key> <backslash> <bracketleft> <s> <bracketright>:    "⃢"  U20E2     # COMBINING ENCLOSING SCREEN
+<Multi_key> <backslash> <bracketleft> <k> <bracketright>:    "⃣"  U20E3     # COMBINING ENCLOSING KEYCAP
+<Multi_key> <backslash> <bracketleft> <t> <bracketright>:    "⃤"  U20E4     # COMBINING ENCLOSING TRIANGLE
+<Multi_key> <backslash> <2> <slash>:  "⃫"  U20EB              # COMBINING LONG DOUBLE SOLIDUS OVERLAY
+<Multi_key> <backslash> <asterisk>:   "⃰"  U20F0     # COMBINING ASTERISK ABOVE
 <Multi_key> <backslash> <exclam>	: "̣"   U0323   # COMBINING DOT BELOW
 # With only one underscore it conflicts with stuff.
 <Multi_key> <backslash> <underscore> <underscore>	: "̱"	U0331	# COMBINING MACRON BELOW
@@ -1074,7 +1081,7 @@ include "%L"
 
 <Multi_key> <period> <parenright>	: "͒"	U0352   # COMBINING FERMATA
 
-<Multi_key> <backslash> <asterisk>	: "҉"	U0489	# COMBINING CYRILLIC MILLIONS SIGN  -- aka COMBINING SHINY
+<Multi_key> <backslash> <backslash> <asterisk>	: "҉"	U0489	# COMBINING CYRILLIC MILLIONS SIGN  -- aka COMBINING SHINY
 <Multi_key> <P> <minus>		: "₽"	U20BD	# RUBLE SIGN
 <Multi_key> <p> <minus>		: "₽"	U20BD	# RUBLE SIGN
 

@@ -1,7 +1,4 @@
-all: emoji.compose modletters.compose
+all: emoji.compose modletters.compose tags.compose maths.compose
 
-emoji.compose: emoji-base emojitrans2.pl
-	./emojitrans2.pl < $< > $@
-
-modletters.compose: modletters-base emojitrans2.pl
+%.compose: %-base emojitrans2.pl
 	./emojitrans2.pl < $< > $@

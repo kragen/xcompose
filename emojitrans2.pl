@@ -36,6 +36,7 @@ BEGIN { binmode(STDOUT, ":utf8");
 	     '=' => 'equal',
 	     ' ' => 'space',
 	     '*' => 'asterisk',
+             '&' => 'ampersand',
 	     '♫' => 'Multi_key',
 );
 
@@ -60,7 +61,7 @@ unless (/^#/) {
     my $hold=$_;
     s/<M_>/<Multi_key>/;
     s/<MM>/<Multi_key> <Multi_key>/;
-    s({([][[:alnum:] _+:;%@>=`<,.^\$+#()?!/|'"\\~*{}♫-]+)})(splitup($1))e;
+    s({([][[:alnum:] _+:;%@>=`<,.^\$+#()?&!/|'"\\~*{}♫-]+)})(splitup($1))e;
     if (length($1) > 7) {
 	$_=$hold;
 	s/^<M([M_])>/### <M$1>/;

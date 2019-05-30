@@ -7,7 +7,7 @@ sub process {
     my $data = shift;
     my $key;
 
-    $data =~ m@\s+(U[[:xdigit:]]+)\s+@;
+    $data =~ m@\s+U([[:xdigit:]]+)\s+@;
     $key=$1;
     if ($elts{$key}) {
 	print STDERR "Warning: key $key found more than once.\n";
@@ -27,6 +27,6 @@ while (<>) {
     $this .= $_;
 }
 
-for $k (sort keys %elts) {
+for $k (sort { hex($a) <=> hex($b) } keys %elts) {
     print $elts{$k};
 }

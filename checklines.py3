@@ -16,8 +16,10 @@ for line in sys.stdin:
     continue
   (keystrokes, char, num, comments)=match.groups()
   nummatch=re.match(r'^U([0-9A-Fa-f]+)$', num)
+  # There's no number for multichar strings
   if not nummatch:
-    print("Number not parsed: {0}".format(line))
+    if len(char) == 1:
+      print("Number not parsed: {0}".format(line))
     continue
   x=int(nummatch.group(1),0x10)
   c=chr(x)
