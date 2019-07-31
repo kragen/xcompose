@@ -1,0 +1,83 @@
+# H stands for Hebrew, and its capital so it doesnt interfere with other combos
+# the abcs are the positions the letters take in the hebrew keyboard
+<Multi_key> <H> <t>        :   "א"    U05D0 # HEBREW LETTER ALEF
+<Multi_key> <H> <c>        :   "ב"    U05D1 # HEBREW LETTER BET
+<Multi_key> <H> <d>        :   "ג"    U05D2 # HEBREW LETTER GIMEL
+<Multi_key> <H> <s>        :   "ד"    U05D3 # HEBREW LETTER DALET
+<Multi_key> <H> <v>        :   "ה"    U05D4 # HEBREW LETTER HE
+<Multi_key> <H> <u>        :   "ו"    U05D5 # HEBREW LETTER VAV
+<Multi_key> <H> <z>        :   "ז"    U05D6 # HEBREW LETTER ZAYIN
+<Multi_key> <H> <j>        :   "ח"    U05D7 # HEBREW LETTER HET
+<Multi_key> <H> <y>        :   "ט"    U05D8 # HEBREW LETTER TET
+<Multi_key> <H> <h>        :   "י"    U05D9 # HEBREW LETTER YOD
+<Multi_key> <H> <f>        :   "כ"    U05DB # HEBREW LETTER KAF
+<Multi_key> <H> <l>        :   "ך"    U05DA # HEBREW LETTER FINAL KAF
+<Multi_key> <H> <k>        :   "ל"    U05DC # HEBREW LETTER LAMED
+<Multi_key> <H> <n>        :   "מ"    U05DE # HEBREW LETTER MEM
+<Multi_key> <H> <o>        :   "ם"    U05DD # HEBREW LETTER FINAL MEM
+<Multi_key> <H> <b>        :   "נ"    U05E0 # HEBREW LETTER NUN
+<Multi_key> <H> <i>        :   "ן"    U05DF # HEBREW LETTER FINAL NUN
+<Multi_key> <H> <x>        :   "ס"    U05E1 # HEBREW LETTER SAMEKH
+<Multi_key> <H> <g>        :   "ע"    U05E2 # HEBREW LETTER AYIN
+<Multi_key> <H> <p>        :   "פ"    U05E4 # HEBREW LETTER PE
+<Multi_key> <H> <semicolon>        :   "ף"    U05E3 # HEBREW LETTER FINAL PE
+<Multi_key> <H> <m>        :   "צ"    U05E6 # HEBREW LETTER TSADI
+<Multi_key> <H> <period>        :   "ץ"    U05E5 # HEBREW LETTER FINAL TSADI
+<Multi_key> <H> <e>        :   "ק"    U05E7 # HEBREW LETTER QOF
+<Multi_key> <H> <r>        :   "ר"    U05E8 # HEBREW LETTER RESH
+<Multi_key> <H> <a>        :   "ש"    U05E9 # HEBREW LETTER SHIN
+<Multi_key> <H> <comma>        :   "ת"    U05EA # HEBREW LETTER TAV
+
+#for dvorak ppl:
+#<Multi_key> <H> <y>        :   "א"    U05D0 # HEBREW LETTER ALEF
+#<Multi_key> <H> <j>        :   "ב"    U05D1 # HEBREW LETTER BET
+#<Multi_key> <H> <e>        :   "ג"    U05D2 # HEBREW LETTER GIMEL
+#<Multi_key> <H> <o>        :   "ד"    U05D3 # HEBREW LETTER DALET
+#<Multi_key> <H> <k>        :   "ה"    U05D4 # HEBREW LETTER HE
+#<Multi_key> <H> <g>        :   "ו"    U05D5 # HEBREW LETTER VAV
+#<Multi_key> <H> <colon>    :   "ז"    U05D6 # HEBREW LETTER ZAYIN
+#<Multi_key> <H> <h>        :   "ח"    U05D7 # HEBREW LETTER HET
+#<Multi_key> <H> <f>        :   "ט"    U05D8 # HEBREW LETTER TET
+#<Multi_key> <H> <d>        :   "י"    U05D9 # HEBREW LETTER YOD
+#<Multi_key> <H> <u>        :   "כ"    U05DB # HEBREW LETTER KAF
+#<Multi_key> <H> <n>        :   "ך"    U05DA # HEBREW LETTER FINAL KAF
+#<Multi_key> <H> <t>        :   "ל"    U05DC # HEBREW LETTER LAMED
+#<Multi_key> <H> <b>        :   "מ"    U05DE # HEBREW LETTER MEM
+#<Multi_key> <H> <r>        :   "ם"    U05DD # HEBREW LETTER FINAL MEM
+#<Multi_key> <H> <x>        :   "נ"    U05E0 # HEBREW LETTER NUN
+#<Multi_key> <H> <c>        :   "ן"    U05DF # HEBREW LETTER FINAL NUN
+#<Multi_key> <H> <q>        :   "ס"    U05E1 # HEBREW LETTER SAMEKH
+#<Multi_key> <H> <i>        :   "ע"    U05E2 # HEBREW LETTER AYIN
+#<Multi_key> <H> <l>        :   "פ"    U05E4 # HEBREW LETTER PE
+#<Multi_key> <H> <s>        :   "ף"    U05E3 # HEBREW LETTER FINAL PE
+#<Multi_key> <H> <m>        :   "צ"    U05E6 # HEBREW LETTER TSADI
+#<Multi_key> <H> <v>        :   "ץ"    U05E5 # HEBREW LETTER FINAL TSADI
+#<Multi_key> <H> <period>   :   "ק"    U05E7 # HEBREW LETTER QOF
+#<Multi_key> <H> <p>        :   "ר"    U05E8 # HEBREW LETTER RESH
+#<Multi_key> <H> <a>        :   "ש"    U05E9 # HEBREW LETTER SHIN
+#<Multi_key> <H> <w>        :   "ת"    U05EA # HEBREW LETTER TAV
+
+# palmyrene gets a capital P not to interfere with regular hebrew
+<Multi_key> <H> <P> <t>         :   "𐡠" U10860  # PALMYRENE LETTER ALEPH
+<Multi_key> <H> <P> <c>         :   "𐡡" U10861  # PALMYRENE LETTER BETH
+<Multi_key> <H> <P> <d>         :   "𐡢" U10862  # PALMYRENE LETTER GIMEL
+<Multi_key> <H> <P> <s>         :   "𐡣" U10863  # PALMYRENE LETTER DALETH
+<Multi_key> <H> <P> <v>         :   "𐡤" U10864  # PALMYRENE LETTER HE
+<Multi_key> <H> <P> <u>         :   "𐡥" U10865  # PALMYRENE LETTER WAW
+<Multi_key> <H> <P> <z>         :   "𐡦" U10866  # PALMYRENE LETTER ZAYIN
+<Multi_key> <H> <P> <j>         :   "𐡧" U10867  # PALMYRENE LETTER HETH
+<Multi_key> <H> <P> <y>         :   "𐡨" U10868  # PALMYRENE LETTER TETH
+<Multi_key> <H> <P> <h>         :   "𐡩" U10869  # PALMYRENE LETTER YODH
+<Multi_key> <H> <P> <f>         :   "𐡪" U1086A  # PALMYRENE LETTER KAPH
+<Multi_key> <H> <P> <k>         :   "𐡫" U1086B  # PALMYRENE LETTER LAMEDH
+<Multi_key> <H> <P> <n>         :   "𐡬" U1086C  # PALMYRENE LETTER MEM
+<Multi_key> <H> <P> <b>         :   "𐡮" U1086E  # PALMYRENE LETTER NUN
+<Multi_key> <H> <P> <i>         :   "𐡭" U1086D  # PALMYRENE LETTER FINALNUN
+<Multi_key> <H> <P> <x>         :   "𐡯" U1086F  # PALMYRENE LETTER SAMEKH
+<Multi_key> <H> <P> <g>         :   "𐡰" U10870  # PALMYRENE LETTER AYIN
+<Multi_key> <H> <P> <p>         :   "𐡱" U10871  # PALMYRENE LETTER PE
+<Multi_key> <H> <P> <m>         :   "𐡲" U10872  # PALMYRENE LETTER SADHE
+<Multi_key> <H> <P> <e>         :   "𐡳" U10873  # PALMYRENE LETTER QOPH
+<Multi_key> <H> <P> <r>         :   "𐡴" U10874  # PALMYRENE LETTER RESH
+<Multi_key> <H> <P> <a>         :   "𐡵" U10875  # PALMYRENE LETTER SHIN
+<Multi_key> <H> <P> <comma>         :   "𐡶" U10876  # PALMYRENE LETTER TAW
