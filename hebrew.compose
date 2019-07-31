@@ -1,5 +1,6 @@
 # H stands for Hebrew, and its capital so it doesnt interfere with other combos
 # the abcs are the positions the letters take in the hebrew keyboard
+# this is the qwerty version:
 <Multi_key> <H> <t>        :   "א"    U05D0 # HEBREW LETTER ALEF
 <Multi_key> <H> <c>        :   "ב"    U05D1 # HEBREW LETTER BET
 <Multi_key> <H> <d>        :   "ג"    U05D2 # HEBREW LETTER GIMEL
@@ -28,7 +29,7 @@
 <Multi_key> <H> <a>        :   "ש"    U05E9 # HEBREW LETTER SHIN
 <Multi_key> <H> <comma>        :   "ת"    U05EA # HEBREW LETTER TAV
 
-#for dvorak ppl:
+# this is the dvorak version:
 #<Multi_key> <H> <y>        :   "א"    U05D0 # HEBREW LETTER ALEF
 #<Multi_key> <H> <j>        :   "ב"    U05D1 # HEBREW LETTER BET
 #<Multi_key> <H> <e>        :   "ג"    U05D2 # HEBREW LETTER GIMEL
@@ -57,7 +58,8 @@
 #<Multi_key> <H> <a>        :   "ש"    U05E9 # HEBREW LETTER SHIN
 #<Multi_key> <H> <w>        :   "ת"    U05EA # HEBREW LETTER TAV
 
-# palmyrene gets a capital P not to interfere with regular hebrew
+# Palmyrene gets a capital P not to interfere with regular hebrew (u dont wanna type a פ)
+# again, i put the qwerty version first
 <Multi_key> <H> <P> <t>         :   "𐡠" U10860  # PALMYRENE LETTER ALEPH
 <Multi_key> <H> <P> <c>         :   "𐡡" U10861  # PALMYRENE LETTER BETH
 <Multi_key> <H> <P> <d>         :   "𐡢" U10862  # PALMYRENE LETTER GIMEL
@@ -81,3 +83,28 @@
 <Multi_key> <H> <P> <r>         :   "𐡴" U10874  # PALMYRENE LETTER RESH
 <Multi_key> <H> <P> <a>         :   "𐡵" U10875  # PALMYRENE LETTER SHIN
 <Multi_key> <H> <P> <comma>         :   "𐡶" U10876  # PALMYRENE LETTER TAW
+
+# the Palmyrene dvorak version:
+#<Multi_key> <H> <P> <y>          :   "𐡠" U10860  # PALMYRENE LETTER ALEPH
+#<Multi_key> <H> <P> <j>          :   "𐡡" U10861  # PALMYRENE LETTER BETH
+#<Multi_key> <H> <P> <e>          :   "𐡢" U10862  # PALMYRENE LETTER GIMEL
+#<Multi_key> <H> <P> <o>          :   "𐡣" U10863  # PALMYRENE LETTER DALETH
+#<Multi_key> <H> <P> <k>          :   "𐡤" U10864  # PALMYRENE LETTER HE
+#<Multi_key> <H> <P> <g>          :   "𐡥" U10865  # PALMYRENE LETTER WAW
+#<Multi_key> <H> <P> <colon>      :   "𐡦" U10866  # PALMYRENE LETTER ZAYIN
+#<Multi_key> <H> <P> <h>          :   "𐡧" U10867  # PALMYRENE LETTER HETH
+#<Multi_key> <H> <P> <f>          :   "𐡨" U10868  # PALMYRENE LETTER TETH
+#<Multi_key> <H> <P> <d>          :   "𐡩" U10869  # PALMYRENE LETTER YODH
+#<Multi_key> <H> <P> <u>          :   "𐡪" U1086A  # PALMYRENE LETTER KAPH
+#<Multi_key> <H> <P> <t>          :   "𐡫" U1086B  # PALMYRENE LETTER LAMEDH
+#<Multi_key> <H> <P> <b>          :   "𐡬" U1086C  # PALMYRENE LETTER MEM
+#<Multi_key> <H> <P> <x>          :   "𐡮" U1086E  # PALMYRENE LETTER NUN
+#<Multi_key> <H> <P> <c>          :   "𐡭" U1086D  # PALMYRENE LETTER FINALNUN
+#<Multi_key> <H> <P> <q>          :   "𐡯" U1086F  # PALMYRENE LETTER SAMEKH
+#<Multi_key> <H> <P> <i>          :   "𐡰" U10870  # PALMYRENE LETTER AYIN
+#<Multi_key> <H> <P> <l>          :   "𐡱" U10871  # PALMYRENE LETTER PE
+#<Multi_key> <H> <P> <m>          :   "𐡲" U10872  # PALMYRENE LETTER SADHE
+#<Multi_key> <H> <P> <period>          :   "𐡳" U10873  # PALMYRENE LETTER QOPH
+#<Multi_key> <H> <P> <p>          :   "𐡴" U10874  # PALMYRENE LETTER RESH
+#<Multi_key> <H> <P> <a>          :   "𐡵" U10875  # PALMYRENE LETTER SHIN
+#<Multi_key> <H> <P> <w>              :   "𐡶" U10876  # PALMYRENE LETTER TAW
