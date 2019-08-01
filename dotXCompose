@@ -26,6 +26,7 @@ include "%L"
 <Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
 ### or && ?
 <Multi_key> <ampersand> <at>    :   "⅋" U214B   # TURNED AMPERSAND
+<Multi_key> <ampersand> <7>     :   "⁊" U204A   # TIRONIAN SIGN ET
 # Printable sign for space.  But is \<space> too useful a key combo to use
 # for this?
 <Multi_key> <backslash> <space>		: "␣"	U2423		# OPEN BOX
