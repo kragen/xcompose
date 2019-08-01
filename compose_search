@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+if command -v rg >/dev/null 2>&1 ; then
+    rg -i "$1" /home/nitsi/documents/xcompose/*
+else
+    grep -inT "$1" /home/nitsi/documents/xcompose/*
+fi
