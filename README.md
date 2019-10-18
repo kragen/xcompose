@@ -7,7 +7,7 @@ your Compose key in X11 is controlled by (among other things) the file
 of bindings for Unicode characters that are useful occasionally.
 
 More contributions are welcome; there's a Git repository at
-<http://github.org/kragen/xcompose>.  We're trying to come up with a
+<https://github.com/kragen/xcompose>.  We're trying to come up with a
 broadly acceptable set of keybindings that won't interfere with the
 traditional Compose bindings, aren't too hard to type, and cover a
 wide set of characters that are useful to use occasionally, making
