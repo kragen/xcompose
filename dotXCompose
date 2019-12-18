@@ -99,6 +99,8 @@ include "%L"
 # <Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
 # Narrow no-break space, needed for some Latin languages like French
 <Multi_key> <space> <n> : " "    U202f # NARROW NO-BREAK SPACE
+# Technically, NO-BREAK SPACE is not supposed to be fixed-width.  This is:
+<Multi_key> <space> <numbersign> :   " "      U2007             # FIGURE SPACE
 # Do we want/need these?
 <Multi_key> <d> <a> <g>			: "†"	U2020		# DAGGER
 <Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
@@ -453,8 +455,14 @@ include "%L"
 # These are actually quotes, hence the mnemonic.
 <Multi_key> <7> <apostrophe>	    : "｢"     UFF62   # HALFWIDTH LEFT CORNER BRACKET
 <Multi_key> <L> <apostrophe>	    : "｣"     UFF63   # HALFWIDTH RIGHT CORNER BRACKET
+# Why am I using halfwidth though, I wonder?  And I'd also like ⌜⌝⌞⌟
 <Multi_key> <7> <quotedbl>	    : "『"    U300E   # LEFT WHITE CORNER BRACKET
 <Multi_key> <L> <quotedbl>	    : "』"    U300F   # RIGHT WHITE CORNER BRACKET
+# How about these for the "corners"?  Confusing with {L[} etc?
+<Multi_key> <7> <parenleft>         : "⌜"     U231C   # TOP LEFT CORNER
+<Multi_key> <7> <parenright>        : "⌝"     U231D   # TOP RIGHT CORNER
+<Multi_key> <L> <parenleft>         : "⌞"     U231E   # BOTTOM LEFT CORNER
+<Multi_key> <L> <parenright>        : "⌟"     U231F   # BOTTOM RIGHT CORNER
 <Multi_key> <parenleft> <ampersand> <parenright> :  "≬"	U226C	# BETWEEN
 <Multi_key> <l> <l>		: "ℓ" U2113	# SCRIPT SMALL L
 <Multi_key> <bracketleft> <bracketleft> : "⊏"   U228F           # SQUARE IMAGE OF
@@ -1129,7 +1137,7 @@ include "%L"
 <Multi_key> <n> <grave>	    	  : "ɴ"	    U0274 # LATIN LETTER SMALL CAPITAL N
 <Multi_key> <o> <grave>	    	  : "ᴏ"	    U1D0F # LATIN LETTER SMALL CAPITAL O
 <Multi_key> <p> <grave>	    	  : "ᴘ"	    U1D18 # LATIN LETTER SMALL CAPITAL P
-# There is no SMALL CAPITAL Q (yet)!
+<Multi_key> <q> <grave>	    	  : "ꞯ"	    UA7AF # LATIN LETTER SMALL CAPITAL Q
 <Multi_key> <r> <grave>	    	  : "ʀ"	    U0280 # LATIN LETTER SMALL CAPITAL R
 <Multi_key> <s> <grave>	    	  : "ꜱ"	    UA731 # LATIN LETTER SMALL CAPITAL S
 <Multi_key> <t> <grave>	    	  : "ᴛ"	    U1D1B # LATIN LETTER SMALL CAPITAL T
