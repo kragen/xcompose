@@ -38,6 +38,18 @@ BEGIN { binmode(STDOUT, ":utf8");
 	     '*' => 'asterisk',
              '&' => 'ampersand',
 	     '♫' => 'Multi_key',
+             '←' => 'Left',
+             '→' => 'Right',
+             '↑' => 'Up',
+             '↓' => 'Down',
+             '⇐' => 'BackSpace',
+             '⇤' => 'Home',
+             '⇥' => 'End',
+             '⇑' => 'Prior',    # PageUp
+             '⇓' => 'Next',     # PageDown
+             '↵' => 'Return',
+             '∇' => 'Delete',   # Del, get it?
+             '˅' => 'Insert',   # it'll do.
 );
 
 sub splitup {
