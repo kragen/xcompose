@@ -2244,6 +2244,8 @@
 <MM> {noway} :  "🛇"   U1F6C7	# PROHIBITED SIGN
 #- 1F6C8;CIRCLED INFORMATION SOURCE;So;0;ON;;;;;N;;;;;
 <MM> {(info)} :  "🛈"   U1F6C8	# CIRCLED INFORMATION SOURCE
+#- 2139;INFORMATION SOURCE;Ll;0;L;<font> 0069;;;;N;;;;;
+<MM> {info}   :  "ℹ"   U2139        # INFORMATION SOURCE
 ## careful for conflicts with {boy} and {girl}
 #- 1F6C9;BOYS SYMBOL;So;0;ON;;;;;N;;;;;
 <MM> {BOYS} :  "🛉"   U1F6C9	# BOYS SYMBOL

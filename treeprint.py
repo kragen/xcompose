@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import sys
 import re
@@ -31,8 +31,8 @@ def showdict(data, indent):
         if first:
             first=False
         else:
-            print
-        print " "*max(indent,0) + "("+key,
+            print()
+        print(" "*max(indent,0) + "("+key, end=" ")
         # Sneaky trick: we don't want to go newline-indent over and
         # over for long sequences, i.e. cases where there is only
         # one possible follower.  So we skip the newlines in those
@@ -45,25 +45,24 @@ def showdict(data, indent):
         # but then the {C|L} are not unique after the O.
         if type(value)==dict:
             if len(value)>1:
-                print ""
+                print()
                 showdict(value, abs(indent)+4),
             else:
-                showdict(value, -(abs(indent)+4)),
+                showdict(value, -abs(indent+4)),
         else:
-            print "    "+value.encode('utf-8'),
+            print("    "+value, end=" ")
             if "-n" in sys.argv:
                 try:
-                    print unicodedata.name(value),
+                    print(unicodedata.name(value.decode('utf-8')),end=" ")
                 except:
                     pass
-        print ")",
+        print(")",end=" ")
 
 listing={}
 
 try:
     while True:
-        line=sys.stdin.next().decode('utf-8')
-        # print "((%s))"%line
+        line=sys.stdin.__next__()
         startpos=0
         name=[]
         dupsfound=[]
@@ -72,7 +71,7 @@ try:
             if not m:
                 break
             word=m.group(1)
-            name.append(str(word)) # The keys are ordinary strings, not unicode
+            name.append(word)
             startpos+=m.end()
         if startpos<=0:
             continue
@@ -80,13 +79,13 @@ try:
         if not m:
             # shouldn't happen, but just in case
             val='???'
-            print "couldn't make sense of line: "+line
+            print("couldn't make sense of line: "+line)
         else:
             val=m.group(1)
         cur=listing
         for elt in name[:-1]:
             if type(cur)==dict:
-                if not cur.has_key(elt):
+                if not elt in cur:
                     cur[elt]={}
                 cur=cur[elt]        # This will fail for prefix conflicts
             else:
@@ -98,15 +97,8 @@ try:
             # fail.  Prefix conflict.  Let's ignore it.
             pass
 except StopIteration:
-    # print "hit end"
-    pass
+    print("hit end")
 
-# Actually, you could get almost as nice a listing just by using yaml,
-# but now that we have special no-newlines-for-singletons handling,
-# showdict looks nicer.
 showdict(listing,0)
 
-# #print "\n\n-=- YAML -=-"
-# import yaml
-# print yaml.dump(listing, default_style=r'"', allow_unicode=True)
-# # Huh.  Yaml "allow_unicode=True" still escapes non-BMP chars.
+    

@@ -98,15 +98,16 @@ include "%L"
 # Already present for me:
 # <Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
 # Narrow no-break space, needed for some Latin languages like French
-<Multi_key> <space> <n> : " "    U202f # NARROW NO-BREAK SPACE
+<Multi_key> <space> <n>                 : " "   U202f # NARROW NO-BREAK SPACE
 # Technically, NO-BREAK SPACE is not supposed to be fixed-width.  This is:
 <Multi_key> <space> <numbersign> :   " "      U2007             # FIGURE SPACE
-# Do we want/need these?
-<Multi_key> <d> <a> <g>			: "†"	U2020		# DAGGER
-<Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
 # We used to have THIN SPACE as <space> <apostrophe>, but now that’s remapped
 # to " ‘", for conveniently enclosing things in proper single-quotes.
 <Multi_key> <backslash> <comma>		: " "	U2009		# THIN SPACE
+# (heh, heh... space bar)
+<Multi_key> <space> <bar>               : " "   U200A           # HAIR SPACE
+<Multi_key> <d> <a> <g>			: "†"	U2020		# DAGGER
+<Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
 <Multi_key> <s> <e> <c> : "§"   U00A7   # SECTION SIGN
 # It's in the Asian section, but it's a general-purpose punctuation:
 <Multi_key> <quotedbl> <quotedbl>       : "〃"	U3003		# DITTO MARK
@@ -459,6 +460,7 @@ include "%L"
 <Multi_key> <7> <quotedbl>	    : "『"    U300E   # LEFT WHITE CORNER BRACKET
 <Multi_key> <L> <quotedbl>	    : "』"    U300F   # RIGHT WHITE CORNER BRACKET
 # How about these for the "corners"?  Confusing with {L[} etc?
+# and don't forget about {L_[} which we have for ⸤
 <Multi_key> <7> <parenleft>         : "⌜"     U231C   # TOP LEFT CORNER
 <Multi_key> <7> <parenright>        : "⌝"     U231D   # TOP RIGHT CORNER
 <Multi_key> <L> <parenleft>         : "⌞"     U231E   # BOTTOM LEFT CORNER
@@ -886,6 +888,9 @@ include "%L"
 <Multi_key> <space> <M>		  : " " U2003  # EM SPACE
 <Multi_key> <space> <3> <M>	  : " "	U2004  # THREE-PER-EM SPACE
 <Multi_key> <space> <4> <M>	  : " "	U2005  # FOUR-PER-EM SPACE
+<Multi_key> <space> <6> <M>	  : " "	U2006    # SIX-PER-EM SPACE
+<Multi_key> <space> <comma>	  : " "	U2008    # PUNCTUATION SPACE
+<Multi_key> <space> <plus>	  : " "	U205F    # MEDIUM MATHEMATICAL SPACE
 <Multi_key> <parenleft> <parenright>: "◌" U25CC # DOTTED CIRCLE
 <Multi_key> <bracketleft> <bracketright>: "⬚" U2B1A # DOTTED SQUARE
 <Multi_key> <asterisk> <parenleft>      : "﴾"   UFD3E           # ORNATE LEFT PARENTHESIS
