@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import os
 import sys
 import re
 try:
@@ -40,7 +41,7 @@ def showdict(data, indent):
         # indent thing by passing a negative indent.  We don't just
         # pass 0 or 1 because if another iteration *further down*
         # turns out not to be an only case, it will need to know
-        # the right indent to pass along.  So a case like 
+        # the right indent to pass along.  So a case like
         # R-O-{CK|LL}, the O is unique after the R, so no linefeed,
         # but then the {C|L} are not unique after the O.
         if type(value)==dict:
@@ -60,46 +61,58 @@ def showdict(data, indent):
 
 listing={}
 
-try:
+# FDs we need to visit
+fds = [sys.stdin]
+while fds:
+    try:
+        line=fds[-1].next().decode('utf-8')
+    except StopIteration:
+        # FD is exhausted, next please
+        fds.pop()
+        continue
+    # print "((%s))"%line
+    if '-i' in sys.argv:
+        m=re.match(r"\s*include\s+\"(.+)\"",line)
+        if m:
+            path=m.group(1)\
+                  .replace("%H", os.getenv("HOME"))\
+                  .replace("%L", "/usr/share/X11/locale/%s/Compose" % \
+                           os.getenv("LANG"))\
+                  .replace("%S", "/usr/share/X11/locale")
+            fds.append(file(path))
+    startpos=0
+    name=[]
+    dupsfound=[]
     while True:
-        line=sys.stdin.next().decode('utf-8')
-        # print "((%s))"%line
-        startpos=0
-        name=[]
-        dupsfound=[]
-        while True:
-            m=re.match("\s*<(\w+)>",line[startpos:])
-            if not m:
-                break
-            word=m.group(1)
-            name.append(str(word)) # The keys are ordinary strings, not unicode
-            startpos+=m.end()
-        if startpos<=0:
-            continue
-        m=re.match(r'[^"]*"(.+?)"',line)
+        m=re.match("\s*<(\w+)>",line[startpos:])
         if not m:
-            # shouldn't happen, but just in case
-            val='???'
-            print "couldn't make sense of line: "+line
-        else:
-            val=m.group(1)
-        cur=listing
-        for elt in name[:-1]:
-            if type(cur)==dict:
-                if not cur.has_key(elt):
-                    cur[elt]={}
-                cur=cur[elt]        # This will fail for prefix conflicts
-            else:
-                break           # prefix conflict
-        # Presumably by now we're at the end, pointing to an empty dict.
+            break
+        word=m.group(1)
+        name.append(str(word)) # The keys are ordinary strings, not unicode
+        startpos+=m.end()
+    if startpos<=0:
+        continue
+    m=re.match(r'[^"]*"(.+?)"',line)
+    if not m:
+        # shouldn't happen, but just in case
+        val='???'
+        print "couldn't make sense of line: "+line
+    else:
+        val=m.group(1)
+    cur=listing
+    for elt in name[:-1]:
         if type(cur)==dict:
-            cur[name[-1]]=val
+            if not cur.has_key(elt):
+                cur[elt]={}
+            cur=cur[elt]        # This will fail for prefix conflicts
         else:
-            # fail.  Prefix conflict.  Let's ignore it.
-            pass
-except StopIteration:
-    # print "hit end"
-    pass
+            break           # prefix conflict
+    # Presumably by now we're at the end, pointing to an empty dict.
+    if type(cur)==dict:
+        cur[name[-1]]=val
+    else:
+        # fail.  Prefix conflict.  Let's ignore it.
+        pass
 
 # Actually, you could get almost as nice a listing just by using yaml,
 # but now that we have special no-newlines-for-singletons handling,
