@@ -1083,7 +1083,7 @@
 <MM> {Lipstic} :  "💄"   U1F484	# LIPSTICK
 <MM> {Lipstck} :  "💄"   U1F484	# LIPSTICK
 #- 1F485;NAIL POLISH;So;0;ON;;;;;N;;;;;
-### <MM> {nail polish} :  "💅"   U1F485	# NAIL POLISH
+<MM> {nailpol} :  "💅"   U1F485	# NAIL POLISH
 #- 1F486;FACE MASSAGE;So;0;ON;;;;;N;;;;;
 ### <MM> {face massage} :  "💆"   U1F486	# FACE MASSAGE
 #- 1F487;HAIRCUT;So;0;ON;;;;;N;;;;;
@@ -1221,19 +1221,21 @@
 #- 1F4C4;PAGE FACING UP;So;0;ON;;;;;N;;;;;
 ### <MM> {page facing up} :  "📄"   U1F4C4	# PAGE FACING UP
 #- 1F4C5;CALENDAR;So;0;ON;;;;;N;;;;;
-### <MM> {calendar} :  "📅"   U1F4C5	# CALENDAR
+<MM> {calenda} :  "📅"   U1F4C5	# CALENDAR
+<MM> {calendr} :  "📅"   U1F4C5	# CALENDAR
+<MM> {calndar} :  "📅"   U1F4C5	# CALENDAR
 #- 1F4C6;TEAR-OFF CALENDAR;So;0;ON;;;;;N;;;;;
-### <MM> {tear-off calendar} :  "📆"   U1F4C6	# TEAR-OFF CALENDAR
+<MM> {date} :  "📆"   U1F4C6	# TEAR-OFF CALENDAR
 #- 1F4C7;CARD INDEX;So;0;ON;;;;;N;;;;;
 ### <MM> {card index} :  "📇"   U1F4C7	# CARD INDEX
 #- 1F4C8;CHART WITH UPWARDS TREND;So;0;ON;;;;;N;;;;;
-### <MM> {chart with upwards trend} :  "📈"   U1F4C8	# CHART WITH UPWARDS TREND
+<MM> {upchart} :  "📈"   U1F4C8	# CHART WITH UPWARDS TREND
 #- 1F4C9;CHART WITH DOWNWARDS TREND;So;0;ON;;;;;N;;;;;
-### <MM> {chart with downwards trend} :  "📉"   U1F4C9	# CHART WITH DOWNWARDS TREND
+<MM> {dnchart} :  "📉"   U1F4C9	# CHART WITH DOWNWARDS TREND
 #- 1F4CA;BAR CHART;So;0;ON;;;;;N;;;;;
 <MM> {barchar} :  "📊"   U1F4CA	# BAR CHART
 #- 1F4CB;CLIPBOARD;So;0;ON;;;;;N;;;;;
-### <MM> {clipboard} :  "📋"   U1F4CB	# CLIPBOARD
+<MM> {clipboa} :  "📋"   U1F4CB	# CLIPBOARD
 #- 1F4CC;PUSHPIN;So;0;ON;;;;;N;;;;;
 <MM> {pushpin} :  "📌"   U1F4CC	# PUSHPIN
 #- 1F4CD;ROUND PUSHPIN;So;0;ON;;;;;N;;;;;
@@ -1277,7 +1279,7 @@
 #- 1F4E0;FAX MACHINE;So;0;ON;;;;;N;;;;;
 ### <MM> {fax machine} :  "📠"   U1F4E0	# FAX MACHINE
 #- 1F4E1;SATELLITE ANTENNA;So;0;ON;;;;;N;;;;;
-### <MM> {satellite antenna} :  "📡"   U1F4E1	# SATELLITE ANTENNA
+<MM> {satdish} :  "📡"   U1F4E1	# SATELLITE ANTENNA
 #- 1F4E2;PUBLIC ADDRESS LOUDSPEAKER;So;0;ON;;;;;N;;;;;
 ### <MM> {public address loudspeaker} :  "📢"   U1F4E2	# PUBLIC ADDRESS LOUDSPEAKER
 #- 1F4E3;CHEERING MEGAPHONE;So;0;ON;;;;;N;;;;;
@@ -1318,7 +1320,7 @@
 #- 1F4F4;MOBILE PHONE OFF;So;0;ON;;;;;N;;;;;
 ### <MM> {mobile phone off} :  "📴"   U1F4F4	# MOBILE PHONE OFF
 #- 1F4F5;NO MOBILE PHONES;So;0;ON;;;;;N;;;;;
-### <MM> {no mobile phones} :  "📵"   U1F4F5	# NO MOBILE PHONES
+<MM> {nophone} :  "📵"   U1F4F5	# NO MOBILE PHONES
 #- 1F4F6;ANTENNA WITH BARS;So;0;ON;;;;;N;;;;;
 ### <MM> {antenna with bars} :  "📶"   U1F4F6	# ANTENNA WITH BARS
 #- 1F4F7;CAMERA;So;0;ON;;;;;N;;;;;
@@ -1542,7 +1544,7 @@
 #- 1F578;SPIDER WEB;So;0;ON;;;;;N;;;;;
 <MM> {web} :  "🕸"   U1F578	# SPIDER WEB
 #- 1F579;JOYSTICK;So;0;ON;;;;;N;;;;;
-### <MM> {joystick} :  "🕹"   U1F579	# JOYSTICK
+<MM> {joystic} :  "🕹"   U1F579	# JOYSTICK
 #- 1F57B;LEFT HAND TELEPHONE RECEIVER;So;0;ON;;;;;N;;;;;
 ### <MM> {left hand telephone receiver} :  "🕻"   U1F57B	# LEFT HAND TELEPHONE RECEIVER
 #- 1F57C;TELEPHONE RECEIVER WITH PAGE;So;0;ON;;;;;N;;;;;
@@ -2273,9 +2275,9 @@
 #- 1F6E2;OIL DRUM;So;0;ON;;;;;N;;;;;
 <MM> {oildrum} :  "🛢"   U1F6E2	# OIL DRUM
 #- 1F6E3;MOTORWAY;So;0;ON;;;;;N;;;;;
-### <MM> {motorway} :  "🛣"   U1F6E3	# MOTORWAY
+<MM> {highway} :  "🛣"   U1F6E3	# MOTORWAY
 #- 1F6E4;RAILWAY TRACK;So;0;ON;;;;;N;;;;;
-### <MM> {railway track} :  "🛤"   U1F6E4	# RAILWAY TRACK
+<MM> {RRtrack} :  "🛤"   U1F6E4	# RAILWAY TRACK
 #- 1F6E5;MOTOR BOAT;So;0;ON;;;;;N;;;;;
 ### <MM> {motor boat} :  "🛥"   U1F6E5	# MOTOR BOAT
 #- 1F6E6;UP-POINTING MILITARY AIRPLANE;So;0;ON;;;;;N;;;;;
@@ -2425,7 +2427,7 @@
 #- 1F939;JUGGLING;So;0;ON;;;;;N;;;;;
 ### <MM> {juggling} :  "🤹"   U1F939	# JUGGLING
 #- 1F93A;FENCER;So;0;ON;;;;;N;;;;;
-### <MM> {fencer} :  "🤺"   U1F93A	# FENCER
+<MM> {fencer} :  "🤺"   U1F93A	# FENCER
 #- 1F93B;MODERN PENTATHLON;So;0;ON;;;;;N;;;;;
 ### <MM> {modern pentathlon} :  "🤻"   U1F93B	# MODERN PENTATHLON
 #- 1F93C;WRESTLERS;So;0;ON;;;;;N;;;;;

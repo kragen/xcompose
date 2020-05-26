@@ -148,6 +148,7 @@ include "%L"
 <Multi_key> <Up> <minus>     		: "⇡"	U21E1		# UPWARDS DASHED ARROW
 <Multi_key> <Right> <minus>     	: "⇢"	U21E2		# RIGHTWARDS DASHED ARROW
 <Multi_key> <Down> <minus>      	: "⇣"	U21E3		# DOWNWARDS DASHED ARROW
+<Multi_key> <z> <z> <greater>           : "↯"   U21AF           # DOWNWARDS ZIGZAG ARROW
 
 # Arrow keys don't always work: some apps trap them for cursor control and
 # other boring things.  The arrow symbols have alternate keystrokes.  Do
@@ -300,6 +301,9 @@ include "%L"
 <Multi_key> <equal> <equal>		: "≡"	U2261		# IDENTICAL TO
 <Multi_key> <colon> <equal> 		: "≔"  U2254		# COLON EQUALS
 <Multi_key> <equal> <colon> 		: "≕"  U2255		# EQUALS COLON
+<Multi_key> <2> <equal>                 : "⩵"  U2A75            # TWO CONSECUTIVE EQUALS SIGNS
+<Multi_key> <equal> <ampersand> <equal> : "⩵"  U2A75            # TWO CONSECUTIVE EQUALS SIGNS
+<Multi_key> <3> <equal>                 : "⩶"  U2A76            # THREE CONSECUTIVE EQUALS SIGNS
 # Using <slash> conflicts.
 <Multi_key> <equal> <bar> <equal>	: "≢"	U2262		# NOT IDENTICAL TO
 # We already have ±
@@ -349,6 +353,7 @@ include "%L"
 # )- conflicts with system for }.
 <Multi_key> <parenright> <underscore>    : "⟌"   	U27CC		# LONG DIVISION
 <Multi_key> <period> <quotedbl>	   	: "∴"	U2234  		# THEREFORE
+<Multi_key> <Multi_key> <t> <h> <e> <r> <e> <4> : "∴"  U2234    # THEREFORE
 <Multi_key> <quotedbl> <period>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <Multi_key> <b> <e> <c> <a> <u> <s> <e>	   	: "∵"	U2235  		# BECAUSE
 <Multi_key> <percent> <percent>		: "‱"	U2031	# PER TEN THOUSAND (basis points)
