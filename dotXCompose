@@ -290,6 +290,9 @@ include "%L"
 <Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
 <Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
 <Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
+<Multi_key> <period> <U2208>            : "∊"   U220A    # SMALL ELEMENT OF
+<Multi_key> <period> <U220B>            : "∍"   U220D    # SMALL CONTAINS AS MEMBER
+# For the above for people without ∈/∋ on their kbds?  {♫i/n} and {♫n/i}?
 <Multi_key> <n> <i>			: "∋"	U220B		# CONTAINS AS MEMBER  (I hope this doesn't conflict)
 <Multi_key> <slash> <n> <i>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 # <exclam><n><i> would conflict, with <exclam> <n> for N WITH UNDERDOT, etc.
