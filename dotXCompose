@@ -290,6 +290,9 @@ include "%L"
 <Multi_key> <i> <n>			: "∈"	U2208		# ELEMENT OF
 <Multi_key> <exclam> <i> <n>		: "∉"	U2209		# NOT AN ELEMENT OF
 <Multi_key> <U2208> <slash>		: "∉"	U2209		# NOT AN ELEMENT OF (I have ∈ on my keyboard...)
+<Multi_key> <period> <U2208>            : "∊"   U220A    # SMALL ELEMENT OF
+<Multi_key> <period> <U220B>            : "∍"   U220D    # SMALL CONTAINS AS MEMBER
+# For the above for people without ∈/∋ on their kbds?  {♫i/n} and {♫n/i}?
 <Multi_key> <n> <i>			: "∋"	U220B		# CONTAINS AS MEMBER  (I hope this doesn't conflict)
 <Multi_key> <slash> <n> <i>		: "∌"	U220C		# DOES NOT CONTAIN AS MEMBER
 # <exclam><n><i> would conflict, with <exclam> <n> for N WITH UNDERDOT, etc.
@@ -373,8 +376,8 @@ include "%L"
 <Multi_key> <Multi_key> <i> <i> <i> <n> <t>	: "∭"	U222D		# TRIPLE INTEGRAL
 <Multi_key> <Multi_key> <i> <i> <i> <i> <n> <t>	: "⨌"	U2A0C		# QUADRUPLE INTEGRAL
 <Multi_key> <Multi_key> <o> <i> <n> <t>	: "∮"	U222E		# CONTOUR INTEGRAL
-<Multi_key> <Multi_key> <p> <i> <n> <t>	: "⨕"	U2A15		# SEMICIRCULAR POLE INTEGRAL
-<Multi_key> <Multi_key> <c> <P> <i> <n> <t>	: "⨓"	U2A13		# INTEGRAL AROUND POINT
+<Multi_key> <Multi_key> <p> <i> <n> <t>	: "⨕"	U2A15		# INTEGRAL AROUND A POINT OPERATOR
+<Multi_key> <Multi_key> <c> <P> <i> <n> <t>	: "⨓"	U2A13		# LINE INTEGRATION WITH SEMICIRCULAR PATH AROUND POLE
 <Multi_key> <Multi_key> <o> <i> <i> <n> <t>	: "∯"	U222F		# SURFACE INTEGRAL
 <Multi_key> <Multi_key> <o> <i> <i> <i> <n> <t>	: "∰"	U2230		# VOLUME INTEGRAL
 <Multi_key> <Multi_key> <g> <i> <n> <t>	: "⨘"	U2A18		# GEOMETRIC INTEGRAL
@@ -393,7 +396,6 @@ include "%L"
 <Multi_key> <w> <p> 	:	"℘"	U2118	# SCRIPT CAPITAL P
 # Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
-# There's a whole passel of these guys starting at U+1D538 but I have no fonts for those.
 <Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
 <Multi_key> <bar> <N>                   : "ℕ"   U2115           # DOUBLE-STRUCK CAPITAL N (natural number)
 <Multi_key> <bar> <P>                   : "ℙ"   U2119           # DOUBLE-STRUCK CAPITAL P 
@@ -867,6 +869,12 @@ include "%L"
 <Multi_key> <asterisk> <asterisk>	:"★" U2605 # BLACK STAR
 <Multi_key> <asterisk> <0>	:"☆" U2606 # WHITE STAR
 <Multi_key> <asterisk> <minus>	:"✪" U272A # CIRCLED WHITE STAR
+## Did not have great luck with keystrokes for these.  L/ conflicts with ł,
+## and </ conflicts with \.  */ of course is ϛ.
+<Multi_key> <Left> <slash> <2> <asterisk>   : "⯨"    U2BE8   # LEFT HALF BLACK STAR
+<Multi_key> <Right> <slash> <2> <asterisk>   : "⯩"   U2BE9   # RIGHT HALF BLACK STAR
+<Multi_key> <asterisk> <Left> <slash> <2> <asterisk>   : "⯪"  U2BEA   # STAR WITH LEFT HALF BLACK
+<Multi_key> <asterisk> <Right> <slash> <2> <asterisk>   : "⯫" U2BEB   # STAR WITH RIGHT HALF BLACK
 <Multi_key> <asterisk> <3>	:"⁂" U2042 # ASTERISM
 <Multi_key> <3> <asterisk>	:"⁂" U2042 # ASTERISM
 <Multi_key> <2> <asterisk>	:"⁑" U2051 # TWO ASTERISKS ALIGNED VERTICALLY
@@ -918,7 +926,7 @@ include "%L"
 <Multi_key> <asciicircum> <asciicircum> <t>	  : "ᵗ"	  U1D57		  # MODIFIER LETTER SMALL T
 # Abbreviation for "that":
 <Multi_key> <U00FE> <t>	  			  : "ꝥ"	  UA765		  # LATIN SMALL LETTER THORN WITH STROKE
-#Maybe add: ˀˁ˃˂  Need to be able to talk about ʔˁ...
+#Maybe add: ˃˂  Need to be able to talk about ʔˁ...
 <Multi_key> <asciicircum> <question> <period>	: "ˀ"	U02C0	# MODIFIER LETTER GLOTTAL STOP
 <Multi_key> <asciicircum> <question> <parenleft> : "ˁ"	U02C1	# MODIFIER LETTER REVERSED GLOTTAL STOP
 <Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS

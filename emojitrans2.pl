@@ -52,6 +52,11 @@ BEGIN { binmode(STDOUT, ":utf8");
              '˅' => 'Insert',   # it'll do.
 );
 
+        $specials = join "", keys %specials;
+        # Because of reasons
+        $specials =~ s/[]\\-]/\\$&/g;
+        $RE = qr{([[:alnum:]$specials]+)};
+
 sub splitup {
     my $arg=shift;
     local $_;
@@ -73,7 +78,7 @@ unless (/^#/) {
     my $hold=$_;
     s/<M_>/<Multi_key>/;
     s/<MM>/<Multi_key> <Multi_key>/;
-    s({([][[:alnum:] _+:;%@>=`<,.^\$+#()?&!/|'"\\~*{}♫-]+)})(splitup($1))e;
+    s({($RE)})(splitup($1))e;
     if (length($1) > 7) {
 	$_=$hold;
 	s/^<M([M_])>/### <M$1>/;
