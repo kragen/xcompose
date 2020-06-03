@@ -205,9 +205,14 @@ include "%L"
 <Multi_key> <P> <less>		: "ꟼ"	UA7FC	# LATIN EPIGRAPHIC LETTER REVERSED P
 <Multi_key> <F> <BackSpace>		: "ꟻ"	UA7FB	# LATIN EPIGRAPHIC LETTER REVERSED F
 <Multi_key> <P> <BackSpace>		: "ꟼ"	UA7FC	# LATIN EPIGRAPHIC LETTER REVERSED P
+<Multi_key> <F> <F>                     : "Ⅎ"   U2132    # TURNED CAPITAL F
+<Multi_key> <F> <f>                     : "ⅎ"   U214E    # TURNED SMALL F
 <Multi_key> <M> <W>		: "ꟽ"	UA7FD	# LATIN EPIGRAPHIC LETTER INVERTED M
+<Multi_key> <M> <M>                 : "Ɯ"   U019C    # LATIN CAPITAL LETTER TURNED M
 <Multi_key> <I> <bar>		: "ꟾ"	UA7FE	# LATIN EPIGRAPHIC LETTER I LONGA
 <Multi_key> <M> <slash>		: "ꟿ"	UA7FF	# LATIN EPIGRAPHIC LETTER ARCHAIC M
+<Multi_key> <2> <2>                 : "↊"   U218A    # TURNED DIGIT TWO
+<Multi_key> <3> <3>                 : "↋"   U218B    # TURNED DIGIT THREE
 # I'd been avoiding this because we already have ∃...
 # Hey, these, being *letters* can be used as identifiers in some languages...
 <Multi_key> <E> <less>	 	 : "Ǝ"	    U018E	# LATIN CAPITAL LETTER REVERSED E
@@ -745,7 +750,6 @@ include "%L"
 <Multi_key> <semicolon> <BackSpace>	 		  : "⁏"	 U204F	# REVERSED SEMICOLON
 # Keep looking into big hunks of Latin Extended-D, A720- et seq.
 <Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
-<Multi_key> <3> <3>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <o> <8>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <c> <3>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
