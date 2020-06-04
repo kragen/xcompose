@@ -813,6 +813,38 @@ include "%L"
 <Multi_key> <bracketleft> <6> <bracketright>  :  "⚅"  U2685	# DIE FACE-6
 # 267B BLACK UNIVERSAL RECYCLING SYMBOL
 
+<Multi_key> <parenleft> <C> <C> <parenright>  :  "🅭"    U1F16D    # CIRCLED CC
+<Multi_key> <C> <parenleft> <C> <C> <parenright>  :  "🅭"    U1F16D    # CIRCLED CC
+<Multi_key> <parenleft> <backslash> <C> <parenright>  :  "🅮"    U1F16E    # CIRCLED C WITH OVERLAID BACKSLASH
+<Multi_key> <parenleft> <slash> <C> <parenright>   :  "🅮"    U1F16E    # CIRCLED C WITH OVERLAID BACKSLASH
+<Multi_key> <C> <parenleft> <backslash> <C> <parenright>  :  "🅮"    U1F16E    # CIRCLED C WITH OVERLAID BACKSLASH
+<Multi_key> <C> <parenleft> <slash> <C> <parenright>   :  "🅮"    U1F16E    # CIRCLED C WITH OVERLAID BACKSLASH
+<Multi_key> <C> <parenleft> <B> <Y> <parenright>       :  "🅯"    U1F16F    # CIRCLED HUMAN FIGURE
+<Multi_key> <C> <parenleft> <S> <A> <parenright>       :  "🄎"    U1F10E    # CIRCLED ANTICLOCKWISE ARROW
+## ugh, this doesn't (usually) match the style of the others.  They're practically emoji; ⊜ is a math symbol.
+<Multi_key> <C> <parenleft> <N> <D> <parenright>       :  "⊜"    U229C    # CIRCLED EQUALS
+<Multi_key> <C> <parenleft> <equal> <parenright>       :  "⊜"    U229C    # CIRCLED EQUALS
+<Multi_key> <C> <parenleft> <N> <C> <parenright>       :  "🄏"     U1F10F    # CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH
+<Multi_key> <C> <parenleft> <slash> <dollar> <parenright>       :  "🄏"     U1F10F    # CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH
+<Multi_key> <C> <parenleft> <backslash> <dollar> <parenright>       :  "🄏"     U1F10F    # CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH
+## Not actually Creative Commons, but related.  Too many options?
+<Multi_key> <parenleft> <C> <Left> <parenright>        :  "🄯"   U1F12F      # COPYLEFT SYMBOL
+<Multi_key> <parenleft> <C> <less> <parenright>        :  "🄯"   U1F12F      # COPYLEFT SYMBOL
+<Multi_key> <C> <parenleft> <C> <Left> <parenright>        :  "🄯"   U1F12F      # COPYLEFT SYMBOL
+<Multi_key> <C> <parenleft> <C> <less> <parenright>        :  "🄯"   U1F12F      # COPYLEFT SYMBOL
+
+## Segmented digits?
+<Multi_key> <numbersign> <0>    :  "🯰"  U1FBF0    # SEGMENTED DIGIT ZERO
+<Multi_key> <numbersign> <1>    :  "🯱"  U1FBF1    # SEGMENTED DIGIT ONE
+<Multi_key> <numbersign> <2>    :  "🯲"  U1FBF2    # SEGMENTED DIGIT TWO
+<Multi_key> <numbersign> <3>    :  "🯳"  U1FBF3    # SEGMENTED DIGIT THREE
+<Multi_key> <numbersign> <4>    :  "🯴"  U1FBF4    # SEGMENTED DIGIT FOUR
+<Multi_key> <numbersign> <5>    :  "🯵"  U1FBF5    # SEGMENTED DIGIT FIVE
+<Multi_key> <numbersign> <6>    :  "🯶"  U1FBF6    # SEGMENTED DIGIT SIX
+<Multi_key> <numbersign> <7>    :  "🯷"  U1FBF7    # SEGMENTED DIGIT SEVEN
+<Multi_key> <numbersign> <8>    :  "🯸"  U1FBF8    # SEGMENTED DIGIT EIGHT
+<Multi_key> <numbersign> <9>    :  "🯹"  U1FBF9    # SEGMENTED DIGIT NINE
+
 # Keystrokes okay?
 <Multi_key> <Multi_key> <f> <d> <l>   	        : "⚜"	U269C	  # FLEUR-DE-LIS
 <Multi_key> <Multi_key> <a> <t> <o> <m>	        : "⚛"	U269B		# ATOM SYMBOL
