@@ -1023,6 +1023,9 @@ include "%L"
 <Multi_key> <numbersign> <o> <slash>	: "♪" U266a	# EIGHTH NOTE
 <Multi_key> <numbersign> <o> <o>	: "♫" U266b	# BEAMED EIGHTH NOTES
 <Multi_key> <numbersign> <percent>	: "♫" U266b	# BEAMED EIGHTH NOTES
+<Multi_key> <numbersign> <q>            : "♩" U2669	# QUARTER NOTE
+<Multi_key> <numbersign> <h>            : "𝅗𝅥" U0001d15e	# MUSICAL SYMBOL HALF NOTE
+<Multi_key> <numbersign> <w>            : "𝅝" U0001d15d	# MUSICAL SYMBOL WHOLE NOTE
 
 
 # Combining accents, for making things you don't have precomposed chars or keystrokes for:
