@@ -50,6 +50,9 @@ BEGIN { binmode(STDOUT, ":utf8");
              '↵' => 'Return',
              '∇' => 'Delete',   # Del, get it?
              '˅' => 'Insert',   # it'll do.
+             '˃' => 'Control_R',
+             '˂' => 'Control_L',
+             # Function-keys? ¹ ²..ˣ ᵉ ᵗ?
 );
 
         $specials = join "", keys %specials;

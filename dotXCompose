@@ -277,7 +277,6 @@ include "%L"
 <Multi_key> <R> <O>             :       "Ꝛ"     UA75A   # LATIN CAPITAL LETTER R ROTUNDA
 # something, anyway.
 <Multi_key> <R> <0>             :       "Ꝛ"     UA75A   # LATIN CAPITAL LETTER R ROTUNDA
-
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <slash> <equal>		: "≠"	U2260		# NOT EQUAL TO
@@ -340,6 +339,8 @@ include "%L"
 <Multi_key> <braceleft> <equal> <parenleft> : "⊆" U2286		# SUBSET OF OR EQUAL TO
 <Multi_key> <exclam> <braceleft> <parenleft> : "⊄" U2284        # NOT A SUBSET OF
 <Multi_key> <slash> <braceleft> <parenleft>  : "⊄" U2284        # NOT A SUBSET OF
+<Multi_key> <exclam> <braceleft> <parenright> :  "⊅" U2285      # NOT A SUPERSET OF
+<Multi_key> <slash> <braceleft> <parenright>  :  "⊅" U2285       # NOT A SUPERSET OF
 <Multi_key> <braceleft>	<parenright>	: "⊃"	U2283		# SUPERSET OF
 <Multi_key> <braceleft> <equal> <parenright> : "⊇" U2287	# SUPERSET OF OR EQUAL TO
 <Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
@@ -705,6 +706,7 @@ include "%L"
 <Multi_key> <percent> <X>		: "Ⅹ"	U2169		# ROMAN NUMERAL TEN
 <Multi_key> <percent> <L>		: "Ⅼ"	U216C		# ROMAN NUMERAL FIFTY
 <Multi_key> <percent> <C>		: "Ⅽ"	U216D		# ROMAN NUMERAL ONE HUNDRED
+<Multi_key> <percent> <less> <C>        : "Ↄ"   U2183          # ROMAN NUMERAL REVERSED ONE HUNDRED
 <Multi_key> <percent> <D>		: "Ⅾ"	U216E		# ROMAN NUMERAL FIVE HUNDRED
 <Multi_key> <percent> <M>		: "Ⅿ"	U216F		# ROMAN NUMERAL ONE THOUSAND
 <Multi_key> <percent> <0> <C> <D>	: "ↀ"	U2180		# ROMAN NUMERAL ONE THOUSAND C D
@@ -979,6 +981,7 @@ include "%L"
 <Multi_key> <question> <parenleft>	: "ʕ"	U0295		# LATIN LETTER PHARYNGEAL VOICED FRICATIVE
 # Not great keystrokes...
 <Multi_key> <question> <v>		: "ʖ"	U0296		# LATIN LETTER INVERTED GLOTTAL STOP
+<Multi_key> <question> <at>		: "ʖ"	U0296		# LATIN LETTER INVERTED GLOTTAL STOP
 <Multi_key> <question> <minus>		: "ʡ"	U02A1		# LATIN LETTER GLOTTAL STOP WITH STROKE
 <Multi_key> <question> <braceleft>	: "ʢ"	U02A2		# LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE
 # How about ɸ? φ isn’t the IPA glyph.
