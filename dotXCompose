@@ -33,6 +33,9 @@ include "%L"
 # These two are already present for me:
 # <Multi_key> <minus> <minus> <minus>	: "—"	U2014		# EM DASH
 # <Multi_key> <minus> <minus> <period>	: "–"	U2013		# EN DASH
+# But I can never remember them!
+<Multi_key> <minus> <M>		: "—"	U2014		# EM DASH
+<Multi_key> <minus> <N>		: "–"	U2013		# EN DASH
 <Multi_key> <minus> <minus> <space>	: "– "			# EN DASH (followed by space)
 <Multi_key> <minus> <asciitilde> <minus> : "―" U2015 # HORIZONTAL BAR
 <Multi_key> <minus> <2> <M>	 	 : "⸺" U2E3A # TWO-EM DASH
@@ -205,9 +208,14 @@ include "%L"
 <Multi_key> <P> <less>		: "ꟼ"	UA7FC	# LATIN EPIGRAPHIC LETTER REVERSED P
 <Multi_key> <F> <BackSpace>		: "ꟻ"	UA7FB	# LATIN EPIGRAPHIC LETTER REVERSED F
 <Multi_key> <P> <BackSpace>		: "ꟼ"	UA7FC	# LATIN EPIGRAPHIC LETTER REVERSED P
+<Multi_key> <F> <F>                     : "Ⅎ"   U2132    # TURNED CAPITAL F
+<Multi_key> <F> <f>                     : "ⅎ"   U214E    # TURNED SMALL F
 <Multi_key> <M> <W>		: "ꟽ"	UA7FD	# LATIN EPIGRAPHIC LETTER INVERTED M
+<Multi_key> <M> <M>                 : "Ɯ"   U019C    # LATIN CAPITAL LETTER TURNED M
 <Multi_key> <I> <bar>		: "ꟾ"	UA7FE	# LATIN EPIGRAPHIC LETTER I LONGA
 <Multi_key> <M> <slash>		: "ꟿ"	UA7FF	# LATIN EPIGRAPHIC LETTER ARCHAIC M
+<Multi_key> <2> <2>                 : "↊"   U218A    # TURNED DIGIT TWO
+<Multi_key> <3> <3>                 : "↋"   U218B    # TURNED DIGIT THREE
 # I'd been avoiding this because we already have ∃...
 # Hey, these, being *letters* can be used as identifiers in some languages...
 <Multi_key> <E> <less>	 	 : "Ǝ"	    U018E	# LATIN CAPITAL LETTER REVERSED E
@@ -272,7 +280,6 @@ include "%L"
 <Multi_key> <R> <O>             :       "Ꝛ"     UA75A   # LATIN CAPITAL LETTER R ROTUNDA
 # something, anyway.
 <Multi_key> <R> <0>             :       "Ꝛ"     UA75A   # LATIN CAPITAL LETTER R ROTUNDA
-
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <slash> <equal>		: "≠"	U2260		# NOT EQUAL TO
@@ -335,6 +342,8 @@ include "%L"
 <Multi_key> <braceleft> <equal> <parenleft> : "⊆" U2286		# SUBSET OF OR EQUAL TO
 <Multi_key> <exclam> <braceleft> <parenleft> : "⊄" U2284        # NOT A SUBSET OF
 <Multi_key> <slash> <braceleft> <parenleft>  : "⊄" U2284        # NOT A SUBSET OF
+<Multi_key> <exclam> <braceleft> <parenright> :  "⊅" U2285      # NOT A SUPERSET OF
+<Multi_key> <slash> <braceleft> <parenright>  :  "⊅" U2285       # NOT A SUPERSET OF
 <Multi_key> <braceleft>	<parenright>	: "⊃"	U2283		# SUPERSET OF
 <Multi_key> <braceleft> <equal> <parenright> : "⊇" U2287	# SUPERSET OF OR EQUAL TO
 <Multi_key> <E> <E>                     : "∃"  U2203           # THERE EXISTS
@@ -700,6 +709,7 @@ include "%L"
 <Multi_key> <percent> <X>		: "Ⅹ"	U2169		# ROMAN NUMERAL TEN
 <Multi_key> <percent> <L>		: "Ⅼ"	U216C		# ROMAN NUMERAL FIFTY
 <Multi_key> <percent> <C>		: "Ⅽ"	U216D		# ROMAN NUMERAL ONE HUNDRED
+<Multi_key> <percent> <less> <C>        : "Ↄ"   U2183          # ROMAN NUMERAL REVERSED ONE HUNDRED
 <Multi_key> <percent> <D>		: "Ⅾ"	U216E		# ROMAN NUMERAL FIVE HUNDRED
 <Multi_key> <percent> <M>		: "Ⅿ"	U216F		# ROMAN NUMERAL ONE THOUSAND
 <Multi_key> <percent> <0> <C> <D>	: "ↀ"	U2180		# ROMAN NUMERAL ONE THOUSAND C D
@@ -745,7 +755,6 @@ include "%L"
 <Multi_key> <semicolon> <BackSpace>	 		  : "⁏"	 U204F	# REVERSED SEMICOLON
 # Keep looking into big hunks of Latin Extended-D, A720- et seq.
 <Multi_key> <less> <3>                  : "♥"  U2665            # BLACK HEART SUIT
-<Multi_key> <3> <3>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <o> <8>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <c> <3>			: "♣" U2663		# BLACK CLUB SUIT
 <Multi_key> <less> <greater>		: "♢" U2662		# WHITE DIAMOND SUIT
@@ -808,6 +817,38 @@ include "%L"
 <Multi_key> <bracketleft> <5> <bracketright>  :  "⚄"  U2684	# DIE FACE-5
 <Multi_key> <bracketleft> <6> <bracketright>  :  "⚅"  U2685	# DIE FACE-6
 # 267B BLACK UNIVERSAL RECYCLING SYMBOL
+
+<Multi_key> <parenleft> <C> <C> <parenright>  :  "🅭"    U1F16D    # CIRCLED CC
+<Multi_key> <C> <parenleft> <C> <C> <parenright>  :  "🅭"    U1F16D    # CIRCLED CC
+<Multi_key> <parenleft> <backslash> <C> <parenright>  :  "🅮"    U1F16E    # CIRCLED C WITH OVERLAID BACKSLASH
+<Multi_key> <parenleft> <slash> <C> <parenright>   :  "🅮"    U1F16E    # CIRCLED C WITH OVERLAID BACKSLASH
+<Multi_key> <C> <parenleft> <backslash> <C> <parenright>  :  "🅮"    U1F16E    # CIRCLED C WITH OVERLAID BACKSLASH
+<Multi_key> <C> <parenleft> <slash> <C> <parenright>   :  "🅮"    U1F16E    # CIRCLED C WITH OVERLAID BACKSLASH
+<Multi_key> <C> <parenleft> <B> <Y> <parenright>       :  "🅯"    U1F16F    # CIRCLED HUMAN FIGURE
+<Multi_key> <C> <parenleft> <S> <A> <parenright>       :  "🄎"    U1F10E    # CIRCLED ANTICLOCKWISE ARROW
+## ugh, this doesn't (usually) match the style of the others.  They're practically emoji; ⊜ is a math symbol.
+<Multi_key> <C> <parenleft> <N> <D> <parenright>       :  "⊜"    U229C    # CIRCLED EQUALS
+<Multi_key> <C> <parenleft> <equal> <parenright>       :  "⊜"    U229C    # CIRCLED EQUALS
+<Multi_key> <C> <parenleft> <N> <C> <parenright>       :  "🄏"     U1F10F    # CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH
+<Multi_key> <C> <parenleft> <slash> <dollar> <parenright>       :  "🄏"     U1F10F    # CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH
+<Multi_key> <C> <parenleft> <backslash> <dollar> <parenright>       :  "🄏"     U1F10F    # CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH
+## Not actually Creative Commons, but related.  Too many options?
+<Multi_key> <parenleft> <C> <Left> <parenright>        :  "🄯"   U1F12F      # COPYLEFT SYMBOL
+<Multi_key> <parenleft> <C> <less> <parenright>        :  "🄯"   U1F12F      # COPYLEFT SYMBOL
+<Multi_key> <C> <parenleft> <C> <Left> <parenright>        :  "🄯"   U1F12F      # COPYLEFT SYMBOL
+<Multi_key> <C> <parenleft> <C> <less> <parenright>        :  "🄯"   U1F12F      # COPYLEFT SYMBOL
+
+## Segmented digits?
+<Multi_key> <numbersign> <0>    :  "🯰"  U1FBF0    # SEGMENTED DIGIT ZERO
+<Multi_key> <numbersign> <1>    :  "🯱"  U1FBF1    # SEGMENTED DIGIT ONE
+<Multi_key> <numbersign> <2>    :  "🯲"  U1FBF2    # SEGMENTED DIGIT TWO
+<Multi_key> <numbersign> <3>    :  "🯳"  U1FBF3    # SEGMENTED DIGIT THREE
+<Multi_key> <numbersign> <4>    :  "🯴"  U1FBF4    # SEGMENTED DIGIT FOUR
+<Multi_key> <numbersign> <5>    :  "🯵"  U1FBF5    # SEGMENTED DIGIT FIVE
+<Multi_key> <numbersign> <6>    :  "🯶"  U1FBF6    # SEGMENTED DIGIT SIX
+<Multi_key> <numbersign> <7>    :  "🯷"  U1FBF7    # SEGMENTED DIGIT SEVEN
+<Multi_key> <numbersign> <8>    :  "🯸"  U1FBF8    # SEGMENTED DIGIT EIGHT
+<Multi_key> <numbersign> <9>    :  "🯹"  U1FBF9    # SEGMENTED DIGIT NINE
 
 # Keystrokes okay?
 <Multi_key> <Multi_key> <f> <d> <l>   	        : "⚜"	U269C	  # FLEUR-DE-LIS
@@ -933,6 +974,20 @@ include "%L"
 <Multi_key> <asciicircum> <plus>	: "⁺"	U207A		# SUPERSCRIPT PLUS
 
 <Multi_key> <asciitilde> <asciitilde>        : "≈"  U2248           # ALMOST EQUAL TO
+
+## The system XCompose gives me lots of precomposed chars, but is
+## missing ones with macrons, and I want 'em
+<Multi_key> <equal> <A>          : "Ā"    U0100    # LATIN CAPITAL LETTER A WITH MACRON
+<Multi_key> <equal> <a>          : "ā"    U0101    # LATIN SMALL LETTER A WITH MACRON
+<Multi_key> <equal> <E>          : "Ē"    U0112    # LATIN CAPITAL LETTER E WITH MACRON
+<Multi_key> <equal> <e>          : "ē"    U0113    # LATIN SMALL LETTER E WITH MACRON
+<Multi_key> <equal> <I>          : "Ī"    U012A    # LATIN CAPITAL LETTER I WITH MACRON
+<Multi_key> <equal> <i>          : "ī"    U012B    # LATIN SMALL LETTER I WITH MACRON
+<Multi_key> <equal> <O>          : "Ō"    U014C    # LATIN CAPITAL LETTER O WITH MACRON
+<Multi_key> <equal> <o>          : "ō"    U014D    # LATIN SMALL LETTER O WITH MACRON
+<Multi_key> <equal> <U>          : "Ū"    U016A    # LATIN CAPITAL LETTER U WITH MACRON
+<Multi_key> <equal> <u>          : "ū"    U016B    # LATIN SMALL LETTER U WITH MACRON
+
 <Multi_key> <s> <h>			: "ʃ"	U0283		# LATIN SMALL LETTER ESH
 <Multi_key> <z> <h>			: "ʒ"	U0292		# LATIN SMALL LETTER EZH
 <Multi_key> <l> <h>    			: "ɬ"	U026C		# LATIN SMALL LETTER L WITH BELT
@@ -943,6 +998,7 @@ include "%L"
 <Multi_key> <question> <parenleft>	: "ʕ"	U0295		# LATIN LETTER PHARYNGEAL VOICED FRICATIVE
 # Not great keystrokes...
 <Multi_key> <question> <v>		: "ʖ"	U0296		# LATIN LETTER INVERTED GLOTTAL STOP
+<Multi_key> <question> <at>		: "ʖ"	U0296		# LATIN LETTER INVERTED GLOTTAL STOP
 <Multi_key> <question> <minus>		: "ʡ"	U02A1		# LATIN LETTER GLOTTAL STOP WITH STROKE
 <Multi_key> <question> <braceleft>	: "ʢ"	U02A2		# LATIN LETTER REVERSED GLOTTAL STOP WITH STROKE
 # How about ɸ? φ isn’t the IPA glyph.
@@ -959,6 +1015,8 @@ include "%L"
 <Multi_key> <A> <W>			: "Ɔ"	U0186		# LATIN CAPITAL LETTER OPEN O
 <Multi_key> <e> <h>   	    	    	: "ɛ"   U025B		# LATIN SMALL LETTER OPEN E
 # Have to put the <less> at the beginning for these.
+<Multi_key> <less> <a> <h>		: "ɒ"	U0252		# LATIN SMALL LETTER TURNED ALPHA
+<Multi_key> <BackSpace> <a> <h>		: "ɒ"	U0252		# LATIN SMALL LETTER TURNED ALPHA
 <Multi_key> <less> <e> <h>		: "ɜ"	U025C		# LATIN SMALL LETTER REVERSED OPEN E
 <Multi_key> <BackSpace> <e> <h>		: "ɜ"	U025C		# LATIN SMALL LETTER REVERSED OPEN E
 <Multi_key> <less> <e> <r>		: "ɝ"	U025D		# LATIN SMALL LETTER REVERSED OPEN E WITH HOOK
@@ -1031,6 +1089,9 @@ include "%L"
 <Multi_key> <numbersign> <o> <slash>	: "♪" U266a	# EIGHTH NOTE
 <Multi_key> <numbersign> <o> <o>	: "♫" U266b	# BEAMED EIGHTH NOTES
 <Multi_key> <numbersign> <percent>	: "♫" U266b	# BEAMED EIGHTH NOTES
+<Multi_key> <numbersign> <q>            : "♩" U2669	# QUARTER NOTE
+<Multi_key> <numbersign> <h>            : "𝅗𝅥" U0001d15e	# MUSICAL SYMBOL HALF NOTE
+<Multi_key> <numbersign> <w>            : "𝅝" U0001d15d	# MUSICAL SYMBOL WHOLE NOTE
 
 
 # Combining accents, for making things you don't have precomposed chars or keystrokes for:
