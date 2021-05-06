@@ -33,6 +33,9 @@ include "%L"
 # These two are already present for me:
 # <Multi_key> <minus> <minus> <minus>	: "—"	U2014		# EM DASH
 # <Multi_key> <minus> <minus> <period>	: "–"	U2013		# EN DASH
+# But I can never remember them!
+<Multi_key> <minus> <M>		: "—"	U2014		# EM DASH
+<Multi_key> <minus> <N>		: "–"	U2013		# EN DASH
 <Multi_key> <minus> <minus> <space>	: "– "			# EN DASH (followed by space)
 <Multi_key> <minus> <asciitilde> <minus> : "―" U2015 # HORIZONTAL BAR
 <Multi_key> <minus> <2> <M>	 	 : "⸺" U2E3A # TWO-EM DASH
@@ -971,6 +974,20 @@ include "%L"
 <Multi_key> <asciicircum> <plus>	: "⁺"	U207A		# SUPERSCRIPT PLUS
 
 <Multi_key> <asciitilde> <asciitilde>        : "≈"  U2248           # ALMOST EQUAL TO
+
+## The system XCompose gives me lots of precomposed chars, but is
+## missing ones with macrons, and I want 'em
+<Multi_key> <equal> <A>          : "Ā"    U0100    # LATIN CAPITAL LETTER A WITH MACRON
+<Multi_key> <equal> <a>          : "ā"    U0101    # LATIN SMALL LETTER A WITH MACRON
+<Multi_key> <equal> <E>          : "Ē"    U0112    # LATIN CAPITAL LETTER E WITH MACRON
+<Multi_key> <equal> <e>          : "ē"    U0113    # LATIN SMALL LETTER E WITH MACRON
+<Multi_key> <equal> <I>          : "Ī"    U012A    # LATIN CAPITAL LETTER I WITH MACRON
+<Multi_key> <equal> <i>          : "ī"    U012B    # LATIN SMALL LETTER I WITH MACRON
+<Multi_key> <equal> <O>          : "Ō"    U014C    # LATIN CAPITAL LETTER O WITH MACRON
+<Multi_key> <equal> <o>          : "ō"    U014D    # LATIN SMALL LETTER O WITH MACRON
+<Multi_key> <equal> <U>          : "Ū"    U016A    # LATIN CAPITAL LETTER U WITH MACRON
+<Multi_key> <equal> <u>          : "ū"    U016B    # LATIN SMALL LETTER U WITH MACRON
+
 <Multi_key> <s> <h>			: "ʃ"	U0283		# LATIN SMALL LETTER ESH
 <Multi_key> <z> <h>			: "ʒ"	U0292		# LATIN SMALL LETTER EZH
 <Multi_key> <l> <h>    			: "ɬ"	U026C		# LATIN SMALL LETTER L WITH BELT

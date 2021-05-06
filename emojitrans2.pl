@@ -28,6 +28,9 @@ BEGIN { binmode(STDOUT, ":utf8");
 	     ']' => 'bracketright',
 	     '{' => 'braceleft',
 	     '}' => 'braceright',
+	      # Not strictly necessary:
+	     '❴' => 'braceleft',
+	     '❵' => 'braceright',
 	     "'" => 'apostrophe',
 	     '"' => 'quotedbl',
 	     '\\' => 'backslash',
