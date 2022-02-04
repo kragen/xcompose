@@ -119,8 +119,15 @@ include "%L"
 <Multi_key> <7> <asciicircum> <bracketright> : "⸣"  U2E23	# TOP RIGHT HALF BRACKET
 <Multi_key> <L> <underscore> <bracketleft>   : "⸤"  U2E24	# BOTTOM LEFT HALF BRACKET
 <Multi_key> <L> <underscore> <bracketright>  : "⸥"  U2E25	# BOTTOM RIGHT HALF BRACKET
+<Multi_key> <7> <asciicircum> <parenleft>    : "⹙"  U2E59       # TOP HALF LEFT PARENTHESIS
+<Multi_key> <7> <asciicircum> <parenright>   : "⹚"  U2E5A       # TOP HALF RIGHT PARENTHESIS
+<Multi_key> <L> <underscore> <parenleft>     : "⹛"  U2E5B       # BOTTOM HALF LEFT PARENTHESIS
+<Multi_key> <L> <underscore> <parenright>    : "⹜"  U2E5C       # BOTTOM HALF RIGHT PARENTHESIS
+<Multi_key> <U> <parenleft>	:	"⸦"	U2E26	# LEFT SIDEWAYS U BRACKET
+<Multi_key> <U> <parenright>	:	"⸧"	U2E27	# RIGHT SIDEWAYS U BRACKET
+
 # Consider <7> <less>/<greater> for ⸂⸃ maybe? <S> and <slash> for ⸉⸊⸌⸍ ...?
-# I guess we can get by with sub/superset for ⸦⸧.
+
 
 <Multi_key> <minus> <less>		: "←"	leftarrow	# LEFTWARDS ARROW
 <Multi_key> <minus> <asciicircum>	: "↑"	uparrow		# UPWARDS ARROW
@@ -276,10 +283,15 @@ include "%L"
 # But it conflicts with system ®
 <Multi_key> <r> <o>             :       "ꝛ"     UA75B   # LATIN SMALL LETTER R ROTUNDA
 <Multi_key> <r> <0>             :       "ꝛ"     UA75B   # LATIN SMALL LETTER R ROTUNDA
+<Multi_key> <0> <r>             :       "ꝛ"     UA75B   # LATIN SMALL LETTER R ROTUNDA
 # Alas, <R><O> conflicts with ® anyway.
 <Multi_key> <R> <O>             :       "Ꝛ"     UA75A   # LATIN CAPITAL LETTER R ROTUNDA
 # something, anyway.
 <Multi_key> <R> <0>             :       "Ꝛ"     UA75A   # LATIN CAPITAL LETTER R ROTUNDA
+<Multi_key> <0> <R>             :       "Ꝛ"     UA75A   # LATIN CAPITAL LETTER R ROTUNDA
+<Multi_key> <r> <minus>         :       "ꭇ"     UAB47    # LATIN SMALL LETTER R WITHOUT HANDLE
+<Multi_key> <r> <2>             :       "ꭈ"     UAB48    # LATIN SMALL LETTER DOUBLE R
+<Multi_key> <r> <s>             :       "ꭋ"     UAB4B    # LATIN SMALL LETTER SCRIPT R
 # Custom additions: Mathematical symbols
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <slash> <equal>		: "≠"	U2260		# NOT EQUAL TO
@@ -333,6 +345,7 @@ include "%L"
 <Multi_key> <Multi_key> <asterisk> <o>              : "∘"   U2218           # RING OPERATOR (function composition)
 <Multi_key> <Multi_key> <asterisk> <x>             : "⨯"   U2A2F           # CROSS PRODUCT
 <Multi_key> <Multi_key> <asterisk>  <period>        : "⋅"   U22C5           # DOT OPERATOR (dot product)
+<Multi_key> <Multi_key> <asterisk> <less> <greater> : "⋄"   U22C4    # DIAMOND OPERATOR
 <Multi_key> <0> <slash>                 : "∅"   U2205           # EMPTY SET (thanks jsled!)
 <Multi_key> <slash> <0>                 : "∅"   U2205           # EMPTY SET
 # I'm hoping { can work as a set mnemonic
