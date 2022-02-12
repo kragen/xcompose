@@ -333,6 +333,7 @@ include "%L"
 <Multi_key> <s> <q>			: "√"	U221A		# SQUARE ROOT
 # keystrokes might not make the most sense, but you know what they mean...
 <Multi_key> <3> <s> <q>			: "∛"	U221B	        # CUBE ROOT
+<Multi_key> <c> <b> <r> <t>     : "∛"   U221B           # CUBE ROOT
 <Multi_key> <4> <s> <q>			: "∜"	U221C		# FOURTH ROOT
     # “(Note: I had put the backslash in position 5/15. It enabled the
     # ALGOL “and” to be “/\” and the “or” to be “\/”.)” --- Bob Bemer,
