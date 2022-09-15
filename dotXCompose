@@ -918,6 +918,7 @@ include "%L"
 <Multi_key> <Multi_key> <d> <e> <a> <t> <h>:	  "☠" U2620 # SKULL AND CROSSBONES
 <Multi_key> <Multi_key> <X> <b> <o> <n> <e> <s>:	  "☠" U2620 # SKULL AND CROSSBONES
 <Multi_key> <Multi_key> <k> <b> <d> :	"⌨"	  U2328	    # KEYBOARD
+<Multi_key> <Multi_key> <g> <n> <d> :	"⏚"	  U23DA	    # EARTH GROUND
 <Multi_key> <Multi_key> <r> <h> <a> <n> <d>	: "☞" U261E # WHITE RIGHT POINTING INDEX
 <Multi_key> <Multi_key> <l> <h> <a> <n> <d>	: "☜" U261C # WHITE LEFT POINTING INDEX
 <Multi_key> <asterisk> <asterisk>	:"★" U2605 # BLACK STAR

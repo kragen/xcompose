@@ -2872,7 +2872,7 @@
 #- 1FA70;BALLET SHOES;So;0;ON;;;;;N;;;;;
 <MM> {ballet shoes} :  "🩰"   U1FA70	# BALLET SHOES
 #- 1FA71;ONE-PIECE SWIMSUIT;So;0;ON;;;;;N;;;;;
-<MM> {one-piece swimsuit} :  "🩱"   U1FA71	# ONE-PIECE SWIMSUIT
+<MM> {1piece} :  "🩱"   U1FA71	# ONE-PIECE SWIMSUIT
 #- 1FA72;BRIEFS;So;0;ON;;;;;N;;;;;
 <MM> {briefs} :  "🩲"   U1FA72	# BRIEFS
 #- 1FA73;SHORTS;So;0;ON;;;;;N;;;;;
@@ -3061,3 +3061,64 @@
 <MM> {wantsU} :  "🫵"   U1FAF5 # INDEX POINTING AT THE VIEWER
 #- 1FAF6;HEART HANDS;So;0;ON;;;;;N;;;;;
 <MM> {hands<3} :  "🫶"   U1FAF6 # HEART HANDS
+#### Unicode 15.0
+#- 1F6DC;WIRELESS;So;0;ON;;;;;N;;;;;
+<MM> {WiFi} :  "🛜"   U1F6DC # WIRELESS
+#- 1F774;LOT OF FORTUNE;So;0;ON;;;;;N;;;;;
+<MM> {lot of fortune} :  "🝴"   U1F774 # LOT OF FORTUNE
+#- 1F775;OCCULTATION;So;0;ON;;;;;N;;;;;
+<MM> {occultation} :  "🝵"   U1F775 # OCCULTATION
+#- 1F776;LUNAR ECLIPSE;So;0;ON;;;;;N;;;;;
+<MM> {lunar eclipse} :  "🝶"   U1F776 # LUNAR ECLIPSE
+#- 1F77B;HAUMEA;So;0;ON;;;;;N;;;;;
+<MM> {haumea} :  "🝻"   U1F77B # HAUMEA
+#- 1F77C;MAKEMAKE;So;0;ON;;;;;N;;;;;
+<MM> {make^2} :  "🝼"   U1F77C # MAKEMAKE
+#- 1F77D;GONGGONG;So;0;ON;;;;;N;;;;;
+<MM> {gong^2} :  "🝽"   U1F77D # GONGGONG
+#- 1F77E;QUAOAR;So;0;ON;;;;;N;;;;;
+<MM> {quaoar} :  "🝾"   U1F77E # QUAOAR
+#- 1F77F;ORCUS;So;0;ON;;;;;N;;;;;
+<MM> {orcus} :  "🝿"   U1F77F # ORCUS
+#- 2BF2;SEDNA;So;0;ON;;;;;N;;;;;
+<MM> {sedna} :  "⯲"   U2BF2 # SEDNA
+#- 1F7D9;NINE POINTED WHITE STAR;So;0;ON;;;;;N;;;;;
+<MM> {9**} :  "🟙"   U1F7D9 # NINE POINTED WHITE STAR
+#- 1FA75;LIGHT BLUE HEART;So;0;ON;;;;;N;;;;;
+<MM> {cyan<3} :  "🩵"   U1FA75 # LIGHT BLUE HEART
+#- 1FA76;GREY HEART;So;0;ON;;;;;N;;;;;
+<MM> {grey<3} :  "🩶"   U1FA76 # GREY HEART
+#- 1FA77;PINK HEART;So;0;ON;;;;;N;;;;;
+<MM> {pink<3} :  "🩷"   U1FA77 # PINK HEART
+#- 1FA87;MARACAS;So;0;ON;;;;;N;;;;;
+<MM> {maracas} :  "🪇"   U1FA87 # MARACAS
+#- 1FA88;FLUTE;So;0;ON;;;;;N;;;;;
+<MM> {flute} :  "🪈"   U1FA88 # FLUTE
+#- 1FAAD;FOLDING HAND FAN;So;0;ON;;;;;N;;;;;
+<MM> {folding hand fan} :  "🪭"   U1FAAD # FOLDING HAND FAN
+#- 1FAAE;HAIR PICK;So;0;ON;;;;;N;;;;;
+<MM> {fropick} :  "🪮"   U1FAAE # HAIR PICK
+#- 1FAAF;KHANDA;So;0;ON;;;;;N;;;;;
+<MM> {khanda} :  "🪯"   U1FAAF # KHANDA
+#- 1FABB;HYACINTH;So;0;ON;;;;;N;;;;;
+<MM> {hyacinth} :  "🪻"   U1FABB # HYACINTH
+#- 1FABC;JELLYFISH;So;0;ON;;;;;N;;;;;
+<MM> {jellyfish} :  "🪼"   U1FABC # JELLYFISH
+#- 1FABD;WING;So;0;ON;;;;;N;;;;;
+<MM> {wing} :  "🪽"   U1FABD # WING
+#- 1FABF;GOOSE;So;0;ON;;;;;N;;;;;
+<MM> {goose} :  "🪿"   U1FABF # GOOSE
+#- 1FACE;MOOSE;So;0;ON;;;;;N;;;;;
+<MM> {moose} :  "🫎"   U1FACE # MOOSE
+#- 1FACF;DONKEY;So;0;ON;;;;;N;;;;;
+<MM> {donkey} :  "🫏"   U1FACF # DONKEY
+#- 1FADA;GINGER ROOT;So;0;ON;;;;;N;;;;;
+<MM> {ginger} :  "🫚"   U1FADA # GINGER ROOT
+#- 1FADB;PEA POD;So;0;ON;;;;;N;;;;;
+<MM> {peapod} :  "🫛"   U1FADB # PEA POD
+#- 1FAE8;SHAKING FACE;So;0;ON;;;;;N;;;;;
+<MM> {()shake} :  "🫨"   U1FAE8 # SHAKING FACE
+#- 1FAF7;LEFTWARDS PUSHING HAND;So;0;ON;;;;;N;;;;;
+<MM> {push←} :  "🫷"   U1FAF7 # LEFTWARDS PUSHING HAND
+#- 1FAF8;RIGHTWARDS PUSHING HAND;So;0;ON;;;;;N;;;;;
+<MM> {push→} :  "🫸"   U1FAF8 # RIGHTWARDS PUSHING HAND
