@@ -355,3 +355,27 @@
 <Multi_key>  <parenleft> <O> <9> <parenright> :  "⓽"   U24FD	# DOUBLE CIRCLED DIGIT NINE
 #- 24FE;DOUBLE CIRCLED NUMBER TEN;No;0;ON;;;;10;N;;;;;
 <Multi_key>  <parenleft> <O> <1> <0> <parenright> :  "⓾"   U24FE	# DOUBLE CIRCLED NUMBER TEN
+#- 1F101;DIGIT ZERO COMMA;No;0;EN;<compat> 0030 002C;;0;0;N;;;;;
+#######
+# Commas.  Hey, could use for grouping.
+#- 1F101;DIGIT ZERO COMMA;No;0;EN;<compat> 0030 002C;;0;0;N;;;;;
+<Multi_key>  <period> <0> <comma> :  "🄁"   U1F101 # DIGIT ZERO COMMA
+#- 1F102;DIGIT ONE COMMA;No;0;EN;<compat> 0031 002C;;1;1;N;;;;;
+<Multi_key>  <period> <1> <comma> :  "🄂"   U1F102 # DIGIT ONE COMMA
+#- 1F103;DIGIT TWO COMMA;No;0;EN;<compat> 0032 002C;;2;2;N;;;;;
+<Multi_key>  <period> <2> <comma> :  "🄃"   U1F103 # DIGIT TWO COMMA
+#- 1F104;DIGIT THREE COMMA;No;0;EN;<compat> 0033 002C;;3;3;N;;;;;
+<Multi_key>  <period> <3> <comma> :  "🄄"   U1F104 # DIGIT THREE COMMA
+#- 1F105;DIGIT FOUR COMMA;No;0;EN;<compat> 0034 002C;;4;4;N;;;;;
+<Multi_key>  <period> <4> <comma> :  "🄅"   U1F105 # DIGIT FOUR COMMA
+#- 1F106;DIGIT FIVE COMMA;No;0;EN;<compat> 0035 002C;;5;5;N;;;;;
+<Multi_key>  <period> <5> <comma> :  "🄆"   U1F106 # DIGIT FIVE COMMA
+#- 1F107;DIGIT SIX COMMA;No;0;EN;<compat> 0036 002C;;6;6;N;;;;;
+<Multi_key>  <period> <6> <comma> :  "🄇"   U1F107 # DIGIT SIX COMMA
+#- 1F108;DIGIT SEVEN COMMA;No;0;EN;<compat> 0037 002C;;7;7;N;;;;;
+<Multi_key>  <period> <7> <comma> :  "🄈"   U1F108 # DIGIT SEVEN COMMA
+#- 1F109;DIGIT EIGHT COMMA;No;0;EN;<compat> 0038 002C;;8;8;N;;;;;
+<Multi_key>  <period> <8> <comma> :  "🄉"   U1F109 # DIGIT EIGHT COMMA
+#- 1F10A;DIGIT NINE COMMA;No;0;EN;<compat> 0039 002C;;9;9;N;;;;;
+<Multi_key>  <period> <9> <comma> :  "🄊"   U1F10A # DIGIT NINE COMMA
+

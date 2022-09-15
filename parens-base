@@ -355,3 +355,27 @@
 <M_> {(O9)} :  "⓽"   U24FD	# DOUBLE CIRCLED DIGIT NINE
 #- 24FE;DOUBLE CIRCLED NUMBER TEN;No;0;ON;;;;10;N;;;;;
 <M_> {(O10)} :  "⓾"   U24FE	# DOUBLE CIRCLED NUMBER TEN
+#- 1F101;DIGIT ZERO COMMA;No;0;EN;<compat> 0030 002C;;0;0;N;;;;;
+#######
+# Commas.  Hey, could use for grouping.
+#- 1F101;DIGIT ZERO COMMA;No;0;EN;<compat> 0030 002C;;0;0;N;;;;;
+<M_> {.0,} :  "🄁"   U1F101 # DIGIT ZERO COMMA
+#- 1F102;DIGIT ONE COMMA;No;0;EN;<compat> 0031 002C;;1;1;N;;;;;
+<M_> {.1,} :  "🄂"   U1F102 # DIGIT ONE COMMA
+#- 1F103;DIGIT TWO COMMA;No;0;EN;<compat> 0032 002C;;2;2;N;;;;;
+<M_> {.2,} :  "🄃"   U1F103 # DIGIT TWO COMMA
+#- 1F104;DIGIT THREE COMMA;No;0;EN;<compat> 0033 002C;;3;3;N;;;;;
+<M_> {.3,} :  "🄄"   U1F104 # DIGIT THREE COMMA
+#- 1F105;DIGIT FOUR COMMA;No;0;EN;<compat> 0034 002C;;4;4;N;;;;;
+<M_> {.4,} :  "🄅"   U1F105 # DIGIT FOUR COMMA
+#- 1F106;DIGIT FIVE COMMA;No;0;EN;<compat> 0035 002C;;5;5;N;;;;;
+<M_> {.5,} :  "🄆"   U1F106 # DIGIT FIVE COMMA
+#- 1F107;DIGIT SIX COMMA;No;0;EN;<compat> 0036 002C;;6;6;N;;;;;
+<M_> {.6,} :  "🄇"   U1F107 # DIGIT SIX COMMA
+#- 1F108;DIGIT SEVEN COMMA;No;0;EN;<compat> 0037 002C;;7;7;N;;;;;
+<M_> {.7,} :  "🄈"   U1F108 # DIGIT SEVEN COMMA
+#- 1F109;DIGIT EIGHT COMMA;No;0;EN;<compat> 0038 002C;;8;8;N;;;;;
+<M_> {.8,} :  "🄉"   U1F109 # DIGIT EIGHT COMMA
+#- 1F10A;DIGIT NINE COMMA;No;0;EN;<compat> 0039 002C;;9;9;N;;;;;
+<M_> {.9,} :  "🄊"   U1F10A # DIGIT NINE COMMA
+
