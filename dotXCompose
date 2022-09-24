@@ -293,6 +293,7 @@ include "%L"
 <Multi_key> <r> <2>             :       "ꭈ"     UAB48    # LATIN SMALL LETTER DOUBLE R
 <Multi_key> <r> <s>             :       "ꭋ"     UAB4B    # LATIN SMALL LETTER SCRIPT R
 # Custom additions: Mathematical symbols
+<Multi_key> <equal> <asciicircum> : "≙" U2259 # ESTIMATES
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <slash> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <less> <equal>		: "≤"	U2264		# LESS-THAN OR EQUAL TO
