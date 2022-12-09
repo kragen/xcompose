@@ -1,0 +1,16 @@
+#!/usr/bin/bash
+
+if [ "$1" = "-h" ];then
+   echo lets you search through all your compose sequences for a match
+   echo USAGE: compose_search sequence/symbol
+elif command -v rg >/dev/null 2>&1 ; then
+    rg -i "$1" /home/nitsi/documents/xcompose/*
+    found=$(rg -i "$1" /home/nitsi/documents/xcompose/*)
+else
+    grep -inT "$1" /home/nitsi/documents/xcompose/*
+    found=$(grep -inT "$1" /home/nitsi/documents/xcompose/*)
+fi
+
+if [ -z "$found" ]; then
+    echo "no matches found"
+fi
