@@ -35,3 +35,10 @@ want to use our `install` script, but rather create your own `.XCompose`
 	 # My very original smileyface!
 	 <Multi_key> <parenleft> <t> <u> <parenright> : "㋡" U32E1 # CIRCLED KATAKANA TU
 	 # ...
+
+IR’s fork
+=========
+
+Among other things, I’ve sorted the characters in the main file by codepoint, and added
+headers and such, and tweaked reams of rules, adding even more, probably. Integrate this
+however you like, or keep it in a separate branch, or not at all, but I figured I’d share.
