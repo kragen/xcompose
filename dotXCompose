@@ -419,6 +419,7 @@ include "%L"
 <Multi_key> <w> <p> 	:	"℘"	U2118	# SCRIPT CAPITAL P
 # Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
+<Multi_key> <bar> <B>                   : "𝔹"   U1D539           # DOUBLE-STRUCK CAPITAL B
 <Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
 <Multi_key> <bar> <N>                   : "ℕ"   U2115           # DOUBLE-STRUCK CAPITAL N (natural number)
 <Multi_key> <bar> <P>                   : "ℙ"   U2119           # DOUBLE-STRUCK CAPITAL P 
