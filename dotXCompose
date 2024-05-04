@@ -507,8 +507,8 @@ include "%L"
 # If I did more Haskell, I'd want this more:
 <Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom) or should we use U27C2 PERPENDICULAR?
 <Multi_key> <underscore> <exclam> <underscore>:	"⊤"	 U22A4	# DOWN TACK (opposite of False)
-<Multi_key> <underscore> <greater> <underscore>:	"⊢"	 U22A2	# RIGHT TACK
-<Multi_key> <underscore> <less> <underscore>:	"⊣"	 U22A3	# LEFT TACK
+<Multi_key> <bar> <minus>:	"⊢"	 U22A2	# RIGHT TACK
+<Multi_key> <minus> <bar>:	"⊣"	 U22A3	# LEFT TACK
 # Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
 <Multi_key> <slash> <slash>		: "⁄"	U2044	# FRACTION SLASH
 
