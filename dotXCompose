@@ -1,5 +1,14 @@
-# for Emacs: -*- coding: utf-8 -*-
+4# for Emacs: -*- coding: utf-8 -*-
 include "%L"
+
+# def emit(keys, codepoint, word):
+#     print ('<Multi_key> %s <period>\t: "%s"\tU%04X\t\t# CIRCLED DIGIT %s' % 
+#            (keys, unichr(codepoint), codepoint, word)).encode('utf8')
+# numbers = 'one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty'
+# words = numbers.upper().split()
+# emit('<0>', 0x24EA, "ZERO")
+# for num, word in zip(range(1, 21), words):
+#     emit(' '.join("<%s>" % char for char in str(num)), 0x245f + num, word)
 
 ###############
 ###  B M P  ###
@@ -776,6 +785,7 @@ include "%L"
 <Multi_key> <s> <q> : "√" U221A # SQUARE ROOT
 <Multi_key> <2> <r> <t> : "√" U221A # SQUARE ROOT
 <Multi_key> <3> <r> <t> : "∛" U221B # CUBE ROOT
+<Multi_key> <c> <b> <r> <t> : "∛" U221B # CUBE ROOT
 <Multi_key> <4> <r> <t> : "∜" U221C # FOURTH ROOT
 <Multi_key> <8> <8> : "∞" U221E # INFINITY
 <Multi_key> <less> <0> : "∠" U2220 # ANGLE
