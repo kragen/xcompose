@@ -22,6 +22,8 @@ include "%L"
 <Multi_key> <2> <period>	 	  : "‥"	U2025		# TWO DOT LEADER
 # This should not be needed.
 #<Multi_key> <1> <period>		  : "․"	U2024		# ONE DOT LEADER
+<Multi_key> <underscore> <period> <1>	: "․"	U2024	# ONE DOT LEADER
+<Multi_key> <underscore> <period> <2>	: "‥"	U2025	# TWO DOT LEADER
 <Multi_key> <c> <1> <period>		  : "·"	U00B7		# MIDDLE DOT (maybe I can remember the keystroke better?
 <Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
 ### or && ?
