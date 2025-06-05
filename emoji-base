@@ -18,6 +18,8 @@
 ## Many of these have entries elsewhere.
 #- 26BE;BASEBALL;So;0;ON;;;;;N;;;;;
 <MM> {basebal} :  "⚾"   U26BE	# BASEBALL
+#- 2698;FLOWER;So;0;ON;;;;;N;;;;;
+<MM> {flower} :  "⚘"   U2698 # FLOWER
 #- 26D3;CHAINS;So;0;ON;;;;;N;;;;;
 <MM> {chains} :  "⛓"   U26D3	# CHAINS
 #- 2700;BLACK SAFETY SCISSORS;So;0;ON;;;;;N;;;;;

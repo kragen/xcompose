@@ -417,6 +417,7 @@ include "%L"
 <Multi_key> <Multi_key> <e> <x> <p> :   "ℯ"	U212F   # SCRIPT SMALL E
 <Multi_key> <e> <1> <0> :	"⏨" 	U23E8   # DECIMAL EXPONENT SYMBOL
 <Multi_key> <w> <p> 	:	"℘"	U2118	# SCRIPT CAPITAL P
+<Multi_key> <minus> <numbersign>	:	"−"	U2212   # MINUS SIGN
 # Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
 <Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
@@ -1084,6 +1085,9 @@ include "%L"
 # The h looks the same...
 <Multi_key> <h> <apostrophe>	    : "ɦ"   U0266     # LATIN SMALL LETTER H WITH HOOK
 <Multi_key> <G> <apostrophe>	    : "ʛ"   U029B     # LATIN LETTER SMALL CAPITAL G WITH HOOK
+<Multi_key> <h> <j>                 : "ꜧ"   UA727     # LATIN SMALL LETTER HENG
+<Multi_key> <f> <h> <j>             : "ɧ"   U0267     # LATIN SMALL LETTER HENG WITH HOOK
+<Multi_key> <m> <j>                 : "ɱ"   U0271     # LATIN SMALL LETTER M WITH HOOK
 <Multi_key> <N> <o>			: "№"	U2116		# NUMERO SIGN
 <Multi_key> <R> <x>			: "℞"	U211E		# PRESCRIPTION TAKE
 <Multi_key> <P> <e> <r>			: "⅌"	U214C		# PER SIGN

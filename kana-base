@@ -1,0 +1,688 @@
+### I haven't really used this yet, and probably it would be a sometimes
+### thing (for me), but might be useful
+#- 3041;HIRAGANA LETTER SMALL A;Lo;0;L;;;;;N;;;;;
+<M_> {jh_a} :  "ぁ"   U3041 # HIRAGANA LETTER SMALL A
+#- 3042;HIRAGANA LETTER A;Lo;0;L;;;;;N;;;;;
+<M_> {jha} :  "あ"   U3042 # HIRAGANA LETTER A
+#- 3043;HIRAGANA LETTER SMALL I;Lo;0;L;;;;;N;;;;;
+<M_> {jh_i} :  "ぃ"   U3043 # HIRAGANA LETTER SMALL I
+#- 3044;HIRAGANA LETTER I;Lo;0;L;;;;;N;;;;;
+<M_> {jhi} :  "い"   U3044 # HIRAGANA LETTER I
+#- 3045;HIRAGANA LETTER SMALL U;Lo;0;L;;;;;N;;;;;
+<M_> {jh_u} :  "ぅ"   U3045 # HIRAGANA LETTER SMALL U
+#- 3046;HIRAGANA LETTER U;Lo;0;L;;;;;N;;;;;
+<M_> {jhu} :  "う"   U3046 # HIRAGANA LETTER U
+#- 3047;HIRAGANA LETTER SMALL E;Lo;0;L;;;;;N;;;;;
+<M_> {jh_e} :  "ぇ"   U3047 # HIRAGANA LETTER SMALL E
+#- 3048;HIRAGANA LETTER E;Lo;0;L;;;;;N;;;;;
+<M_> {jhe} :  "え"   U3048 # HIRAGANA LETTER E
+#- 3049;HIRAGANA LETTER SMALL O;Lo;0;L;;;;;N;;;;;
+<M_> {jh_o} :  "ぉ"   U3049 # HIRAGANA LETTER SMALL O
+#- 304A;HIRAGANA LETTER O;Lo;0;L;;;;;N;;;;;
+<M_> {jho} :  "お"   U304A # HIRAGANA LETTER O
+#- 304B;HIRAGANA LETTER KA;Lo;0;L;;;;;N;;;;;
+<M_> {jhka} :  "か"   U304B # HIRAGANA LETTER KA
+#- 304C;HIRAGANA LETTER GA;Lo;0;L;304B 3099;;;;N;;;;;
+<M_> {jhga} :  "が"   U304C # HIRAGANA LETTER GA
+#- 304D;HIRAGANA LETTER KI;Lo;0;L;;;;;N;;;;;
+<M_> {jhki} :  "き"   U304D # HIRAGANA LETTER KI
+#- 304E;HIRAGANA LETTER GI;Lo;0;L;304D 3099;;;;N;;;;;
+<M_> {jhgi} :  "ぎ"   U304E # HIRAGANA LETTER GI
+#- 304F;HIRAGANA LETTER KU;Lo;0;L;;;;;N;;;;;
+<M_> {jhku} :  "く"   U304F # HIRAGANA LETTER KU
+#- 3050;HIRAGANA LETTER GU;Lo;0;L;304F 3099;;;;N;;;;;
+<M_> {jhgu} :  "ぐ"   U3050 # HIRAGANA LETTER GU
+#- 3051;HIRAGANA LETTER KE;Lo;0;L;;;;;N;;;;;
+<M_> {jhke} :  "け"   U3051 # HIRAGANA LETTER KE
+#- 3052;HIRAGANA LETTER GE;Lo;0;L;3051 3099;;;;N;;;;;
+<M_> {jhge} :  "げ"   U3052 # HIRAGANA LETTER GE
+#- 3053;HIRAGANA LETTER KO;Lo;0;L;;;;;N;;;;;
+<M_> {jhko} :  "こ"   U3053 # HIRAGANA LETTER KO
+#- 3054;HIRAGANA LETTER GO;Lo;0;L;3053 3099;;;;N;;;;;
+<M_> {jhgo} :  "ご"   U3054 # HIRAGANA LETTER GO
+#- 3055;HIRAGANA LETTER SA;Lo;0;L;;;;;N;;;;;
+<M_> {jhsa} :  "さ"   U3055 # HIRAGANA LETTER SA
+#- 3056;HIRAGANA LETTER ZA;Lo;0;L;3055 3099;;;;N;;;;;
+<M_> {jhza} :  "ざ"   U3056 # HIRAGANA LETTER ZA
+#- 3057;HIRAGANA LETTER SI;Lo;0;L;;;;;N;;;;;
+<M_> {jhsi} :  "し"   U3057 # HIRAGANA LETTER SI
+#- 3058;HIRAGANA LETTER ZI;Lo;0;L;3057 3099;;;;N;;;;;
+<M_> {jhzi} :  "じ"   U3058 # HIRAGANA LETTER ZI
+#- 3059;HIRAGANA LETTER SU;Lo;0;L;;;;;N;;;;;
+<M_> {jhsu} :  "す"   U3059 # HIRAGANA LETTER SU
+#- 305A;HIRAGANA LETTER ZU;Lo;0;L;3059 3099;;;;N;;;;;
+<M_> {jhzu} :  "ず"   U305A # HIRAGANA LETTER ZU
+#- 305B;HIRAGANA LETTER SE;Lo;0;L;;;;;N;;;;;
+<M_> {jhse} :  "せ"   U305B # HIRAGANA LETTER SE
+#- 305C;HIRAGANA LETTER ZE;Lo;0;L;305B 3099;;;;N;;;;;
+<M_> {jhze} :  "ぜ"   U305C # HIRAGANA LETTER ZE
+#- 305D;HIRAGANA LETTER SO;Lo;0;L;;;;;N;;;;;
+<M_> {jhso} :  "そ"   U305D # HIRAGANA LETTER SO
+#- 305E;HIRAGANA LETTER ZO;Lo;0;L;305D 3099;;;;N;;;;;
+<M_> {jhzo} :  "ぞ"   U305E # HIRAGANA LETTER ZO
+#- 305F;HIRAGANA LETTER TA;Lo;0;L;;;;;N;;;;;
+<M_> {jhta} :  "た"   U305F # HIRAGANA LETTER TA
+#- 3060;HIRAGANA LETTER DA;Lo;0;L;305F 3099;;;;N;;;;;
+<M_> {jhda} :  "だ"   U3060 # HIRAGANA LETTER DA
+#- 3061;HIRAGANA LETTER TI;Lo;0;L;;;;;N;;;;;
+<M_> {jhti} :  "ち"   U3061 # HIRAGANA LETTER TI
+#- 3062;HIRAGANA LETTER DI;Lo;0;L;3061 3099;;;;N;;;;;
+<M_> {jhdi} :  "ぢ"   U3062 # HIRAGANA LETTER DI
+#- 3063;HIRAGANA LETTER SMALL TU;Lo;0;L;;;;;N;;;;;
+<M_> {jh_tu} :  "っ"   U3063 # HIRAGANA LETTER SMALL TU
+#- 3064;HIRAGANA LETTER TU;Lo;0;L;;;;;N;;;;;
+<M_> {jhtu} :  "つ"   U3064 # HIRAGANA LETTER TU
+#- 3065;HIRAGANA LETTER DU;Lo;0;L;3064 3099;;;;N;;;;;
+<M_> {jhdu} :  "づ"   U3065 # HIRAGANA LETTER DU
+#- 3066;HIRAGANA LETTER TE;Lo;0;L;;;;;N;;;;;
+<M_> {jhte} :  "て"   U3066 # HIRAGANA LETTER TE
+#- 3067;HIRAGANA LETTER DE;Lo;0;L;3066 3099;;;;N;;;;;
+<M_> {jhde} :  "で"   U3067 # HIRAGANA LETTER DE
+#- 3068;HIRAGANA LETTER TO;Lo;0;L;;;;;N;;;;;
+<M_> {jhto} :  "と"   U3068 # HIRAGANA LETTER TO
+#- 3069;HIRAGANA LETTER DO;Lo;0;L;3068 3099;;;;N;;;;;
+<M_> {jhdo} :  "ど"   U3069 # HIRAGANA LETTER DO
+#- 306A;HIRAGANA LETTER NA;Lo;0;L;;;;;N;;;;;
+<M_> {jhna} :  "な"   U306A # HIRAGANA LETTER NA
+#- 306B;HIRAGANA LETTER NI;Lo;0;L;;;;;N;;;;;
+<M_> {jhni} :  "に"   U306B # HIRAGANA LETTER NI
+#- 306C;HIRAGANA LETTER NU;Lo;0;L;;;;;N;;;;;
+<M_> {jhnu} :  "ぬ"   U306C # HIRAGANA LETTER NU
+#- 306D;HIRAGANA LETTER NE;Lo;0;L;;;;;N;;;;;
+<M_> {jhne} :  "ね"   U306D # HIRAGANA LETTER NE
+#- 306E;HIRAGANA LETTER NO;Lo;0;L;;;;;N;;;;;
+<M_> {jhno} :  "の"   U306E # HIRAGANA LETTER NO
+#- 306F;HIRAGANA LETTER HA;Lo;0;L;;;;;N;;;;;
+<M_> {jhha} :  "は"   U306F # HIRAGANA LETTER HA
+#- 3070;HIRAGANA LETTER BA;Lo;0;L;306F 3099;;;;N;;;;;
+<M_> {jhba} :  "ば"   U3070 # HIRAGANA LETTER BA
+#- 3071;HIRAGANA LETTER PA;Lo;0;L;306F 309A;;;;N;;;;;
+<M_> {jhpa} :  "ぱ"   U3071 # HIRAGANA LETTER PA
+#- 3072;HIRAGANA LETTER HI;Lo;0;L;;;;;N;;;;;
+<M_> {jhhi} :  "ひ"   U3072 # HIRAGANA LETTER HI
+#- 3073;HIRAGANA LETTER BI;Lo;0;L;3072 3099;;;;N;;;;;
+<M_> {jhbi} :  "び"   U3073 # HIRAGANA LETTER BI
+#- 3074;HIRAGANA LETTER PI;Lo;0;L;3072 309A;;;;N;;;;;
+<M_> {jhpi} :  "ぴ"   U3074 # HIRAGANA LETTER PI
+#- 3075;HIRAGANA LETTER HU;Lo;0;L;;;;;N;;;;;
+<M_> {jhhu} :  "ふ"   U3075 # HIRAGANA LETTER HU
+#- 3076;HIRAGANA LETTER BU;Lo;0;L;3075 3099;;;;N;;;;;
+<M_> {jhbu} :  "ぶ"   U3076 # HIRAGANA LETTER BU
+#- 3077;HIRAGANA LETTER PU;Lo;0;L;3075 309A;;;;N;;;;;
+<M_> {jhpu} :  "ぷ"   U3077 # HIRAGANA LETTER PU
+#- 3078;HIRAGANA LETTER HE;Lo;0;L;;;;;N;;;;;
+<M_> {jhhe} :  "へ"   U3078 # HIRAGANA LETTER HE
+#- 3079;HIRAGANA LETTER BE;Lo;0;L;3078 3099;;;;N;;;;;
+<M_> {jhbe} :  "べ"   U3079 # HIRAGANA LETTER BE
+#- 307A;HIRAGANA LETTER PE;Lo;0;L;3078 309A;;;;N;;;;;
+<M_> {jhpe} :  "ぺ"   U307A # HIRAGANA LETTER PE
+#- 307B;HIRAGANA LETTER HO;Lo;0;L;;;;;N;;;;;
+<M_> {jhho} :  "ほ"   U307B # HIRAGANA LETTER HO
+#- 307C;HIRAGANA LETTER BO;Lo;0;L;307B 3099;;;;N;;;;;
+<M_> {jhbo} :  "ぼ"   U307C # HIRAGANA LETTER BO
+#- 307D;HIRAGANA LETTER PO;Lo;0;L;307B 309A;;;;N;;;;;
+<M_> {jhpo} :  "ぽ"   U307D # HIRAGANA LETTER PO
+#- 307E;HIRAGANA LETTER MA;Lo;0;L;;;;;N;;;;;
+<M_> {jhma} :  "ま"   U307E # HIRAGANA LETTER MA
+#- 307F;HIRAGANA LETTER MI;Lo;0;L;;;;;N;;;;;
+<M_> {jhmi} :  "み"   U307F # HIRAGANA LETTER MI
+#- 3080;HIRAGANA LETTER MU;Lo;0;L;;;;;N;;;;;
+<M_> {jhmu} :  "む"   U3080 # HIRAGANA LETTER MU
+#- 3081;HIRAGANA LETTER ME;Lo;0;L;;;;;N;;;;;
+<M_> {jhme} :  "め"   U3081 # HIRAGANA LETTER ME
+#- 3082;HIRAGANA LETTER MO;Lo;0;L;;;;;N;;;;;
+<M_> {jhmo} :  "も"   U3082 # HIRAGANA LETTER MO
+#- 3083;HIRAGANA LETTER SMALL YA;Lo;0;L;;;;;N;;;;;
+<M_> {jh_ya} :  "ゃ"   U3083 # HIRAGANA LETTER SMALL YA
+#- 3084;HIRAGANA LETTER YA;Lo;0;L;;;;;N;;;;;
+<M_> {jhya} :  "や"   U3084 # HIRAGANA LETTER YA
+#- 3085;HIRAGANA LETTER SMALL YU;Lo;0;L;;;;;N;;;;;
+<M_> {jh_yu} :  "ゅ"   U3085 # HIRAGANA LETTER SMALL YU
+#- 3086;HIRAGANA LETTER YU;Lo;0;L;;;;;N;;;;;
+<M_> {jhyu} :  "ゆ"   U3086 # HIRAGANA LETTER YU
+#- 3087;HIRAGANA LETTER SMALL YO;Lo;0;L;;;;;N;;;;;
+<M_> {jh_yo} :  "ょ"   U3087 # HIRAGANA LETTER SMALL YO
+#- 3088;HIRAGANA LETTER YO;Lo;0;L;;;;;N;;;;;
+<M_> {jhyo} :  "よ"   U3088 # HIRAGANA LETTER YO
+#- 3089;HIRAGANA LETTER RA;Lo;0;L;;;;;N;;;;;
+<M_> {jhra} :  "ら"   U3089 # HIRAGANA LETTER RA
+#- 308A;HIRAGANA LETTER RI;Lo;0;L;;;;;N;;;;;
+<M_> {jhri} :  "り"   U308A # HIRAGANA LETTER RI
+#- 308B;HIRAGANA LETTER RU;Lo;0;L;;;;;N;;;;;
+<M_> {jhru} :  "る"   U308B # HIRAGANA LETTER RU
+#- 308C;HIRAGANA LETTER RE;Lo;0;L;;;;;N;;;;;
+<M_> {jhre} :  "れ"   U308C # HIRAGANA LETTER RE
+#- 308D;HIRAGANA LETTER RO;Lo;0;L;;;;;N;;;;;
+<M_> {jhro} :  "ろ"   U308D # HIRAGANA LETTER RO
+#- 308E;HIRAGANA LETTER SMALL WA;Lo;0;L;;;;;N;;;;;
+<M_> {jh_wa} :  "ゎ"   U308E # HIRAGANA LETTER SMALL WA
+#- 308F;HIRAGANA LETTER WA;Lo;0;L;;;;;N;;;;;
+<M_> {jhwa} :  "わ"   U308F # HIRAGANA LETTER WA
+#- 3090;HIRAGANA LETTER WI;Lo;0;L;;;;;N;;;;;
+<M_> {jhwi} :  "ゐ"   U3090 # HIRAGANA LETTER WI
+#- 3091;HIRAGANA LETTER WE;Lo;0;L;;;;;N;;;;;
+<M_> {jhwe} :  "ゑ"   U3091 # HIRAGANA LETTER WE
+#- 3092;HIRAGANA LETTER WO;Lo;0;L;;;;;N;;;;;
+<M_> {jhwo} :  "を"   U3092 # HIRAGANA LETTER WO
+#- 3093;HIRAGANA LETTER N;Lo;0;L;;;;;N;;;;;
+<M_> {jhnn} :  "ん"   U3093 # HIRAGANA LETTER N
+#- 3094;HIRAGANA LETTER VU;Lo;0;L;3046 3099;;;;N;;;;;
+<M_> {jhvu} :  "ゔ"   U3094 # HIRAGANA LETTER VU
+#- 3095;HIRAGANA LETTER SMALL KA;Lo;0;L;;;;;N;;;;;
+<M_> {jh_ka} :  "ゕ"   U3095 # HIRAGANA LETTER SMALL KA
+#- 3096;HIRAGANA LETTER SMALL KE;Lo;0;L;;;;;N;;;;;
+<M_> {jh_ke} :  "ゖ"   U3096 # HIRAGANA LETTER SMALL KE
+#- 3099;COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK;Mn;8;NSM;;;;;N;NON-SPACING KATAKANA-HIRAGANA VOICED SOUND MARK;;;;
+<M_> {combining katakana-hiragana voiced sound mark} :  "゙"   U3099 # COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK
+#- 309A;COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK;Mn;8;NSM;;;;;N;NON-SPACING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK;;;;
+<M_> {combining katakana-hiragana semi-voiced sound mark} :  "゚"   U309A # COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK
+#- 309B;KATAKANA-HIRAGANA VOICED SOUND MARK;Sk;0;ON;<compat> 0020 3099;;;;N;;;;;
+<M_> {katakana-hiragana voiced sound mark} :  "゛"   U309B # KATAKANA-HIRAGANA VOICED SOUND MARK
+#- 309C;KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK;Sk;0;ON;<compat> 0020 309A;;;;N;;;;;
+<M_> {katakana-hiragana semi-voiced sound mark} :  "゜"   U309C # KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK
+#- 309D;HIRAGANA ITERATION MARK;Lm;0;L;;;;;N;;;;;
+<M_> {hiragana iteration mark} :  "ゝ"   U309D # HIRAGANA ITERATION MARK
+#- 309E;HIRAGANA VOICED ITERATION MARK;Lm;0;L;309D 3099;;;;N;;;;;
+<M_> {hiragana voiced iteration mark} :  "ゞ"   U309E # HIRAGANA VOICED ITERATION MARK
+#- 309F;HIRAGANA DIGRAPH YORI;Lo;0;L;<vertical> 3088 308A;;;;N;;;;;
+<M_> {hiragana digraph yori} :  "ゟ"   U309F # HIRAGANA DIGRAPH YORI
+#- 30A0;KATAKANA-HIRAGANA DOUBLE HYPHEN;Pd;0;ON;;;;;N;;;;;
+<M_> {katakana-hiragana double hyphen} :  "゠"   U30A0 # KATAKANA-HIRAGANA DOUBLE HYPHEN
+#- 30A1;KATAKANA LETTER SMALL A;Lo;0;L;;;;;N;;;;;
+<M_> {jk_a} :  "ァ"   U30A1 # KATAKANA LETTER SMALL A
+#- 30A2;KATAKANA LETTER A;Lo;0;L;;;;;N;;;;;
+<M_> {jka} :  "ア"   U30A2 # KATAKANA LETTER A
+#- 30A3;KATAKANA LETTER SMALL I;Lo;0;L;;;;;N;;;;;
+<M_> {jk_i} :  "ィ"   U30A3 # KATAKANA LETTER SMALL I
+#- 30A4;KATAKANA LETTER I;Lo;0;L;;;;;N;;;;;
+<M_> {jki} :  "イ"   U30A4 # KATAKANA LETTER I
+#- 30A5;KATAKANA LETTER SMALL U;Lo;0;L;;;;;N;;;;;
+<M_> {jk_u} :  "ゥ"   U30A5 # KATAKANA LETTER SMALL U
+#- 30A6;KATAKANA LETTER U;Lo;0;L;;;;;N;;;;;
+<M_> {jku} :  "ウ"   U30A6 # KATAKANA LETTER U
+#- 30A7;KATAKANA LETTER SMALL E;Lo;0;L;;;;;N;;;;;
+<M_> {jk_e} :  "ェ"   U30A7 # KATAKANA LETTER SMALL E
+#- 30A8;KATAKANA LETTER E;Lo;0;L;;;;;N;;;;;
+<M_> {jke} :  "エ"   U30A8 # KATAKANA LETTER E
+#- 30A9;KATAKANA LETTER SMALL O;Lo;0;L;;;;;N;;;;;
+<M_> {jk_o} :  "ォ"   U30A9 # KATAKANA LETTER SMALL O
+#- 30AA;KATAKANA LETTER O;Lo;0;L;;;;;N;;;;;
+<M_> {jko} :  "オ"   U30AA # KATAKANA LETTER O
+#- 30AB;KATAKANA LETTER KA;Lo;0;L;;;;;N;;;;;
+<M_> {jkka} :  "カ"   U30AB # KATAKANA LETTER KA
+#- 30AC;KATAKANA LETTER GA;Lo;0;L;30AB 3099;;;;N;;;;;
+<M_> {jkga} :  "ガ"   U30AC # KATAKANA LETTER GA
+#- 30AD;KATAKANA LETTER KI;Lo;0;L;;;;;N;;;;;
+<M_> {jkki} :  "キ"   U30AD # KATAKANA LETTER KI
+#- 30AE;KATAKANA LETTER GI;Lo;0;L;30AD 3099;;;;N;;;;;
+<M_> {jkgi} :  "ギ"   U30AE # KATAKANA LETTER GI
+#- 30AF;KATAKANA LETTER KU;Lo;0;L;;;;;N;;;;;
+<M_> {jkku} :  "ク"   U30AF # KATAKANA LETTER KU
+#- 30B0;KATAKANA LETTER GU;Lo;0;L;30AF 3099;;;;N;;;;;
+<M_> {jkgu} :  "グ"   U30B0 # KATAKANA LETTER GU
+#- 30B1;KATAKANA LETTER KE;Lo;0;L;;;;;N;;;;;
+<M_> {jkke} :  "ケ"   U30B1 # KATAKANA LETTER KE
+#- 30B2;KATAKANA LETTER GE;Lo;0;L;30B1 3099;;;;N;;;;;
+<M_> {jkge} :  "ゲ"   U30B2 # KATAKANA LETTER GE
+#- 30B3;KATAKANA LETTER KO;Lo;0;L;;;;;N;;;;;
+<M_> {jkko} :  "コ"   U30B3 # KATAKANA LETTER KO
+#- 30B4;KATAKANA LETTER GO;Lo;0;L;30B3 3099;;;;N;;;;;
+<M_> {jkgo} :  "ゴ"   U30B4 # KATAKANA LETTER GO
+#- 30B5;KATAKANA LETTER SA;Lo;0;L;;;;;N;;;;;
+<M_> {jksa} :  "サ"   U30B5 # KATAKANA LETTER SA
+#- 30B6;KATAKANA LETTER ZA;Lo;0;L;30B5 3099;;;;N;;;;;
+<M_> {jkza} :  "ザ"   U30B6 # KATAKANA LETTER ZA
+#- 30B7;KATAKANA LETTER SI;Lo;0;L;;;;;N;;;;;
+<M_> {jksi} :  "シ"   U30B7 # KATAKANA LETTER SI
+#- 30B8;KATAKANA LETTER ZI;Lo;0;L;30B7 3099;;;;N;;;;;
+<M_> {jkzi} :  "ジ"   U30B8 # KATAKANA LETTER ZI
+#- 30B9;KATAKANA LETTER SU;Lo;0;L;;;;;N;;;;;
+<M_> {jksu} :  "ス"   U30B9 # KATAKANA LETTER SU
+#- 30BA;KATAKANA LETTER ZU;Lo;0;L;30B9 3099;;;;N;;;;;
+<M_> {jkzu} :  "ズ"   U30BA # KATAKANA LETTER ZU
+#- 30BB;KATAKANA LETTER SE;Lo;0;L;;;;;N;;;;;
+<M_> {jkse} :  "セ"   U30BB # KATAKANA LETTER SE
+#- 30BC;KATAKANA LETTER ZE;Lo;0;L;30BB 3099;;;;N;;;;;
+<M_> {jkze} :  "ゼ"   U30BC # KATAKANA LETTER ZE
+#- 30BD;KATAKANA LETTER SO;Lo;0;L;;;;;N;;;;;
+<M_> {jkso} :  "ソ"   U30BD # KATAKANA LETTER SO
+#- 30BE;KATAKANA LETTER ZO;Lo;0;L;30BD 3099;;;;N;;;;;
+<M_> {jkzo} :  "ゾ"   U30BE # KATAKANA LETTER ZO
+#- 30BF;KATAKANA LETTER TA;Lo;0;L;;;;;N;;;;;
+<M_> {jkta} :  "タ"   U30BF # KATAKANA LETTER TA
+#- 30C0;KATAKANA LETTER DA;Lo;0;L;30BF 3099;;;;N;;;;;
+<M_> {jkda} :  "ダ"   U30C0 # KATAKANA LETTER DA
+#- 30C1;KATAKANA LETTER TI;Lo;0;L;;;;;N;;;;;
+<M_> {jkti} :  "チ"   U30C1 # KATAKANA LETTER TI
+#- 30C2;KATAKANA LETTER DI;Lo;0;L;30C1 3099;;;;N;;;;;
+<M_> {jkdi} :  "ヂ"   U30C2 # KATAKANA LETTER DI
+#- 30C3;KATAKANA LETTER SMALL TU;Lo;0;L;;;;;N;;;;;
+<M_> {jk_tu} :  "ッ"   U30C3 # KATAKANA LETTER SMALL TU
+#- 30C4;KATAKANA LETTER TU;Lo;0;L;;;;;N;;;;;
+<M_> {jktu} :  "ツ"   U30C4 # KATAKANA LETTER TU
+#- 30C5;KATAKANA LETTER DU;Lo;0;L;30C4 3099;;;;N;;;;;
+<M_> {jkdu} :  "ヅ"   U30C5 # KATAKANA LETTER DU
+#- 30C6;KATAKANA LETTER TE;Lo;0;L;;;;;N;;;;;
+<M_> {jkte} :  "テ"   U30C6 # KATAKANA LETTER TE
+#- 30C7;KATAKANA LETTER DE;Lo;0;L;30C6 3099;;;;N;;;;;
+<M_> {jkde} :  "デ"   U30C7 # KATAKANA LETTER DE
+#- 30C8;KATAKANA LETTER TO;Lo;0;L;;;;;N;;;;;
+<M_> {jkto} :  "ト"   U30C8 # KATAKANA LETTER TO
+#- 30C9;KATAKANA LETTER DO;Lo;0;L;30C8 3099;;;;N;;;;;
+<M_> {jkdo} :  "ド"   U30C9 # KATAKANA LETTER DO
+#- 30CA;KATAKANA LETTER NA;Lo;0;L;;;;;N;;;;;
+<M_> {jkna} :  "ナ"   U30CA # KATAKANA LETTER NA
+#- 30CB;KATAKANA LETTER NI;Lo;0;L;;;;;N;;;;;
+<M_> {jkni} :  "ニ"   U30CB # KATAKANA LETTER NI
+#- 30CC;KATAKANA LETTER NU;Lo;0;L;;;;;N;;;;;
+<M_> {jknu} :  "ヌ"   U30CC # KATAKANA LETTER NU
+#- 30CD;KATAKANA LETTER NE;Lo;0;L;;;;;N;;;;;
+<M_> {jkne} :  "ネ"   U30CD # KATAKANA LETTER NE
+#- 30CE;KATAKANA LETTER NO;Lo;0;L;;;;;N;;;;;
+<M_> {jkno} :  "ノ"   U30CE # KATAKANA LETTER NO
+#- 30CF;KATAKANA LETTER HA;Lo;0;L;;;;;N;;;;;
+<M_> {jkha} :  "ハ"   U30CF # KATAKANA LETTER HA
+#- 30D0;KATAKANA LETTER BA;Lo;0;L;30CF 3099;;;;N;;;;;
+<M_> {jkba} :  "バ"   U30D0 # KATAKANA LETTER BA
+#- 30D1;KATAKANA LETTER PA;Lo;0;L;30CF 309A;;;;N;;;;;
+<M_> {jkpa} :  "パ"   U30D1 # KATAKANA LETTER PA
+#- 30D2;KATAKANA LETTER HI;Lo;0;L;;;;;N;;;;;
+<M_> {jkhi} :  "ヒ"   U30D2 # KATAKANA LETTER HI
+#- 30D3;KATAKANA LETTER BI;Lo;0;L;30D2 3099;;;;N;;;;;
+<M_> {jkbi} :  "ビ"   U30D3 # KATAKANA LETTER BI
+#- 30D4;KATAKANA LETTER PI;Lo;0;L;30D2 309A;;;;N;;;;;
+<M_> {jkpi} :  "ピ"   U30D4 # KATAKANA LETTER PI
+#- 30D5;KATAKANA LETTER HU;Lo;0;L;;;;;N;;;;;
+<M_> {jkhu} :  "フ"   U30D5 # KATAKANA LETTER HU
+#- 30D6;KATAKANA LETTER BU;Lo;0;L;30D5 3099;;;;N;;;;;
+<M_> {jkbu} :  "ブ"   U30D6 # KATAKANA LETTER BU
+#- 30D7;KATAKANA LETTER PU;Lo;0;L;30D5 309A;;;;N;;;;;
+<M_> {jkpu} :  "プ"   U30D7 # KATAKANA LETTER PU
+#- 30D8;KATAKANA LETTER HE;Lo;0;L;;;;;N;;;;;
+<M_> {jkhe} :  "ヘ"   U30D8 # KATAKANA LETTER HE
+#- 30D9;KATAKANA LETTER BE;Lo;0;L;30D8 3099;;;;N;;;;;
+<M_> {jkbe} :  "ベ"   U30D9 # KATAKANA LETTER BE
+#- 30DA;KATAKANA LETTER PE;Lo;0;L;30D8 309A;;;;N;;;;;
+<M_> {jkpe} :  "ペ"   U30DA # KATAKANA LETTER PE
+#- 30DB;KATAKANA LETTER HO;Lo;0;L;;;;;N;;;;;
+<M_> {jkho} :  "ホ"   U30DB # KATAKANA LETTER HO
+#- 30DC;KATAKANA LETTER BO;Lo;0;L;30DB 3099;;;;N;;;;;
+<M_> {jkbo} :  "ボ"   U30DC # KATAKANA LETTER BO
+#- 30DD;KATAKANA LETTER PO;Lo;0;L;30DB 309A;;;;N;;;;;
+<M_> {jkpo} :  "ポ"   U30DD # KATAKANA LETTER PO
+#- 30DE;KATAKANA LETTER MA;Lo;0;L;;;;;N;;;;;
+<M_> {jkma} :  "マ"   U30DE # KATAKANA LETTER MA
+#- 30DF;KATAKANA LETTER MI;Lo;0;L;;;;;N;;;;;
+<M_> {jkmi} :  "ミ"   U30DF # KATAKANA LETTER MI
+#- 30E0;KATAKANA LETTER MU;Lo;0;L;;;;;N;;;;;
+<M_> {jkmu} :  "ム"   U30E0 # KATAKANA LETTER MU
+#- 30E1;KATAKANA LETTER ME;Lo;0;L;;;;;N;;;;;
+<M_> {jkme} :  "メ"   U30E1 # KATAKANA LETTER ME
+#- 30E2;KATAKANA LETTER MO;Lo;0;L;;;;;N;;;;;
+<M_> {jkmo} :  "モ"   U30E2 # KATAKANA LETTER MO
+#- 30E3;KATAKANA LETTER SMALL YA;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ya} :  "ャ"   U30E3 # KATAKANA LETTER SMALL YA
+#- 30E4;KATAKANA LETTER YA;Lo;0;L;;;;;N;;;;;
+<M_> {jkya} :  "ヤ"   U30E4 # KATAKANA LETTER YA
+#- 30E5;KATAKANA LETTER SMALL YU;Lo;0;L;;;;;N;;;;;
+<M_> {jk_yu} :  "ュ"   U30E5 # KATAKANA LETTER SMALL YU
+#- 30E6;KATAKANA LETTER YU;Lo;0;L;;;;;N;;;;;
+<M_> {jkyu} :  "ユ"   U30E6 # KATAKANA LETTER YU
+#- 30E7;KATAKANA LETTER SMALL YO;Lo;0;L;;;;;N;;;;;
+<M_> {jk_yo} :  "ョ"   U30E7 # KATAKANA LETTER SMALL YO
+#- 30E8;KATAKANA LETTER YO;Lo;0;L;;;;;N;;;;;
+<M_> {jkyo} :  "ヨ"   U30E8 # KATAKANA LETTER YO
+#- 30E9;KATAKANA LETTER RA;Lo;0;L;;;;;N;;;;;
+<M_> {jkra} :  "ラ"   U30E9 # KATAKANA LETTER RA
+#- 30EA;KATAKANA LETTER RI;Lo;0;L;;;;;N;;;;;
+<M_> {jkri} :  "リ"   U30EA # KATAKANA LETTER RI
+#- 30EB;KATAKANA LETTER RU;Lo;0;L;;;;;N;;;;;
+<M_> {jkru} :  "ル"   U30EB # KATAKANA LETTER RU
+#- 30EC;KATAKANA LETTER RE;Lo;0;L;;;;;N;;;;;
+<M_> {jkre} :  "レ"   U30EC # KATAKANA LETTER RE
+#- 30ED;KATAKANA LETTER RO;Lo;0;L;;;;;N;;;;;
+<M_> {jkro} :  "ロ"   U30ED # KATAKANA LETTER RO
+#- 30EE;KATAKANA LETTER SMALL WA;Lo;0;L;;;;;N;;;;;
+<M_> {jk_wa} :  "ヮ"   U30EE # KATAKANA LETTER SMALL WA
+#- 30EF;KATAKANA LETTER WA;Lo;0;L;;;;;N;;;;;
+<M_> {jkwa} :  "ワ"   U30EF # KATAKANA LETTER WA
+#- 30F0;KATAKANA LETTER WI;Lo;0;L;;;;;N;;;;;
+<M_> {jkwi} :  "ヰ"   U30F0 # KATAKANA LETTER WI
+#- 30F1;KATAKANA LETTER WE;Lo;0;L;;;;;N;;;;;
+<M_> {jkwe} :  "ヱ"   U30F1 # KATAKANA LETTER WE
+#- 30F2;KATAKANA LETTER WO;Lo;0;L;;;;;N;;;;;
+<M_> {jkwo} :  "ヲ"   U30F2 # KATAKANA LETTER WO
+#- 30F3;KATAKANA LETTER N;Lo;0;L;;;;;N;;;;;
+<M_> {jknn} :  "ン"   U30F3 # KATAKANA LETTER N
+#- 30F4;KATAKANA LETTER VU;Lo;0;L;30A6 3099;;;;N;;;;;
+<M_> {jkvu} :  "ヴ"   U30F4 # KATAKANA LETTER VU
+#- 30F5;KATAKANA LETTER SMALL KA;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ka} :  "ヵ"   U30F5 # KATAKANA LETTER SMALL KA
+#- 30F6;KATAKANA LETTER SMALL KE;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ke} :  "ヶ"   U30F6 # KATAKANA LETTER SMALL KE
+#- 30F7;KATAKANA LETTER VA;Lo;0;L;30EF 3099;;;;N;;;;;
+<M_> {jkva} :  "ヷ"   U30F7 # KATAKANA LETTER VA
+#- 30F8;KATAKANA LETTER VI;Lo;0;L;30F0 3099;;;;N;;;;;
+<M_> {jkvi} :  "ヸ"   U30F8 # KATAKANA LETTER VI
+#- 30F9;KATAKANA LETTER VE;Lo;0;L;30F1 3099;;;;N;;;;;
+<M_> {jkve} :  "ヹ"   U30F9 # KATAKANA LETTER VE
+#- 30FA;KATAKANA LETTER VO;Lo;0;L;30F2 3099;;;;N;;;;;
+<M_> {jkvo} :  "ヺ"   U30FA # KATAKANA LETTER VO
+#- 30FB;KATAKANA MIDDLE DOT;Po;0;ON;;;;;N;;;;;
+<M_> {katakana middle dot} :  "・"   U30FB # KATAKANA MIDDLE DOT
+#- 30FC;KATAKANA-HIRAGANA PROLONGED SOUND MARK;Lm;0;L;;;;;N;;;;;
+<M_> {katakana-hiragana prolonged sound mark} :  "ー"   U30FC # KATAKANA-HIRAGANA PROLONGED SOUND MARK
+#- 30FD;KATAKANA ITERATION MARK;Lm;0;L;;;;;N;;;;;
+<M_> {katakana iteration mark} :  "ヽ"   U30FD # KATAKANA ITERATION MARK
+#- 30FE;KATAKANA VOICED ITERATION MARK;Lm;0;L;30FD 3099;;;;N;;;;;
+<M_> {katakana voiced iteration mark} :  "ヾ"   U30FE # KATAKANA VOICED ITERATION MARK
+#- 30FF;KATAKANA DIGRAPH KOTO;Lo;0;L;<vertical> 30B3 30C8;;;;N;;;;;
+<M_> {katakana digraph koto} :  "ヿ"   U30FF # KATAKANA DIGRAPH KOTO
+#- 31F0;KATAKANA LETTER SMALL KU;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ku} :  "ㇰ"   U31F0 # KATAKANA LETTER SMALL KU
+#- 31F1;KATAKANA LETTER SMALL SI;Lo;0;L;;;;;N;;;;;
+<M_> {jk_si} :  "ㇱ"   U31F1 # KATAKANA LETTER SMALL SI
+#- 31F2;KATAKANA LETTER SMALL SU;Lo;0;L;;;;;N;;;;;
+<M_> {jk_su} :  "ㇲ"   U31F2 # KATAKANA LETTER SMALL SU
+#- 31F3;KATAKANA LETTER SMALL TO;Lo;0;L;;;;;N;;;;;
+<M_> {jk_to} :  "ㇳ"   U31F3 # KATAKANA LETTER SMALL TO
+#- 31F4;KATAKANA LETTER SMALL NU;Lo;0;L;;;;;N;;;;;
+<M_> {jk_nu} :  "ㇴ"   U31F4 # KATAKANA LETTER SMALL NU
+#- 31F5;KATAKANA LETTER SMALL HA;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ha} :  "ㇵ"   U31F5 # KATAKANA LETTER SMALL HA
+#- 31F6;KATAKANA LETTER SMALL HI;Lo;0;L;;;;;N;;;;;
+<M_> {jk_hi} :  "ㇶ"   U31F6 # KATAKANA LETTER SMALL HI
+#- 31F7;KATAKANA LETTER SMALL HU;Lo;0;L;;;;;N;;;;;
+<M_> {jk_hu} :  "ㇷ"   U31F7 # KATAKANA LETTER SMALL HU
+#- 31F8;KATAKANA LETTER SMALL HE;Lo;0;L;;;;;N;;;;;
+<M_> {jk_he} :  "ㇸ"   U31F8 # KATAKANA LETTER SMALL HE
+#- 31F9;KATAKANA LETTER SMALL HO;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ho} :  "ㇹ"   U31F9 # KATAKANA LETTER SMALL HO
+#- 31FA;KATAKANA LETTER SMALL MU;Lo;0;L;;;;;N;;;;;
+<M_> {jk_mu} :  "ㇺ"   U31FA # KATAKANA LETTER SMALL MU
+#- 31FB;KATAKANA LETTER SMALL RA;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ra} :  "ㇻ"   U31FB # KATAKANA LETTER SMALL RA
+#- 31FC;KATAKANA LETTER SMALL RI;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ri} :  "ㇼ"   U31FC # KATAKANA LETTER SMALL RI
+#- 31FD;KATAKANA LETTER SMALL RU;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ru} :  "ㇽ"   U31FD # KATAKANA LETTER SMALL RU
+#- 31FE;KATAKANA LETTER SMALL RE;Lo;0;L;;;;;N;;;;;
+<M_> {jk_re} :  "ㇾ"   U31FE # KATAKANA LETTER SMALL RE
+#- 31FF;KATAKANA LETTER SMALL RO;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ro} :  "ㇿ"   U31FF # KATAKANA LETTER SMALL RO
+#- 32D0;CIRCLED KATAKANA A;So;0;L;<circle> 30A2;;;;N;;;;;
+<M_> {circled katakana a} :  "㋐"   U32D0 # CIRCLED KATAKANA A
+#- 32D1;CIRCLED KATAKANA I;So;0;L;<circle> 30A4;;;;N;;;;;
+<M_> {circled katakana i} :  "㋑"   U32D1 # CIRCLED KATAKANA I
+#- 32D2;CIRCLED KATAKANA U;So;0;L;<circle> 30A6;;;;N;;;;;
+<M_> {circled katakana u} :  "㋒"   U32D2 # CIRCLED KATAKANA U
+#- 32D3;CIRCLED KATAKANA E;So;0;L;<circle> 30A8;;;;N;;;;;
+<M_> {circled katakana e} :  "㋓"   U32D3 # CIRCLED KATAKANA E
+#- 32D4;CIRCLED KATAKANA O;So;0;L;<circle> 30AA;;;;N;;;;;
+<M_> {circled katakana o} :  "㋔"   U32D4 # CIRCLED KATAKANA O
+#- 32D5;CIRCLED KATAKANA KA;So;0;L;<circle> 30AB;;;;N;;;;;
+<M_> {circled katakana ka} :  "㋕"   U32D5 # CIRCLED KATAKANA KA
+#- 32D6;CIRCLED KATAKANA KI;So;0;L;<circle> 30AD;;;;N;;;;;
+<M_> {circled katakana ki} :  "㋖"   U32D6 # CIRCLED KATAKANA KI
+#- 32D7;CIRCLED KATAKANA KU;So;0;L;<circle> 30AF;;;;N;;;;;
+<M_> {circled katakana ku} :  "㋗"   U32D7 # CIRCLED KATAKANA KU
+#- 32D8;CIRCLED KATAKANA KE;So;0;L;<circle> 30B1;;;;N;;;;;
+<M_> {circled katakana ke} :  "㋘"   U32D8 # CIRCLED KATAKANA KE
+#- 32D9;CIRCLED KATAKANA KO;So;0;L;<circle> 30B3;;;;N;;;;;
+<M_> {circled katakana ko} :  "㋙"   U32D9 # CIRCLED KATAKANA KO
+#- 32DA;CIRCLED KATAKANA SA;So;0;L;<circle> 30B5;;;;N;;;;;
+<M_> {circled katakana sa} :  "㋚"   U32DA # CIRCLED KATAKANA SA
+#- 32DB;CIRCLED KATAKANA SI;So;0;L;<circle> 30B7;;;;N;;;;;
+<M_> {circled katakana si} :  "㋛"   U32DB # CIRCLED KATAKANA SI
+#- 32DC;CIRCLED KATAKANA SU;So;0;L;<circle> 30B9;;;;N;;;;;
+<M_> {circled katakana su} :  "㋜"   U32DC # CIRCLED KATAKANA SU
+#- 32DD;CIRCLED KATAKANA SE;So;0;L;<circle> 30BB;;;;N;;;;;
+<M_> {circled katakana se} :  "㋝"   U32DD # CIRCLED KATAKANA SE
+#- 32DE;CIRCLED KATAKANA SO;So;0;L;<circle> 30BD;;;;N;;;;;
+<M_> {circled katakana so} :  "㋞"   U32DE # CIRCLED KATAKANA SO
+#- 32DF;CIRCLED KATAKANA TA;So;0;L;<circle> 30BF;;;;N;;;;;
+<M_> {circled katakana ta} :  "㋟"   U32DF # CIRCLED KATAKANA TA
+#- 32E0;CIRCLED KATAKANA TI;So;0;L;<circle> 30C1;;;;N;;;;;
+<M_> {circled katakana ti} :  "㋠"   U32E0 # CIRCLED KATAKANA TI
+#- 32E1;CIRCLED KATAKANA TU;So;0;L;<circle> 30C4;;;;N;;;;;
+<M_> {circled katakana tu} :  "㋡"   U32E1 # CIRCLED KATAKANA TU
+#- 32E2;CIRCLED KATAKANA TE;So;0;L;<circle> 30C6;;;;N;;;;;
+<M_> {circled katakana te} :  "㋢"   U32E2 # CIRCLED KATAKANA TE
+#- 32E3;CIRCLED KATAKANA TO;So;0;L;<circle> 30C8;;;;N;;;;;
+<M_> {circled katakana to} :  "㋣"   U32E3 # CIRCLED KATAKANA TO
+#- 32E4;CIRCLED KATAKANA NA;So;0;L;<circle> 30CA;;;;N;;;;;
+<M_> {circled katakana na} :  "㋤"   U32E4 # CIRCLED KATAKANA NA
+#- 32E5;CIRCLED KATAKANA NI;So;0;L;<circle> 30CB;;;;N;;;;;
+<M_> {circled katakana ni} :  "㋥"   U32E5 # CIRCLED KATAKANA NI
+#- 32E6;CIRCLED KATAKANA NU;So;0;L;<circle> 30CC;;;;N;;;;;
+<M_> {circled katakana nu} :  "㋦"   U32E6 # CIRCLED KATAKANA NU
+#- 32E7;CIRCLED KATAKANA NE;So;0;L;<circle> 30CD;;;;N;;;;;
+<M_> {circled katakana ne} :  "㋧"   U32E7 # CIRCLED KATAKANA NE
+#- 32E8;CIRCLED KATAKANA NO;So;0;L;<circle> 30CE;;;;N;;;;;
+<M_> {circled katakana no} :  "㋨"   U32E8 # CIRCLED KATAKANA NO
+#- 32E9;CIRCLED KATAKANA HA;So;0;L;<circle> 30CF;;;;N;;;;;
+<M_> {circled katakana ha} :  "㋩"   U32E9 # CIRCLED KATAKANA HA
+#- 32EA;CIRCLED KATAKANA HI;So;0;L;<circle> 30D2;;;;N;;;;;
+<M_> {circled katakana hi} :  "㋪"   U32EA # CIRCLED KATAKANA HI
+#- 32EB;CIRCLED KATAKANA HU;So;0;L;<circle> 30D5;;;;N;;;;;
+<M_> {circled katakana hu} :  "㋫"   U32EB # CIRCLED KATAKANA HU
+#- 32EC;CIRCLED KATAKANA HE;So;0;L;<circle> 30D8;;;;N;;;;;
+<M_> {circled katakana he} :  "㋬"   U32EC # CIRCLED KATAKANA HE
+#- 32ED;CIRCLED KATAKANA HO;So;0;L;<circle> 30DB;;;;N;;;;;
+<M_> {circled katakana ho} :  "㋭"   U32ED # CIRCLED KATAKANA HO
+#- 32EE;CIRCLED KATAKANA MA;So;0;L;<circle> 30DE;;;;N;;;;;
+<M_> {circled katakana ma} :  "㋮"   U32EE # CIRCLED KATAKANA MA
+#- 32EF;CIRCLED KATAKANA MI;So;0;L;<circle> 30DF;;;;N;;;;;
+<M_> {circled katakana mi} :  "㋯"   U32EF # CIRCLED KATAKANA MI
+#- 32F0;CIRCLED KATAKANA MU;So;0;L;<circle> 30E0;;;;N;;;;;
+<M_> {circled katakana mu} :  "㋰"   U32F0 # CIRCLED KATAKANA MU
+#- 32F1;CIRCLED KATAKANA ME;So;0;L;<circle> 30E1;;;;N;;;;;
+<M_> {circled katakana me} :  "㋱"   U32F1 # CIRCLED KATAKANA ME
+#- 32F2;CIRCLED KATAKANA MO;So;0;L;<circle> 30E2;;;;N;;;;;
+<M_> {circled katakana mo} :  "㋲"   U32F2 # CIRCLED KATAKANA MO
+#- 32F3;CIRCLED KATAKANA YA;So;0;L;<circle> 30E4;;;;N;;;;;
+<M_> {circled katakana ya} :  "㋳"   U32F3 # CIRCLED KATAKANA YA
+#- 32F4;CIRCLED KATAKANA YU;So;0;L;<circle> 30E6;;;;N;;;;;
+<M_> {circled katakana yu} :  "㋴"   U32F4 # CIRCLED KATAKANA YU
+#- 32F5;CIRCLED KATAKANA YO;So;0;L;<circle> 30E8;;;;N;;;;;
+<M_> {circled katakana yo} :  "㋵"   U32F5 # CIRCLED KATAKANA YO
+#- 32F6;CIRCLED KATAKANA RA;So;0;L;<circle> 30E9;;;;N;;;;;
+<M_> {circled katakana ra} :  "㋶"   U32F6 # CIRCLED KATAKANA RA
+#- 32F7;CIRCLED KATAKANA RI;So;0;L;<circle> 30EA;;;;N;;;;;
+<M_> {circled katakana ri} :  "㋷"   U32F7 # CIRCLED KATAKANA RI
+#- 32F8;CIRCLED KATAKANA RU;So;0;L;<circle> 30EB;;;;N;;;;;
+<M_> {circled katakana ru} :  "㋸"   U32F8 # CIRCLED KATAKANA RU
+#- 32F9;CIRCLED KATAKANA RE;So;0;L;<circle> 30EC;;;;N;;;;;
+<M_> {circled katakana re} :  "㋹"   U32F9 # CIRCLED KATAKANA RE
+#- 32FA;CIRCLED KATAKANA RO;So;0;L;<circle> 30ED;;;;N;;;;;
+<M_> {circled katakana ro} :  "㋺"   U32FA # CIRCLED KATAKANA RO
+#- 32FB;CIRCLED KATAKANA WA;So;0;L;<circle> 30EF;;;;N;;;;;
+<M_> {circled katakana wa} :  "㋻"   U32FB # CIRCLED KATAKANA WA
+#- 32FC;CIRCLED KATAKANA WI;So;0;L;<circle> 30F0;;;;N;;;;;
+<M_> {circled katakana wi} :  "㋼"   U32FC # CIRCLED KATAKANA WI
+#- 32FD;CIRCLED KATAKANA WE;So;0;L;<circle> 30F1;;;;N;;;;;
+<M_> {circled katakana we} :  "㋽"   U32FD # CIRCLED KATAKANA WE
+#- 32FE;CIRCLED KATAKANA WO;So;0;L;<circle> 30F2;;;;N;;;;;
+<M_> {circled katakana wo} :  "㋾"   U32FE # CIRCLED KATAKANA WO
+#- FF65;HALFWIDTH KATAKANA MIDDLE DOT;Po;0;ON;<narrow> 30FB;;;;N;;;;;
+<M_> {halfwidth katakana middle dot} :  "･"   UFF65 # HALFWIDTH KATAKANA MIDDLE DOT
+#- FF66;HALFWIDTH KATAKANA LETTER WO;Lo;0;L;<narrow> 30F2;;;;N;;;;;
+<M_> {j2kwo} :  "ｦ"   UFF66 # HALFWIDTH KATAKANA LETTER WO
+#- FF67;HALFWIDTH KATAKANA LETTER SMALL A;Lo;0;L;<narrow> 30A1;;;;N;;;;;
+<M_> {j2k_a} :  "ｧ"   UFF67 # HALFWIDTH KATAKANA LETTER SMALL A
+#- FF68;HALFWIDTH KATAKANA LETTER SMALL I;Lo;0;L;<narrow> 30A3;;;;N;;;;;
+<M_> {j2k_i} :  "ｨ"   UFF68 # HALFWIDTH KATAKANA LETTER SMALL I
+#- FF69;HALFWIDTH KATAKANA LETTER SMALL U;Lo;0;L;<narrow> 30A5;;;;N;;;;;
+<M_> {j2k_u} :  "ｩ"   UFF69 # HALFWIDTH KATAKANA LETTER SMALL U
+#- FF6A;HALFWIDTH KATAKANA LETTER SMALL E;Lo;0;L;<narrow> 30A7;;;;N;;;;;
+<M_> {j2k_e} :  "ｪ"   UFF6A # HALFWIDTH KATAKANA LETTER SMALL E
+#- FF6B;HALFWIDTH KATAKANA LETTER SMALL O;Lo;0;L;<narrow> 30A9;;;;N;;;;;
+<M_> {j2k_o} :  "ｫ"   UFF6B # HALFWIDTH KATAKANA LETTER SMALL O
+#- FF6C;HALFWIDTH KATAKANA LETTER SMALL YA;Lo;0;L;<narrow> 30E3;;;;N;;;;;
+<M_> {j2k_ya} :  "ｬ"   UFF6C # HALFWIDTH KATAKANA LETTER SMALL YA
+#- FF6D;HALFWIDTH KATAKANA LETTER SMALL YU;Lo;0;L;<narrow> 30E5;;;;N;;;;;
+<M_> {j2k_yu} :  "ｭ"   UFF6D # HALFWIDTH KATAKANA LETTER SMALL YU
+#- FF6E;HALFWIDTH KATAKANA LETTER SMALL YO;Lo;0;L;<narrow> 30E7;;;;N;;;;;
+<M_> {j2k_yo} :  "ｮ"   UFF6E # HALFWIDTH KATAKANA LETTER SMALL YO
+#- FF6F;HALFWIDTH KATAKANA LETTER SMALL TU;Lo;0;L;<narrow> 30C3;;;;N;;;;;
+<M_> {j2k_tu} :  "ｯ"   UFF6F # HALFWIDTH KATAKANA LETTER SMALL TU
+#- FF70;HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK;Lm;0;L;<narrow> 30FC;;;;N;;;;;
+<M_> {halfwidth katakana-hiragana prolonged sound mark} :  "ｰ"   UFF70 # HALFWIDTH KATAKANA-HIRAGANA PROLONGED SOUND MARK
+#- FF71;HALFWIDTH KATAKANA LETTER A;Lo;0;L;<narrow> 30A2;;;;N;;;;;
+<M_> {j2ka} :  "ｱ"   UFF71 # HALFWIDTH KATAKANA LETTER A
+#- FF72;HALFWIDTH KATAKANA LETTER I;Lo;0;L;<narrow> 30A4;;;;N;;;;;
+<M_> {j2ki} :  "ｲ"   UFF72 # HALFWIDTH KATAKANA LETTER I
+#- FF73;HALFWIDTH KATAKANA LETTER U;Lo;0;L;<narrow> 30A6;;;;N;;;;;
+<M_> {j2ku} :  "ｳ"   UFF73 # HALFWIDTH KATAKANA LETTER U
+#- FF74;HALFWIDTH KATAKANA LETTER E;Lo;0;L;<narrow> 30A8;;;;N;;;;;
+<M_> {j2ke} :  "ｴ"   UFF74 # HALFWIDTH KATAKANA LETTER E
+#- FF75;HALFWIDTH KATAKANA LETTER O;Lo;0;L;<narrow> 30AA;;;;N;;;;;
+<M_> {j2ko} :  "ｵ"   UFF75 # HALFWIDTH KATAKANA LETTER O
+#- FF76;HALFWIDTH KATAKANA LETTER KA;Lo;0;L;<narrow> 30AB;;;;N;;;;;
+<M_> {j2kka} :  "ｶ"   UFF76 # HALFWIDTH KATAKANA LETTER KA
+#- FF77;HALFWIDTH KATAKANA LETTER KI;Lo;0;L;<narrow> 30AD;;;;N;;;;;
+<M_> {j2kki} :  "ｷ"   UFF77 # HALFWIDTH KATAKANA LETTER KI
+#- FF78;HALFWIDTH KATAKANA LETTER KU;Lo;0;L;<narrow> 30AF;;;;N;;;;;
+<M_> {j2kku} :  "ｸ"   UFF78 # HALFWIDTH KATAKANA LETTER KU
+#- FF79;HALFWIDTH KATAKANA LETTER KE;Lo;0;L;<narrow> 30B1;;;;N;;;;;
+<M_> {j2kke} :  "ｹ"   UFF79 # HALFWIDTH KATAKANA LETTER KE
+#- FF7A;HALFWIDTH KATAKANA LETTER KO;Lo;0;L;<narrow> 30B3;;;;N;;;;;
+<M_> {j2kko} :  "ｺ"   UFF7A # HALFWIDTH KATAKANA LETTER KO
+#- FF7B;HALFWIDTH KATAKANA LETTER SA;Lo;0;L;<narrow> 30B5;;;;N;;;;;
+<M_> {j2ksa} :  "ｻ"   UFF7B # HALFWIDTH KATAKANA LETTER SA
+#- FF7C;HALFWIDTH KATAKANA LETTER SI;Lo;0;L;<narrow> 30B7;;;;N;;;;;
+<M_> {j2ksi} :  "ｼ"   UFF7C # HALFWIDTH KATAKANA LETTER SI
+#- FF7D;HALFWIDTH KATAKANA LETTER SU;Lo;0;L;<narrow> 30B9;;;;N;;;;;
+<M_> {j2ksu} :  "ｽ"   UFF7D # HALFWIDTH KATAKANA LETTER SU
+#- FF7E;HALFWIDTH KATAKANA LETTER SE;Lo;0;L;<narrow> 30BB;;;;N;;;;;
+<M_> {j2kse} :  "ｾ"   UFF7E # HALFWIDTH KATAKANA LETTER SE
+#- FF7F;HALFWIDTH KATAKANA LETTER SO;Lo;0;L;<narrow> 30BD;;;;N;;;;;
+<M_> {j2kso} :  "ｿ"   UFF7F # HALFWIDTH KATAKANA LETTER SO
+#- FF80;HALFWIDTH KATAKANA LETTER TA;Lo;0;L;<narrow> 30BF;;;;N;;;;;
+<M_> {j2kta} :  "ﾀ"   UFF80 # HALFWIDTH KATAKANA LETTER TA
+#- FF81;HALFWIDTH KATAKANA LETTER TI;Lo;0;L;<narrow> 30C1;;;;N;;;;;
+<M_> {j2kti} :  "ﾁ"   UFF81 # HALFWIDTH KATAKANA LETTER TI
+#- FF82;HALFWIDTH KATAKANA LETTER TU;Lo;0;L;<narrow> 30C4;;;;N;;;;;
+<M_> {j2ktu} :  "ﾂ"   UFF82 # HALFWIDTH KATAKANA LETTER TU
+#- FF83;HALFWIDTH KATAKANA LETTER TE;Lo;0;L;<narrow> 30C6;;;;N;;;;;
+<M_> {j2kte} :  "ﾃ"   UFF83 # HALFWIDTH KATAKANA LETTER TE
+#- FF84;HALFWIDTH KATAKANA LETTER TO;Lo;0;L;<narrow> 30C8;;;;N;;;;;
+<M_> {j2kto} :  "ﾄ"   UFF84 # HALFWIDTH KATAKANA LETTER TO
+#- FF85;HALFWIDTH KATAKANA LETTER NA;Lo;0;L;<narrow> 30CA;;;;N;;;;;
+<M_> {j2kna} :  "ﾅ"   UFF85 # HALFWIDTH KATAKANA LETTER NA
+#- FF86;HALFWIDTH KATAKANA LETTER NI;Lo;0;L;<narrow> 30CB;;;;N;;;;;
+<M_> {j2kni} :  "ﾆ"   UFF86 # HALFWIDTH KATAKANA LETTER NI
+#- FF87;HALFWIDTH KATAKANA LETTER NU;Lo;0;L;<narrow> 30CC;;;;N;;;;;
+<M_> {j2knu} :  "ﾇ"   UFF87 # HALFWIDTH KATAKANA LETTER NU
+#- FF88;HALFWIDTH KATAKANA LETTER NE;Lo;0;L;<narrow> 30CD;;;;N;;;;;
+<M_> {j2kne} :  "ﾈ"   UFF88 # HALFWIDTH KATAKANA LETTER NE
+#- FF89;HALFWIDTH KATAKANA LETTER NO;Lo;0;L;<narrow> 30CE;;;;N;;;;;
+<M_> {j2kno} :  "ﾉ"   UFF89 # HALFWIDTH KATAKANA LETTER NO
+#- FF8A;HALFWIDTH KATAKANA LETTER HA;Lo;0;L;<narrow> 30CF;;;;N;;;;;
+<M_> {j2kha} :  "ﾊ"   UFF8A # HALFWIDTH KATAKANA LETTER HA
+#- FF8B;HALFWIDTH KATAKANA LETTER HI;Lo;0;L;<narrow> 30D2;;;;N;;;;;
+<M_> {j2khi} :  "ﾋ"   UFF8B # HALFWIDTH KATAKANA LETTER HI
+#- FF8C;HALFWIDTH KATAKANA LETTER HU;Lo;0;L;<narrow> 30D5;;;;N;;;;;
+<M_> {j2khu} :  "ﾌ"   UFF8C # HALFWIDTH KATAKANA LETTER HU
+#- FF8D;HALFWIDTH KATAKANA LETTER HE;Lo;0;L;<narrow> 30D8;;;;N;;;;;
+<M_> {j2khe} :  "ﾍ"   UFF8D # HALFWIDTH KATAKANA LETTER HE
+#- FF8E;HALFWIDTH KATAKANA LETTER HO;Lo;0;L;<narrow> 30DB;;;;N;;;;;
+<M_> {j2kho} :  "ﾎ"   UFF8E # HALFWIDTH KATAKANA LETTER HO
+#- FF8F;HALFWIDTH KATAKANA LETTER MA;Lo;0;L;<narrow> 30DE;;;;N;;;;;
+<M_> {j2kma} :  "ﾏ"   UFF8F # HALFWIDTH KATAKANA LETTER MA
+#- FF90;HALFWIDTH KATAKANA LETTER MI;Lo;0;L;<narrow> 30DF;;;;N;;;;;
+<M_> {j2kmi} :  "ﾐ"   UFF90 # HALFWIDTH KATAKANA LETTER MI
+#- FF91;HALFWIDTH KATAKANA LETTER MU;Lo;0;L;<narrow> 30E0;;;;N;;;;;
+<M_> {j2kmu} :  "ﾑ"   UFF91 # HALFWIDTH KATAKANA LETTER MU
+#- FF92;HALFWIDTH KATAKANA LETTER ME;Lo;0;L;<narrow> 30E1;;;;N;;;;;
+<M_> {j2kme} :  "ﾒ"   UFF92 # HALFWIDTH KATAKANA LETTER ME
+#- FF93;HALFWIDTH KATAKANA LETTER MO;Lo;0;L;<narrow> 30E2;;;;N;;;;;
+<M_> {j2kmo} :  "ﾓ"   UFF93 # HALFWIDTH KATAKANA LETTER MO
+#- FF94;HALFWIDTH KATAKANA LETTER YA;Lo;0;L;<narrow> 30E4;;;;N;;;;;
+<M_> {j2kya} :  "ﾔ"   UFF94 # HALFWIDTH KATAKANA LETTER YA
+#- FF95;HALFWIDTH KATAKANA LETTER YU;Lo;0;L;<narrow> 30E6;;;;N;;;;;
+<M_> {j2kyu} :  "ﾕ"   UFF95 # HALFWIDTH KATAKANA LETTER YU
+#- FF96;HALFWIDTH KATAKANA LETTER YO;Lo;0;L;<narrow> 30E8;;;;N;;;;;
+<M_> {j2kyo} :  "ﾖ"   UFF96 # HALFWIDTH KATAKANA LETTER YO
+#- FF97;HALFWIDTH KATAKANA LETTER RA;Lo;0;L;<narrow> 30E9;;;;N;;;;;
+<M_> {j2kra} :  "ﾗ"   UFF97 # HALFWIDTH KATAKANA LETTER RA
+#- FF98;HALFWIDTH KATAKANA LETTER RI;Lo;0;L;<narrow> 30EA;;;;N;;;;;
+<M_> {j2kri} :  "ﾘ"   UFF98 # HALFWIDTH KATAKANA LETTER RI
+#- FF99;HALFWIDTH KATAKANA LETTER RU;Lo;0;L;<narrow> 30EB;;;;N;;;;;
+<M_> {j2kru} :  "ﾙ"   UFF99 # HALFWIDTH KATAKANA LETTER RU
+#- FF9A;HALFWIDTH KATAKANA LETTER RE;Lo;0;L;<narrow> 30EC;;;;N;;;;;
+<M_> {j2kre} :  "ﾚ"   UFF9A # HALFWIDTH KATAKANA LETTER RE
+#- FF9B;HALFWIDTH KATAKANA LETTER RO;Lo;0;L;<narrow> 30ED;;;;N;;;;;
+<M_> {j2kro} :  "ﾛ"   UFF9B # HALFWIDTH KATAKANA LETTER RO
+#- FF9C;HALFWIDTH KATAKANA LETTER WA;Lo;0;L;<narrow> 30EF;;;;N;;;;;
+<M_> {j2kwa} :  "ﾜ"   UFF9C # HALFWIDTH KATAKANA LETTER WA
+#- FF9D;HALFWIDTH KATAKANA LETTER N;Lo;0;L;<narrow> 30F3;;;;N;;;;;
+<M_> {j2knn} :  "ﾝ"   UFF9D # HALFWIDTH KATAKANA LETTER N
+#- FF9E;HALFWIDTH KATAKANA VOICED SOUND MARK;Lm;0;L;<narrow> 3099;;;;N;;;;;
+<M_> {halfwidth katakana voiced sound mark} :  "ﾞ"   UFF9E # HALFWIDTH KATAKANA VOICED SOUND MARK
+#- FF9F;HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK;Lm;0;L;<narrow> 309A;;;;N;;;;;
+<M_> {halfwidth katakana semi-voiced sound mark} :  "ﾟ"   UFF9F # HALFWIDTH KATAKANA SEMI-VOICED SOUND MARK
+#- 1AFF0;KATAKANA LETTER MINNAN TONE-2;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan tone-2} :  "𚿰"   U1AFF0 # KATAKANA LETTER MINNAN TONE-2
+#- 1AFF1;KATAKANA LETTER MINNAN TONE-3;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan tone-3} :  "𚿱"   U1AFF1 # KATAKANA LETTER MINNAN TONE-3
+#- 1AFF2;KATAKANA LETTER MINNAN TONE-4;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan tone-4} :  "𚿲"   U1AFF2 # KATAKANA LETTER MINNAN TONE-4
+#- 1AFF3;KATAKANA LETTER MINNAN TONE-5;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan tone-5} :  "𚿳"   U1AFF3 # KATAKANA LETTER MINNAN TONE-5
+#- 1AFF5;KATAKANA LETTER MINNAN TONE-7;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan tone-7} :  "𚿵"   U1AFF5 # KATAKANA LETTER MINNAN TONE-7
+#- 1AFF6;KATAKANA LETTER MINNAN TONE-8;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan tone-8} :  "𚿶"   U1AFF6 # KATAKANA LETTER MINNAN TONE-8
+#- 1AFF7;KATAKANA LETTER MINNAN NASALIZED TONE-1;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan nasalized tone-1} :  "𚿷"   U1AFF7 # KATAKANA LETTER MINNAN NASALIZED TONE-1
+#- 1AFF8;KATAKANA LETTER MINNAN NASALIZED TONE-2;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan nasalized tone-2} :  "𚿸"   U1AFF8 # KATAKANA LETTER MINNAN NASALIZED TONE-2
+#- 1AFF9;KATAKANA LETTER MINNAN NASALIZED TONE-3;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan nasalized tone-3} :  "𚿹"   U1AFF9 # KATAKANA LETTER MINNAN NASALIZED TONE-3
+#- 1AFFA;KATAKANA LETTER MINNAN NASALIZED TONE-4;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan nasalized tone-4} :  "𚿺"   U1AFFA # KATAKANA LETTER MINNAN NASALIZED TONE-4
+#- 1AFFB;KATAKANA LETTER MINNAN NASALIZED TONE-5;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan nasalized tone-5} :  "𚿻"   U1AFFB # KATAKANA LETTER MINNAN NASALIZED TONE-5
+#- 1AFFD;KATAKANA LETTER MINNAN NASALIZED TONE-7;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan nasalized tone-7} :  "𚿽"   U1AFFD # KATAKANA LETTER MINNAN NASALIZED TONE-7
+#- 1AFFE;KATAKANA LETTER MINNAN NASALIZED TONE-8;Lm;0;L;;;;;N;;;;;
+<M_> {jkminnan nasalized tone-8} :  "𚿾"   U1AFFE # KATAKANA LETTER MINNAN NASALIZED TONE-8
+#- 1B000;KATAKANA LETTER ARCHAIC E;Lo;0;L;;;;;N;;;;;
+<M_> {jk@e} :  "𛀀"   U1B000 # KATAKANA LETTER ARCHAIC E
+#- 1B001;HIRAGANA LETTER ARCHAIC YE;Lo;0;L;;;;;N;;;;;
+<M_> {jh@ye} :  "𛀁"   U1B001 # HIRAGANA LETTER ARCHAIC YE
+#- 1B11F;HIRAGANA LETTER ARCHAIC WU;Lo;0;L;;;;;N;;;;;
+<M_> {jh@wu} :  "𛄟"   U1B11F # HIRAGANA LETTER ARCHAIC WU
+#- 1B120;KATAKANA LETTER ARCHAIC YI;Lo;0;L;;;;;N;;;;;
+<M_> {jk@yi} :  "𛄠"   U1B120 # KATAKANA LETTER ARCHAIC YI
+#- 1B121;KATAKANA LETTER ARCHAIC YE;Lo;0;L;;;;;N;;;;;
+<M_> {jk@ye} :  "𛄡"   U1B121 # KATAKANA LETTER ARCHAIC YE
+#- 1B122;KATAKANA LETTER ARCHAIC WU;Lo;0;L;;;;;N;;;;;
+<M_> {jk@wu} :  "𛄢"   U1B122 # KATAKANA LETTER ARCHAIC WU
+#- 1B132;HIRAGANA LETTER SMALL KO;Lo;0;L;;;;;N;;;;;
+<M_> {jh_ko} :  "𛄲"   U1B132 # HIRAGANA LETTER SMALL KO
+#- 1B150;HIRAGANA LETTER SMALL WI;Lo;0;L;;;;;N;;;;;
+<M_> {jh_wi} :  "𛅐"   U1B150 # HIRAGANA LETTER SMALL WI
+#- 1B151;HIRAGANA LETTER SMALL WE;Lo;0;L;;;;;N;;;;;
+<M_> {jh_we} :  "𛅑"   U1B151 # HIRAGANA LETTER SMALL WE
+#- 1B152;HIRAGANA LETTER SMALL WO;Lo;0;L;;;;;N;;;;;
+<M_> {jh_wo} :  "𛅒"   U1B152 # HIRAGANA LETTER SMALL WO
+#- 1B155;KATAKANA LETTER SMALL KO;Lo;0;L;;;;;N;;;;;
+<M_> {jk_ko} :  "𛅕"   U1B155 # KATAKANA LETTER SMALL KO
+#- 1B164;KATAKANA LETTER SMALL WI;Lo;0;L;;;;;N;;;;;
+<M_> {jk_wi} :  "𛅤"   U1B164 # KATAKANA LETTER SMALL WI
+#- 1B165;KATAKANA LETTER SMALL WE;Lo;0;L;;;;;N;;;;;
+<M_> {jk_we} :  "𛅥"   U1B165 # KATAKANA LETTER SMALL WE
+#- 1B166;KATAKANA LETTER SMALL WO;Lo;0;L;;;;;N;;;;;
+<M_> {jk_wo} :  "𛅦"   U1B166 # KATAKANA LETTER SMALL WO
+#- 1B167;KATAKANA LETTER SMALL N;Lo;0;L;;;;;N;;;;;
+<M_> {jk_nn} :  "𛅧"   U1B167 # KATAKANA LETTER SMALL N
+#- 1F200;SQUARE HIRAGANA HOKA;So;0;L;<square> 307B 304B;;;;N;;;;;
+<M_> {square hiragana hoka} :  "🈀"   U1F200 # SQUARE HIRAGANA HOKA
+#- 1F201;SQUARED KATAKANA KOKO;So;0;L;<square> 30B3 30B3;;;;N;;;;;
+<M_> {squared katakana koko} :  "🈁"   U1F201 # SQUARED KATAKANA KOKO
+#- 1F202;SQUARED KATAKANA SA;So;0;L;<square> 30B5;;;;N;;;;;
+<M_> {squared katakana sa} :  "🈂"   U1F202 # SQUARED KATAKANA SA
+#- 1F213;SQUARED KATAKANA DE;So;0;L;<square> 30C7;;;;N;;;;;
+<M_> {squared katakana de} :  "🈓"   U1F213 # SQUARED KATAKANA DE

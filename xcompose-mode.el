@@ -115,6 +115,24 @@
     map)
   "Keymap for xcompose-mode")
 
+;; nxml-mode does this slick thing where it shows a character after a char
+;; reference.  This could be useful in other contexts.  It's a little
+;; redundant here, but can help in noticing when things don't match that
+;; should, maybe.
+
+;; nxml-mode does all its fontifying by itself.  Let's see if can break it
+;; out a little.
+(require 'nxml-mode)
+(setq nxml-char-ref-extra-display t)    ; default anyway
+(setq nxml-char-ref-display-glyph-flag t) ; this also
+(defun xcompose-font-lock-nxml-display-chars (limit)
+  (remove-overlays (point) limit 'category 'nxml-char-ref)
+  (let ((char-re "\\bU\\([0-9a-fA-F]\\{4,8\\}\\)"))
+    (while (re-search-forward char-re limit t)
+      (nxml-char-ref-display-extra (match-beginning 1) (match-end 1)
+                                   (string-to-number (match-string 1) 16))))
+  nil)
+
 (defvar xcompose-font-lock-keywords
   '(
     ("[<>]" . 'xcompose-angle-face)
@@ -129,6 +147,7 @@
     ;; de-emphasize (comment-out) things that won't be expanded (because of
     ;; too long a string.)
     ("^.*{[^}]\\{8,\\}}.*$" 0 'xcompose-comment-face prepend)
+    (xcompose-font-lock-nxml-display-chars)
     )
   "Keywords for xcompose-mode")
 

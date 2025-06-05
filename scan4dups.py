@@ -12,7 +12,7 @@ for line in sys.stdin:
     name=''
     dupsfound=[]
     while True:
-        m=re.match("\s*<(\w+)>",line[startpos:])
+        m=re.match("\\s*<(\\w+)>",line[startpos:])
         if not m:
             break
         word=m.group(1)

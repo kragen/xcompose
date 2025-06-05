@@ -355,7 +355,6 @@
 <Multi_key>  <parenleft> <O> <9> <parenright> :  "⓽"   U24FD	# DOUBLE CIRCLED DIGIT NINE
 #- 24FE;DOUBLE CIRCLED NUMBER TEN;No;0;ON;;;;10;N;;;;;
 <Multi_key>  <parenleft> <O> <1> <0> <parenright> :  "⓾"   U24FE	# DOUBLE CIRCLED NUMBER TEN
-#- 1F101;DIGIT ZERO COMMA;No;0;EN;<compat> 0030 002C;;0;0;N;;;;;
 #######
 # Commas.  Hey, could use for grouping.
 #- 1F101;DIGIT ZERO COMMA;No;0;EN;<compat> 0030 002C;;0;0;N;;;;;
