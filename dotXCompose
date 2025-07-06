@@ -22,6 +22,8 @@ include "%L"
 <Multi_key> <2> <period>	 	  : "‥"	U2025		# TWO DOT LEADER
 # This should not be needed.
 #<Multi_key> <1> <period>		  : "․"	U2024		# ONE DOT LEADER
+<Multi_key> <underscore> <period> <1>	: "․"	U2024	# ONE DOT LEADER
+<Multi_key> <underscore> <period> <2>	: "‥"	U2025	# TWO DOT LEADER
 <Multi_key> <c> <1> <period>		  : "·"	U00B7		# MIDDLE DOT (maybe I can remember the keystroke better?
 <Multi_key> <period> <slash> <period>	: "⁒"	U2052		# COMMERCIAL MINUS SIGN
 ### or && ?
@@ -293,6 +295,7 @@ include "%L"
 <Multi_key> <r> <2>             :       "ꭈ"     UAB48    # LATIN SMALL LETTER DOUBLE R
 <Multi_key> <r> <s>             :       "ꭋ"     UAB4B    # LATIN SMALL LETTER SCRIPT R
 # Custom additions: Mathematical symbols
+<Multi_key> <equal> <asciicircum> : "≙" U2259 # ESTIMATES
 <Multi_key> <exclam> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <slash> <equal>		: "≠"	U2260		# NOT EQUAL TO
 <Multi_key> <less> <equal>		: "≤"	U2264		# LESS-THAN OR EQUAL TO
@@ -420,6 +423,7 @@ include "%L"
 <Multi_key> <minus> <numbersign>	:	"−"	U2212   # MINUS SIGN
 # Would we prefer 20D1 COMBINING RIGHT HARPOON ABOVE?
 <Multi_key> <asciicircum> <greater>     : "⃗"   U20D7           # COMBINING RIGHT ARROW ABOVE (vector)
+<Multi_key> <bar> <B>                   : "𝔹"   U1D539           # DOUBLE-STRUCK CAPITAL B
 <Multi_key> <bar> <C>                   : "ℂ"   U2102           # DOUBLE-STRUCK CAPITAL C (set of complex numbers)
 <Multi_key> <bar> <N>                   : "ℕ"   U2115           # DOUBLE-STRUCK CAPITAL N (natural number)
 <Multi_key> <bar> <P>                   : "ℙ"   U2119           # DOUBLE-STRUCK CAPITAL P 
@@ -507,8 +511,8 @@ include "%L"
 # If I did more Haskell, I'd want this more:
 <Multi_key> <underscore> <bar> <underscore>:	"⊥"	 U22A5	# UP TACK (bottom) or should we use U27C2 PERPENDICULAR?
 <Multi_key> <underscore> <exclam> <underscore>:	"⊤"	 U22A4	# DOWN TACK (opposite of False)
-<Multi_key> <underscore> <greater> <underscore>:	"⊢"	 U22A2	# RIGHT TACK
-<Multi_key> <underscore> <less> <underscore>:	"⊣"	 U22A3	# LEFT TACK
+<Multi_key> <bar> <minus>:	"⊢"	 U22A2	# RIGHT TACK
+<Multi_key> <minus> <bar>:	"⊣"	 U22A3	# LEFT TACK
 # Handy for UNIX filenames... but XXX conflicts with standard <Multi_key> <slash> <slash> → "\"
 <Multi_key> <slash> <slash>		: "⁄"	U2044	# FRACTION SLASH
 
@@ -1349,29 +1353,29 @@ include "%L"
 # checkerboard but we're already using that for music.  Half of it?
 # <bar> will be an issue when we want double-struck W or B... we'll have
 # to consider it.  Maybe replace with <equal>
-<Multi_key> <bar> <W> <K>	 : "♔" U2654	# WHITE CHESS KING
-<Multi_key> <bar> <W> <Q>	 : "♕" U2655	# WHITE CHESS QUEEN
-<Multi_key> <bar> <W> <R>	 : "♖" U2656	# WHITE CHESS ROOK
-<Multi_key> <bar> <W> <B>	 : "♗" U2657	# WHITE CHESS BISHOP
-<Multi_key> <bar> <W> <N>	 : "♘" U2658	# WHITE CHESS KNIGHT
-<Multi_key> <bar> <W> <P>	 : "♙" U2659	# WHITE CHESS PAWN
-<Multi_key> <bar> <B> <K>	 : "♚" U265A	# BLACK CHESS KING
-<Multi_key> <bar> <B> <Q>	 : "♛" U265B	# BLACK CHESS QUEEN
-<Multi_key> <bar> <B> <R>	 : "♜" U265C	# BLACK CHESS ROOK
-<Multi_key> <bar> <B> <B>	 : "♝" U265D	# BLACK CHESS BISHOP
-<Multi_key> <bar> <B> <N>	 : "♞" U265E	# BLACK CHESS KNIGHT
-<Multi_key> <bar> <B> <P>	 : "♟" U265F	# BLACK CHESS PAWN
-<Multi_key> <bar> <W> <D> <M>	 : "⛀" U26C0	# WHITE DRAUGHTS MAN
-<Multi_key> <bar> <W> <D> <K>	 : "⛁" U26C1	# WHITE DRAUGHTS KING
-<Multi_key> <bar> <B> <D> <M>	 : "⛂" U26C2	# BLACK DRAUGHTS MAN
-<Multi_key> <bar> <B> <D> <K>	 : "⛃" U26C3	# BLACK DRAUGHTS KING
+<Multi_key> <numbersign> <W> <K>	 : "♔" U2654	# WHITE CHESS KING
+<Multi_key> <numbersign> <W> <Q>	 : "♕" U2655	# WHITE CHESS QUEEN
+<Multi_key> <numbersign> <W> <R>	 : "♖" U2656	# WHITE CHESS ROOK
+<Multi_key> <numbersign> <W> <B>	 : "♗" U2657	# WHITE CHESS BISHOP
+<Multi_key> <numbersign> <W> <N>	 : "♘" U2658	# WHITE CHESS KNIGHT
+<Multi_key> <numbersign> <W> <P>	 : "♙" U2659	# WHITE CHESS PAWN
+<Multi_key> <numbersign> <B> <K>	 : "♚" U265A	# BLACK CHESS KING
+<Multi_key> <numbersign> <B> <Q>	 : "♛" U265B	# BLACK CHESS QUEEN
+<Multi_key> <numbersign> <B> <R>	 : "♜" U265C	# BLACK CHESS ROOK
+<Multi_key> <numbersign> <B> <B>	 : "♝" U265D	# BLACK CHESS BISHOP
+<Multi_key> <numbersign> <B> <N>	 : "♞" U265E	# BLACK CHESS KNIGHT
+<Multi_key> <numbersign> <B> <P>	 : "♟" U265F	# BLACK CHESS PAWN
+<Multi_key> <numbersign> <W> <D> <M>	 : "⛀" U26C0	# WHITE DRAUGHTS MAN
+<Multi_key> <numbersign> <W> <D> <K>	 : "⛁" U26C1	# WHITE DRAUGHTS KING
+<Multi_key> <numbersign> <B> <D> <M>	 : "⛂" U26C2	# BLACK DRAUGHTS MAN
+<Multi_key> <numbersign> <B> <D> <K>	 : "⛃" U26C3	# BLACK DRAUGHTS KING
 # Since we're doing game pieces, might as well.
-<Multi_key> <bar> <W> <S>	 : "☖" U2616	# WHITE SHOGI PIECE
-<Multi_key> <bar> <B> <S>	 : "☗" U2617	# BLACK SHOGI PIECE
+<Multi_key> <numbersign> <W> <S>	 : "☖" U2616	# WHITE SHOGI PIECE
+<Multi_key> <numbersign> <B> <S>	 : "☗" U2617	# BLACK SHOGI PIECE
 # It's turned vertically and not horizontally reflected, but we use the <
 # symbol for turning...
-<Multi_key> <bar> <less> <W> <S> : "⛉" U26C9	# TURNED WHITE SHOGI PIECE
-<Multi_key> <bar> <less> <B> <S> : "⛊" U26CA	# TURNED BLACK SHOGI PIECE
+<Multi_key> <numbersign> <less> <W> <S> : "⛉" U26C9	# TURNED WHITE SHOGI PIECE
+<Multi_key> <numbersign> <less> <B> <S> : "⛊" U26CA	# TURNED BLACK SHOGI PIECE
 
 # As for the emoji... We can't possibly get all of them, even just all of the
 # cool/useful ones.  Maybe we can pick and choose some high-fliers.
@@ -1453,3 +1457,4 @@ include "%L"
 <Multi_key> <parenleft> <1> <2> <colon> <3> <0> <parenright>     : "🕧" U1F567 # CLOCK FACE TWELVE-THIRTY
 # Real bitcoin symbol now.
 <Multi_key> <B> <bar> : "₿" U20BF  # BITCOIN SIGN
+<Multi_key> <B> <dollar> : "₿" U20BF  # BITCOIN SIGN
