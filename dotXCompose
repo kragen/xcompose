@@ -479,6 +479,10 @@ include "%L"
 <Multi_key> <2> <parenright>:  "⸩"  U2E29 # RIGHT DOUBLE PARENTHESIS
 <Multi_key> <Z> <parenleft>	    : "༼"     U0F3C   # TIBETAN MARK ANG KHANG GYON
 <Multi_key> <Z> <parenright>	    : "༽"     U0F3D   # TIBETAN MARK ANG KHANG GYAS
+# These are pretty; by that reasoning I need to add stuff from 1F6xx
+# Single <asciitilde> conflicts with system Greek stuff.
+<Multi_key> <asciitilde> <colon> <parenleft>	: "༺"         U0F3A    # TIBETAN MARK GUG RTAGS GYON
+<Multi_key> <asciitilde> <colon> <parenright>	: "༻"         U0F3B    # TIBETAN MARK GUG RTAGS GYAS
 # I'm thinking shape-mnemonics for these, somehow:
 <Multi_key> <L> <bracketleft>       : "⌊"     U230A   # LEFT FLOOR
 <Multi_key> <L> <bracketright>	    : "⌋"     U230B   # RIGHT FLOOR
@@ -794,6 +798,7 @@ include "%L"
 # These last two bother me less, though they can still be improved.
 # Other possibly useful symbols:
 # 2668 HOT SPRINGS (for chat, for running off to shower?)
+<Multi_key> <Multi_key> <h> <o> <t> <s> <p> <r>	: "♨"	U2668    # HOT SPRINGS
 # I want 2713-2714 and 2717-2718
 # We need a Dingbats prefix, for ❛❜❝❞❢
 <Multi_key> <bracketleft> <space> <bracketright> :	"☐"	U2610	# BALLOT BOX
@@ -988,6 +993,9 @@ include "%L"
 <Multi_key> <asciicircum> <question> <parenleft> : "ˁ"	U02C1	# MODIFIER LETTER REVERSED GLOTTAL STOP
 <Multi_key> <asciicircum> <minus>       : "⁻"   U207B           # SUPERSCRIPT MINUS
 <Multi_key> <asciicircum> <plus>	: "⁺"	U207A		# SUPERSCRIPT PLUS
+# Actually, the system gives us these
+# <Multi_key> <asciicircum> <parenleft>	: "⁽"   U207D    # SUPERSCRIPT LEFT PARENTHESIS
+# <Multi_key> <asciicircum> <parenright>	: "⁾"   U207E    # SUPERSCRIPT RIGHT PARENTHESIS
 
 <Multi_key> <asciitilde> <asciitilde>        : "≈"  U2248           # ALMOST EQUAL TO
 
@@ -1262,13 +1270,22 @@ include "%L"
 <Multi_key> <Multi_key> <u> <r> <a> <n> <u> <s>	    : "♅" U2645	# URANUS (or ⛢ U26E2?)
 <Multi_key> <Multi_key> <n> <e> <p> <t> <u> <n> <e> : "♆" U2646	# NEPTUNE
 <Multi_key> <Multi_key> <p> <l> <u> <t> <o> 	    : "♇" U2647	# PLUTO (ok, it isn't a planet anymore, but we still love it.)
-# Minor planets, whilst we're at it?
+# Some minor/dwarf planets, whilst we're at it?
 <Multi_key> <Multi_key> <c> <e> <r> <e> <s>	: "⚳"	U26B3	# CERES
 <Multi_key> <Multi_key> <p> <a> <l> <l> <a> <s>	: "⚴"	U26B4	# PALLAS
 <Multi_key> <Multi_key> <j> <u> <n> <o>     	: "⚵"	U26B5	# JUNO
 <Multi_key> <Multi_key> <v> <e> <s> <t> <a>    	: "⚶"	U26B6	# VESTA
 <Multi_key> <Multi_key> <c> <h> <i> <r> <o> <n>	: "⚷"	U26B7	# CHIRON
 <Multi_key> <Multi_key> <l> <i> <l> <i> <t> <h>	: "⚸"	U26B8	# BLACK MOON LILITH
+<Multi_key> <Multi_key> <s> <e> <l> <e> <n> <a> : "⯝"	U2BDD    # WHITE MOON SELENA
+<Multi_key> <Multi_key> <e> <r> <i> <s>		: "⯰"	U2BF0    # ERIS FORM ONE
+<Multi_key> <Multi_key> <s> <e> <d> <n> <a>	: "⯲"	U2BF2    # SEDNA
+<Multi_key> <Multi_key> <h> <a> <u> <m> <e> <a>	: "🝻"	U1F77B    # HAUMEA
+<Multi_key> <Multi_key> <m> <a> <k> <e> <asciicircum> <2>	: "🝼"	# MAKEMAKE
+<Multi_key> <Multi_key> <g> <o> <n> <g> <asciicircum> <2>	: "🝽"	U1F77D    # GONGGONG
+<Multi_key> <Multi_key> <q> <u> <a> <o> <a> <r>	: "🝾"	U1F77E    # QUAOAR
+<Multi_key> <Multi_key> <o> <r> <c> <u> <s>	: "🝿"	U1F77F    # ORCUS
+
 <Multi_key>  <bracketleft> <k> <e> <y> <bracketright> : "⚿"	U26BF	# SQUARED KEY
 
 # Unicode 6.0 gave us all kinds of things, perhaps more than we can use...
