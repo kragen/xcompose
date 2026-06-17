@@ -335,10 +335,10 @@ include "%L"
 <Multi_key> <3> <s> <q>			: "∛"	U221B	        # CUBE ROOT
 <Multi_key> <c> <b> <r> <t>     : "∛"   U221B           # CUBE ROOT
 <Multi_key> <4> <s> <q>			: "∜"	U221C		# FOURTH ROOT
-    # “(Note: I had put the backslash in position 5/15. It enabled the
-    # ALGOL “and” to be “/\” and the “or” to be “\/”.)” --- Bob Bemer,
-    # http://home.ccil.org/~remlaps/www.bobbemer.com/BRACES.HTM, quoting
-    # himself in “A view of the history of the ISO character code”, 1972
+# “(Note: I had put the backslash in position 5/15. It enabled the
+# ALGOL “and” to be “/\” and the “or” to be “\/”.)” --- Bob Bemer,
+# http://home.ccil.org/~remlaps/www.bobbemer.com/BRACES.HTM, quoting
+# himself in “A view of the history of the ISO character code”, 1972
 <Multi_key> <slash> <backslash>         : "∧"  U2227           # LOGICAL AND
 <Multi_key> <backslash> <slash>         : "∨"  U2228           # LOGICAL OR
 <Multi_key> <backslash> <underscore> <slash>    : "⊻" U22BB     # XOR
